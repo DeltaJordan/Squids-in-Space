@@ -1,0 +1,53 @@
+{
+  "itemName" : "inklingtier3shortswordyellow",
+  "price" : 355,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "That's going to leave a mark. Or a stain.",
+  "shortdescription" : "Permanent Inkbrush - Il",
+  "tooltipKind" : "sword",
+  "category" : "Brush",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","shortsword"],
+  "inventoryIcon" : "brightpermanentinkbrush.png",
+  "animation" : "/animation/weapons/shortsword/purplebrushswoosh.animation",
+  "animationParts" : {
+    "blade" : "brightpermanentinkbrush.png",
+    "handle" : ""
+  }, 
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              -0.2,
+              0.75
+            ]
+          }
+        },
+        "swoosh": {
+          "properties": {
+            "offset": [
+              2.75,
+              -2
+            ]
+          }
+        }
+      }
+    }
+   },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_poison1.ogg", "/sfx/melee/swing_dagger_poison2.ogg", "/sfx/melee/swing_dagger_poison3.ogg" ]
+    },
+  "scripts" : [ "/items/active/weapons/melee/meleeweapon.lua" ],
+  "elementalType": "physical",
+  "primaryAbilityType": "shortswordcombo",
+  "primaryAbility": {
+    "fireTime": 0.650,
+    "baseDps": 12.220
+  },
+  "baseWeaponRotation" : 20,
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

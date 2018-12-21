@@ -1,0 +1,54 @@
+{
+  "objectName" : "inklingmodernstool",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "A sleek, metal-ringed stool.",
+  "shortdescription" : "Modernized Stool",
+  "race" : "inkling",
+  "category" : "furniture",
+  "price" : 30,
+
+  "apexDescription" : "It's a leather and metal stool.",
+  "avianDescription" : "A stool. Not a bad place to sit.",
+  "floranDescription" : "Ssssmall, sssshiny seat.",
+  "glitchDescription" : "Disinterested. A fancy stool, but a stool nonetheless.",
+  "humanDescription" : "A hip little stool.",
+  "hylotlDescription" : "A charming stool.",
+  "inklingDescription" : "A stool. These ones are really popular for both bars and homes.",
+  "novakidDescription" : "A hip and happenin' sort of stool.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingmodernstool.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [5, 21],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "inklingmodernstool.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [-5, 21],
+
+      "direction" : "left"
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+}

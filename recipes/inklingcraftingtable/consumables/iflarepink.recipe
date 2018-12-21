@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "coralfragment", "count" : 2 },
+	{ "item" : "volatilepowder", "count" : 2 },
+    { "item" : "string", "count" : 3 }
+  ],
+  "output" : { "item" : "iflarepink", "count" : 5 },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}

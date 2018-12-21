@@ -1,0 +1,52 @@
+{
+  "objectName" : "inklingcraftingtable",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/inklingcrafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Inkling Crafting Table",
+        "subtitle" : "Mix up a flash of color!",
+        "icon" : {
+          "file" : "/interface/crafting/inklingcraftingtable.png"
+        }
+      }
+    },
+    "filter" : [ "inklingcraftingtable" ]
+  },
+  "printable" : false,
+  "description" : "A rather colorful crafting table. Looks like a great place to mix chemicals.",
+  "shortdescription" : "^orange;Inkling Crafting Table^white;",
+  "race" : "inkling",
+  "category" : "crafting",
+  "price" : 30,
+
+  "apexDescription" : "Looks like an Inkling's worktable. It's kinda sticky.",
+  "avianDescription" : "Oh! Are those empty glowsticks?",
+  "floranDescription" : "Ssssquid table for.. ssssquid things.",
+  "glitchDescription" : "Curious. What would you make with a squid table?",
+  "humanDescription" : "It smells kind of funny, but you could make some cool things here.",
+  "hylotlDescription" : "An Inkling's crafting corner. Someone had a lot of fun decorating it.",
+  "inklingDescription" : "Hey, sweet, a crafting table! It'd be perfect to make stuff like bombs or glowsticks with!",
+  "novakidDescription" : "A great place to make explosives-- there's even glass bomb shells!",
+
+  "inventoryIcon" : "inklingcraftingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inklingcraftingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "learnBlueprintsOnPickup" : [
+    "inklingcraftingtable"
+  ]
+}

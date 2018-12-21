@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingsoccerheadband",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 310,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "A thin, sporty headband for all occasions, not just for soccer.",
+	"shortdescription" : "Soccer Headband",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+		{ "bd59f7" : "bd59f7", "a72cef" : "a72cef", "871cc5" : "871cc5"},
+	   	{ "bd59f7" : "cccccc", "a72cef" : "9e9e9e", "871cc5" : "616161"},
+		{ "bd59f7" : "838383", "a72cef" : "555555", "871cc5" : "151515"},
+		{ "bd59f7" : "b5b5b5", "a72cef" : "808080", "871cc5" : "555555"},
+		{ "bd59f7" : "e6e6e6", "a72cef" : "b6b6b6", "871cc5" : "7b7b7b"},
+		{ "bd59f7" : "f4988c", "a72cef" : "d93a3a", "871cc5" : "932625"},
+		{ "bd59f7" : "ffd495", "a72cef" : "ea9931", "871cc5" : "af4e00"},
+		{ "bd59f7" : "ffffa7", "a72cef" : "e2c344", "871cc5" : "a46e06"},
+		{ "bd59f7" : "b2e89d", "a72cef" : "51bd3b", "871cc5" : "247824"},
+		{ "bd59f7" : "96cbe7", "a72cef" : "5588d4", "871cc5" : "344495"},
+		{ "bd59f7" : "d29ce7", "a72cef" : "a451c4", "871cc5" : "6a2284"},
+		{ "bd59f7" : "eab3db", "a72cef" : "d35eae", "871cc5" : "97276d"},
+		{ "bd59f7" : "ccae7c", "a72cef" : "a47844", "871cc5" : "754c23"}
+	]
+}

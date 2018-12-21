@@ -1,0 +1,23 @@
+{ 
+	"itemName" : "inklingsplatfestmayo",
+	"inventoryIcon" : "icons.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "chestwear",
+	"description" : "A shirt with a picture of a mayonnaise bottle on it. How.. charming?",
+	"shortdescription" : "Team Mayo Shirt",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	}
+}

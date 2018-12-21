@@ -1,0 +1,23 @@
+{ 
+	"itemName" : "inklingsplatfestwerewolf",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "chestwear",
+	"description" : "A shirt with a werewolf face on it! To show the world how much of a furry you are.",
+	"shortdescription" : "Team Werewolf Shirt",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	}
+}

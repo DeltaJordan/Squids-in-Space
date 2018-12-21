@@ -1,0 +1,51 @@
+{
+  "objectName" : "flaginkling",
+  "colonyTags" : ["inkling"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+  
+  "description" : "A homing beacon that's been fixed up for space travel. You can super jump to it by using ^green;[E]^white; to bookmark locations.",
+  "shortdescription" : "Squid Beakon",
+  "race" : "inkling",
+
+  "apexDescription" : "It's some sort of satellite beacon.. thing.",
+  "avianDescription" : "The metal rod looks like a candlestick. Kinda cute.",
+  "floranDescription" : "Weird... not flagssss, but ussssed as ssssquid flag.",
+  "glitchDescription" : "Informative. This beacon communicates location formation into space.",
+  "humanDescription" : "A purple satellite dish of whatever sort. Does it give satellite TV?",
+  "hylotlDescription" : "This beacon is what an Inkling would call ''retro''.",
+  "inklingDescription" : "Nowadays, we use these for both turfing AND space exploration!" ,
+  "novakidDescription" : "There must've been a squid 'round here somewhere!",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "flaginklingicon.png",
+  "orientations" : [
+    {
+      "image" : "flaginkling.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 11,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flaginkling.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 11,
+      "animationCycle" : 2.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

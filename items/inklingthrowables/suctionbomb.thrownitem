@@ -1,0 +1,30 @@
+{
+  "itemName" : "suctionbomb",
+  "price" : 325,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "sbombicon.png",
+  "image" : "suctionbomb.png",
+  "shortdescription" : "Suction Bomb",
+  "description" : "They stick to things! Be careful where you throw them..",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "suctionbomb",
+  "projectileConfig" : {
+    "speed" : 35,
+    "power" : 225,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

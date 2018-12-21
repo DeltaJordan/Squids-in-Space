@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 13 },
+    { "item" : "durasteelbar", "count" : 8 },
+	{ "item" : "corefragmentore", "count" : 3 }
+  ],
+  "output" : { "item" : "inklingtier5hammer", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

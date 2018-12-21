@@ -1,0 +1,44 @@
+{
+  "objectName" : "inklingmoderncabinet",
+  "colonyTags" : ["inkling","storage"],
+  "rarity" : "Common",
+  "description" : "A little cabinet. It'd look nice next to a chair or bed.",
+  "shortdescription" : "Modernized Cabinet",
+  "race" : "inkling",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 145,
+  "health" : 1.5,
+
+  "apexDescription" : "It's so small! What would you keep in a cabinet like this?",
+  "avianDescription" : "Looks messy, but it's pretty orderly inside.",
+  "floranDescription" : "Small cabinetsss.. good for storing bones or sssmall toys.",
+  "glitchDescription" : "Puzzled. Wouldn't you trip over a cabinet this size?",
+  "humanDescription" : "Nothing special. I swear it smells like oranges, though.",
+  "hylotlDescription" : "It's decorated with chaos, but very tidy within.",
+  "inklingDescription" : "It's perfect for storing snacks or books in.",
+  "novakidDescription" : "Kinda small if you wanted to fit anything in it..",
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  
+  "inventoryIcon" : "inklingmoderncabineticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inklingmoderncabinet.png:<color>",
+
+      "imagePosition" : [-5, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+    }
+  ]
+}

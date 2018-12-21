@@ -1,0 +1,24 @@
+[
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/roleDescription/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Need a hand? I'll get you all buffed up!",
+		"If you're running out of ink.. or whatever.. I've got you covered!",
+		"I've got tons and tons of stims! For all your questionable stim needs!"
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/combatBenefit/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Here's a helping tentacle for ya!",
+		"There you go, ready to rock! Now go get 'em!",
+		"I'll freshen you up, just a second! There!"
+	  ]
+	}
+  }
+]

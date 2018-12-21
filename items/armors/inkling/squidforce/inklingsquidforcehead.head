@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingsquidforcehead",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 100,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "Simple and sleek! It coordinates with everything!",
+	"shortdescription" : "White Headband",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+	    { "e4e6e1" : "e4e6e1", "d9dbd6" : "d9dbd6", "c3c6bd" : "c3c6bd"},
+		{ "e4e6e1" : "cccccc", "d9dbd6" : "9e9e9e", "c3c6bd" : "616161"},
+		{ "e4e6e1" : "838383", "d9dbd6" : "555555", "c3c6bd" : "151515"},
+		{ "e4e6e1" : "b5b5b5", "d9dbd6" : "808080", "c3c6bd" : "555555"},
+		{ "e4e6e1" : "e6e6e6", "d9dbd6" : "b6b6b6", "c3c6bd" : "7b7b7b"},
+		{ "e4e6e1" : "f4988c", "d9dbd6" : "d93a3a", "c3c6bd" : "932625"},
+		{ "e4e6e1" : "ffd495", "d9dbd6" : "ea9931", "c3c6bd" : "af4e00"},
+		{ "e4e6e1" : "ffffa7", "d9dbd6" : "e2c344", "c3c6bd" : "a46e06"},
+		{ "e4e6e1" : "b2e89d", "d9dbd6" : "51bd3b", "c3c6bd" : "247824"},
+		{ "e4e6e1" : "96cbe7", "d9dbd6" : "5588d4", "c3c6bd" : "344495"},
+		{ "e4e6e1" : "d29ce7", "d9dbd6" : "a451c4", "c3c6bd" : "6a2284"},
+		{ "e4e6e1" : "eab3db", "d9dbd6" : "d35eae", "c3c6bd" : "97276d"},
+		{ "e4e6e1" : "ccae7c", "d9dbd6" : "a47844", "c3c6bd" : "754c23"}
+	]
+}

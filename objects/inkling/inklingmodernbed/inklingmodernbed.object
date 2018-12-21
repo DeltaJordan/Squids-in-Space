@@ -1,0 +1,54 @@
+{
+  "objectName" : "inklingmodernbed",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 125,
+  "description" : "A sleek and simple bed. It's surprisingly comfortable.",
+  "shortdescription" : "Modernized Bed",
+  "race" : "inkling",
+
+  "apexDescription" : "Looks mass-produced, but a lot better than the usual Apex ones.",
+  "avianDescription" : "It's really squishy! I'm tempted to jump on it.",
+  "floranDescription" : "Fake bedssss. Furssss much cozier.",
+  "glitchDescription" : "Observant. It's a bed made of metal and soft foam.",
+  "humanDescription" : "Pretty simple, but it's got a futuristic charm!",
+  "hylotlDescription" : "It wouldn't look out of place on a spaceship, but not my cup of tea.",
+  "inklingDescription" : "Not bad for a bed. It can be a bed, a table, a lounge, a trampoline...",
+  "novakidDescription" : "A pretty squishy bed. Looks cozy!",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+
+  "inventoryIcon" : "inklingmodernbedi.png",
+  "orientations" : [
+    
+    {
+      "image" : "inklingmodernbed.png:<color>",
+      "sitCoverImage" : "/objects/inkling/inklingmodernbed/inklingmodernbedcover.png",
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "sitPosition" : [-8, 15]
+    },
+    {
+      "image" : "inklingmodernbed.png:<color>",
+      "sitCoverImage" : "/objects/inkling/inklingmodernbed/inklingmodernbedcover.png",
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [-8, 15]
+    }
+  ]
+}

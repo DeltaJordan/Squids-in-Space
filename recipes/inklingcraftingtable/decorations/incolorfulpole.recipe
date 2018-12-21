@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6},
+	{ "item" : "greendye", "count" : 1}
+  ],
+  "output" : {
+    "item" : "incolorfulpole",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

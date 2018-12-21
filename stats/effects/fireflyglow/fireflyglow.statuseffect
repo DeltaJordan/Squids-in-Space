@@ -1,0 +1,11 @@
+{
+  "name" : "fireflyglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "fireflyglow.lua"
+  ],
+
+  "animationConfig" : "fireflyglow.animation"
+}

@@ -1,0 +1,56 @@
+{
+  "itemName" : "inklingssclegs",
+  "price" : 2250,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "legarmor",
+  "description" : "A limited-edition replica of a famous celebrity's shorts!",
+  "shortdescription" : "Cheery Idol's Shorts",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.20
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 1
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier1armour" ],
+
+  "colorOptions" : [
+	    { "ff3eea" : "ff3eea", "df1fcb" : "df1fcb", "c20faf" : "c20faf"},
+		{ "ff3eea" : "cccccc", "df1fcb" : "9e9e9e", "c20faf" : "616161"},
+		{ "ff3eea" : "838383", "df1fcb" : "555555", "c20faf" : "151515"},
+		{ "ff3eea" : "b5b5b5", "df1fcb" : "808080", "c20faf" : "555555"},
+		{ "ff3eea" : "e6e6e6", "df1fcb" : "b6b6b6", "c20faf" : "7b7b7b"},
+		{ "ff3eea" : "f4988c", "df1fcb" : "d93a3a", "c20faf" : "932625"},
+		{ "ff3eea" : "ffd495", "df1fcb" : "ea9931", "c20faf" : "af4e00"},
+		{ "ff3eea" : "ffffa7", "df1fcb" : "e2c344", "c20faf" : "a46e06"},
+		{ "ff3eea" : "b2e89d", "df1fcb" : "51bd3b", "c20faf" : "247824"},
+		{ "ff3eea" : "96cbe7", "df1fcb" : "5588d4", "c20faf" : "344495"},
+		{ "ff3eea" : "d29ce7", "df1fcb" : "a451c4", "c20faf" : "6a2284"},
+		{ "ff3eea" : "eab3db", "df1fcb" : "d35eae", "c20faf" : "97276d"},
+		{ "ff3eea" : "ccae7c", "df1fcb" : "a47844", "c20faf" : "754c23"}
+  ]
+}

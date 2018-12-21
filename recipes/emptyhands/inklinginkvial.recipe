@@ -1,0 +1,10 @@
+{
+  "input" : [
+   { "item" : "glass", "count" : 1}
+  ],
+  "output" : {
+    "item" : "inklinginkvial",
+    "count" : 1
+  },
+  "groups" : [ "plain", "reagents", "all" ]
+}

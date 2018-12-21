@@ -1,0 +1,22 @@
+{
+  "projectileName" : "insplatlingi",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "insplatlingi.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "power" : 50,
+  "speed" : 75,
+  "emitters" : [ "iceplasma" ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [210, 242, 255],
+  "damageKind" : "iceplasmabullet"
+}

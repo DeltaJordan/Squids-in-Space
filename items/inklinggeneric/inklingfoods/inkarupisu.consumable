@@ -1,0 +1,24 @@
+{
+  "itemName" : "inkarupisu",
+  "rarity" : "Common",
+  "price" : 135,
+  "category" : "food",
+  "inventoryIcon" : "inkarupisu.png",
+  "description" : "A classic soft drink that tastes a bit like vanilla yogurt. It's oddly pleasant.",
+  "shortdescription" : "Karupisu Soda",
+   "effects" : [ [
+	    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

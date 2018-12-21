@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "solariumstar", "count" : 10 },
+	{ "item" : "paper", "count" : 15 },
+	{ "item" : "greendye", "count" : 10 },
+	{ "item" : "reed", "count" : 8 }
+  ],
+  "output" : { "item" : "inidolparasol", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

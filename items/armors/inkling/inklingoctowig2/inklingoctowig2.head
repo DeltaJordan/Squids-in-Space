@@ -1,0 +1,15 @@
+{
+  "itemName" : "inklingoctowig2",
+  "price" : 350,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "Octopi change color easily, even to pale colors like these.",
+  "shortdescription" : "Ashen Octoling Wig",
+  "tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

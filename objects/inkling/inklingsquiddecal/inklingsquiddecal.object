@@ -1,0 +1,33 @@
+{
+  "objectName" : "inklingsquiddecal",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1010,
+
+  "description" : "A large plastic decal of a squid. It sticks easily to any surface.",
+  "shortdescription" : "Simple Squid Decal",
+  "race" : "inkling",
+
+  "apexDescription" : "It makes me think of marshmallows.",
+  "avianDescription" : "A bit big to fit on the wall, in my opinion, but still cute!",
+  "floranDescription" : "Sssquid decal, if you like sssushi.",
+  "glitchDescription" : "Indifferent. It is a squid, plain and simple.",
+  "humanDescription" : "You could get a bunch of these and then paint the walls like the ocean.",
+  "hylotlDescription" : "Inklings are very keen on decorating everything with squids.",
+  "inklingDescription" : "I wonder how many of these I could fit on the wall? I'm gonna find out!",
+  "novakidDescription" : "A big-eyed squid. Kinda stubby-legged.",
+
+  "inventoryIcon" : "inklingsquiddecalicon.png",
+  "orientations" : [
+    {
+      "image" : "inklingsquiddecal.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

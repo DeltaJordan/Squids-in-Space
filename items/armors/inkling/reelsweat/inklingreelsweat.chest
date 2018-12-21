@@ -1,0 +1,39 @@
+{ 
+	"itemName" : "inklingreelsweat",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 310,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "chestwear",
+	"description" : "Bright red in color, this sweatshirt is a cozy one! Reel-y cozy, even.",
+	"shortdescription" : "Reel Sweat",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"colorOptions" : [
+		{ "af0000" : "af0000", "740303" : "740303", "540000" : "540000"},
+	   	{ "af0000" : "cccccc", "740303" : "9e9e9e", "540000" : "616161"},
+		{ "af0000" : "838383", "740303" : "555555", "540000" : "151515"},
+		{ "af0000" : "b5b5b5", "740303" : "808080", "540000" : "555555"},
+		{ "af0000" : "e6e6e6", "740303" : "b6b6b6", "540000" : "7b7b7b"},
+		{ "af0000" : "f4988c", "740303" : "d93a3a", "540000" : "932625"},
+		{ "af0000" : "ffd495", "740303" : "ea9931", "540000" : "af4e00"},
+		{ "af0000" : "ffffa7", "740303" : "e2c344", "540000" : "a46e06"},
+		{ "af0000" : "b2e89d", "740303" : "51bd3b", "540000" : "247824"},
+		{ "af0000" : "96cbe7", "740303" : "5588d4", "540000" : "344495"},
+		{ "af0000" : "d29ce7", "740303" : "a451c4", "540000" : "6a2284"},
+		{ "af0000" : "eab3db", "740303" : "d35eae", "540000" : "97276d"},
+		{ "af0000" : "ccae7c", "740303" : "a47844", "540000" : "754c23"}
+	]
+}

@@ -1,0 +1,35 @@
+{
+  "itemName" : "inktankalt",
+  "price" : 750,
+  "inventoryIcon" : "inktankalticon.png",
+  "rarity" : "Uncommon",
+  "category" : "backwear",
+  "description" : "A modern redesign of the classic ink tank. Durable yet classy.",
+  "shortdescription" : "Fresh Ink Tank",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    "maxhealthboost20"
+  ],
+
+  "colorOptions" : [
+
+    { "f2346e" : "f2346e", "d81e57" : "d81e57", "a30b39" : "a30b39"},
+    { "f2346e" : "b2e89d", "d81e57" : "51bd3b", "a30b39" : "247824"},
+    { "f2346e" : "838383", "d81e57" : "555555", "a30b39" : "383838"},
+    { "f2346e" : "b5b5b5", "d81e57" : "808080", "a30b39" : "555555"},
+    { "f2346e" : "e6e6e6", "d81e57" : "b6b6b6", "a30b39" : "7b7b7b"},
+    { "f2346e" : "f4988c", "d81e57" : "d93a3a", "a30b39" : "932625"},
+    { "f2346e" : "ffd495", "d81e57" : "ea9931", "a30b39" : "af4e00"},
+    { "f2346e" : "ffffa7", "d81e57" : "e2c344", "a30b39" : "a46e06"},
+    { "f2346e" : "b2e89d", "d81e57" : "51bd3b", "a30b39" : "247824"},
+    { "f2346e" : "96cbe7", "d81e57" : "5588d4", "a30b39" : "344495"},
+    { "f2346e" : "d29ce7", "d81e57" : "a451c4", "a30b39" : "6a2284"},
+    { "f2346e" : "eab3db", "d81e57" : "d35eae", "a30b39" : "97276d"},
+    { "f2346e" : "ccae7c", "d81e57" : "a47844", "a30b39" : "754c23"}
+  ]
+}

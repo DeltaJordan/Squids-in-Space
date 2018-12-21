@@ -1,0 +1,9 @@
+{
+  "name" : "lightblue",
+  "category" : "petnudibranch",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "lightblue.png"
+  }
+}

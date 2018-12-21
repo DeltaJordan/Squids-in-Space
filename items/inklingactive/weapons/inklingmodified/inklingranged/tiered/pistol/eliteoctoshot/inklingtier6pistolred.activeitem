@@ -1,0 +1,80 @@
+{
+  "itemName" : "inklingtier6pistolred",
+  "price" : 445,
+  "inventoryIcon" : "explosiveeliteoctoshot.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The favored weapon of the highest-ranking Octoling soldiers. A limited model, so few exist.",
+  "shortdescription" : "Ignited Elite's Octoshot",
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "category" : "Handgun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+ "animationParts" : {
+    "butt" : "",
+    "middle" : "explosiveeliteoctoshot.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/tentaclegun1.ogg", "/sfx/gun/tentaclegun2.ogg", "/sfx/gun/tentaclegun3.ogg" ]}
+   },
+  "baseOffset" : [0.15, 0.4],
+  "muzzleOffset" : [1.5, 0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.7,
+    "baseDps" : 6.0,
+    "energyUsage" : 27.5,
+	"projectileCount" : 1,
+    "inaccuracy" : 0.02,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+	},
+    "fireType" : "auto",
+
+    "projectileType" : "paintballred",
+    "projectileParameters" : 
+		{ "knockback" : 6 
+	}
+ },
+
+   "altAbilityType" : " ",
+   "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

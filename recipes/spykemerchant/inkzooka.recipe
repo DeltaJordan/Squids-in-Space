@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "insuperseasnail", "count" : 45 }
+  ],
+  "output" : {
+    "item" : "inkzooka",
+    "count" : 1
+  },
+  "groups" : [ "spykemerchant" ]
+}

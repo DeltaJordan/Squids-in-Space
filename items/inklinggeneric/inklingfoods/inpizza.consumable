@@ -1,0 +1,29 @@
+{
+  "itemName" : "inpizza",
+  "rarity" : "Common",
+  "price" : 870,
+  "category" : "preparedFood",
+  "inventoryIcon" : "inpizza.png",
+  "description" : "Pizza topped with flavorful morsels of raw tuna: an Inkling twist on the classic.",
+  "shortdescription" : "Sashimi Pizza",
+    "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 360
+    },
+	    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 360
+    }
+  ] ],
+  "foodValue" : 85,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+      "learnBlueprintsOnPickup" : ["inpizza"]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "inklingsign4",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+
+  "description" : "Watch your step! There's water around here!",
+  "shortdescription" : "Warning! Sign",
+  "race" : "inkling",
+
+  "apexDescription" : "A sign warning about water.",
+  "avianDescription" : "Watch out for water, huh? Uh, all right..",
+  "floranDescription" : "Floran doessssn't mind water.. breathing jusssst a problem.",
+  "glitchDescription" : "Thankful. I'll have to remember the warning.",
+  "humanDescription" : "Water, huh? Time for a beach party!",
+  "hylotlDescription" : "This sign warns for fresh water. A hazard indeed.",
+  "inklingDescription" : "Oh, water? Yikes, I'll have to be careful!",
+  "novakidDescription" : "This sign warns 'bout water.",
+
+  "inventoryIcon" : "inklingsign4icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingsign4.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

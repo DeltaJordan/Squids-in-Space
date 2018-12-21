@@ -1,0 +1,17 @@
+{
+  "itemName" : "inhaunt",
+  "rarity" : "Uncommon",
+  "price" : 575,
+  "category" : "Charm",
+  "inventoryIcon" : "incomeback.png",
+  "description" : "Want to go out with a bang? Here's your solution.",
+  "shortdescription" : "Haunt Charm",
+  "effects" : [ [
+      {
+        "effect" : "deathbombpoison",
+        "duration" : 25
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

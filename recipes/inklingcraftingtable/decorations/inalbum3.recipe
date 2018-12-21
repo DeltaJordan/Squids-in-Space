@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 10},
+	{ "item" : "greendye", "count": 2},
+	{ "item" : "blackdye", "count": 2 },
+	{ "item" : "purpledye", "count": 2}
+  ],
+  "output" : {
+    "item" : "inalbum3",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

@@ -1,0 +1,17 @@
+{
+  "itemName" : "incoldblooded",
+  "rarity" : "Uncommon",
+  "price" : 575,
+  "category" : "Charm",
+  "inventoryIcon" : "incoldblooded.png",
+  "description" : "A charm that'll make you more difficult to track for some time.",
+  "shortdescription" : "Cold-Blooded Charm",
+  "effects" : [ [
+      {
+        "effect" : "invisible",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

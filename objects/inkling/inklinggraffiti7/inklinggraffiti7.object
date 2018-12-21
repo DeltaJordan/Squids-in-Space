@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti7",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "Some purple words with an enlightening proclamation.",
+  "shortdescription" : "It's Him Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "So, should I be scared of.. ''him''?",
+  "avianDescription" : "But who IS he?",
+  "floranDescription" : "Inklingssss writing strange wordss on wall, laugh. Floran doesssn't understand.",
+  "glitchDescription" : "Pensive. Is this some social commentary, or just nonsense?",
+  "humanDescription" : "If this was written in red, it'd be just at home in a horror flick.",
+  "hylotlDescription" : "This is clearly the work of some cephalopod vandals.. but I have no idea who it's about..",
+  "inklingDescription" : "Dude, it's him! It's Splat Tim!",
+  "novakidDescription" : "Somethin' about this gives me bad vibes..",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti7.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

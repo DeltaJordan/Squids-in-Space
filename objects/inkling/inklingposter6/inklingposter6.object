@@ -1,0 +1,36 @@
+{
+  "objectName" : "inklingposter6",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1100,
+  "printable" : false,
+
+  "description" : "Squoster, or ''squid poster''. It doesn't flow as well as ''octoposter''. But it's still a cool poster of Pearl!",
+  "shortdescription" : "Pink Squoster",
+  "race" : "inkling",
+
+  "apexDescription" : "The Inkling on this poster has a scary sparkle in her eye.",
+  "avianDescription" : "This poster's got a lot of attitude going on.",
+  "floranDescription" : "Sssquid on this poster is sssmall, but fearsssome! Ssssmall Floran aspire likewissse.",
+  "glitchDescription" : "Curious. Do cephalopods also have royalty, or is the crown just for show?",
+  "humanDescription" : "Now this, THIS is a band poster. The design really pops.",
+  "hylotlDescription" : "Most Inkling pop culture mixes into Hylotl culture eventually. I can't say I'm too fond of Pearl's singing.",
+  "inklingDescription" : "Some people don't like her, but me? I think Pearl's pretty cool.",
+  "novakidDescription" : "It's a poster of some sparkly, bright-eyed lass.",
+
+  "inventoryIcon" : "inklingposter6icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingposter6.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "learnBlueprintsOnPickup" : [ "inklingposter6", "inklingposter7" ]
+}

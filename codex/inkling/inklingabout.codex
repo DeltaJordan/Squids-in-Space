@@ -1,0 +1,26 @@
+{
+  "id" : "inklingabout",
+  "title" : "The Inkling Primer",
+  "description" : "A brief coverage of the Inkling race, written as an introductory piece for the unfamiliar.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+"After an apocalyptic flood that wiped out much of the life on their home planet, squids climbed onto land and evolved into what we know today as Inklings. 
+They're capable shapeshifters, able to change between humanoid form and squid form at leisure, and typically take an upright form for most of their daily activities.",
+
+"They are very intelligent and friendly by nature and speak in high-pitched, watery voices. Most striking about them are their bright colors and patterns, which they can change at will, and the sticky squid ink that they use in self-defense.
+Curiously, they have almost no bones! Shaking an Inkling's hand is like squishing gelatin between your fingers.",
+	
+"Their lifestyles are full of festivals and fun, and they focus primarily on the good things in life. Being able to live more than a hundred years, Inklings are often determined to spend every second of it having a fun time, whether it's exploring abandoned places or having a wild night out.
+
+They can be a bit lazy when it comes to working or getting up early, though.",
+	
+"Despite their good nature, however, they can be slow to warm up to other races. Many Inklings hold an age-old prejudice against their genetic cousins, a race of sapient octopi called Octarians, and this caution can extend to other unfamiliar races as well.
+Perhaps the best way to befriend an Inkling is to be patient, kind, and generous; they have a particularly good nature towards other species with bright colors on their body."
+
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

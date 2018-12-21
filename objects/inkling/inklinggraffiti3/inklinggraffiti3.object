@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti3",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "A large poster with a curved tentacle insignia on it.",
+  "shortdescription" : "Octarian Stamp Poster",
+  "race" : "inkling",
+
+  "apexDescription" : "Reminds me of a gang symbol or something. It makes me kinda uneasy..",
+  "avianDescription" : "It's simple but pretty clear. I wonder what it means?",
+  "floranDescription" : "Tentaclesss are chewy chewy. Why draw on wall?",
+  "glitchDescription" : "Cautious. This sign has an omnious air to it.",
+  "humanDescription" : "This can't stand for anything good.",
+  "hylotlDescription" : "I believe this is a common symbol used by a species similar to Inklings.",
+  "inklingDescription" : "That tentacle symbol's often used to show off Octarian pride, usually on flags!",
+  "novakidDescription" : "What's it supposed to be? It's all lumpy and weird.",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti3.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

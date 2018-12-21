@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+	{ "item" : "endomorphicjelly", "count" : 3}
+  ],
+  "output" : {
+    "item" : "incoldblooded",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+      { "item" : "inklingtier3grenadelauncher", "count" : 1 },
+      { "item" : "inbluefiltercartridge", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "inklingtier3grenadelauncherblue",
+    "count" : 1
+  },
+  "groups" : [ "inklingtoolbox" ]
+}

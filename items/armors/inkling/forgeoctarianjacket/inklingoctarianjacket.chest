@@ -1,0 +1,65 @@
+{
+  "itemName" : "inklingoctarianjacket",
+  "price" : 765,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestarmour",
+  "description" : "A soldier's jacket, based off of those from the Great Turf War.",
+  "shortdescription" : "Octarian Jacket",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier1armour" ],
+
+  "colorOptions" : [
+	    { "8a8d82" : "8a8d82", "6b6d68" : "6b6d68", "464b45" : "464b45"},
+		{ "8a8d82" : "cccccc", "6b6d68" : "9e9e9e", "464b45" : "616161"},
+		{ "8a8d82" : "838383", "6b6d68" : "555555", "464b45" : "151515"},
+		{ "8a8d82" : "b5b5b5", "6b6d68" : "808080", "464b45" : "555555"},
+		{ "8a8d82" : "e6e6e6", "6b6d68" : "b6b6b6", "464b45" : "7b7b7b"},
+		{ "8a8d82" : "f4988c", "6b6d68" : "d93a3a", "464b45" : "932625"},
+		{ "8a8d82" : "ffd495", "6b6d68" : "ea9931", "464b45" : "af4e00"},
+		{ "8a8d82" : "ffffa7", "6b6d68" : "e2c344", "464b45" : "a46e06"},
+		{ "8a8d82" : "b2e89d", "6b6d68" : "51bd3b", "464b45" : "247824"},
+		{ "8a8d82" : "96cbe7", "6b6d68" : "5588d4", "464b45" : "344495"},
+		{ "8a8d82" : "d29ce7", "6b6d68" : "a451c4", "464b45" : "6a2284"},
+		{ "8a8d82" : "eab3db", "6b6d68" : "d35eae", "464b45" : "97276d"},
+		{ "8a8d82" : "ccae7c", "6b6d68" : "a47844", "464b45" : "754c23"}
+  ]
+}

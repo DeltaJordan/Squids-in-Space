@@ -1,0 +1,19 @@
+{
+  "itemName" : "inklingsquidwig1",
+  "price" : 350,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "These creamy tentacles pulse with a soft blue glow.",
+  "shortdescription" : "Glitzy Firefly Wig",
+  "tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"statusEffects" : [
+    "fireflyglow"
+  ]
+}

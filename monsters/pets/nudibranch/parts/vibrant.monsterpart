@@ -1,0 +1,9 @@
+{
+  "name" : "vibrant",
+  "category" : "petnudibranch",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "vibrant.png"
+  }
+}

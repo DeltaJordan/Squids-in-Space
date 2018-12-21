@@ -1,0 +1,65 @@
+{
+  "itemName" : "inklingtier5schest",
+  "price" : 3560,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestarmour",
+  "description" : "An agent's jacket, now highly reinforced for close-quarters combat.",
+  "shortdescription" : "Armored Agent's Coat",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "itemTags" : [ "tier5armour" ],
+
+  "colorOptions" : [
+	    { "08be00" : "08be00", "089802" : "089802", "0f840a" : "0f840a"},
+		{ "08be00" : "cccccc", "089802" : "9e9e9e", "0f840a" : "616161"},
+		{ "08be00" : "838383", "089802" : "555555", "0f840a" : "151515"},
+		{ "08be00" : "b5b5b5", "089802" : "808080", "0f840a" : "555555"},
+		{ "08be00" : "e6e6e6", "089802" : "b6b6b6", "0f840a" : "7b7b7b"},
+		{ "08be00" : "f4988c", "089802" : "d93a3a", "0f840a" : "932625"},
+		{ "08be00" : "ffd495", "089802" : "ea9931", "0f840a" : "af4e00"},
+		{ "08be00" : "ffffa7", "089802" : "e2c344", "0f840a" : "a46e06"},
+		{ "08be00" : "b2e89d", "089802" : "51bd3b", "0f840a" : "247824"},
+		{ "08be00" : "96cbe7", "089802" : "5588d4", "0f840a" : "344495"},
+		{ "08be00" : "d29ce7", "089802" : "a451c4", "0f840a" : "6a2284"},
+		{ "08be00" : "eab3db", "089802" : "d35eae", "0f840a" : "97276d"},
+		{ "08be00" : "ccae7c", "089802" : "a47844", "0f840a" : "754c23"}
+  ]
+}

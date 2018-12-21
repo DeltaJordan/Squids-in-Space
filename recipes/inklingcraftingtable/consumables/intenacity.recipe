@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+	{ "item" : "staticcell", "count" : 4}
+  ],
+  "output" : {
+    "item" : "intenacity",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}

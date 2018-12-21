@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 6 },
+	{ "item" : "inklinginkvial", "count" : 3 },
+	{ "item" : "orangedye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "inklingtier3assaultrifle",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

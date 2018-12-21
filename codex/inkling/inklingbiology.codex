@@ -1,0 +1,36 @@
+{
+  "id" : "inklingbiology",
+  "title" : "How Do Squids Work?",
+  "description" : "A close examination of the peculiar biology of Inklings.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+"Compared to many common races that roam the galaxy, Inklings have an excessively bizarre physical structure. Possessing no bones besides a powerful jaw, their liquid bodies allow them to change shape between a humanoid disguise and a more squid-like appearance that's highly mobile.
+In a case of convergent evolution, they possess skin tones and facial features similar to those of humans and Apex, and tend to stand anywhere from five to seven feet high depending on their lineage.",
+	
+"As a result of their extremely flexible and fluid bodies, Inklings are quite adept at navigating many environments. 
+They can easily change their shape to wiggle through small gaps or to quickly swim through trails of their own ink, making it quite easy to hide from enemies or to plan an ambush.",
+	
+"Because of the nature of Inkling ink, most individuals of the species are very keen on avoiding bodies of fresh water, which will steadily dissolve their bodies on immersion. Salt water doesn't faze them, suggesting a natural resistance to it, while poison and slime rarely slow them down. 
+
+Lava, of course, is just as dangerous to Inklings as it is to almost anyone else.",
+
+"In an interesting turn of events, Inklings are surprisingly long-lived for humanoids and cephalopods alike. Particularly healthy individuals may easily reach a century and a half in age.
+Their shapeshifting abilities, however, don't develop until roughly age fourteen, and young Inklings tend to have a primitive appearance, not quite squid but not quite humanoid.",
+	
+"Inklings are obligate carnivores by nature, having a scissor-like ''beak'' that easily rips and tears their food. Their diets are extremely fish- and shellfish-heavy, but they also seem keen on keeping various poultry that survived the floods on their planet.
+
+They also enjoy fruits and vegetables, using them as garnish and side-dishes, or even just eating a particularly sweet piece as it is. Their enjoyment-focused lifestyle seems to reflect even in their dietary choices.",
+	
+"Many Inklings possess colorful markings on their bodies that are lit up with their current ink color. Even just their tentacles tend to have distinct spots, speckles, stripes and fades of other colors that can be changed on demand.
+As they communicate heavily through visual medium, these shifts and mixes of color are necessary in identifying allies, their state of health, and their current mood. Because of this, it's not uncommon for Inklings to miss the social cues of other species.",
+	
+"As a rule of thumb, Inklings have very social communities with a strong focus on relationships and personal identity. They strike a key balance between social ties and individual expression, typically living in closely-knit family or friend groups of about three to six individuals-- often they'll all have a similar ink color to show association.
+
+This active formation of cliques and close bonds makes for safety, socialization and success, although it can lead to fierce competition with other groups."
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

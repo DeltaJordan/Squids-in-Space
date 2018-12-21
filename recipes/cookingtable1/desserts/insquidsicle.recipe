@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "reefpod", "count" : 2},
+	{ "item" : "sugar", "count" : 1 }
+  ],
+  "output" : { "item" : "insquidsicle", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

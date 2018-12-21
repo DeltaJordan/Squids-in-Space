@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 10 },
+    { "item" : "rawtentacle", "count" : 10 },
+	{ "item" : "pinkdye", "count" : 7 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier6malthead", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

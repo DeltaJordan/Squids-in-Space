@@ -1,0 +1,25 @@
+{
+  "projectileName" : "suctionbomb",
+  "physics" : "stickygrenade",
+  "image" : "suctionbomb.png",
+  "animationCycle" : 0.5,
+  "animationLoops" : false,
+  "speed" : 35,
+  "frameNumber" : 4,
+  "timeToLive" : 3.3,
+  
+    "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "bombblockexplosion",
+      "inheritDamageFactor" : 1,
+      "angle" : 5
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/grenadeblast_small1.ogg"  ]
+    }
+  ],
+  
+  "damageKind" : "default"
+}

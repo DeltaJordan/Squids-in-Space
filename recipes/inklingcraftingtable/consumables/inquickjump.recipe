@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+	{ "item" : "volatilepowder", "count" : 3}
+  ],
+  "output" : {
+    "item" : "inquickjump",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}

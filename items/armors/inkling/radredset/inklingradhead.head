@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingradhead",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 350,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "One simple but super cool beanie.",
+	"shortdescription" : "Short Beanie",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+	    { "ec3a3c" : "ec3a3c", "962729" : "962729", "8c1018" : "8c1018"},
+	    { "ec3a3c" : "cccccc", "962729" : "9e9e9e", "8c1018" : "616161"},
+		{ "ec3a3c" : "838383", "962729" : "555555", "8c1018" : "151515"},
+		{ "ec3a3c" : "b5b5b5", "962729" : "808080", "8c1018" : "555555"},
+		{ "ec3a3c" : "e6e6e6", "962729" : "b6b6b6", "8c1018" : "7b7b7b"},
+		{ "ec3a3c" : "f4988c", "962729" : "d93a3a", "8c1018" : "932625"},
+		{ "ec3a3c" : "ffd495", "962729" : "ea9931", "8c1018" : "af4e00"},
+		{ "ec3a3c" : "ffffa7", "962729" : "e2c344", "8c1018" : "a46e06"},
+		{ "ec3a3c" : "b2e89d", "962729" : "51bd3b", "8c1018" : "247824"},
+		{ "ec3a3c" : "96cbe7", "962729" : "5588d4", "8c1018" : "344495"},
+		{ "ec3a3c" : "d29ce7", "962729" : "a451c4", "8c1018" : "6a2284"},
+		{ "ec3a3c" : "eab3db", "962729" : "d35eae", "8c1018" : "97276d"},
+		{ "ec3a3c" : "ccae7c", "962729" : "a47844", "8c1018" : "754c23"}
+	]
+}

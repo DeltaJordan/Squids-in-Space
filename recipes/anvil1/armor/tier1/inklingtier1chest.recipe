@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier1chest", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

@@ -1,0 +1,93 @@
+{
+  "objectName" : "coolerheads",
+  "colonyTags" : ["inkling", "commerce"],
+  "rarity" : "Uncommon",
+  "category" : "other",
+  "description" : "Only the best place to buy your hats!",
+  "shortdescription" : "Cooler Heads",
+  "race" : "inkling",
+  "printable" : false,
+  
+  "lightColor" : [241, 120, 170],
+  
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Cooler Heads",
+        "subtitle" : "Tons of neat hats!",
+		"icon" : {
+        "file" : "/interface/merchant/coolerheadsmicon.png"
+        }
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+   	"items" : [
+		{ "item" : "inklinganniehead" },
+		{ "item" : "inklingaviatorglasses" },
+		{ "item" : "inklingbamboohat" },
+		{ "item" : "inklingbobblehat" },
+		{ "item" : "inklinggasmask" },
+		{ "item" : "inklinggkrakenspecs" },
+		{ "item" : "inklingothphead" },
+		{ "item" : "inklingothmhead" },
+		{ "item" : "inklingradhead" },
+		{ "item" : "inklingsquidforcehead" },
+		{ "item" : "inklingsschead" },
+		{ "item" : "inklingssmhead" },
+		{ "item" : "inklingschoolclip" },
+		{ "item" : "inklingshortbeanie" },
+		{ "item" : "inklingsnorkelmask" },
+		{ "item" : "inklingsoccerheadband" },
+		{ "item" : "inklingstrawboater" },
+		{ "item" : "inklingtier1head" },
+		{ "item" : "inklingtier2head" },
+		{ "item" : "inklingzekkohead" }
+    ]
+  },
+
+  "apexDescription" : "Ooh, they even have knit hats!",
+  "avianDescription" : "Does she make all those hats herself?",
+  "floranDescription" : "Hatsssss to adorn head with!",
+  "glitchDescription" : "Amusement. Is that a sea anenome?",
+  "humanDescription" : "I hope those hats'll fit me!",
+  "hylotlDescription" : "You never see a clownfish without a sea anenome.",
+  "novakidDescription" : "Those are some pretty darn rad hats going on!",
+  "inklingDescription" : "Oh! I didn't know Annie and Moe had their business go intergalactic!",
+
+  "inventoryIcon" : "coolerheadsicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "coolerheadsleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "coolerheadsleftlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [3, 0],
+      "frames" : 25,
+      "animationCycle" : 3.0,
+      
+      "direction" : "left",
+      
+      "lightPosition" : [ 3, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "coolerheadsright.png:<color>.<frame>", "fullbright" : true }, { "image" : "coolerheadsrightlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [3, 0],
+      "frames" : 25,
+      "animationCycle" : 3.0,
+      
+      "direction" : "right",
+      
+      "lightPosition" : [ 0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

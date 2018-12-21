@@ -1,0 +1,9 @@
+{ 
+	"input" : [ 
+	{"item" : "inklingsplatfestbasic", "count" : 1},
+	{"item" : "greenstim", "count" : 2}
+	],
+	"duration" : 5,
+	"output" : { "item" : "inklingsplatfestinvisibility", "count" : 1 },
+	"groups" : [ "inklingcraftingtable", "clothes" ]
+}

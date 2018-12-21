@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingstrawboater",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 500,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "Woven out of straw and fitted with a colorful ribbon. With it on, you'll look either charming or really dorky...",
+	"shortdescription" : "Straw Boater",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+	    { "ff499c" : "ff499c", "be1060" : "be1060", "6e0523" : "6e0523"},
+		{ "ff499c" : "cccccc", "be1060" : "9e9e9e", "6e0523" : "616161"},
+		{ "ff499c" : "838383", "be1060" : "555555", "6e0523" : "151515"},
+		{ "ff499c" : "b5b5b5", "be1060" : "808080", "6e0523" : "555555"},
+		{ "ff499c" : "e6e6e6", "be1060" : "b6b6b6", "6e0523" : "7b7b7b"},
+		{ "ff499c" : "f4988c", "be1060" : "d93a3a", "6e0523" : "932625"},
+		{ "ff499c" : "ffd495", "be1060" : "ea9931", "6e0523" : "af4e00"},
+		{ "ff499c" : "ffffa7", "be1060" : "e2c344", "6e0523" : "a46e06"},
+		{ "ff499c" : "b2e89d", "be1060" : "51bd3b", "6e0523" : "247824"},
+		{ "ff499c" : "96cbe7", "be1060" : "5588d4", "6e0523" : "344495"},
+		{ "ff499c" : "d29ce7", "be1060" : "a451c4", "6e0523" : "6a2284"},
+		{ "ff499c" : "eab3db", "be1060" : "d35eae", "6e0523" : "97276d"},
+		{ "ff499c" : "ccae7c", "be1060" : "a47844", "6e0523" : "754c23"}
+	]
+}

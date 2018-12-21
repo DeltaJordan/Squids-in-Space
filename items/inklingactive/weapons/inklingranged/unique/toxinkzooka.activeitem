@@ -1,0 +1,85 @@
+{
+  "itemName" : "toxinkzooka",
+  "price" : 1340,
+  "inventoryIcon" : "toxinkzooka.png",
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "This Inkzooka shoots Burst Bombs full of toxic liquid. Dangerous, but tons of fun.",
+  "shortdescription" : "Poisonous Inkzooka",
+  "level" : 6,
+  "tooltipKind" : "gun",
+  "category" : "rocketLauncher",
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "toxinkzooka.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/pulsecannon1.ogg", "/sfx/gun/pulsecannon2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.11, 0.65],
+  "muzzleOffset" : [2.5, -0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+	
+    "fireTime" : 0.3,
+    "baseDps" : 9,
+    "energyUsage" : 8.4,
+	"inaccuracy" : 0.01,
+	
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    },
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "burstbombtoxic",
+    "projectileParameters" : { 
+      "speed" : 60,
+	  "knockback" : 35
+    }
+  },
+
+  "altAbilityType" : "burstshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

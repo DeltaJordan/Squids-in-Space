@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "inklingtier5assaultrifle", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 10 },
+	{ "item" : "yellowdye", "count" : 5 },
+	{ "item" : "goldbar", "count" : 5 }
+  ],
+  "output" : { "item" : "inklingtier6assaultrifle", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

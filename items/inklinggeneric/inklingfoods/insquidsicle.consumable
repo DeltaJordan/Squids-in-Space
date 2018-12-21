@@ -1,0 +1,30 @@
+{
+  "itemName" : "insquidsicle",
+  "rarity" : "Common",
+  "price" : 150,
+  "category" : "preparedFood",
+  "inventoryIcon" : "insquidsicle.png",
+  "description" : "A bright blue popsicle shaped like a squid. Great for beating the heat.",
+  "shortdescription" : "Squidsicle",
+    "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+	    {
+        "effect" : "runboostfood",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  
+      "learnBlueprintsOnPickup" : [ "insquidsicle" ]
+}

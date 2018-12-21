@@ -1,0 +1,55 @@
+{
+  "itemName" : "inklingtier1shortsword",
+  "price" : 350,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A pretty big paintbrush. It's surprisingly light, so you could easily brandish it with many swift flicks.",
+  "shortdescription" : "Inkbrush",
+  "tooltipKind" : "sword",
+  "category" : "Brush",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","shortsword"],
+  "inventoryIcon" : "inkbrush.png",
+  "animation" : "/animation/weapons/shortsword/greenbrushswoosh.animation",
+  "animationParts" : {
+    "blade" : "inkbrush.png",
+    "handle" : ""
+  }, 
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              -0.2,
+              0.75
+            ]
+          }
+        },
+        "swoosh": {
+          "properties": {
+            "offset": [
+              2.75,
+              -2
+            ]
+          }
+        }
+      }
+    }
+   },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_poison1.ogg", "/sfx/melee/swing_dagger_poison2.ogg", "/sfx/melee/swing_dagger_poison3.ogg" ]
+    },
+  "scripts" : [ "/items/active/weapons/melee/meleeweapon.lua" ],
+  "elementalType": "physical",
+  "primaryAbilityType": "shortswordcombo",
+  "primaryAbility": {
+    "fireTime": 0.425,
+    "baseDps": 5.1
+  },
+  "baseWeaponRotation" : 20,
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "inklingmodernfridge",
+  "colonyTags" : ["inkling","storage","cooking"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "fridgeStorage",
+  "price" : 110,
+  "description" : "A fridge to keep all your seafood and sweets chilly.",
+  "shortdescription" : "Modernized Fridge",
+  "race" : "inkling",
+  "health" : 1.5,
+
+  "apexDescription" : "It's rare the Apex have food to spare.",
+  "avianDescription" : "A food storage device. Very colorful.",
+  "floranDescription" : "Floran lovesss cold food ssstore. Keep meat fresh, yesss.",
+  "glitchDescription" : "Determined. I must raid this food storage device!",
+  "humanDescription" : "An extremely decorated fridge. Probably has tasty stuff inside!",
+  "hylotlDescription" : "We have no need for such devices under the ocean.",
+  "inklingDescription" : "Fish and shellfish spoil fast, so we gotta keep 'em cold.",
+  "novakidDescription" : "It's chilly on the inside to keep food fresh for longer.",
+
+  "inventoryIcon" : "inklingmodernfridgeicon.png",
+  "orientations" : [
+    {
+      "leftImage" : "inklingmodernfridgeleft.png:<color>",
+      "rightImage" : "inklingmodernfridgeright.png:<color>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.01,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0
+}

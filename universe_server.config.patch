@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/inkling",
+		"value" : [
+			"/ships/inkling/inklingT0.structure",
+			"/ships/inkling/inklingT1.structure",
+			"/ships/inkling/inklingT2.structure",
+			"/ships/inkling/inklingT3.structure",
+			"/ships/inkling/inklingT4.structure",
+			"/ships/inkling/inklingT5.structure",
+			"/ships/inkling/inklingT6.structure",
+			"/ships/inkling/inklingT7.structure",
+			"/ships/inkling/inklingT8.structure"
+		]
+	}
+]

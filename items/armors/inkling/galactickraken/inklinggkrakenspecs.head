@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklinggkrakenspecs",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 735,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "Some fearsome goggles that glitter like the stars.",
+	"shortdescription" : "Galactic Kraken Specs",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+	    { "8cff45" : "8cff45"},
+		{ "8cff45" : "cccccc"},
+		{ "8cff45" : "838383"},
+		{ "8cff45" : "b5b5b5"},
+		{ "8cff45" : "e6e6e6"},
+		{ "8cff45" : "f4988c"},
+		{ "8cff45" : "ffd495"},
+		{ "8cff45" : "ffffa7"},
+		{ "8cff45" : "b2e89d"},
+		{ "8cff45" : "96cbe7"},
+		{ "8cff45" : "d29ce7"},
+		{ "8cff45" : "eab3db"},
+		{ "8cff45" : "ccae7c"}
+	]
+}

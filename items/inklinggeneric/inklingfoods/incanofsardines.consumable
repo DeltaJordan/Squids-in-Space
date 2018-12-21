@@ -1,0 +1,18 @@
+{
+  "itemName" : "incanofsardines",
+  "rarity" : "Common",
+  "price" : 35,
+  "category" : "food",
+  "inventoryIcon" : "incanofsardines.png",
+  "description" : "A rectangular tin of preserved sardines. A little greasy, but not bad.",
+  "shortdescription" : "Can of Sardines",
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

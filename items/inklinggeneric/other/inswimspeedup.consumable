@@ -1,0 +1,18 @@
+{
+  "itemName" : "inswimspeedup",
+  "rarity" : "Common",
+  "price" : 250,
+  "category" : "Charm",
+  "inventoryIcon" : "inswimspeedup.png",
+  "description" : "A charm that, for some time, will make you faster as you swim.",
+  "shortdescription" : "Swimming Speed Charm",
+  "effects" : [ [
+      {
+        "effect" : "swimboost",
+        "duration" : 360
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsonPickup": [ "ininkresistanceup" ]
+}

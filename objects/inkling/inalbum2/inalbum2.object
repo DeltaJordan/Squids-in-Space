@@ -1,0 +1,35 @@
+{
+  "objectName" : "inalbum2",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 250,
+  "printable" : false,
+
+  "description" : "An album cover. This one's a twinkling fade of colors.",
+  "shortdescription" : "Sparkly Album Cover",
+  "race" : "inkling",
+  
+  "apexDescription" : "Yep. That's definitely an album cover.",
+  "avianDescription" : "It's almost glittery-looking!",
+  "floranDescription" : "Cover makesss Floran think of.... candiessss? Citiessss?",
+  "glitchDescription" : "Inquisitive. The pattern on this album cover reminds me of a streetmap.",
+  "humanDescription" : "It almost makes me think 'vaporwave'. But that can't be quite right.",
+  "hylotlDescription" : "Sometimes Inkling art makes sense. This is not one of those times.",
+  "inklingDescription" : "The minimalistic version of a Chirpy Chirps album. I mean, as minimal as can be.",
+  "novakidDescription" : "Shine a bit of light on this, and it twinkles!",
+
+  "inventoryIcon" : "inalbum2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inalbum2.png:<color>",
+
+      "imagePosition" : [-10, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "anchors" : [ "background" ],
+	  "spaceScan" : 0.1
+    }
+  ]
+}

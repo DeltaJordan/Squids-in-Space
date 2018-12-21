@@ -1,0 +1,11 @@
+{
+  "input" : [
+      { "item" : "inklingtier6hammer", "count" : 1 },
+      { "item" : "inorangefiltercartridge", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "inklingtier6hammerorange",
+    "count" : 1
+  },
+  "groups" : [ "inklingtoolbox" ]
+}

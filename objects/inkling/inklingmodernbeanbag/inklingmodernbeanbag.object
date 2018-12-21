@@ -1,0 +1,49 @@
+{
+  "objectName" : "inklingmodernbeanbag",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 185,
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "description" : "A big squishy beanbag so you can get in even more time relaxing.",
+  "shortdescription" : "Modernized Beanbag",
+  "race" : "inkling",
+  
+  "apexDescription" : "Wow, that's a really big beanbag.",
+  "avianDescription" : "It's super squishy! I bet it'd make a nice place to sleep..",
+  "floranDescription" : "Bag doesss not feel it isss full of beansss.",
+  "glitchDescription" : "Admiration. The seams are perfectly-stitched with no beans escaping.",
+  "humanDescription" : "I haven't seen a beanbag in forever!",
+  "hylotlDescription" : "Surely a favorite place for a squid to nap.",
+  "inklingDescription" : "Beanbags are the best! They're like giant pillows!",
+  "novakidDescription" : "A pretty rad spot to recline, I reckon.",
+
+  "inventoryIcon" : "inklingmodernbeanbagicon.png",
+  "orientations" : [
+    {
+      "image" : "inklingmodernbeanbag.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [-3, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "inklingmodernbeanbag.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+      "sitPosition" : [4, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "inklingseasnailplush",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "Decorations",
+  "price" : 780,
+  "description" : "A plush toy of a Super Sea Snail. Caution: do not eat.",
+  "shortdescription" : "Sea Snail Plushie",
+  "race" : "inkling",
+
+  "apexDescription" : "A snail made of fabric and fluff. It's kinda cute.",
+  "avianDescription" : "Looks like a snail. Might be fun to throw around a bit!",
+  "floranDescription" : "Sssquishy sssnail ssshell?",
+  "glitchDescription" : "Entertained. Despite being a snail, it's quite soft.",
+  "humanDescription" : "A cute snail plush. Look at those tiny little eyes!",
+  "hylotlDescription" : "I've heard the living versions of these snails are quite delicious.",
+  "inklingDescription" : "Ooh, a Super Sea Snail! But not an actual one. This one's just a toy, even if it's super cute.",
+  "novakidDescription" : "Some kind of little stuffed bug toy.",
+
+  "inventoryIcon" : "inklingseasnailplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inklingseasnailplush.png:<color>",
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

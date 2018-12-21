@@ -1,0 +1,13 @@
+{
+  "itemName" : "inbombdata",
+  "rarity" : "common",
+  "price" : 450,
+  "inventoryIcon" : "indata6.png",
+  "image" : "indata6.png",
+
+  "shortdescription" : "IUDB Data Drive 06",
+  "description" : "A drive holding Inkling information. This one has to do with explosives.",
+
+  "tierRecipesUnlock" : "inbombs",
+  "unlockMessage" : "Inkling explosive recipes have been unlocked!"
+}

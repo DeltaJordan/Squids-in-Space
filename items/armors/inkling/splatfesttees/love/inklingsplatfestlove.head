@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "inklingsplatfestlove",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "headwear",
+	"description" : "Caution: these might make you see everything through rose-tinted lenses.",
+	"shortdescription" : "Team Love Glasses",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

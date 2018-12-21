@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 7 },
+    { "item" : "glass", "count" : 3 },
+	{ "item" : "pinkdye", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier5ahead", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
+}

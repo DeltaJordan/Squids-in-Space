@@ -1,0 +1,27 @@
+{
+	"name": "guardt5_inkling",
+	"priority": 11,
+	
+	"colonyTagCriteria": {
+		"light": 1,
+		"door": 1,
+		"inkling": 8,
+		"combat": 8,
+		"tier5": 6
+	},
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "inkling",
+			"level": 5,
+			"type": "inoctoguard",
+			"overrides": {
+				"damageTeamType" : "friendly"
+			 }
+		 }
+	 ],
+	"rent": {
+		"periodRange": [500.0, 1800.0],
+		"pool": "villagerGift"
+	}
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "inklingposter1",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1700,
+  "printable" : false,
+
+  "description" : "A concert poster that's been carefully framed. It must be special to someone.",
+  "shortdescription" : "Colorful Concert Poster",
+  "race" : "inkling",
+
+  "apexDescription" : "A very cheery poster. It's nice to see such bright colors on the walls.",
+  "avianDescription" : "The little stars sparkle under the light, it's really pretty.",
+  "floranDescription" : "Floran make posters of passst eventsss too, with charcoal.",
+  "glitchDescription" : "Neutral. An extremely brightly-colored poster.",
+  "humanDescription" : "I can't read the writing, but it's very similar to human concert posters.",
+  "hylotlDescription" : "If I'm not mistaken, the two squids represent two very famous singers.",
+  "inklingDescription" : "Iah! I remember this concert! This was when the Squid Sisters came out with their solos!",
+  "novakidDescription" : "It sparkles 'n glows in the dark. Pretty cool for a poster.",
+
+  "inventoryIcon" : "inklingposter1ic.png",
+  "orientations" : [
+    {
+      "image" : "inklingposter1.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "learnBlueprintsOnPickup" : [ "inklingposter1a" ]
+}

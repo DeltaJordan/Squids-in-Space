@@ -1,0 +1,14 @@
+{
+  "itemName" : "incraftdata",
+  "rarity" : "common",
+  "price" : 450,
+  "inventoryIcon" : "indata1.png",
+  "image" : "indata1.png",
+
+  "shortdescription" : "IUDB Data Drive 01",
+  "description" : "A drive holding Inkling information. This one has to do with crafting.",
+
+  "tierRecipesUnlock" : "incrafting",
+  "unlockMessage" : "Inkling crafting recipes have been unlocked!",
+  "learnBlueprintsonPickup" : [  "inklinginkvialalt" ]
+}

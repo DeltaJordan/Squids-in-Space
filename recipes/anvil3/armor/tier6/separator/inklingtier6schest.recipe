@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 18 },
+    { "item" : "silk", "count" : 12 },
+	{ "item" : "inklingtier5schest", "count" : 1}
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier6schest", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

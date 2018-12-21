@@ -1,0 +1,30 @@
+{
+  "itemName" : "splatbomb",
+  "price" : 150,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "splbombicon.png",
+  "image" : "splatbomb.png",
+  "shortdescription" : "Splat Bomb",
+  "description" : "A traditional Inkling explosive made from glass, ink, and a bit of gunpowder. They tend to bounce a bit.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "splatbomb",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 145,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

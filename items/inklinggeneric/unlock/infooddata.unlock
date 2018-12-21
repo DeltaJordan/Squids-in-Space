@@ -1,0 +1,13 @@
+{
+  "itemName" : "infooddata",
+  "rarity" : "common",
+  "price" : 450,
+  "inventoryIcon" : "indata5.png",
+  "image" : "indata5.png",
+
+  "shortdescription" : "IUDB Data Drive 05",
+  "description" : "A drive holding Inkling information. This one has to do with food.",
+
+  "tierRecipesUnlock" : "infood",
+  "unlockMessage" : "Inkling food recipes have been unlocked!"
+}

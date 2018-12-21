@@ -1,0 +1,15 @@
+[
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/roleDescription/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Yo! I'm <selfname>, only the best squiddy janitor ever!",
+		"Being cleanup's kinda boring, but hey, it pays!",
+		"Any chance you'll take me with you? Dust and grime aren't my favorite thing.",
+		"You think Inklings would be good at cleaning, but nope. Our ink just makes a bigger mess.",
+		"Heya. I'm <selfname> and I have to use freshwater for cleaning. I hate my job."
+	  ]
+	}
+  }
+]

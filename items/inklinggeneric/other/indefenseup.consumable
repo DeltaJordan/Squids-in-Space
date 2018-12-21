@@ -1,0 +1,17 @@
+{
+  "itemName" : "indefenseup",
+  "rarity" : "Common",
+  "price" : 250,
+  "category" : "Charm",
+  "inventoryIcon" : "indefenseup.png",
+  "description" : "A charm that, for some time, will make you resist injury better.",
+  "shortdescription" : "Defense Up Charm",
+  "effects" : [ [
+      {
+        "effect" : "bubbleshield",
+        "duration" : 180
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

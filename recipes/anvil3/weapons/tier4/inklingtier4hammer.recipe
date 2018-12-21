@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 9 },
+	{ "item" : "inklinginkvial", "count" : 6 },
+	{ "item" : "glowfibre", "count" : 3 }
+
+  ],
+  "output" : {
+    "item" : "inklingtier4hammer",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

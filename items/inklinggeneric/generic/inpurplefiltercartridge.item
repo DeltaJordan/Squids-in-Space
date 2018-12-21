@@ -1,0 +1,11 @@
+{
+  "itemName" : "inpurplefiltercartridge",
+  "price" : 180,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "inpurplefiltercartridge.png",
+  "description" : "A metal filter that turns liquid purple when it runs through. Lots of static runs over it.",
+  "shortdescription" : "Purple Filter Cartridge",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : ["inpurplefiltercartridge"]
+}

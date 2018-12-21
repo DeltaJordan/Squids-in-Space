@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "bone", "count" : 2 },
+    { "item" : "coalore", "count" : 2 },
+	{ "item" : "inklinginkvial", "count" : 1}
+  ],
+  "output" : {
+    "item" : "greydye",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "dyes" ]
+}

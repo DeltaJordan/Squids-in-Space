@@ -1,0 +1,51 @@
+{
+  "itemName" : "inidolparasol",
+  "price" : 650,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "For when you're really tired of messing around and just want to find your lost cousin already.",
+  "shortdescription" : "Chill Idol's Parasol",
+  "tooltipKind" : "sword",
+  "category" : "Parasol",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "inidolparasol.png",
+  "animation" : "/animation/weapons/broadsword/greenswordswoosh.animation",
+  "animationParts" : {
+    "blade" : "inidolparasol.png",
+    "handle" : ""
+  }, 
+  "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              0.7,
+              2.4
+            ]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_poison2.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility"  : {
+    "fireTime" : 0.7,
+    "baseDps" : 12.5,
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "knockback" : 35,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
+  },
+  "altAbilityType" : "parry",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

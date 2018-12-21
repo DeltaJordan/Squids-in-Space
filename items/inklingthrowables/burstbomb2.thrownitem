@@ -1,0 +1,30 @@
+{
+  "itemName" : "burstbomb2",
+  "price" : 250,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "icon.png",
+  "image" : "burstbomb2.png",
+  "shortdescription" : "Flaming Burst Bomb",
+  "description" : "Similar to water balloons, but full of ink and highly explosive. This one is filled with chemicals that ignite on impact.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.3,
+
+  "projectileType" : "burstbomblava",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 85,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

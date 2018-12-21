@@ -1,0 +1,29 @@
+{
+  "itemName" : "insuspicious",
+  "rarity" : "Uncommon",
+  "price" : 350,
+  "category" : "preparedFood",
+  "inventoryIcon" : "insuspicious.png",
+  "description" : "The meat in this ramen stirfry is.. questionable.",
+  "shortdescription" : "Suspicious Stirfry",
+    "effects" : [ [
+	    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 240
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+    "learnBlueprintsOnPickup" : ["insuspicious"]
+  }

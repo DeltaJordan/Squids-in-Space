@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 15},
+	{ "item" : "inklinginkvial", "count" : 3}
+  ],
+  "output" : {
+    "item" : "inklingcraftingtable",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "objects", "all" ]
+}

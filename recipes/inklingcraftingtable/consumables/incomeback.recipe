@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 2 },
+	{ "item" : "solariumstar", "count" : 3}
+  ],
+  "output" : {
+    "item" : "incomeback",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}

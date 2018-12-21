@@ -1,0 +1,38 @@
+[
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/roleDescription/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"No matter how badly you're hurt, I'll patch you up!",
+		"Did you know that Inkling limbs and tentacles can regrow if severed? But for those who don't regrow, I've got your back!",
+		"Nice to meet you! I'm <selfname>, a totally awesome medic.",
+		"Ink doesn't have healing properties, but bandages and medisporin sure do. I have a ton of both!"
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/fieldBenefit/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Quick, over here. I'll get you healed up right away.",
+		"Oh geez, that looks bad! Hold on just a sec!",
+		"Wow, uh, lemme fix that up. Yikes.",
+		"If you want to live, c'mere!"
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/combatBenefit/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Hey, over here! I'll give you a boost!",
+		"Get back here so I can heal you!",
+		"Here's this! So you don't die!",
+		"You really look like you need a bandaid or four! Here!"
+	  ]
+	}
+  }
+]

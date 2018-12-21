@@ -1,0 +1,88 @@
+{
+  "itemName" : "inklingtier3hammerpurple",
+  "price" : 550,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A little bit lighter and a little bit faster: the perfect roller! It's slightly weaker than the heavier models, though.",
+  "shortdescription" : "Charged Carbon Roller",
+  "tooltipKind" : "sword",
+  "category" : "Roller",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+  
+  "inventoryIcon" : "chargedcarbonroller.png",
+  "animation" : "/animation/weapons/hammer/purplehammerswoosh.animation",
+  "animationParts" : {
+    "handle" : "chargedcarbonroller.png",
+    "blade" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_hammer_electric1.ogg", "/sfx/melee/swing_hammer_electric2.ogg", "/sfx/melee/swing_hammer_electric3.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "electric",
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.45,
+    "baseDps" : 10.4,
+    "damageConfig" : {
+      "damageSourceKind" : "electrichammer",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : -10,
+      "weaponOffset" : [-1.5, 2.75],
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.8,
+      "armRotation" : 90,
+      "weaponRotation" : -10,
+      "twoHanded" : true,
+      "weaponOffset" : [-1.5, 2.75],
+      "allowRotate" : false,
+      "allowFlip" : true,
+      
+      "idleHammerAngle" : -20,
+      "windupHammerAngle" : 0,
+      "dropHammerAngle" : 60,
+      "bounceHammerAngle" : 55,
+      
+      "minWindup" : 0.7,
+      "windupBaseAngle" : -90,
+      "windupAngleRange" : 90
+    },
+    "preslash" : {
+      "duration" : 0.025,
+      "armRotation" : 55,
+      "weaponRotation" : -45,
+      "twoHanded" : true,
+      "weaponOffset" : [-1.5, 3.0],
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "fire" : {
+      "duration" : 0.4,
+      "armRotation" : -35,
+      "weaponRotation" : -55,
+      "twoHanded" : true,
+      "smashTimer" : 1.5,
+      "weaponOffset" : [-1.5, 3.0],
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+      "knockback" : 50
+    },
+    "smashMomentum" : [0, -45]
+  },
+  "baseWeaponRotation" : 15,
+  "altAbilityType" : "electricshockwave",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

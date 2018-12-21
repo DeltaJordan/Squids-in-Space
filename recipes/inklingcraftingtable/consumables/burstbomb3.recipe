@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "inklinginkvial", "count" : 3 },
+	{ "item" : "slime", "count" : 2 },
+	{ "item" : "volatilepowder", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "burstbomb3",
+    "count" : 10
+  },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}

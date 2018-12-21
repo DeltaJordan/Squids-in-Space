@@ -1,0 +1,42 @@
+{
+  "objectName" : "inklingshiplocker",
+  "colonyTags" : ["inkling","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "description" : "A locker. Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
+  "race" : "inkling",
+  "lightColor" : [67, 102, 61],
+
+  "apexDescription" : "A locker. It's pretty easy to break into!",
+  "avianDescription" : "Rather easy to open up..",
+  "floranDescription" : "Floran ssstruggle to break into locker, but manage eventually.",
+  "glitchDescription" : "Cynical. Even a Floran could break into this simple locker.",
+  "humanDescription" : "It's easy to pop open, but kinda sticky...",
+  "hylotlDescription" : "It's not quite secure.. which isn't surprising.",
+  "inklingDescription" : "A locker! It's a good place to hide treats and valuables.",
+  "novakidDescription" : "A locker, for puttin' things in.",
+
+  "inventoryIcon" : "shiplockericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "inklingshiplocker.png:<color>.<frame>", "fullbright" : true }, { "image" : "inklingshiplockerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

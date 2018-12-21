@@ -1,0 +1,82 @@
+{
+  "itemName" : "inklingtier5snipergreen",
+  "price" : 1150,
+  "inventoryIcon" : "toxiceliter3k.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A charger with supreme range and power but a slower charge. Used best by the truly talented.",
+  "shortdescription" : "Toxic E-Liter 3K",
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "category" : "Charger",
+  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "toxiceliter3k.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/sniper1.ogg", "/sfx/gun/sniper2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.62, 0.65],
+  "muzzleOffset" : [1, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 1.6,
+    "baseDps" : 10,
+    "energyUsage" : 57.0,
+	"inaccuracy" : 0.001,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    },
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "inchargerp",
+    "projectileParameters" : { 
+      "knockback" : 25
+    }
+  },
+
+  "altAbilityType" : "markedshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

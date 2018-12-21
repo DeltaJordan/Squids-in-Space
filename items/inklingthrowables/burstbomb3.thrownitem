@@ -1,0 +1,34 @@
+{
+  "itemName" : "burstbomb3",
+  "price" : 150,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "icon.png",
+  "image" : "burstbomb3.png",
+  "shortdescription" : "Burst Bomb",
+  "description" : "Similar to water balloons, but full of ink and highly explosive.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.3,
+
+  "projectileType" : "burstbombink",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 85,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+  
+    "learnBlueprintsOnPickup" : [
+    "burstbomb2", "burstbomb1"
+  ]
+}

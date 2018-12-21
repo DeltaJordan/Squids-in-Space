@@ -1,0 +1,36 @@
+{
+  "objectName" : "inklingposter2",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1100,
+  "printable" : false,
+
+  "description" : "A sparkly poster of the famous Inkling singer and idol, Callie!",
+  "shortdescription" : "Magenta Idol Poster",
+  "race" : "inkling",
+
+  "apexDescription" : "This poster's far cheerier than the usual propoganda.",
+  "avianDescription" : "A poster of a colorful jumping squid. How pretty!",
+  "floranDescription" : "Sssshiny ssssquid picture.",
+  "glitchDescription" : "Enthused. This depicts a famous Inkling, I believe.",
+  "humanDescription" : "That is the happiest-looking squid I've ever seen.",
+  "hylotlDescription" : "Posters like these are very common even in public Inkling buildings.",
+  "inklingDescription" : "I stole this poster from some creepy green boy that was obsessing over it. It's mine now!",
+  "novakidDescription" : "That's one sparkly squid there.",
+
+  "inventoryIcon" : "inklingposter2ic.png",
+  "orientations" : [
+    {
+      "image" : "inklingposter2.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "learnBlueprintsOnPickup" : [ "inklingposter4" ]
+}

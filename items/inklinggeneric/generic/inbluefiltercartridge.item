@@ -1,0 +1,11 @@
+{
+  "itemName" : "inbluefiltercartridge",
+  "price" : 180,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "inbluefiltercartridge.png",
+  "description" : "A metal filter that turns liquid blue when it runs through. It's slightly cold to the touch.",
+  "shortdescription" : "Blue Filter Cartridge",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : ["inbluefiltercartridge"]
+}

@@ -1,0 +1,27 @@
+[
+
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/roleDescription/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Kyaae-eee! I'm <selfname> and I'll make everyone look super fresh!",
+		"Being a tailor is great. I get to make clothes and be lazy. Best job ever.",
+		"I'm real good at this, trust me. Inklings are one of the more fashionable species in the galaxy.",
+		"You must've hired me for a reason, hehe. That's okay, I'll fix your fashion disasters."
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/converse/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Lookin' fresh there, pal!",
+		"Could be better. Need some clothing tips?",
+		"That hat with THOSE pants? I don't think so, bro.",
+		"You could probably kill with your style. It's a good thing, promise."
+	  ]
+	}
+  }
+]

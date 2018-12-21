@@ -1,0 +1,29 @@
+{ 
+	"itemName" : "inklingsportlegs",
+	"inventoryIcon" : "icons.png:pants",
+	"price" : 205,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "legwear",
+	"description" : "Some basic shorts that coordinate with any outfit!",
+	"shortdescription" : "Sporty Shorts",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "pants.png",
+    "femaleFrames" : "pants.png",
+
+	"colorOptions" : [
+	    { "a6a5a5" : "ccae7c", "7d7d7d" : "a47844" },
+		{ "a6a5a5" : "838383", "7d7d7d" : "555555" },
+		{ "a6a5a5" : "b5b5b5", "7d7d7d" : "808080" },
+		{ "a6a5a5" : "e6e6e6", "7d7d7d" : "b6b6b6" },
+		{ "a6a5a5" : "f4988c", "7d7d7d" : "d93a3a" },
+		{ "a6a5a5" : "ffd495", "7d7d7d" : "ea9931" },
+		{ "a6a5a5" : "ffffa7", "7d7d7d" : "e2c344" },
+		{ "a6a5a5" : "b2e89d", "7d7d7d" : "51bd3b" },
+		{ "a6a5a5" : "96cbe7", "7d7d7d" : "5588d4" },
+		{ "a6a5a5" : "d29ce7", "7d7d7d" : "a451c4" },
+		{ "a6a5a5" : "eab3db", "7d7d7d" : "d35eae" },
+		{ "a6a5a5" : "ccae7c", "7d7d7d" : "a47844" }
+	]
+}

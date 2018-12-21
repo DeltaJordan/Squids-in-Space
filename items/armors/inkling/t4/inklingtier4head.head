@@ -1,0 +1,61 @@
+{ 
+	"itemName" : "inklingtier4head",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 1140,
+	"maxStack" : 1,
+	"rarity" : "Rare",
+	"category" : "headwear",
+	"description" : "A sleek headset to keep you connected with your allies. The spots on the earpieces shimmer as you move.",
+	"shortdescription" : "Agent's Headset",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+    "level" : 4,
+    "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "statusEffects" : [
+    "fireflyglow"
+  ],
+  
+  "itemTags" : [ "tier4armour" ],
+	
+		"colorOptions" : [
+	    { "d5e045" : "d5e045", "bfca2c" : "bfca2c"},
+		{ "d5e045" : "cccccc", "bfca2c" : "9e9e9e"},
+		{ "d5e045" : "838383", "bfca2c" : "555555"},
+		{ "d5e045" : "b5b5b5", "bfca2c" : "808080"},
+		{ "d5e045" : "e6e6e6", "bfca2c" : "b6b6b6"},
+		{ "d5e045" : "f4988c", "bfca2c" : "d93a3a"},
+		{ "d5e045" : "ffd495", "bfca2c" : "ea9931"},
+		{ "d5e045" : "ffffa7", "bfca2c" : "e2c344"},
+		{ "d5e045" : "b2e89d", "bfca2c" : "51bd3b"},
+		{ "d5e045" : "96cbe7", "bfca2c" : "5588d4"},
+		{ "d5e045" : "d29ce7", "bfca2c" : "a451c4"},
+		{ "d5e045" : "eab3db", "bfca2c" : "d35eae"},
+		{ "d5e045" : "ccae7c", "bfca2c" : "a47844"}
+	]
+}

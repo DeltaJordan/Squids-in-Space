@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 10 },
+	{ "item" : "ironbar", "count" : 3 },
+	{ "item" : "inklinginkvial", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "inklingtier3shotgun",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

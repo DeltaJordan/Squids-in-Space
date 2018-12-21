@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "fabric", "count" : 4},
+    { "item" : "silk", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier3head", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

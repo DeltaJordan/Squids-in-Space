@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 6 },
+	{ "item" : "iceblock", "count" : 8},
+	{ "item" : "inklinginkvial", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "inklingmodernicebox",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

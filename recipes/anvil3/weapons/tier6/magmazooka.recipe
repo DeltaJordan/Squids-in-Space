@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "inkzooka", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 3 },
+	{ "item" : "liquidlava", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "magmazooka",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

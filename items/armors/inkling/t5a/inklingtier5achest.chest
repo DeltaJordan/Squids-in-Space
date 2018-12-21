@@ -1,0 +1,66 @@
+{
+  "itemName" : "inklingtier5achest",
+  "price" : 3560,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestarmour",
+  "description" : "The common plate armor of modern-day Octoling forces, enriched with Aegisalt to protect what matters.",
+  "shortdescription" : "Octoling Soldier's Armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 6
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier5armour" ],
+
+   "colorOptions" : [
+	    { "ada9a7" : "ada9a7", "848281" : "848281", "534f5a" : "534f5a"},
+		{ "ada9a7" : "cccccc", "848281" : "9e9e9e", "534f5a" : "616161"},
+		{ "ada9a7" : "838383", "848281" : "555555", "534f5a" : "151515"},
+		{ "ada9a7" : "b5b5b5", "848281" : "808080", "534f5a" : "555555"},
+		{ "ada9a7" : "e6e6e6", "848281" : "b6b6b6", "534f5a" : "7b7b7b"},
+		{ "ada9a7" : "f4988c", "848281" : "d93a3a", "534f5a" : "932625"},
+		{ "ada9a7" : "ffd495", "848281" : "ea9931", "534f5a" : "af4e00"},
+		{ "ada9a7" : "ffffa7", "848281" : "e2c344", "534f5a" : "a46e06"},
+		{ "ada9a7" : "b2e89d", "848281" : "51bd3b", "534f5a" : "247824"},
+		{ "ada9a7" : "96cbe7", "848281" : "5588d4", "534f5a" : "344495"},
+		{ "ada9a7" : "d29ce7", "848281" : "a451c4", "534f5a" : "6a2284"},
+		{ "ada9a7" : "eab3db", "848281" : "d35eae", "534f5a" : "97276d"},
+		{ "ada9a7" : "ccae7c", "848281" : "a47844", "534f5a" : "754c23"}
+  ]
+  
+}

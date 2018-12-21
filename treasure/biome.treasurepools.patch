@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/oceanTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.08,
+      "item": "insuperseasnail"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanFloorTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.10,
+      "item": "insuperseasnail"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/swampTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "insuperseasnail"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/slimeTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.05,
+      "item": "insuperseasnail"
+    }
+  }
+]

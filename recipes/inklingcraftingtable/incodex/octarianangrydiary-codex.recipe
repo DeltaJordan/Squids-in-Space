@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "paper", "count" : 7},
+   { "item" : "string", "count" : 3},
+   { "item" : "purpledye", "count" : 4}
+  ],
+  "output" : {
+    "item" : "octarianangrydiary-codex",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "incodex" ]
+}

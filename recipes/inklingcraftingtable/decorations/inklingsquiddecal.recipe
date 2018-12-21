@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "syntheticmaterial", "count" : 3},
+	{ "item" : "whitedye", "count" : 2}
+  ],
+  "output" : {
+    "item" : "inklingsquiddecal",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

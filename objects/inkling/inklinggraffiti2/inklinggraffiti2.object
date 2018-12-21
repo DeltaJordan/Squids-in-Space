@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti2",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "A pair of cute green-and-yellow starfish stickers.",
+  "shortdescription" : "Starfish Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "The top one looks like it's dancing.",
+  "avianDescription" : "Starfish aren't fish, though, right?",
+  "floranDescription" : "Colorful fissssh. Taste like fruitsss?",
+  "glitchDescription" : "Cheery. Somebody put large stickers on this wall.",
+  "humanDescription" : "They're pretty cute. I can't say I've ever seen starfish with eyes like those.",
+  "hylotlDescription" : "A couple dancing starfish. Not accurate to real life, but still pleasant.",
+  "inklingDescription" : "Starfish are really cool people! Their arms have tons and tons of little suction cups!",
+  "novakidDescription" : "You could totally put these on your ship or somethin'.",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti2.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

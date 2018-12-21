@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklingposter1a",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 3850,
+  "printable" : false,
+
+  "description" : "A concert poster that's been carefully framed. There's some writing at the bottom..",
+  "shortdescription" : "Autographed Poster",
+  "race" : "inkling",
+
+  "apexDescription" : "It's put behind very strong glass. Someone must care about this poster a lot.",
+  "avianDescription" : "The little stars and the pink text are all sparkly! It's really pretty.",
+  "floranDescription" : "Floran make posters of passst eventsss too, with charcoal.",
+  "glitchDescription" : "Neutral. An extremely brightly-colored poster.",
+  "humanDescription" : "Pretty cool poster-- wait, is that marker down there? It's autographed, cool!",
+  "hylotlDescription" : "If I'm not mistaken, the two squids represent two very famous singers.",
+  "inklingDescription" : "Oh wow, this one has genuine Squid Sisters autographs on it! It's gotta be worth a ton!",
+  "novakidDescription" : "It sparkles 'n glows in the dark, and so does the green ink at the bottom. Huh.",
+
+  "inventoryIcon" : "inklingposter1aicon.png",
+  "orientations" : [
+    {
+      "image" : "inklingposter1a.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

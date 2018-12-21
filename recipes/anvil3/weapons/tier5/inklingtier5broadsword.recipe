@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 13 },
+    { "item" : "goldbar", "count" : 9 },
+	{ "item" : "inklinginkvial", "count" : 3 }
+  ],
+  "output" : { "item" : "inklingtier5broadsword", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

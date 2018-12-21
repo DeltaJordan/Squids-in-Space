@@ -1,0 +1,24 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 2500,
+      "crewSize" : 6
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "inklingT5.png",
+      "position" : [68, 42],
+      "fullbright" : true
+    },
+    {
+      "image" : "inklingT5lit.png",
+      "position" : [68, 42]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "inklingT5blocks.png"
+}

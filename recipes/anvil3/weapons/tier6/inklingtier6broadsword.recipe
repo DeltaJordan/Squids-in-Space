@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "inklingtier5broadsword", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 10 },
+	{ "item" : "kelp", "count" : 25 },
+	{ "item" : "goldbar", "count" : 4}
+  ],
+  "output" : { "item" : "inklingtier6broadsword", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 8 },
+    { "item" : "syntheticmaterial", "count" : 4 },
+	{ "item" : "greendye", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier5schest", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

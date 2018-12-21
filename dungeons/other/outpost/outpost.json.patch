@@ -1,0 +1,47 @@
+[
+
+{
+  "op":"add",
+  "path":"/layers/5/objects/-",
+  "value":{
+                 "height":8,
+                 "id":33040,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"inkling",
+					 "seed":"14",
+                     "typeName":"inoutpostmerchant"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":3416,
+                 "y":990
+                }
+				},
+
+				
+ { "op":"add",
+  "path":"/layers/5/objects/-",
+  "value": {
+                 "height":8,
+                 "id":33041,
+                 "name":"",
+                 "properties":
+                    {
+                     "npc":"inkling",
+                     "seed":"48",
+                     "typeName":"inturretmerchant"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":2624,
+                 "y":1117
+                } 
+ }
+
+]

@@ -1,0 +1,82 @@
+{
+  "itemName" : "inklingtier3grenadelauncherpurple",
+  "price" : 735,
+  "inventoryIcon" : "chargedgrimrangedblaster.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A blaster that's been given a sick paintjob. Or, at least, that's what you would call it. ''Sick''.",
+  "shortdescription" : "Charged Grim Blaster",
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "category" : "Blaster",
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "chargedgrimrangedblaster.png",
+    "barrel" : "",
+	"muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashpurple.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/grenadeblast_small1.ogg", "/sfx/gun/grenadeblast_small2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.3, 0.6],
+  "muzzleOffset" : [1.4, 1],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 1.2,
+    "baseDps" : 12,
+    "energyUsage" : 35.0,
+	"inaccuracy" : 0.05,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 7.5,
+        "weaponRotation" : 7.5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : 7.5,
+        "weaponRotation" : 7.5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    },
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "electricplasmaimpactgrenade",
+    "projectileParameters" : { 
+      "knockback" : 60
+    }
+  },
+
+  "altAbilityType" : " ",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

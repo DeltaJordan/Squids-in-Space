@@ -1,0 +1,37 @@
+{
+  "id" : "inklingagency",
+  "title" : "The Agency: A History",
+  "description" : "This book takes a close look at the famous Inkling-lead intelligence and defense group.",
+  "icon" : "agentbook.png",
+  "contentPages" : [
+
+"Many relics of the past persist in Inkling culture today: the wars of years ago have shaped mindsets and hopes for the future, while the wreckage of past civilizations are constantly being studied. 
+
+One such presence in modern life, the Agency, has been around for over a hundred and fifty years, and continues to be influential.",
+	
+"Formed initially as a small-scale intelligence force in the city-state of Cephedo, the Agency was made to act as an information network and a backup weapon against political troubles. 
+	
+However, after the Great Turf War broke out, the Agency was quickly renovated into a full-blown force used almost exclusively against opposing Octarian nations.",
+	
+"This hybrid organization of espionage and guerrilla warfare proved highly successful on both its respective fronts, being quick to gather details on Octarian machinery so that viable countermeasures could be developed. 
+
+Those secrets were also used well for the Agency's own weapons, leading to the development of the Bamboozler MK I, which soon became the signature weapon of a senior platoon in the Agency, and today the model remains a relic of the War.",
+	
+"After the war ended, the Agency's utility rapidly declined as efforts were turned towards the development of treaties and the rebuilding of cities. It remained as Inkopolis's central military and espionage force, but saw very little action until the Octarian Uprising of MA 2730. 
+	
+Lead by the war veteran Cuttlefish, the Agency rose to the crisis and rapidly recruited many new faces young and old alike. With this, it saw a terrific surge of new life.",
+	
+"Once the attempted uprising was successfully quelled, the Agency remained a forgotten secret until increased political unrest lead to necessary intervention. 
+
+Ever since that day, the Agency has been brought back into the spotlight, acting steadily as a low-key police system while returning to its roots of information gathering and acting as a stable line of defense.",
+	
+"As of today, in the year MA 2734, the Agency remains a solid foundation of protection and secrets. With swiftly-growing frontiers expanding beyond the planet, the Agency grows with it, searching for secrets and solving conflict among the stars. 
+
+Their classic black and green color motif remains today as a proud testament to the past, painted on armor, helmets and weapons."
+	
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

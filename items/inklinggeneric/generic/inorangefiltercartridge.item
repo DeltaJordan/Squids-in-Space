@@ -1,0 +1,11 @@
+{
+  "itemName" : "inorangefiltercartridge",
+  "price" : 180,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "inorangefiltercartridge.png",
+  "description" : "A metal filter that turns liquid orange when it runs through. It's quite warm to the touch.",
+  "shortdescription" : "Orange Filter Cartridge",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : ["inorangefiltercartridge"]
+}

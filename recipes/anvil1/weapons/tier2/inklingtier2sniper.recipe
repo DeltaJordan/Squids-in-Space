@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 3},
+	{ "item" : "inklingtier1sniper", "count" : 1}
+  ],
+  "output" : {
+    "item" : "inklingtier2sniper",
+    "count" : 1
+  },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

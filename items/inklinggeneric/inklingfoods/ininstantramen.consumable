@@ -1,0 +1,18 @@
+{
+  "itemName" : "ininstantramen",
+  "rarity" : "Common",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "ininstantramen.png",
+  "description" : "A pack of dry noodles. Just add hot water!",
+  "shortdescription" : "Uncooked Ramen",
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

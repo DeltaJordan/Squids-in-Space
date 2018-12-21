@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "insuperseasnail", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "corefragmentore",
+    "count" : 3
+  },
+  "groups" : [ "spykemerchant" ]
+}

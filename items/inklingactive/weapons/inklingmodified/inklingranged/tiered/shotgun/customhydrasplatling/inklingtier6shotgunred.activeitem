@@ -1,0 +1,85 @@
+{
+  "itemName" : "inklingtier6shotgunred",
+  "price" : 870,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A Hydra Splatling that's been repainted and retooled for military use.",
+  "shortdescription" : "Custom Hydra Splatling - E",
+  "tooltipKind" : "gun",
+  "category" : "Splatling",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "level" : 6,
+
+  "inventoryIcon" : "explosivecustomhydrasplatling.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "explosivecustomhydrasplatling.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/shotgun1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.18, -0.7],
+  "muzzleOffset" : [1.8, 0.15],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.3,
+    "baseDps" : 8.6,
+    "energyUsage" : 48.0,
+    "inaccuracy" : 0.10,
+
+    "projectileCount" : 10,
+    "fireType" : "auto",
+
+    "projectileType" : "insplatlingred",
+    "projectileParameters" : {
+      "knockback" : 35
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.10,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "spray",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

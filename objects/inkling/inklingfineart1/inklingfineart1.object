@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklingfineart1",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1285,
+  "printable" : false,
+
+  "description" : "A replica of a famous Octarian painting by Octoangelo. Tensions of today are linked to the past.",
+  "shortdescription" : "Paradise Lost",
+  "race" : "inkling",
+
+  "apexDescription" : "Wait.. those aren't octopi, those are just walking tentacles! Weird.",
+  "avianDescription" : "It's supposed to be fine art, but I think it's kinda silly.",
+  "floranDescription" : "Fine art losssst on Floran. Floran art ssssimple.",
+  "glitchDescription" : "Mystified. I was not aware that cephalopods had an interest in fine art.",
+  "humanDescription" : "This looks really familiar... where have I seen this before?",
+  "hylotlDescription" : "Unlike Inklings, Octarians have great diversity in their appearances, as we can see here.",
+  "inklingDescription" : "I still think it's hilarious that they used the tentacle-ones instead of Octolings.",
+  "novakidDescription" : "A fancy oil painting with some kind of funny tentacle people in it.",
+
+  "inventoryIcon" : "inklingfineart1icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingfineart1.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

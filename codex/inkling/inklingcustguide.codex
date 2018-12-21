@@ -1,0 +1,37 @@
+{
+  "id" : "inklingcustguide",
+  "title" : "Beginners Customization",
+  "description" : "A small handbook covering simple weapon modification.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+"If you're reading this: good, you've already taken your first step towards making your favorite turf war weapon truly unique!
+It's not a terribly difficult craft once you know the ins and outs, but for now, we'll keep it simple and stick to the premise of how to make your weapon have a specific color scheme.
+
+In no time, you won't have to think twice about changing bits and bobs here and there to up your performance in a fight!",
+
+"To begin, you need a well-developed weapon. Basic weaponry don't have the pieces that can be readily modified to allow for easy color modification -- these would be what starfarers call ''Tier 3'' weapons and anything more complicated!
+Additionally, you will also need a proper workbench or toolbox, which can be easily bought at a weapons store, or made by hand if you have the correct metals on hand.",
+
+"Finally, you will need color cartridges of the color you desire! These cartridges come in six different colors: blue, green, orange, purple, red and yellow. They can be bought at any weapons store, or can be made at a workbench if you have experience mixing dyes.",
+
+"From there, it's just a matter of popping your weapon open, locating the colorshift valve, and inserting the cartridges that you have on hand. Once ink starts flowing through the weapon, changes will be automatic!
+
+The effects of a color cartridge are myriad: a weapon will have a different color scheme, output different colors of ink, will often take on an elemental effect related to its color, and may even facilitate new fighting techniques.",
+
+"But be warned: it's extremely difficult to remove custom cartridges once they are inserted, so customization is often permanent. If you get tired of these changes, you are best off reselling your weapon or finding some means to disassemble it.",
+
+"Because of technical limitations, not all weapons can facilitate all six colors. Some models, such as Blasters, Chargers, and Off-Model Chargers, can only utilize four different colors instead of six. 
+Also note that customization will require firsthand experience of a weapon model. At least a brief handling and usage of a weapon is highly recommended before you open it up and start tinkering with it.",
+
+"Finally, be sure to exercise caution while customizing weapons. Some weapons may have their warranty voided upon tampering with the internal functioning, and interfering with delicate pieces may result in permanent performance loss.
+Weapons that fire highly pressurized shots are to be handled with special care, as a direct off-color shot can cause splatting or severe physical damage.",
+
+"Please take care when you are customizing your gear, as your health and life are much more valuable than anything used on the turf war field!"
+
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "inklingtier6grenadelauncher", "count" : 1},
+	{ "item" : "splatbomb", "count" : 20 }
+  ],
+  "output" : { "item" : "inklingtier6grenadelauncheralt", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

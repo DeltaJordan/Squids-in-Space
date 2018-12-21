@@ -1,0 +1,33 @@
+{
+  "objectName" : "inlollypopjar",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 310,
+
+  "description" : "Sticky and sweet, lollypops are one thing often enjoyed by many different species.",
+  "shortdescription" : "Jar of Lollypops",
+  "race" : "inkling",
+
+  "apexDescription" : "Ooh, lollypops! Gimme!",
+  "avianDescription" : "Never liked these too much, they're hard to eat with a beak.",
+  "floranDescription" : "Sssweet crunchy candy!",
+  "glitchDescription" : "Disappointment. Glitch do not often enjoy organic candy.",
+  "humanDescription" : "Wait, lollypops? Seriously? I haven't seen these in forever!",
+  "hylotlDescription" : "If there's anything universally-beloved, it is lollypops.",
+  "inklingDescription" : "Dude, I'll take, like, five of them. Five whole lollypops.",
+  "novakidDescription" : "Sweet little candies on sticks!",
+
+  "inventoryIcon" : "inlollypopjaricon.png",
+  "orientations" : [
+    {
+      "image" : "inlollypopjar.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.001,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

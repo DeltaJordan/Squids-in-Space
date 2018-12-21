@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "inklingtier6sniper", "count" : 1 },
+	{ "item" : "burstbomb3", "count" : 25 }
+  ],
+  "output" : { "item" : "inklingtier6sniperalt", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

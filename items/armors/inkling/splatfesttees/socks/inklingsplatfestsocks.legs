@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "inklingsplatfestsocks",
+	"inventoryIcon" : "icon.png",
+	"price" : 785,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "legwear",
+	"description" : "I bet if you lick them, they taste like spearmint...",
+	"shortdescription" : "Team Socks Socks",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "pants.png",
+	
+	"femaleFrames" : "pants.png"
+}

@@ -1,0 +1,39 @@
+{ 
+	"itemName" : "inklingradchest",
+	"inventoryIcon" : "icons.png:chest",
+	"price" : 245,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "chestwear",
+	"description" : "It's got lots of little white arrows on it!",
+	"shortdescription" : "Vector Shirt",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"colorOptions" : [
+		{ "a81c34" : "a81c34", "94082c" : "94082c", "680005" : "680005"},
+	   	{ "a81c34" : "cccccc", "94082c" : "9e9e9e", "680005" : "616161"},
+		{ "a81c34" : "838383", "94082c" : "555555", "680005" : "151515"},
+		{ "a81c34" : "b5b5b5", "94082c" : "808080", "680005" : "555555"},
+		{ "a81c34" : "e6e6e6", "94082c" : "b6b6b6", "680005" : "7b7b7b"},
+		{ "a81c34" : "f4988c", "94082c" : "d93a3a", "680005" : "932625"},
+		{ "a81c34" : "ffd495", "94082c" : "ea9931", "680005" : "af4e00"},
+		{ "a81c34" : "ffffa7", "94082c" : "e2c344", "680005" : "a46e06"},
+		{ "a81c34" : "b2e89d", "94082c" : "51bd3b", "680005" : "247824"},
+		{ "a81c34" : "96cbe7", "94082c" : "5588d4", "680005" : "344495"},
+		{ "a81c34" : "d29ce7", "94082c" : "a451c4", "680005" : "6a2284"},
+		{ "a81c34" : "eab3db", "94082c" : "d35eae", "680005" : "97276d"},
+		{ "a81c34" : "ccae7c", "94082c" : "a47844", "680005" : "754c23"}
+	]
+}

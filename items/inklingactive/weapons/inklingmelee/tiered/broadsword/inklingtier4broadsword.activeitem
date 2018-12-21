@@ -1,0 +1,57 @@
+{
+  "itemName" : "inklingtier4broadsword",
+  "price" : 455,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A burnished brush with stiffer bristles. Its handle has an octopus carved into it!",
+  "shortdescription" : "Octobrush",
+  "tooltipKind" : "sword",
+  "category" : "Brush",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "inklingtier4broadsword.png",
+  "animation" : "/animation/weapons/broadsword/blueswordswoosh.animation",
+  "animationParts" : {
+    "blade" : "inklingtier4broadsword.png",
+    "handle" : ""
+  }, 
+  "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              0.3,
+              2.4
+            ]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_poison2.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility"  : {
+    "fireTime" : 0.9,
+    "baseDps" : 9.1,
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "knockback" : 20,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
+  },
+  "baseWeaponRotation" : 20,
+  "palette" : "/items/active/weapons/colors/tier4melee.weaponcolors",
+  "altAbilityType" : "spinslash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+    "learnBlueprintsOnPickup" : [
+    "inklingtier4broadswordblue", "inklingtier4broadswordgreen", "inklingtier4broadswordorange", "inklingtier4broadswordpurple", "inklingtier4broadswordred", "inklingtier4broadswordyellow"
+  ]
+}

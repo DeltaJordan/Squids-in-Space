@@ -1,0 +1,23 @@
+{ 
+	"itemName" : "inklingsplatfestinvisibility",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "chestwear",
+	"description" : "It's an invisible shirt! Wait, no, it's a shirt FOR team invisible. Oops.",
+	"shortdescription" : "Team Invisibility Shirt",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	}
+}

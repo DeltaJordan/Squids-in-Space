@@ -1,0 +1,13 @@
+{
+  "itemName" : "inarmordata",
+  "rarity" : "common",
+  "price" : 450,
+  "inventoryIcon" : "indata3.png",
+  "image" : "indata3.png",
+
+  "shortdescription" : "IUDB Data Drive 03",
+  "description" : "A drive holding Inkling information. This one has to do with armor.",
+
+  "tierRecipesUnlock" : "inarmor",
+  "unlockMessage" : "Inkling armor recipes have been unlocked!"
+}

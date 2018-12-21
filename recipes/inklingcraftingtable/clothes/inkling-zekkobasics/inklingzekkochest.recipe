@@ -1,0 +1,7 @@
+{ 
+	"input" : [ {"item" : "fabric", "count" : 10} 
+	],
+	"duration" : 5,
+	"output" : { "item" : "inklingzekkochest", "count" : 1 },
+	"groups" : [ "inklingcraftingtable", "clothes" ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+      { "item" : "glowstickblue", "count" : 6 },
+      { "item" : "ironbar", "count" : 3 },
+      { "item" : "mininglantern", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "fireflylantern",
+    "count" : 1
+  },
+	"groups" : [ "inklingcraftingtable", "craftinganvil", "clothes" ]
+}

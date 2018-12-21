@@ -1,0 +1,52 @@
+{
+  "objectName" : "inklingtoolbox",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crafting.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Inkling Toolbox",
+        "subtitle" : "Grab a wrench and get tinkering!",
+        "icon" : {
+          "file" : "/interface/crafting/craftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "inklingtoolbox" ]
+  },
+  "printable" : false,
+  "description" : "A heavy-duty steel toolbox. Ideal for tweaking weapons with.",
+  "shortdescription" : "^orange;Inkling Toolbox^white;",
+  "race" : "inkling",
+  "category" : "crafting",
+  "price" : 255,
+
+  "apexDescription" : "Some kind of toolbox. I'm not sure what to make here, though.",
+  "avianDescription" : "There's a ton of little metal instruments inside.",
+  "floranDescription" : "Metal box with metal pointy thingsss.. for ssstabbing?",
+  "glitchDescription" : "Attentive. These look like blacksmith's tools.",
+  "humanDescription" : "These screwdrivers could probably pop a gun open easily.",
+  "hylotlDescription" : "A box containing tools for weapon modification. The ownership is clear by the empty ink tank.",
+  "inklingDescription" : "Ooh, I could change up my weapons with these!",
+  "novakidDescription" : "Looks like gun-crafting supplies.",
+
+  "inventoryIcon" : "inklingtoolboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inklingtoolbox.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "learnBlueprintsOnPickup" : [
+    "inklingtoolbox"
+  ]
+}

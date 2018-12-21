@@ -1,0 +1,57 @@
+{
+  "itemName" : "inklingtier6shead",
+  "price" : 5380,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "Carefully handcrafted for those who prove themselves to be legendary.",
+  "shortdescription" : "War Hero's Cap",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+
+  "colorOptions" : [
+	    { "305685" : "305685", "234268" : "234268", "102029" : "102029"},
+		{ "305685" : "cccccc", "234268" : "9e9e9e", "102029" : "616161"},
+		{ "305685" : "838383", "234268" : "555555", "102029" : "151515"},
+		{ "305685" : "b5b5b5", "234268" : "808080", "102029" : "555555"},
+		{ "305685" : "e6e6e6", "234268" : "b6b6b6", "102029" : "7b7b7b"},
+		{ "305685" : "f4988c", "234268" : "d93a3a", "102029" : "932625"},
+		{ "305685" : "ffd495", "234268" : "ea9931", "102029" : "af4e00"},
+		{ "305685" : "ffffa7", "234268" : "e2c344", "102029" : "a46e06"},
+		{ "305685" : "b2e89d", "234268" : "51bd3b", "102029" : "247824"},
+		{ "305685" : "96cbe7", "234268" : "5588d4", "102029" : "344495"},
+		{ "305685" : "d29ce7", "234268" : "a451c4", "102029" : "6a2284"},
+		{ "305685" : "eab3db", "234268" : "d35eae", "102029" : "97276d"},
+		{ "305685" : "ccae7c", "234268" : "a47844", "102029" : "754c23"}
+  ]
+}

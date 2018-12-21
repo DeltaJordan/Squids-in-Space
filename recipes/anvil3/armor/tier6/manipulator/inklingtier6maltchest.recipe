@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 14 },
+    { "item" : "silk", "count" : 15 },
+	{ "item" : "blackdye", "count" : 7 },
+	{ "item" : "greendye", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier6maltchest", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

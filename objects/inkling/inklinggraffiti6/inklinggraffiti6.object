@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti6",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "But what does he do?",
+  "shortdescription" : "He Does It Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "That's.. an incredibly omnious message.",
+  "avianDescription" : "I'm sure this means something, but I have no idea what.",
+  "floranDescription" : "Blue ink wordsss are still sssticky.",
+  "glitchDescription" : "Concerned. Who is he, and what is he doing?",
+  "humanDescription" : "See, and I thought human graffiti could get pretty weird..",
+  "hylotlDescription" : "This vague message is some kind of joke with Inklings, but it's easily lost in translation.",
+  "inklingDescription" : "Ohhh, that fabulous Splat Tim! He really DOES do it!",
+  "novakidDescription" : "That's an, uh, pretty weird thing to write on the wall.",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti6.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

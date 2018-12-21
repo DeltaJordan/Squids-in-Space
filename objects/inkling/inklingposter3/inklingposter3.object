@@ -1,0 +1,36 @@
+{
+  "objectName" : "inklingposter3",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1100,
+  "printable" : false,
+
+  "description" : "A shimmering poster of the famous Inkling singer and idol, Marie!",
+  "shortdescription" : "Seafoam Idol Poster",
+  "race" : "inkling",
+
+  "apexDescription" : "It's nice to see such pleasing colors on a poster for once.",
+  "avianDescription" : "I wonder if this poster glows green, like some cephalopods do?",
+  "floranDescription" : "Pleassssant sssshade of green. Floran love soft colorssss only sometimes.",
+  "glitchDescription" : "Relaxed. The colors on this poster are so soothing.",
+  "humanDescription" : "This poster's so glossy, I'm afraid to touch it.",
+  "hylotlDescription" : "This poster's part of a matching set, as it contrasts very nicely with pink.",
+  "inklingDescription" : "It's a really pretty, shiny poster of Marie. It kinda smells like green tea.",
+  "novakidDescription" : "One heck of a shiny squid.",
+
+  "inventoryIcon" : "inklingposter3i.png",
+  "orientations" : [
+    {
+      "image" : "inklingposter3.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "learnBlueprintsOnPickup" : [ "inklingposter4" ]
+}

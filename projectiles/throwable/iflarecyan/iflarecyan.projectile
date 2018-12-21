@@ -1,0 +1,20 @@
+{
+  "projectileName" : "iflarecyan",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 20,
+  "image" : "iflarecyan.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [0, 255, 222],
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "power" : 0,
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "inalbum1",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 250,
+  "printable" : false,
+
+  "description" : "An album cover. This one's a familiar green and pink.",
+  "shortdescription" : "Dualist Album Cover",
+  "race" : "inkling",
+  
+  "apexDescription" : "Album covers and vinyl records are common Apex decor, too.",
+  "avianDescription" : "What flashy colors! I wonder what they mean?",
+  "floranDescription" : "Floran find ssssquids mussssic to be too chirpy. Like birdssss.",
+  "glitchDescription" : "Cheery. It's quite bright, the music in this album must be quite fun too!",
+  "humanDescription" : "Why does this make me think of old yogurt brands..?",
+  "hylotlDescription" : "This album shows its themes of dualism by imitating a taijitsu. Quite poetic!",
+  "inklingDescription" : "It's a framed version of the first Squid Sisters album. Hecka fresh.",
+  "novakidDescription" : "A real bright album cover, hung up all nicely on the wall.",
+
+  "inventoryIcon" : "inalbum1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inalbum1.png:<color>",
+
+      "imagePosition" : [-10, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "anchors" : [ "background" ],
+	  "spaceScan" : 0.1
+    }
+  ]
+}

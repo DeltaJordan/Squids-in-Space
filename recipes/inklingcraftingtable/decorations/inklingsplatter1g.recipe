@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "inklingsplatter1", "count" : 1 },
+	{ "item" : "purpledye", "count" : 2}
+  ],
+  "output" : {
+    "item" : "inklingsplatter1g",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

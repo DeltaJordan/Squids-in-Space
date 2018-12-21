@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 25},
+	{ "item" : "glass", "count" : 5},
+	{ "item" : "inklinginkvial", "count" : 3}
+  ],
+  "output" : {
+    "item" : "spawnerinkling",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2" ]
+}

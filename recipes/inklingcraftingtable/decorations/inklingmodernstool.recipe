@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 2},
+	{ "item" : "silverbar", "count" : 1}
+  ],
+  "output" : {
+    "item" : "inklingmodernstool",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

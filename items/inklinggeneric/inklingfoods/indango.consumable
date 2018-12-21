@@ -1,0 +1,29 @@
+{
+  "itemName" : "indango",
+  "rarity" : "Common",
+  "price" : 75,
+  "category" : "preparedFood",
+  "inventoryIcon" : "indango.png",
+  "description" : "Sweet dumplings made from rice flour! These ones were dyed with squid ink.",
+  "shortdescription" : "Colorful Dango",
+    "effects" : [ [
+   {   
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 210
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+      "learnBlueprintsOnPickup" : ["indango"]
+  }

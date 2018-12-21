@@ -1,0 +1,37 @@
+{
+  "itemName" : "infugu",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "infugu.png",
+  "description" : "Finely-cut blowfish that's been prepared by being slow-cooked in its own venom. Not for everyone.",
+  "shortdescription" : "Marinaded Fugu",
+    "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 310
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 310
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 240
+    },
+	    {
+        "effect" : "weakpoison",
+        "duration" : 20
+    }
+  ] ],
+  "foodValue" : 70,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+      "learnBlueprintsOnPickup" : ["infugu"]
+}

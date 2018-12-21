@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "copperbar", "count" : 5},
+   { "item" : "darkwoodmaterial", "count" : 2 }
+  ],
+  "duration" : 1,
+  "output" : {
+    "item" : "flaginkling",
+    "count" : 1
+  },
+  "groups" : [ "plain", "objects", "all" ]
+}

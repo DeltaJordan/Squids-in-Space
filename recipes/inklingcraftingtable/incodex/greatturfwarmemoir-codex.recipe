@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "paper", "count" : 6},
+   { "item" : "string", "count" : 5},
+   { "item" : "inklingtier4assaultrifle", "count" : 1}
+  ],
+  "output" : {
+    "item" : "greatturfwarmemoir-codex",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "incodex" ]
+}

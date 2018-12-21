@@ -1,0 +1,14 @@
+{
+  "itemName" : "inklingannielegs",
+  "price" : 975,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "legarmour",
+  "description" : "Tights and shoes worn by a beloved hat seller. The colors are perfect for those who love Halloween!",
+  "shortdescription" : "Timid Merchant's Leggings",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pantsm.png",
+  "femaleFrames" : "pantsf.png"
+}

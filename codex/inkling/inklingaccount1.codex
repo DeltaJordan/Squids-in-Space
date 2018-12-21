@@ -1,0 +1,23 @@
+{
+  "id" : "inklingaccount1",
+  "title" : "Descriptions in Kind: I",
+  "description" : "The writings of Inkling explorer Kaitika Haizao, recounting a brief meeting with unfamiliar sorts.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+    "The routine there was an uncomfortable experience, something like the sensation of rushing air as you jump, yet you don't budge an inch. The massive building, all scrap metal, loomed a half-mile away, and I would have explored it even if it was deserted.",
+	
+	"Close inspection showed just how populous it was, however, and immediately I saw how diverse it was! No squids to be seen, perhaps unsurprising given our only recent forays into space, but the mere energy made me feel quite welcome.",
+	
+	"One such resident, wearing their space suit even in an airlock, ran to me eagerly and welcomed me to this ''Outpost''. The initial confusion, as ever: a human with pale skin and bright eyes, sporting countless fine hairs on their head like anenome tentacles.",
+	
+	"They are beyond odd, possessing brilliant color only in their eyes. Their hair rarely shows intriging hues, the only pattern being texture, and they must use dye to express themselves. I understood little of the creature's speech, only the words I have learned thus far, driving home our differences.",
+	
+	"Inkless beings are peculiar, as I had not yet seen speaking creatures that did not possess feathers, flowers or smoke in their natural hue. How do they express themselves? Do they rely on art alone, and not merely the canvas their body provides? I'm certain of this, at least, as they too seem to create fantastic things."
+	
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

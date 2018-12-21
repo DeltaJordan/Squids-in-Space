@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "reddye", "count" : 1 },
+	{ "item" : "inklinginkvial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "inklinggraffiti1",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "inredfiltercartridge",
+  "price" : 180,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "inredfiltercartridge.png",
+  "description" : "A metal filter that turns liquid red when it runs through. It seems to pulsate.",
+  "shortdescription" : "Red Filter Cartridge",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : ["inredfiltercartridge"]
+}

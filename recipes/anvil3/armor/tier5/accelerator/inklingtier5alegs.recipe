@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 3 },
+    { "item" : "leather", "count" : 2 },
+    { "item" : "syntheticmaterial", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier5alegs", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
+}

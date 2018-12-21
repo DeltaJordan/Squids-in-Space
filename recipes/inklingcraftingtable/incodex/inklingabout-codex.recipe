@@ -1,0 +1,11 @@
+{
+  "input" : [
+   { "item" : "paper", "count" : 4},
+   { "item" : "string", "count" : 3}
+  ],
+  "output" : {
+    "item" : "inklingabout-codex",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "incodex" ]
+}

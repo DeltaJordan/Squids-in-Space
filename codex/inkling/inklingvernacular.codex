@@ -1,0 +1,34 @@
+{
+  "id" : "inklingvernacular",
+  "title" : "The Inkling Dictionary",
+  "description" : "There's a lot of unique words Inklings use, so it's good to know what they mean.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+"In their forays throughout the universe, Inklings have quickly picked up the common language for sake of communication with other species. Of course, with translations come various words that they use in particular ways, as well as words and vocalizations that aren't easily translated. It's very important to know such terms so there's no misunderstandings in communication.",
+
+"''Agency'' -- an exclusively-Inkling military organization present in both planetary and galactic Inkling civilization
+''Charger'' -- any weapon similar to a rifle, regardless of actual shot type
+''Dry'' -- sickly, unhealthy, subpar
+''Fresh'' -- aesthetically pleasing, cool, interesting, fashionable
+''Inkfolk'' -- a catch-all term for Inklings, Octarians and other sapient cephalopod species, regardless if they actually produce ink",
+
+"''Inkless'' -- a term used for any sapient non-cephalopod species
+''Kettle'' -- an Octarian house, often spherical and made of metal
+''Mark'' / ''Marking'' -- any patch of skin that changes color with the user's ink, usually found on the tentacles, shoulders and lower body
+''Mask'' -- the pigmented area around an Inkling or Octoling's eyes, typically black or maroon
+''Ngyes'' -- an exclamation of agreement or excitement
+''Roller'' -- any large, paint roller-like weapon",
+
+"''Splatfest'' -- a society-wide festival that celebrates the spirit of competition; typically involves midnight music, food, and sport
+''Topside'' -- living above ground, in contrast to the subterranean networks that Octarians often live in
+''Turf'' / ''Turfing'' -- shorthand for ''turf war'' and taking part in it
+''Upstream'' -- radical behavior that goes against expected social norms
+''Woomy'' -- a sound that expresses a cordial, social mood"
+	
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

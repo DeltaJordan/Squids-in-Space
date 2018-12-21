@@ -1,0 +1,28 @@
+{
+  "itemName" : "inpeanutbutterpie",
+  "rarity" : "Common",
+  "price" : 795,
+  "category" : "preparedFood",
+  "inventoryIcon" : "inpeanutbutterpie.png",
+  "description" : "So delicious, you kind of want to stuff your face with it.",
+  "shortdescription" : "Peanut Butter Pie",
+    "effects" : [ [
+	    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 360
+    },
+    {
+         "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 65,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 4 },
+    { "item" : "fabric", "count" : 5 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier2head", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

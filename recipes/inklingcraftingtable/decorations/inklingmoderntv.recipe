@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 8},
+	{ "item" : "wire", "count" : 3},
+	{ "item" : "glass", "count" : 3}
+  ],
+  "output" : {
+    "item" : "inklingmoderntv",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

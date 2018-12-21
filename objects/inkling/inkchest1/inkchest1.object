@@ -1,0 +1,49 @@
+{
+  "objectName" : "inkchest1",
+  "colonyTags" : ["inkling","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 830,
+  "description" : "A black and silver chest. It's a bit sticky..",
+  "shortdescription" : "Inky Chest",
+  "race" : "inkling",
+  "health" : 1.5,
+
+  "apexDescription" : "A old looking chest. I wonder what's inside?",
+  "avianDescription" : "This chest may look old, but the contents could be valuable.",
+  "floranDescription" : "Very old chesst, maybe holdsss treasure.",
+  "glitchDescription" : "Excited. An old looking chest, hopefully the contents are useful.",
+  "humanDescription" : "Finding a chest is always exciting.",
+  "hylotlDescription" : "This old looking chest could hold treasure.",
+  "inklingDescription" : "A treasure chest! Great for storing goodies.",
+  "novakidDescription" : "This ol' chest has seen better days.",
+
+  "inventoryIcon" : "inkchest1icon.png",
+  "orientations" : [
+    {
+      "image" : "inkchest1.png:<color>.<key>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "inkchest1.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

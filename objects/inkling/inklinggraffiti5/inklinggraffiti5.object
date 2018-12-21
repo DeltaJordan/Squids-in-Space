@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti5",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "This is probably one of the most common words to see in Inkling graffiti.",
+  "shortdescription" : "Woomy Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "I still don't know what this word means.",
+  "avianDescription" : "The ink on this is still a bit damp.",
+  "floranDescription" : "Floran knowssss an Inkling wassss here. Inkling lovesss this word.",
+  "glitchDescription" : "Archeological. What is the cultural significance of this word?",
+  "humanDescription" : "So, is this the squid version of ''WAZ'', or something?",
+  "hylotlDescription" : "Among the many words unique to Inkling language, this is one of the most popular positive exclamations.",
+  "inklingDescription" : "You can never have too much woomy in your life.",
+  "novakidDescription" : "I'd reckon the two letter Os here look like eyeballs.",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti5.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

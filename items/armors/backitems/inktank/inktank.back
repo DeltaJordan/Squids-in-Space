@@ -1,0 +1,35 @@
+{
+  "itemName" : "inktank",
+  "price" : 750,
+  "inventoryIcon" : "inktankicon.png",
+  "rarity" : "Uncommon",
+  "category" : "backwear",
+  "description" : "A fibreglass tank to hold ink reserves. Traditionally used in turf wars, but still pretty useful!",
+  "shortdescription" : "Ink Tank",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    "maxenergyscalingboost"
+  ],
+
+  "colorOptions" : [
+
+    { "f8a233" : "f8a233", "f28c08" : "f28c08", "c47002" : "c47002"},
+    { "f8a233" : "b2e89d", "f28c08" : "51bd3b", "c47002" : "247824"},
+    { "f8a233" : "838383", "f28c08" : "555555", "c47002" : "383838"},
+    { "f8a233" : "b5b5b5", "f28c08" : "808080", "c47002" : "555555"},
+    { "f8a233" : "e6e6e6", "f28c08" : "b6b6b6", "c47002" : "7b7b7b"},
+    { "f8a233" : "f4988c", "f28c08" : "d93a3a", "c47002" : "932625"},
+    { "f8a233" : "ffd495", "f28c08" : "ea9931", "c47002" : "af4e00"},
+    { "f8a233" : "ffffa7", "f28c08" : "e2c344", "c47002" : "a46e06"},
+    { "f8a233" : "b2e89d", "f28c08" : "51bd3b", "c47002" : "247824"},
+    { "f8a233" : "96cbe7", "f28c08" : "5588d4", "c47002" : "344495"},
+    { "f8a233" : "d29ce7", "f28c08" : "a451c4", "c47002" : "6a2284"},
+    { "f8a233" : "eab3db", "f28c08" : "d35eae", "c47002" : "97276d"},
+    { "f8a233" : "ccae7c", "f28c08" : "a47844", "c47002" : "754c23"}
+  ]
+}

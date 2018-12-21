@@ -1,0 +1,30 @@
+{
+  "itemName" : "iflarecyan",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "throwableItem",
+  "inventoryIcon" : "iflarecyan.png",
+  "image" : "iflarecyan.png",
+  "shortdescription" : "Cyan Flare",
+  "description" : "Good for lighting up a dark cave before you dive into it.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "iflarecyan",
+  "projectileConfig" : {
+    "speed" : 30,
+    "level" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

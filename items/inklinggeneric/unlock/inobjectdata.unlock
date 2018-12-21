@@ -1,0 +1,13 @@
+{
+  "itemName" : "inobjectdata",
+  "rarity" : "common",
+  "price" : 450,
+  "inventoryIcon" : "indata4.png",
+  "image" : "indata4.png",
+
+  "shortdescription" : "IUDB Data Drive 04",
+  "description" : "A drive holding Inkling information. This one has to do with furnishings.",
+
+  "tierRecipesUnlock" : "inobjects",
+  "unlockMessage" : "Inkling furniture recipes have been unlocked!"
+}

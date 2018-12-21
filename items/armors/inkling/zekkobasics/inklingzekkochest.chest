@@ -1,0 +1,39 @@
+{ 
+	"itemName" : "inklingzekkochest",
+	"inventoryIcon" : "icons.png:chest",
+	"price" : 365,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "chestwear",
+	"description" : "A warm maroon hoodie. It smells a bit like peanut butter..",
+	"shortdescription" : "Zekko Hoodie",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"colorOptions" : [
+		{ "90293f" : "90293f", "681c2c" : "681c2c", "2f0000" : "2f0000"},
+	   	{ "90293f" : "cccccc", "681c2c" : "9e9e9e", "2f0000" : "616161"},
+		{ "90293f" : "838383", "681c2c" : "555555", "2f0000" : "151515"},
+		{ "90293f" : "b5b5b5", "681c2c" : "808080", "2f0000" : "555555"},
+		{ "90293f" : "e6e6e6", "681c2c" : "b6b6b6", "2f0000" : "7b7b7b"},
+		{ "90293f" : "f4988c", "681c2c" : "d93a3a", "2f0000" : "932625"},
+		{ "90293f" : "ffd495", "681c2c" : "ea9931", "2f0000" : "af4e00"},
+		{ "90293f" : "ffffa7", "681c2c" : "e2c344", "2f0000" : "a46e06"},
+		{ "90293f" : "b2e89d", "681c2c" : "51bd3b", "2f0000" : "247824"},
+		{ "90293f" : "96cbe7", "681c2c" : "5588d4", "2f0000" : "344495"},
+		{ "90293f" : "d29ce7", "681c2c" : "a451c4", "2f0000" : "6a2284"},
+		{ "90293f" : "eab3db", "681c2c" : "d35eae", "2f0000" : "97276d"},
+		{ "90293f" : "ccae7c", "681c2c" : "a47844", "2f0000" : "754c23"}
+	]
+}

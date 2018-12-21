@@ -1,0 +1,60 @@
+{
+  "objectName" : "inklingmoderntv",
+  "colonyTags" : ["inkling","electronic"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 345,
+
+  "description" : "Are TVs inkproof? Hopefully this one is..",
+  "shortdescription" : "Modernized TV",
+  "race" : "inkling",
+
+  "apexDescription" : "A TV, but it has a squid instead of.. well.",
+  "avianDescription" : "I wonder how many channels it has?",
+  "floranDescription" : "Glowy sssquid box.",
+  "glitchDescription" : "Curious. What would you watch on a television like this?",
+  "humanDescription" : "It's covered with little paint stains!",
+  "hylotlDescription" : "A television with quirky and familiar colors all over.",
+  "inklingDescription" : "I wonder if there's anything good on right now..",
+  "novakidDescription" : "Oh! There's a critter swimming on it!",
+
+  "lightColor" : [64, 107, 128],
+
+  "inventoryIcon" : "inklingmoderntvicon.png",
+  "orientations" : [
+    {
+      "image" : "inklingmoderntv.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "left",
+      "flipImages" : true,
+      "lightPosition" : [0, 2],
+      "animationPosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "inklingmoderntv.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+      "lightPosition" : [0, 2],
+      "animationPosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "inklingmoderntv.png",
+    "fg" : "inklingmoderntvlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

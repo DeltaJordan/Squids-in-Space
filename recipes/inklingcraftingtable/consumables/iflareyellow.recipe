@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "sulphur", "count" : 3 },
+	{ "item" : "volatilepowder", "count" : 1 },
+    { "item" : "string", "count" : 3 }
+  ],
+  "output" : { "item" : "iflareyellow", "count" : 5 },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}

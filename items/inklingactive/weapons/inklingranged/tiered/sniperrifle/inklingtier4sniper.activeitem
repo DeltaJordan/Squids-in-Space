@@ -1,0 +1,84 @@
+{
+  "itemName" : "inklingtier4sniper",
+  "price" : 750,
+  "inventoryIcon" : "herocharger.png",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A charger remodeled for more intense combat. It's rumored that a famous singer uses one of these.",
+  "shortdescription" : "Agent's Charger",
+  "level" : 4,
+  "tooltipKind" : "gun",
+  "category" : "Charger",
+  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "herocharger.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashgreen.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/sniper1.ogg", "/sfx/gun/sniper2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.62, 0.65],
+  "muzzleOffset" : [1.8, 0.05],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 1.6,
+    "baseDps" : 13,
+    "energyUsage" : 34.0,
+	"inaccuracy" : 0.001,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    },
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "inchargergneu",
+    "projectileParameters" : { 
+      "knockback" : 15
+    }
+  },
+
+  "altAbilityType" : "grenadelauncher",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "learnBlueprintsOnPickup" : [
+    "inklingtier4sniperblue", "inklingtier4snipergreen", "inklingtier4sniperorange", "inklingtier4sniperpurple"
+  ]
+}

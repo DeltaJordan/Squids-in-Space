@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rice", "count" : 1 },
+    { "item" : "kelp", "count" : 1 }
+  ],
+  "output" : { "item" : "inriceball", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks", "insnacks" ]
+}

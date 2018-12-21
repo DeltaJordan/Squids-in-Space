@@ -1,0 +1,39 @@
+{ 
+	"itemName" : "inklingsquidforcechest",
+	"inventoryIcon" : "icons.png:chest",
+	"price" : 455,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "chestwear",
+	"description" : "A sweatshirt with a squid insignia on it.",
+	"shortdescription" : "Squidforce Sweat",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"colorOptions" : [
+		{ "eccb06" : "eccb06", "c3a804" : "c3a804", "9f8904" : "9f8904"},
+	   	{ "eccb06" : "cccccc", "c3a804" : "9e9e9e", "9f8904" : "616161"},
+		{ "eccb06" : "838383", "c3a804" : "555555", "9f8904" : "151515"},
+		{ "eccb06" : "b5b5b5", "c3a804" : "808080", "9f8904" : "555555"},
+		{ "eccb06" : "e6e6e6", "c3a804" : "b6b6b6", "9f8904" : "7b7b7b"},
+		{ "eccb06" : "f4988c", "c3a804" : "d93a3a", "9f8904" : "932625"},
+		{ "eccb06" : "ffd495", "c3a804" : "ea9931", "9f8904" : "af4e00"},
+		{ "eccb06" : "ffffa7", "c3a804" : "e2c344", "9f8904" : "a46e06"},
+		{ "eccb06" : "b2e89d", "c3a804" : "51bd3b", "9f8904" : "247824"},
+		{ "eccb06" : "96cbe7", "c3a804" : "5588d4", "9f8904" : "344495"},
+		{ "eccb06" : "d29ce7", "c3a804" : "a451c4", "9f8904" : "6a2284"},
+		{ "eccb06" : "eab3db", "c3a804" : "d35eae", "9f8904" : "97276d"},
+		{ "eccb06" : "ccae7c", "c3a804" : "a47844", "9f8904" : "754c23"}
+	]
+}

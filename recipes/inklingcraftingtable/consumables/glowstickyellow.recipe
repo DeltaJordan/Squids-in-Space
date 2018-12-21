@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "glowfibre", "count" : 1 },
+	{ "item" : "petalyellow", "count" : 2},
+    { "item" : "inklinginkvial", "count" : 2 }
+  ],
+  "output" : { "item" : "glowstickyellow", "count" : 5 },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "inpeanutbutter", "count" : 4 },
+	{ "item" : "wheat", "count" : 3 },
+	{ "item" : "egg", "count" : 2 }
+  ],
+  "output" : { "item" : "inpeanutbutterpie", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

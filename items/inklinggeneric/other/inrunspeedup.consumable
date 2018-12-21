@@ -1,0 +1,18 @@
+{
+  "itemName" : "inrunspeedup",
+  "rarity" : "Common",
+  "price" : 250,
+  "category" : "Charm",
+  "inventoryIcon" : "inrunspeedup.png",
+  "description" : "A charm that'll make you faster on your feet for a while.",
+  "shortdescription" : "Running Speed Charm",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 360
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+   "learnBlueprintsonPickup": [ "incoldblooded" ]
+}

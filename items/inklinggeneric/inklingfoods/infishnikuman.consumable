@@ -1,0 +1,25 @@
+{
+  "itemName" : "infishnikuman",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "infishnikuman.png",
+  "description" : "Nikuman are flour-dough buns that are typically stuffed with meat. This one has halibut inside.",
+  "shortdescription" : "Fish Nikuman",
+    "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 210
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : ["innikuman"]
+}

@@ -1,0 +1,35 @@
+{
+  "itemName" : "fireflylantern",
+  "price" : 1485,
+  "inventoryIcon" : "fireflylanternicon.png",
+  "rarity" : "Uncommon",
+  "category" : "backwear",
+  "description" : "A lantern inspired by the glow of firefly squids. It has the word ''courage'' on its banner.",
+  "shortdescription" : "Firefly Lantern",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    "fireflyglow"
+  ],
+
+  "colorOptions" : [
+
+    { "bed6ff" : "bed6ff", "577bff" : "577bff", "244ab9" : "244ab9", "0f2163" : "0f2163" },
+    { "bed6ff" : "b2e89d", "577bff" : "51bd3b", "244ab9" : "247824", "0f2163" : "144216" },
+    { "bed6ff" : "838383", "577bff" : "555555", "244ab9" : "383838", "0f2163" : "151515" },
+    { "bed6ff" : "b5b5b5", "577bff" : "808080", "244ab9" : "555555", "0f2163" : "303030" },
+    { "bed6ff" : "e6e6e6", "577bff" : "b6b6b6", "244ab9" : "7b7b7b", "0f2163" : "373737" },
+    { "bed6ff" : "f4988c", "577bff" : "d93a3a", "244ab9" : "932625", "0f2163" : "601119" },
+    { "bed6ff" : "ffd495", "577bff" : "ea9931", "244ab9" : "af4e00", "0f2163" : "6e2900" },
+    { "bed6ff" : "ffffa7", "577bff" : "e2c344", "244ab9" : "a46e06", "0f2163" : "642f00" },
+    { "bed6ff" : "b2e89d", "577bff" : "51bd3b", "244ab9" : "247824", "0f2163" : "144216" },
+    { "bed6ff" : "96cbe7", "577bff" : "5588d4", "244ab9" : "344495", "0f2163" : "1a1c51" },
+    { "bed6ff" : "d29ce7", "577bff" : "a451c4", "244ab9" : "6a2284", "0f2163" : "320c40" },
+    { "bed6ff" : "eab3db", "577bff" : "d35eae", "244ab9" : "97276d", "0f2163" : "59163f" },
+    { "bed6ff" : "ccae7c", "577bff" : "a47844", "244ab9" : "754c23", "0f2163" : "472b13" }
+  ]
+}

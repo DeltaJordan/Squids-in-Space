@@ -1,0 +1,83 @@
+{
+  "itemName" : "inklingtier3pistol",
+  "price" : 445,
+  "inventoryIcon" : "splattershottentatek.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A beloved staple of competitive turf war. Either you love it or you hate it. (For many, it's the latter.)",
+  "shortdescription" : "Splattershot Tentatek",
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "category" : "Handgun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+ "animationParts" : {
+    "butt" : "",
+    "middle" : "splattershottentatek.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashblue.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/tentaclegun1.ogg", "/sfx/gun/tentaclegun2.ogg", "/sfx/gun/tentaclegun3.ogg" ]}
+   },
+  "baseOffset" : [0.15, 0.4],
+  "muzzleOffset" : [1.6, 0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.6,
+    "baseDps" : 4.8,
+    "energyUsage" : 8.5,
+	"projectileCount" : 1,
+    "inaccuracy" : 0.02,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+	},
+    "fireType" : "auto",
+
+    "projectileType" : "paintballblue",
+    "projectileParameters" : 
+		{ "knockback" : 6 
+	}
+ },
+
+   "altAbilityType" : " ",
+   "builder" : "/items/buildscripts/buildunrandweapon.lua",
+       "learnBlueprintsOnPickup" : [
+    "inklingtier3pistolblue", "inklingtier3pistolgreen", "inklingtier3pistolorange", "inklingtier3pistolpurple", "inklingtier3pistolred", "inklingtier3pistolyellow"
+  ]
+}

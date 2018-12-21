@@ -1,0 +1,33 @@
+{
+  "objectName" : "insquidinajar",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "Decorations",
+  "price" : 245,
+  "description" : "''Please help me.''",
+  "shortdescription" : "Squid in a Jar",
+  "race" : "inkling",
+
+  "apexDescription" : "A poor squid that got stuck in a jar! Wonder why he's in there..",
+  "avianDescription" : "Should I get him a hammer?",
+  "floranDescription" : "... Ssssquid ssstuck in glasss. Why?",
+  "glitchDescription" : "Confused. How did that even happen?",
+  "humanDescription" : "Oh no, he's stuck! I've gotta get him out!",
+  "hylotlDescription" : "I knew Inklings had interesting decor, but this is just silly.",
+  "inklingDescription" : "Hey, buddy! Uh.. can't you just change shape to break the jar?",
+  "novakidDescription" : "A squid in a jar? Why? How..?",
+
+  "inventoryIcon" : "insquidinajaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "insquidinajar.png:<color>.<frame>",
+      "imagePosition" : [-4, 0],
+      "frames" : 14,
+      "animationCycle" : 5.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "inklingsplatter1e",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 110,
+  
+  "description" : "A large splash of ink.",
+  "shortdescription" : "Yellow Splatter Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "Someone didn't finish their paint job..",
+  "avianDescription" : "A big splash of paint on the wall.",
+  "floranDescription" : "Sssssimple but good graffiti.",
+  "glitchDescription" : "Indifferent. A big, colorful mess.",
+  "humanDescription" : "I know graffiti could get abstract, but what does this mean?",
+  "hylotlDescription" : "A colorful splatter: a loud and obnoxious statement.",
+  "inklingDescription" : "It's not very fresh.. so it's easily inked over!",
+  "novakidDescription" : "It's... just a big paint splash.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingsplatter1e.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "itemName" : "inklingtier2shortsword",
+  "price" : 350,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A fancier inkbrush, although it's mostly just because of the name.",
+  "shortdescription" : "Inkbrush Nouveau",
+  "tooltipKind" : "sword",
+  "category" : "Brush",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","shortsword"],
+  "inventoryIcon" : "inkbrushnouveau.png",
+  "animation" : "/animation/weapons/shortsword/purplebrushswoosh.animation",
+  "animationParts" : {
+    "blade" : "inkbrushnouveau.png",
+    "handle" : ""
+  }, 
+  "animationCustom": {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              -0.2,
+              0.75
+            ]
+          }
+        },
+        "swoosh": {
+          "properties": {
+            "offset": [
+              2.75,
+              -2
+            ]
+          }
+        }
+      }
+    }
+   },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_poison1.ogg", "/sfx/melee/swing_dagger_poison2.ogg", "/sfx/melee/swing_dagger_poison3.ogg" ]
+    },
+  "scripts" : [ "/items/active/weapons/melee/meleeweapon.lua" ],
+  "elementalType": "physical",
+  "primaryAbilityType": "shortswordcombo",
+  "primaryAbility": {
+    "fireTime": 0.725,
+    "baseDps": 6.2
+  },
+  "baseWeaponRotation" : 20,
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+
+}

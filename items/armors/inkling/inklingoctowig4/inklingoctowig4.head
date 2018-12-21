@@ -1,0 +1,15 @@
+{
+  "itemName" : "inklingoctowig4",
+  "price" : 350,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "Warm brown colors can make for excellent camouflage.",
+  "shortdescription" : "Bronze Octoling Wig",
+  "tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

@@ -1,0 +1,19 @@
+{
+  "projectileName" : "iglowstickpurple",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 50,
+  "image" : "iglowstickpurple.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [184, 65, 184],
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "power" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

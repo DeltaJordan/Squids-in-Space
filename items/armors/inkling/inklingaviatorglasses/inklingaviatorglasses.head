@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingaviatorglasses",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 1455,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "Some seriously cool aviator glasses. They're plated with real gold.",
+	"shortdescription" : "14K Aviators",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+		{ "cbae3f" : "cbae3f", "b39521" : "b39521"},
+	   	{ "cbae3f" : "cccccc", "b39521" : "9e9e9e"},
+		{ "cbae3f" : "838383", "b39521" : "555555"},
+		{ "cbae3f" : "b5b5b5", "b39521" : "808080"},
+		{ "cbae3f" : "e6e6e6", "b39521" : "b6b6b6"},
+		{ "cbae3f" : "f4988c", "b39521" : "d93a3a"},
+		{ "cbae3f" : "ffd495", "b39521" : "ea9931"},
+		{ "cbae3f" : "ffffa7", "b39521" : "e2c344"},
+		{ "cbae3f" : "b2e89d", "b39521" : "51bd3b"},
+		{ "cbae3f" : "96cbe7", "b39521" : "5588d4"},
+		{ "cbae3f" : "d29ce7", "b39521" : "a451c4"},
+		{ "cbae3f" : "eab3db", "b39521" : "d35eae"},
+		{ "cbae3f" : "ccae7c", "b39521" : "a47844"}
+	]
+}

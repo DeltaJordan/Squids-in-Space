@@ -1,0 +1,36 @@
+{
+  "objectName" : "incolorfulpole",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 145,
+  "printable" : false,
+
+  "description" : "It's a pole. Fun for parkour, not to eat.",
+  "shortdescription" : "Colorful Pole",
+  "race" : "inkling",
+  
+  "apexDescription" : "These are usually used to section off areas from vehicles.",
+  "avianDescription" : "Looks pretty easy to balance on.",
+  "floranDescription" : "It'sss pole. Nothing ssspecial.",
+  "glitchDescription" : "Neutral. A pole used as fencing.",
+  "humanDescription" : "You could jump between these if you wanted. But this isn't a platformer.",
+  "hylotlDescription" : "Even simple metal poles must be color-coordinated.",
+  "inklingDescription" : "Poles exist only to be climbed on!",
+  "novakidDescription" : "A metal stick. Nothing important.",
+
+  "inventoryIcon" : "incolorfulpoleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "incolorfulpole.png:<color>",
+
+      "imagePosition" : [-10, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "spaceScan" : 0.1
+    }
+  ]
+}

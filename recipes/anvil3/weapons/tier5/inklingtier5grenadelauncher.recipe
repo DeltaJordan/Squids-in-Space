@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 10 },
+	{ "item" : "silverbar", "count" : 8 },
+	{ "item" : "corefragmentore", "count" : 4 }
+  ],
+  "output" : { "item" : "inklingtier5grenadelauncher", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

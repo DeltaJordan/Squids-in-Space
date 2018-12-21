@@ -1,0 +1,57 @@
+{ 
+	"itemName" : "inklingtier3head",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 1140,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "A knotted white headband. Wearing it makes you feel a little bit braver.",
+	"shortdescription" : "Traditional Headband",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+    "level" : 3,
+    "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier3armour" ],
+	
+		"colorOptions" : [
+	    { "dfdfdf" : "dfdfdf", "c6c0c0" : "c6c0c0", "aaa8a8" : "aaa8a8"},
+		{ "dfdfdf" : "cccccc", "c6c0c0" : "9e9e9e", "aaa8a8" : "616161"},
+		{ "dfdfdf" : "838383", "c6c0c0" : "555555", "aaa8a8" : "151515"},
+		{ "dfdfdf" : "b5b5b5", "c6c0c0" : "808080", "aaa8a8" : "555555"},
+		{ "dfdfdf" : "e6e6e6", "c6c0c0" : "b6b6b6", "aaa8a8" : "7b7b7b"},
+		{ "dfdfdf" : "f4988c", "c6c0c0" : "d93a3a", "aaa8a8" : "932625"},
+		{ "dfdfdf" : "ffd495", "c6c0c0" : "ea9931", "aaa8a8" : "af4e00"},
+		{ "dfdfdf" : "ffffa7", "c6c0c0" : "e2c344", "aaa8a8" : "a46e06"},
+		{ "dfdfdf" : "b2e89d", "c6c0c0" : "51bd3b", "aaa8a8" : "247824"},
+		{ "dfdfdf" : "96cbe7", "c6c0c0" : "5588d4", "aaa8a8" : "344495"},
+		{ "dfdfdf" : "d29ce7", "c6c0c0" : "a451c4", "aaa8a8" : "6a2284"},
+		{ "dfdfdf" : "eab3db", "c6c0c0" : "d35eae", "aaa8a8" : "97276d"},
+		{ "dfdfdf" : "ccae7c", "c6c0c0" : "a47844", "aaa8a8" : "754c23"}
+	]
+}

@@ -1,0 +1,59 @@
+{
+  "objectName" : "onairsign",
+  "colonyTags" : ["inkling", "light"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "lightColor" : [243, 62, 62],
+
+  "shortdescription" : "On-Air Sign",
+  "description" : "A sign for a radio or television station of some sort.",
+  "race" : "inkling",
+
+  "apexDescription" : "There's many such Apex signs, but not nearly as cheery.",
+  "avianDescription" : "This must have come from a radio station!",
+  "floranDescription" : "Pleasssant colors when on. When on-air?",
+  "glitchDescription" : "Confused. The letters look like common language, but not quite.",
+  "humanDescription" : "It looks like it says ''On Air'', but it's hard to tell.",
+  "hylotlDescription" : "This particular sign is rather iconic in Inkling culture because of its associations.",
+  "inklingDescription" : "It's a replica of the original sign used at the Inkopolis News Station!",
+  "novakidDescription" : "So there's a radio station nearby? Sweet!",
+
+  "inventoryIcon" : "onairsignicon.png",
+  "orientations" : [
+    {
+      "image" : "onairsign.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+      "direction" : "left",
+      "flipImages" : false,
+      "lightPosition" : [0, 2],
+      "animationPosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "onairsign.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 2,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+      "lightPosition" : [0, 2],
+      "animationPosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "onairsign.png",
+    "fg" : "onairsignlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

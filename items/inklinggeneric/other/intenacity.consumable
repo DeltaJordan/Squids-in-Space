@@ -1,0 +1,17 @@
+{
+  "itemName" : "intenacity",
+  "rarity" : "Uncommon",
+  "price" : 575,
+  "category" : "Charm",
+  "inventoryIcon" : "intenacity.png",
+  "description" : "Feeling overwhelmed? This might give you an edge.",
+  "shortdescription" : "Tenacity Charm",
+  "effects" : [ [
+      {
+        "effect" : "electrified",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 3 },
+	{ "item" : "inklingaviatorglasses", "count" : 1 },
+	{ "item" : "inklingtier6mhead", "count" : 1}
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier6maltalthead", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

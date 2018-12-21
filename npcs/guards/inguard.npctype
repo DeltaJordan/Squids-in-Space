@@ -1,0 +1,97 @@
+{
+  "type" : "inguard",
+  "baseType" : "base",
+  
+  "disableWornArmor" : false,
+  "persistent" : true,
+  "dropPools" : [ "inklingguardtreasure" ],
+  
+  "damageTeamType" : "friendly",
+  
+  "scriptConfig" : {
+    "behavior" : "villageguard",
+	
+	"reactions" : {
+      "spontaneous" : [
+        [1.0, "patrol"]
+      ]
+    },
+	
+    "dialog" : {
+	  "converse" : "/npcs/configs/inconverse.config:converse",
+	  "greeting" : "/npcs/configs/inconverse.config:greeting",
+	
+      "attack" : "/npcs/configs/incombat.config:attack",
+      "reattack" : "/npcs/configs/incombat.config:reattack",
+      "killedTarget" : "/npcs/configs/incombat.config:killedTarget",
+      "lostTarget" : "/npcs/configs/incombat.config:lostTarget",
+      "outOfSight" : "/npcs/configs/incombat.config:outOfSight",
+      "cheerOn" : "/npcs/configs/incombat.config:cheerOn",
+      "cantReach" : "/npcs/configs/incombat.config:cantReach",
+
+      "hail" : "/npcs/configs/inguard.config:hail",
+	  
+      "accuse" : "/dialog/inconverse.config:accuse",
+	  
+	  "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/npcs/configs/ingrumble.config:tagCriteria",
+          "enclosedArea" : "/npcs/configs/ingrumble.config:enclosedArea",
+          "otherDeed" : "/npcs/configs/ingrumble.config:otherDeed",
+          "severe" : "/npcs/configs/ingrumble.config:severe",
+          "final" : "/npcs/configs/ingrumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/npcs/configs/inarrivedhome.config:beacon",
+          "rent" : "/npcs/configs/inarrivedhome.config:rent"
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "inkling" : [
+      [0, [
+          {
+            "head" : [ { "name" : "inklingtier4head" } ],
+			"chest" : [ { "name" : "inklingtier4chest" } ],
+			"legs" : [ { "name" : "inklingtier4legs" } ],
+			"back" : [ { "name" : "inktank", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+			
+            "primary" : [
+			  { "name" : "inklingtier4hammer" }
+            ],
+			 "sheathedprimary" : [
+			  { "name" : "inklingtier4pistol" },
+              { "name" : "inklingtier4sniper" },
+			  { "name" : "inklingtier4grenadelauncher" }
+            ],
+			"alt" : [
+			  { "name" : "commonsmallshield" },
+		      { "name" : "commonlargeshield" }
+			]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 100.0
+      },
+      "maxEnergy" : {
+        "baseValue" : 125.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.5
+      },
+      "protection" : {
+        "baseValue" : 0.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

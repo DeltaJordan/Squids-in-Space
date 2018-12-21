@@ -1,0 +1,11 @@
+{
+  "itemName" : "inyellowfiltercartridge",
+  "price" : 180,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "inyellowfiltercartridge.png",
+  "description" : "A metal filter that turns liquid yellow when it runs through. It glows faintly.",
+  "shortdescription" : "Yellow Filter Cartridge",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : ["inyellowfiltercartridge"]
+}

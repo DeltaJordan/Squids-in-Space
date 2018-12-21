@@ -1,0 +1,49 @@
+{
+  "objectName" : "ikachair",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 75,
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "description" : "A typical Inkling chair, it lends nice support to your back.",
+  "shortdescription" : "Ika Chair",
+  "race" : "inkling",
+
+  "apexDescription" : "It'd look nice in an office.",
+  "avianDescription" : "We put birds and bunnies on things, they put squids on their things.",
+  "floranDescription" : "Sssquid chair. They like this ssshape very much.",
+  "glitchDescription" : "Curious. Do inklings only prefer pointed shapes in home design?",
+  "humanDescription" : "Pretty cool chair. Kinda pointy, though, I wouldn't want to fall on it.",
+  "hylotlDescription" : "Another example of inklings using neutrals to fit their love of color.",
+  "inklingDescription" : "A chair shaped like a squid! It's pretty comfy.",
+  "novakidDescription" : "An arrow-shaped chair. What's it pointing at?",
+
+
+  "inventoryIcon" : "ikachairi.png",
+  "orientations" : [
+    {
+      "image" : "ikachair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [3, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ikachair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "direction" : "right",
+      "sitPosition" : [2, 20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

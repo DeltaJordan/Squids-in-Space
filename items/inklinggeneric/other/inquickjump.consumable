@@ -1,0 +1,17 @@
+{
+  "itemName" : "inquickjump",
+  "rarity" : "Common",
+  "price" : 250,
+  "category" : "Charm",
+  "inventoryIcon" : "inquickjump.png",
+  "description" : "A charm that'll increase your jumping ability for a while.",
+  "shortdescription" : "Quick Jump Charm",
+  "effects" : [ [
+      {
+        "effect" : "jumpboost",
+        "duration" : 360
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

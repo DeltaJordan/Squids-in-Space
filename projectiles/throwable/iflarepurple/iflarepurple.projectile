@@ -1,0 +1,20 @@
+{
+  "projectileName" : "iflarepurple",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 20,
+  "image" : "iflarepurple.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [151, 0, 255],
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "power" : 0,
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

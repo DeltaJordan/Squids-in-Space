@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 4},
+    { "item" : "darkwoodmaterial", "count" : 9},
+	{ "item" : "whitedye", "count" : 3}
+  ],
+  "output" : {
+    "item" : "inklingmodernbookcase",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

@@ -1,0 +1,57 @@
+{
+  "objectName" : "spawnerinkling",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Uncommon",
+  "category" : "spawner",
+  "price" : 300,
+  "printable" : true,
+  
+  "description" : "Set this down and leave it be for a while, and an Inkling might show up!",
+  "shortdescription" : "Inkling Spawner",
+  "race" : "inkling",
+
+  "apexDescription" : "So it's a vending machine, but it spits out squids. Huh.",
+  "avianDescription" : "It says on the back: ''All squids are randomly chosen. No refunds.''",
+  "floranDescription" : "Floran ssssummonsss squidssss for hunting and feasssst.",
+  "glitchDescription" : "Disinterest. Inklings have a tendency to mock robots, so no thank you.",
+  "humanDescription" : "Want a good time? Call in the squids!",
+  "hylotlDescription" : "One of the fastest ways to get a decent roommate.",
+  "inklingDescription" : "BUILD A. SQUID. Make your own squid and set. it. free.",
+
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_inkling.png",
+      "imagePosition" : [-8, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+
+  "animation" : "/objects/spawner/spawners/inkling.animation",
+
+  "animationParts" : {
+    "switch" : "spawner_inkling.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "inkling" ],
+    "npcTypeOptions" : [ "inklingvillager", "inchefmerchant", "indoctormerchant", "inmerchant", "inweaponmerchant", "inguard", "inoctoguard" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+
+}

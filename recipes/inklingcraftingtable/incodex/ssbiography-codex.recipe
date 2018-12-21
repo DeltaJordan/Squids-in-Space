@@ -1,0 +1,13 @@
+{
+  "input" : [
+   { "item" : "paper", "count" : 5},
+   { "item" : "string", "count" : 3},
+   { "item" : "greendye", "count" : 2},
+   { "item" : "pinkdye", "count" : 2}
+  ],
+  "output" : {
+    "item" : "ssbiography-codex",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "incodex" ]
+}

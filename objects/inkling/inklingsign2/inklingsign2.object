@@ -1,0 +1,33 @@
+{
+  "objectName" : "inklingsign2",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+
+  "description" : "These signs mark where it's unlawful to lay down ink with weapons.",
+  "shortdescription" : "No Ink Allowed Sign",
+  "race" : "inkling",
+
+  "apexDescription" : "So.. it's a sign not allowing guns? Or just guns that look like that?",
+  "avianDescription" : "A cool sign, but it's kind of vague, really.",
+  "floranDescription" : "Floran not worried about sign... Floran sssstab, not sssshoot!",
+  "glitchDescription" : "Indifferent. Glitch do not often use guns, so I am not troubled.",
+  "humanDescription" : "This probably belongs in a residential area or something.",
+  "hylotlDescription" : "The weapon pictured looks similar to common Inkling fare.",
+  "inklingDescription" : "All the best turf war arenas are places you're not supposed to be!",
+  "novakidDescription" : "No sign's gonna stop me!",
+
+  "inventoryIcon" : "inklingsign2icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingsign2.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "itemName" : "inklingtier1chest",
+  "price" : 750,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestarmour",
+  "description" : "An aviator's parka, designed after those from the Great Turf War.",
+  "shortdescription" : "Aviator's Parka",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier1armour" ],
+
+  "colorOptions" : [
+	    { "334700" : "334700", "293901" : "293901", "142100" : "142100"},
+		{ "334700" : "cccccc", "293901" : "9e9e9e", "142100" : "616161"},
+		{ "334700" : "838383", "293901" : "555555", "142100" : "151515"},
+		{ "334700" : "b5b5b5", "293901" : "808080", "142100" : "555555"},
+		{ "334700" : "e6e6e6", "293901" : "b6b6b6", "142100" : "7b7b7b"},
+		{ "334700" : "f4988c", "293901" : "d93a3a", "142100" : "932625"},
+		{ "334700" : "ffd495", "293901" : "ea9931", "142100" : "af4e00"},
+		{ "334700" : "ffffa7", "293901" : "e2c344", "142100" : "a46e06"},
+		{ "334700" : "b2e89d", "293901" : "51bd3b", "142100" : "247824"},
+		{ "334700" : "96cbe7", "293901" : "5588d4", "142100" : "344495"},
+		{ "334700" : "d29ce7", "293901" : "a451c4", "142100" : "6a2284"},
+		{ "334700" : "eab3db", "293901" : "d35eae", "142100" : "97276d"},
+		{ "334700" : "ccae7c", "293901" : "a47844", "142100" : "754c23"}
+  ]
+}

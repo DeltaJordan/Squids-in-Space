@@ -1,0 +1,56 @@
+{
+  "itemName" : "inklingtier6mlegs",
+  "price" : 4220,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "legarmour",
+  "description" : "These combine comfort with protection with their silk and solid metal plates.",
+  "shortdescription" : "Shogun's Sandals",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+
+   "colorOptions" : [
+	    { "6e0652" : "6e0652", "4d053a" : "4d053a", "280a20" : "280a20"},
+		{ "6e0652" : "cccccc", "4d053a" : "9e9e9e", "280a20" : "616161"},
+		{ "6e0652" : "838383", "4d053a" : "555555", "280a20" : "151515"},
+		{ "6e0652" : "b5b5b5", "4d053a" : "808080", "280a20" : "555555"},
+		{ "6e0652" : "e6e6e6", "4d053a" : "b6b6b6", "280a20" : "7b7b7b"},
+		{ "6e0652" : "f4988c", "4d053a" : "d93a3a", "280a20" : "932625"},
+		{ "6e0652" : "ffd495", "4d053a" : "ea9931", "280a20" : "af4e00"},
+		{ "6e0652" : "ffffa7", "4d053a" : "e2c344", "280a20" : "a46e06"},
+		{ "6e0652" : "b2e89d", "4d053a" : "51bd3b", "280a20" : "247824"},
+		{ "6e0652" : "96cbe7", "4d053a" : "5588d4", "280a20" : "344495"},
+		{ "6e0652" : "d29ce7", "4d053a" : "a451c4", "280a20" : "6a2284"},
+		{ "6e0652" : "eab3db", "4d053a" : "d35eae", "280a20" : "97276d"},
+		{ "6e0652" : "ccae7c", "4d053a" : "a47844", "280a20" : "754c23"}
+  ]
+}

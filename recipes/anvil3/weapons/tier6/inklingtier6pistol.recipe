@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "inklingtier5pistol", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 10 },
+    { "item" : "goldbar", "count" : 5},
+	{ "item" : "purpledye", "count" : 5}
+  ],
+  "output" : { "item" : "inklingtier6pistol", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

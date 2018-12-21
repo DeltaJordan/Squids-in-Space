@@ -1,0 +1,25 @@
+{
+  "itemName" : "infries",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "infries.png",
+  "description" : "Fries that sizzle on the tongue but finish with a sweet reefpod tang. Weird, but good.",
+  "shortdescription" : "Seaspiced Fries",
+  "effects" : [ [ 
+  {   
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 210
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+      "learnBlueprintsOnPickup" : ["infries"]
+}

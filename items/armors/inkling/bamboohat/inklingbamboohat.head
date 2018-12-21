@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingbamboohat",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 730,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "A traditional hat meant to keep the sun out of your eyes. Works to keep ink off, too.",
+	"shortdescription" : "Bamboo Hat",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+    "mask" : "mask.png",
+
+	"colorOptions" : [
+		{ "7fe0b3" : "7fe0b3", "6b9ba2" : "6b9ba2", "588c94" : "588c94"},
+	   	{ "7fe0b3" : "cccccc", "6b9ba2" : "9e9e9e", "588c94" : "616161"},
+		{ "7fe0b3" : "838383", "6b9ba2" : "555555", "588c94" : "151515"},
+		{ "7fe0b3" : "b5b5b5", "6b9ba2" : "808080", "588c94" : "555555"},
+		{ "7fe0b3" : "e6e6e6", "6b9ba2" : "b6b6b6", "588c94" : "7b7b7b"},
+		{ "7fe0b3" : "f4988c", "6b9ba2" : "d93a3a", "588c94" : "932625"},
+		{ "7fe0b3" : "ffd495", "6b9ba2" : "ea9931", "588c94" : "af4e00"},
+		{ "7fe0b3" : "ffffa7", "6b9ba2" : "e2c344", "588c94" : "a46e06"},
+		{ "7fe0b3" : "b2e89d", "6b9ba2" : "51bd3b", "588c94" : "247824"},
+		{ "7fe0b3" : "96cbe7", "6b9ba2" : "5588d4", "588c94" : "344495"},
+		{ "7fe0b3" : "d29ce7", "6b9ba2" : "a451c4", "588c94" : "6a2284"},
+		{ "7fe0b3" : "eab3db", "6b9ba2" : "d35eae", "588c94" : "97276d"},
+		{ "7fe0b3" : "ccae7c", "6b9ba2" : "a47844", "588c94" : "754c23"}
+	]
+}

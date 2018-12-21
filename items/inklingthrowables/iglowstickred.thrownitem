@@ -1,0 +1,35 @@
+{
+  "itemName" : "iglowstickred",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "iglowstickredicon.png",
+  "image" : "iglowstickpurple.png",
+  "shortdescription" : "Red Glowstick",
+  "description" : "Creates an red bioluminescent glow when thrown!",
+  "price" : 10,
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "iglowstickred",
+  "projectileConfig" : {
+    "speed" : 30,
+    "level" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "glowstickorange", "glowstickyellow", "glowstickgreen", "glowstickblue", "iglowstickcyan", "iglowstickpink", "iglowstickpurple"
+  ]
+}
+

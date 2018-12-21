@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "teleportercore", "count" : 1},
+	{ "item" : "money", "count" : 2000},
+	{ "item" : "inpurplefiltercartridge", "count" : 10}
+  ],
+  "output" : {
+    "item" : "inklingaltteleporter",
+    "count" : 1
+  },
+  "groups" : [ "inklingtoolbox" ]
+}

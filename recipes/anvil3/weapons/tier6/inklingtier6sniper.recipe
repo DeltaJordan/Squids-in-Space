@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "inklingtier5sniper", "count" : 1 },
+	{ "item" : "solariumstar", "count" : 12 },
+	{ "item" : "corefragmentore", "count" : 5}
+  ],
+  "output" : { "item" : "inklingtier6sniper", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

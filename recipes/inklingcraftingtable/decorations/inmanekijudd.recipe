@@ -1,0 +1,14 @@
+{
+  "input" : [
+   { "item" : "silk", "count" : 2},
+   { "item" : "whitedye", "count" : 1},
+   { "item" : "blackdye", "count" : 1},
+   { "item" : "goldbar", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : {
+    "item" : "inmanekijudd",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations"]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "inklingposter5", "count" : 1 },
+	{ "item" : "inklingposter6", "count" : 1 },
+	{ "item" : "syntheticmaterial", "count" : 1 },
+	{ "item" : "money", "count" : 1500 }
+  ],
+  "output" : {
+    "item" : "inklingposter7",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

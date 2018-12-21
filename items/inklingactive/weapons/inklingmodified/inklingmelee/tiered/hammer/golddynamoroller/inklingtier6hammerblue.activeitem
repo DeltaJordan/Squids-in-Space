@@ -1,0 +1,88 @@
+{
+  "itemName" : "inklingtier6hammerblue",
+  "price" : 550,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "Embossed with gold and reinforced with stardust, the Golden Dynamo Roller stands for sheer power.",
+  "shortdescription" : "Golden Dynamo Roller - Fr",
+  "tooltipKind" : "sword",
+  "category" : "Roller",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+  
+  "inventoryIcon" : "frozengoldendynamoroller.png",
+  "animation" : "/animation/weapons/hammer/lightbluehammerswoosh.animation",
+  "animationParts" : {
+    "handle" : "frozengoldendynamoroller.png",
+    "blade" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+     "fire" : [ "/sfx/melee/fleshwhip_impact1.ogg", "/sfx/melee/fleshwhip_impact2.ogg", "/sfx/melee/fleshwhip_impact3.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "ice",
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.8,
+    "baseDps" : 15.3,
+    "damageConfig" : {
+      "damageSourceKind" : "icehammer",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : -10,
+      "weaponOffset" : [-1.5, 2.75],
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.8,
+      "armRotation" : 90,
+      "weaponRotation" : -10,
+      "twoHanded" : true,
+      "weaponOffset" : [-1.5, 2.75],
+      "allowRotate" : false,
+      "allowFlip" : true,
+      
+      "idleHammerAngle" : -20,
+      "windupHammerAngle" : 0,
+      "dropHammerAngle" : 60,
+      "bounceHammerAngle" : 55,
+      
+      "minWindup" : 0.7,
+      "windupBaseAngle" : -90,
+      "windupAngleRange" : 90
+    },
+    "preslash" : {
+      "duration" : 0.025,
+      "armRotation" : 55,
+      "weaponRotation" : -45,
+      "twoHanded" : true,
+      "weaponOffset" : [-1.5, 3.0],
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "fire" : {
+      "duration" : 0.4,
+      "armRotation" : -35,
+      "weaponRotation" : -55,
+      "twoHanded" : true,
+      "smashTimer" : 1.5,
+      "weaponOffset" : [-1.5, 3.0],
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+      "knockback" : 50
+    },
+    "smashMomentum" : [0, -45]
+  },
+  "baseWeaponRotation" : 15,
+  "altAbilityType" : "elementalaura",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

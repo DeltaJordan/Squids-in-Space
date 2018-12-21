@@ -1,0 +1,11 @@
+{
+  "projectileName" : "burstbombink",
+  "physics" : "grenade",
+  "image" : "burstbombink.png",
+  "animationCycle" : 0.5,
+  "speed" : 120,
+  "frameNumber" : 2,
+  "emitters" : [ "poisondrip" ],
+  "actionOnReap" : [ { "action" : "liquid", "liquid" : "slimeliquid", "quantity" : 8 } ],
+  "damageKind" : "poison"
+}

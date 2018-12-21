@@ -1,0 +1,49 @@
+{
+  "id" : "octariandiary1",
+  "title" : "Affluent Diary",
+  "description" : "An old diary written by the hand of a renowned Octoling. It dates back to late MA 2616...",
+  "icon" : "octobook.png",
+  "contentPages" : [
+
+"Our capital has fallen.
+
+It was a foolish gambit, really, putting all our faith into power wired up like that: it was begging for disaster. And, of course, that's exactly what happened.
+A wire comes loose and it all goes to the abyss. Our forces were too exhausted to even try and defend any longer.
+
+We can only admit defeat. We never deserved this.",
+
+"The shogun and her consort are failing to answer all forms of communication. Telegraphs, highnet messages, letters, there's nothing.
+
+It's been two days, and there's no way to know: the Dofleini-E Division and I are too far away to see for ourselves.
+
+Have they deserted us? Are they dead? For once, not even composing calms my nerves.",
+
+"We have returned to Takoku, and the shogunate has been decimated. Cephiwa and Octaiki are nowhere to be found, and rumors stir: they're dead, they're prisoners, they've fled.
+
+But there's no point in caring for them now. Takoku is in crisis, and hundreds of soldiers have died for their cause.
+
+Now there is only forward, to pick up the pieces and see what the treaties have to say.",
+
+"Not only do they force permission to station troops on the surface and in our very homes, but we cannot leave the capital.
+Society can run as it would, but we're allowed no formal army and no weapon production, no freedom of movement.
+
+Pathetic, really, to think our kinds were once friends. Past history of camadarie doesn't matter when resources are on the line.
+
+They're greedy, careless, awful creatures, and I hate them all.",
+
+"Was it only three years ago, when the shogunate met with the Inkling council for kind meetings?
+I even called one of them my friend.  A kind manner, hope for the future and a charming smile, the dastard. We had dreams of what could have been.
+
+But it's time to throw that all away.
+The past is just a warning for the future, and no more. We will rise again, by my tentacles if we must.
+
+-- O. Kzaikeru, General of the Dofleini-E Division, MA 2616"
+	
+    ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 175
+	},
+	
+   "learnBlueprintsonPickup" : [ "octariandiary2-codex" ]
+}

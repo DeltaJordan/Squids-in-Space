@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 10},
+	{ "item" : "blackdye", "count" : 5},
+	{ "item" : "greendye", "count" : 3},
+	{ "item" : "pinkdye", "count" : 3}
+  ],
+  "output" : {
+    "item" : "inklingposter1",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

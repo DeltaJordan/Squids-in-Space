@@ -1,0 +1,129 @@
+[
+{ "op": "add", "path": "/species/-", "value" : "inkling" },
+
+{ "op": "add", "path": "/deploymentConfig/speciesStarterMechBody/inkling", "value": "mechbodyhylotlproto" },
+	
+{ "op": "add", "path" : "/defaultCodexes/inkling", "value" : [ "indefault1", "indefault2", "inklingabout" ] },
+
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "incraftdata" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "inweapondata" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "inarmordata" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "inobjectdata" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "infooddata" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "incodexdata"} },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "inbombdata"} },
+
+{ "op" : "add", "path" : "/defaultBlueprints/incrafting", "value" : [
+{ "item" : "inklingcraftingtable" },
+{ "item" : "inklingtoolbox" },
+{ "item" : "inbluefiltercartridge" },
+{ "item" : "ingreenfiltercartridge" },
+{ "item" : "inorangefiltercartridge" },
+{ "item" : "inpurplefiltercartridge" },
+{ "item" : "inredfiltercartridge" },
+{ "item" : "inyellowfiltercartridge" } 
+] },
+
+{ "op" : "add", "path" : "/defaultBlueprints/inweapons", "value" : [
+{ "item" : "inklingtier1hammer" },
+{ "item" : "inklingtier2hammer" },
+{ "item" : "inklingtier3hammer" },
+{ "item" : "inklingtier1shortsword" },
+{ "item" : "inklingtier2shortsword" },
+{ "item" : "inklingtier3shortsword" },
+{ "item" : "inklingtier1pistol" },
+{ "item" : "inklingtier2pistol" },
+{ "item" : "inklingtier3pistol" },
+{ "item" : "inklingtier1machinepistol" },
+{ "item" : "inklingtier2machinepistol" },
+{ "item" : "inklingtier3machinepistol" },
+{ "item" : "inklingtier1sniper"},
+{ "item" : "inklingtier2sniper"},
+{ "item" : "inklingtier3sniper" },
+{ "item" : "inklingtier2grenadelauncher" },
+{ "item" : "inklingtier3grenadelauncher" },
+{ "item" : "inklingtier2assaultrifle" },
+{ "item" : "inklingtier3assaultrifle" },
+{ "item" : "inklingtier3shotgun" }  
+] },
+
+{ "op" : "add", "path" : "/defaultBlueprints/inarmor", "value" : [
+{ "item" : "inklingtier1head" },
+{ "item" : "inklingtier1chest" },
+{ "item" : "inklingtier1legs" },
+{ "item" : "inklingtier2head" },
+{ "item" : "inklingtier2chest" },
+{ "item" : "inklingtier2legs" },
+{ "item" : "inklingtier3head" },
+{ "item" : "inklingtier3chest" },
+{ "item" : "inklingtier3legs" },
+{ "item" : "inklingsplatfestbasic" }
+] },
+
+{ "op" : "add", "path" : "/defaultBlueprints/inobjects", "value" : [
+{ "item" : "ammoknights" },
+{ "item" : "coolerheads" },
+{ "item" : "ikachair" },
+{ "item" : "incolorfulpole" },
+{ "item" : "inklingmodernbeanbag" },
+{ "item" : "inklingmodernbed" },
+{ "item" : "inklingmodernbookcase" },
+{ "item" : "inklingmoderncabinet" },
+{ "item" : "inklingmoderncounter" },
+{ "item" : "inklingmodernfridge" },
+{ "item" : "inklingmodernlamp" },
+{ "item" : "inklingmodernicebox" },
+{ "item" : "inklingmodernminioven" },
+{ "item" : "inklingmodernshelf" },
+{ "item" : "inklingmodernstool" },
+{ "item" : "inklingmoderntable" },
+{ "item" : "inklingmoderntv" },
+{ "item" : "inklingposter2" },
+{ "item" : "inklingposter3" },
+{ "item" : "inklingposter5" },
+{ "item" : "inklingposter6" },
+{ "item" : "inklingseasnailplush" },
+{ "item" : "inklingsquiddecal" },
+{ "item" : "inklingtrashcan1" },
+{ "item" : "inklingvendingmachine1" },
+{ "item" : "jellyfresh" },
+{ "item" : "shrimpkicks" },
+{ "item" : "spykemerchant" }
+] },
+
+{ "op" : "add", "path" : "/defaultBlueprints/infood", "value" : [
+{ "item" : "incocktail" },
+{ "item" : "indango" },
+{ "item" : "infries" },
+{ "item" : "ininstantramen" },
+{ "item" : "inmelonpan" },
+{ "item" : "inpeanutbutter" },
+{ "item" : "inpizza" },
+{ "item" : "inplainramen" },
+{ "item" : "inriceball" },
+{ "item" : "inroastsparrow" },
+{ "item" : "insquidsicle" }
+] },
+
+{ "op" : "add", "path" : "/defaultBlueprints/inbombs", "value" : [
+{ "item" : "burstbomb3" },
+{ "item" : "burstbomb2" },
+{ "item" : "burstbomb1" },
+{ "item" : "splatbomb" },
+{ "item" : "suctionbomb" },
+{ "item" : "iflarered" },
+{ "item" : "iglowstickred" }
+] },
+
+{ "op" : "add", "path" : "/defaultBlueprints/incodices", "value" : [
+{ "item" : "greatturfwarmemoir-codex" },
+{ "item" : "inklingabout-codex" },
+{ "item" : "inklingagency-codex" },
+{ "item" : "inklingbiology-codex" },
+{ "item" : "inklingcombat-codex" },
+{ "item" : "inklingturfwar-codex" },
+{ "item" : "inklingvernacular-codex" },
+{ "item" : "octarianabout-codex" },
+{ "item" : "ssbiography-codex" }
+] }
+]

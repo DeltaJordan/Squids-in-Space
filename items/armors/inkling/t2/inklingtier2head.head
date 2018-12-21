@@ -1,0 +1,57 @@
+{ 
+	"itemName" : "inklingtier2head",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 780,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "A white cap shaped like a squid's mantle. It even has little fins!",
+	"shortdescription" : "Iconic Squid's Hat",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+    "level" : 2,
+    "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 1
+    }
+  ],
+
+  "itemTags" : [ "tier2armour" ],
+	
+	"colorOptions" : [
+	    { "4db7eb" : "4db7eb", "218abd" : "218abd", "106a96" : "106a96"},
+		{ "4db7eb" : "cccccc", "218abd" : "9e9e9e", "106a96" : "616161"},
+		{ "4db7eb" : "838383", "218abd" : "555555", "106a96" : "151515"},
+		{ "4db7eb" : "b5b5b5", "218abd" : "808080", "106a96" : "555555"},
+		{ "4db7eb" : "e6e6e6", "218abd" : "b6b6b6", "106a96" : "7b7b7b"},
+		{ "4db7eb" : "f4988c", "218abd" : "d93a3a", "106a96" : "932625"},
+		{ "4db7eb" : "ffd495", "218abd" : "ea9931", "106a96" : "af4e00"},
+		{ "4db7eb" : "ffffa7", "218abd" : "e2c344", "106a96" : "a46e06"},
+		{ "4db7eb" : "b2e89d", "218abd" : "51bd3b", "106a96" : "247824"},
+		{ "4db7eb" : "96cbe7", "218abd" : "5588d4", "106a96" : "344495"},
+		{ "4db7eb" : "d29ce7", "218abd" : "a451c4", "106a96" : "6a2284"},
+		{ "4db7eb" : "eab3db", "218abd" : "d35eae", "106a96" : "97276d"},
+		{ "4db7eb" : "ccae7c", "218abd" : "a47844", "106a96" : "754c23"}
+	]
+}

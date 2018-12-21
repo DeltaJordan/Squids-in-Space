@@ -1,0 +1,35 @@
+{
+  "objectName" : "inalbum3",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 250,
+  "printable" : false,
+
+  "description" : "An album cover. This one's covered in dull triangles.",
+  "shortdescription" : "Retro Album Cover",
+  "race" : "inkling",
+  
+  "apexDescription" : "The muted tones make me think of typical Apex furniture. Yuck.",
+  "avianDescription" : "It looks just like modern art. Wait, I think it is..",
+  "floranDescription" : "Album cover lookssss like treetops. Can't read wordssss, though.",
+  "glitchDescription" : "Curious. Why use such an ugly shade of green?",
+  "humanDescription" : "An album cover. The colors make me feel really nostalgic.",
+  "hylotlDescription" : "The bright, clashing colors of the title really stand out. In a bad way, of course.",
+  "inklingDescription" : "A framed copy of the newest ABXY album, made all abstract and stuff for fancy people.",
+  "novakidDescription" : "Some small piece of abstract art. No idea what the words say.",
+
+  "inventoryIcon" : "inalbum3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inalbum3.png:<color>",
+
+      "imagePosition" : [-10, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "anchors" : [ "background" ],
+	  "spaceScan" : 0.1
+    }
+  ]
+}

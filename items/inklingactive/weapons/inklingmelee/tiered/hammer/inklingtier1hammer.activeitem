@@ -1,0 +1,89 @@
+{
+  "itemName" : "inklingtier1hammer",
+  "price" : 550,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A massive paint roller, used commonly by Inklings as a warhammer-like weapon. You can run people over with it, or just smash them!",
+  "shortdescription" : "Splat Roller",
+  "tooltipKind" : "sword",
+  "category" : "Roller",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+  
+  "inventoryIcon" : "splatroller.png",
+  "animation" : "/animation/weapons/hammer/bluehammerswoosh.animation",
+  "animationParts" : {
+    "handle" : "splatroller.png",
+    "blade" : ""
+  },
+  
+"animationCustom" : {
+    "sounds" : {
+     "fire" : [ "/sfx/melee/fleshwhip_impact1.ogg", "/sfx/melee/fleshwhip_impact2.ogg", "/sfx/melee/fleshwhip_impact3.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.3,
+    "baseDps" : 11.3,
+    "damageConfig" : {
+      "damageSourceKind" : "hammer",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : -10,
+      "weaponOffset" : [-1.5, 2.75],
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.8,
+      "armRotation" : 90,
+      "weaponRotation" : -10,
+      "twoHanded" : true,
+      "weaponOffset" : [-1.5, 2.75],
+      "allowRotate" : false,
+      "allowFlip" : true,
+      
+      "idleHammerAngle" : -20,
+      "windupHammerAngle" : 0,
+      "dropHammerAngle" : 60,
+      "bounceHammerAngle" : 55,
+      
+      "minWindup" : 0.7,
+      "windupBaseAngle" : -90,
+      "windupAngleRange" : 90
+    },
+    "preslash" : {
+      "duration" : 0.025,
+      "armRotation" : 55,
+      "weaponRotation" : -45,
+      "twoHanded" : true,
+      "weaponOffset" : [-1.5, 3.0],
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "fire" : {
+      "duration" : 0.4,
+      "armRotation" : -35,
+      "weaponRotation" : -55,
+      "twoHanded" : true,
+      "smashTimer" : 1.5,
+      "weaponOffset" : [-1.5, 3.0],
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+      "knockback" : 50
+    },
+    "smashMomentum" : [0, -45]
+  },
+  "baseWeaponRotation" : 15,
+  "altAbilityType" : "physicalshockwave",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

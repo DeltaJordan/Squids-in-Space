@@ -1,0 +1,44 @@
+{
+  "id" : "inklingturfwar",
+  "title" : "Turf War for Dummies",
+  "description" : "A quick explanation of the favorite Inkling sport.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+"As a popular Inkling sport that spans thousands of years of the species' history, turf war is one of the keystones of their culture even today. Unlike human sports, it's a near-universal concept among different Inkling localities, and has become a widely accessible and enjoyable to any species that produces ink.
+
+Of course, to other species, even those living among Inklings this sport may seem odd or even nonsensical! It's useful to have an understanding of it.",
+	
+"Turf war is, essentially, a ritualized game of territory control. Multiple teams, typically two with four members each, will fight to lay down as much of their team's ink in order to claim it for their side. 
+
+All the members of a team will change their color in order to match one another-- because being mistaken for an enemy is the last thing you want to have happen to you!",
+	
+"Curiously, the tools used to lay down ink are non-fatal versions of military weapons. Handguns, paint rollers, sniper rifles, gatling guns and even things like gigantic brushes and handheld buckets are all popular methods of spreading one's ink all around.
+
+An Inkling can easily swim through ink of their color to reach vantage points and hiding places. But like usual, unfamiliar ink is sticky and annoying to move through.",
+
+"Of course, Inklings also readily use these weapons to shock their opponents into splatting, or spontaneously exploding into pure ink form in self defense. If one is splatted, they must wait at least 5 seconds before returning to the game.
+
+While violent in appearance, being splatted isn't terribly painful, just shocking. It has to be done with the approved weapons, too-- biting, punching and kicking simply aren't allowed!",
+
+"These games can take place almost anywhere: a neighborhood, an old shopping mall, the city streets, even abandoned industrial parks. Multiple cultural sites have been set aside almost purely for turf war use, following the Inkling trend of making use of everything.
+
+Many popular spots are also steadily rented out for charity events, where Inklings will pay to play while often enjoying music and refreshments between matches.",
+	
+"Any Inkling, Octoling, or other cephalopod species that produces ink can join a turf war match, given they have an approved weapon and ink tank. Due to the cheapness of approved, safe weaponry, and the easy-to-learn rules, turf war has become extremely popular in the modern age.
+
+It's both a casual and competitive sport, as well, allowing an even greater friendliness to all sorts of audiences. There's an entire global league for adult Inklings playing turf war!",
+	
+"Typically, turf war matches will last anywhere from five minutes to three hours, depending on the scale of the playing field and the skill of the players involved. After time has been called, a judge will determine which team wins by examining the battlefield.
+
+Often this is a neutral party, but in popular media's turf war, it's done by a sapient cat named Judd. His understanding of the field is unparalleled!",
+
+"While non-inkfolk species can't exactly play turf war due to a lack of natural ink production, they can still enjoy it as an exciting and rambunctious sport. 
+
+It's gained a cult following among the Hylotl, who have enjoyed amicable relations with Inklings for a very long time. And of course, Humans are enthusiastic about everything sports, it seems, so they probably enjoy watching it, as well."
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

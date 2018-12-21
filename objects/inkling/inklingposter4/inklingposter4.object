@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklingposter4",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 2210,
+  "printable" : false,
+
+  "description" : "Two pretty posters, now together thanks to the power of tape.",
+  "shortdescription" : "Sea'o'Colors Posters",
+  "race" : "inkling",
+
+  "apexDescription" : "Someone around here really likes squid posters.",
+  "avianDescription" : "That's a really bright, but kinda cool color contrast going on!",
+  "floranDescription" : "Two ssssquid postersss. Floran rather likessss their colorsss.",
+  "glitchDescription" : "Amused. Who would just put tape on such nice posters?",
+  "humanDescription" : "Oh, hey! Even the tape on these is all sparkly!",
+  "hylotlDescription" : "A beautiful formation of duality comes along when these are taped together.",
+  "inklingDescription" : "You can't just have both the posters but keep them apart! They gotta be besties!",
+  "novakidDescription" : "These are connected with a bunch of sparklin' tape.",
+
+  "inventoryIcon" : "inklingposter4ic.png",
+  "orientations" : [
+    {
+      "image" : "inklingposter4.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "inklingmoderncounter",
+  "colonyTags" : ["inkling", "storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A shiny place to cook.",
+  "shortdescription" : "Modernized Counter",
+  "race" : "inkling",
+  "category" : "storage",
+  "price" : 385,
+  "health" : 1.5,
+
+  "apexDescription" : "A cupboard and cooking surface.",
+  "avianDescription" : "Cooking is a pursuit the grounded enjoy a great deal.",
+  "floranDescription" : "Iss there any food in here?",
+  "glitchDescription" : "Observant. Both a cupboard and a cooking surface.",
+  "humanDescription" : "A counter with a little squid on the side. That's cute.",
+  "hylotlDescription" : "The surface is perfect for preparing food.",
+  "inklingDescription" : "A great place to cut up fish or chop veggies!",
+  "novakidDescription" : "A place for cookin' and bakin'.",
+
+  "inventoryIcon" : "inklingmoderncountericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inklingmoderncounter.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

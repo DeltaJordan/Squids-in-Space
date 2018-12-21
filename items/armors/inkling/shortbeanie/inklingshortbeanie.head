@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingshortbeanie",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 565,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "Keeps tentacles toasty and coordinates great with anything striped.",
+	"shortdescription" : "Striped Beanie",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+		{ "658697" : "658697", "527483" : "527483", "47606b" : "47606b"},
+	   	{ "658697" : "cccccc", "527483" : "9e9e9e", "47606b" : "616161"},
+		{ "658697" : "838383", "527483" : "555555", "47606b" : "151515"},
+		{ "658697" : "b5b5b5", "527483" : "808080", "47606b" : "555555"},
+		{ "658697" : "e6e6e6", "527483" : "b6b6b6", "47606b" : "7b7b7b"},
+		{ "658697" : "f4988c", "527483" : "d93a3a", "47606b" : "932625"},
+		{ "658697" : "ffd495", "527483" : "ea9931", "47606b" : "af4e00"},
+		{ "658697" : "ffffa7", "527483" : "e2c344", "47606b" : "a46e06"},
+		{ "658697" : "b2e89d", "527483" : "51bd3b", "47606b" : "247824"},
+		{ "658697" : "96cbe7", "527483" : "5588d4", "47606b" : "344495"},
+		{ "658697" : "d29ce7", "527483" : "a451c4", "47606b" : "6a2284"},
+		{ "658697" : "eab3db", "527483" : "d35eae", "47606b" : "97276d"},
+		{ "658697" : "ccae7c", "527483" : "a47844", "47606b" : "754c23"}
+	]
+}

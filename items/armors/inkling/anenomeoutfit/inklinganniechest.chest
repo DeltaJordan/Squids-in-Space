@@ -1,0 +1,23 @@
+{
+  "itemName" : "inklinganniechest",
+  "price" : 1150,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestarmour",
+  "description" : "A jacket and skirt worn by a beloved hat seller. The jacket's hood is perfectly sized for hiding in.",
+  "shortdescription" : "Timid Merchant's Jacket",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+	"backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  }
+}

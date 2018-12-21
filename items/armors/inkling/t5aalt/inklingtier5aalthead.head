@@ -1,0 +1,59 @@
+{
+  "itemName" : "inklingtier5aalthead",
+  "price" : 2480,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "A super-hip visor. For soldiers who want to look great while splatting foes.",
+  "shortdescription" : "Fresh Octoling's Visor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier5armour" ],
+  "learnBlueprintsonPickup" : [ "inklingtier5aaltheadwig" ],
+
+  "colorOptions" : [
+  
+	    { "bc222c" : "bc222c", "858585" : "858585", "8d121a" : "8d121a"},
+		{ "bc222c" : "cccccc", "858585" : "9e9e9e", "8d121a" : "616161"},
+		{ "bc222c" : "838383", "858585" : "555555", "8d121a" : "151515"},
+		{ "bc222c" : "b5b5b5", "858585" : "808080", "8d121a" : "555555"},
+		{ "bc222c" : "e6e6e6", "858585" : "b6b6b6", "8d121a" : "7b7b7b"},
+		{ "bc222c" : "f4988c", "858585" : "d93a3a", "8d121a" : "932625"},
+		{ "bc222c" : "ffd495", "858585" : "ea9931", "8d121a" : "af4e00"},
+		{ "bc222c" : "ffffa7", "858585" : "e2c344", "8d121a" : "a46e06"},
+		{ "bc222c" : "b2e89d", "858585" : "51bd3b", "8d121a" : "247824"},
+		{ "bc222c" : "96cbe7", "858585" : "5588d4", "8d121a" : "344495"},
+		{ "bc222c" : "d29ce7", "858585" : "a451c4", "8d121a" : "6a2284"},
+		{ "bc222c" : "eab3db", "858585" : "d35eae", "8d121a" : "97276d"},
+		{ "bc222c" : "ccae7c", "858585" : "a47844", "8d121a" : "754c23"}
+  ]
+}

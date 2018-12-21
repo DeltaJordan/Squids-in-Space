@@ -1,0 +1,33 @@
+{
+  "id" : "inklingcombat",
+  "title" : "Combat Through the Ages",
+  "description" : "A brief piece all about the weapons and chemical agents used by Inklings.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+"Ritualized fighting has been a vital facet of Inkling culture for thousands of years. Their most popular sport, known colliqually as turf wars or ''turfing'', is a fierce competition where two teams of different colors will battle to cover the most ground in a defined area with their color of ink. 
+
+In order to do this, they use a variety of colorful weaponry that is loaded up with ink and is shot at both terrain and opposing team members alike!",
+	
+"This sport and its many variants are a fantastic tradition based loosely on Inkling military history. 
+Ink has been used as a defensive agent long before it was utilized for recreation: ink tanks, a back-mounted container used to directly collect ink from an Inkling's siphon, have been a necessary piece of equipment for a very long time. These plastic or metal tanks allow for ink to be easily hooked up to a weapon, allowing for a much greater volume of firepower.",
+	
+"Curiously, nearly all of their tools for turf war are extremely similar to their military-grade weapons. Handguns, turbines, sniper rifles, gatling guns, gigantic paint rollers, and even large paintbrushes were all used first for combat. 
+
+Unlike many other races, they do not use solid bullets, but instead utilize brute force, chemical warfare, or a combination of the two.",
+	
+"Because Inklings and their genetic relatives have roughly an 85% liquid makeup, traditional bullets affect them little, and other methods must be used to injure them. 
+Highly potent toxins can be a quick way to dispatch an Inkling, and electrical currents travel very quickly through their bodies, but fresh water is one of the greatest threats. In small doses, Inklings can tolerate fresh water just fine, but exposure to too much water will begin to dissolve their ink, and as a result, their bodies as well.",
+	
+"Thanks to these peculiar biological traits, Inklings often have an upper hand against unprepared foes of other races.. but this also means that true warfare between Inklings can be especially brutal. 
+
+Thankfully, they have a very amicable manner towards their own kind, so conflict is rare: but the same cannot be said for relations between Inklings and Octarians."
+
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	},
+	
+	"learnBlueprintonPickup" : [ "greatturfwarmemoir-codex" ]
+}

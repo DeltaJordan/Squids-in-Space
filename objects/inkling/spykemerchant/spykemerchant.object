@@ -1,0 +1,53 @@
+{
+  "objectName" : "spykemerchant",
+  "colonyTags" : ["commerce", "inkling"],
+  "rarity" : "Common",
+  "description" : "This urchin's looking a little shady..",
+  "shortdescription" : "Spyke's Goods",
+  "race" : "inkling",
+  "printable" : false,
+
+  "apexDescription" : "What do you think he does with those snail shells?",
+  "avianDescription" : "He looks like some sort of merchant. What're you selling, pal?",
+  "floranDescription" : "Sssstrange ssspiky man.",
+  "glitchDescription" : "Wary. This urchin man has an uncomfortable air about him.",
+  "humanDescription" : "Oh, haha, I get it, he's a street urchin.",
+  "hylotlDescription" : "Sea urchin merchants and traders are infamous for their ill-gotten goods.",
+  "inklingDescription" : "Oh hey, Spyke! You finally got an umbrella, that's awesome!",
+  "novakidDescription" : "A shifty sorta dude. Wonder what he's got for sale?",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingmerchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Spyke's Goods",
+        "subtitle" : "Wot'll it be, then?",
+        "icon" : {
+          "file" : "/interface/merchant/spykeicon.png"
+        }
+      },
+      "imgPlayerMoneyIcon" : {
+        "visible" : false
+      },
+      "lblPlayerMoney" : {
+        "visible" : false
+      }
+    },
+    "filter" : [ "spykemerchant" ]
+  },
+
+  "inventoryIcon" : "spykeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "spykemerchant.png:<color>.<frame>",
+
+      "imagePosition" : [3, 0],
+      "frames" : 7,
+      "animationCycle" : 2.0,
+
+      "anchors" : [ "bottom" ],
+	  "spaceScan" : 0.1
+    }
+  ]
+}

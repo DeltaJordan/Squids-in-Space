@@ -1,0 +1,70 @@
+[
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/offer/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Eah, hey! Can I join your group? I'll do my best to help!",
+		"Hey, pal! Any chance I could, like, be part of your fleet? It'd be super awesome!",
+		"Wait up a second! Could I maybe join you on your adventures? There's so much to see out there.."
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/roleDescription/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"<selfname> reporting and hella ready for duty!",
+		"I've got your back!",
+		"If you need something, keep me in mind!"
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/respawned/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Yuck, it's been awhile since I've gotten splatted..",
+		"Well, that sucked. A lot. But I'm here now!",
+		"I'll try to, uh.. maybe not have that happen again.",
+		"Respawning in space kinda tickles."
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/unfollow/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Kyeh? Well, alright! I'll be right here!",
+		"You want me to stay here? Gotcha!",
+		"Sure thing! I'll be here!"
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/follow/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"Aw yeah, let's go!",
+		"Woomy!",
+		"Ngyes!",
+		"Alright! Where to?"
+	  ]
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/scriptConfig/dialog/crewmember/cantreach/inkling",
+	"value" :{ 
+	  "default"	: [ 
+		"I can't get up there!",
+		"Sorry, captain! I can't reach!",
+		"If I had a teleport tech, this'd be a lot easier."
+	  ]
+	}
+  }
+]

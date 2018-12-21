@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti1",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "The logo for the popular clothes brand, Firefin. It features a stylized red blowfish.",
+  "shortdescription" : "Firefin Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "Some grumpy red graffiti.",
+  "avianDescription" : "It's some kind of fish, apparently.",
+  "floranDescription" : "Lookssss like fire.",
+  "glitchDescription" : "Neutral. Some colorful graffiti.",
+  "humanDescription" : "Kinda cool in a punk way! It'd look neat on a jacket.",
+  "hylotlDescription" : "Bright and crisp around the edges, it looks like Inkling graffiti.",
+  "inklingDescription" : "This brand always makes me think of tacky tees and ironic selfie filters.",
+  "novakidDescription" : "This'd look real cool as a clothes patch!",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti1.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "type" : "indoctormerchant",
+  "baseType" : "inmerchant",
+
+  "scriptConfig" : {
+	"questGenerator" : {
+      "pools" : ["common"]
+    },
+  
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : 3,
+	  "categories" : { 
+		"inkling" : [ "indoctormerchant" ] },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+	  "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 40,
+	  "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Healthcare",
+          "subtitle" : "For cephalopod health needs!"
+        }
+	  }
+	},
+	
+	"dialog" : {
+      "merchant" : {
+        "start" : "/npcs/configs/inmerchant.config:merchantStart",
+        "end" : "/npcs/configs/inmerchant.config:merchantEnd",
+        "follow" : "/npcs/configs/inmerchant.config:follow",
+        "welcome" : "/npcs/configs/inmerchant.config:welcome",
+        "tout" : "/npcs/configs/inmerchant.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/npcs/configs/inflee.config:helpme",
+        "helpthem" : "/npcs/configs/inflee.config:helpthem",
+        "encourage" : "/npcs/configs/inflee.config:encourage",
+        "safe" : "/npcs/configs/inflee.config:safe"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/npcs/configs/ingrumble.config:tagCriteria",
+          "enclosedArea" : "/npcs/configs/ingrumble.config:enclosedArea",
+          "otherDeed" : "/npcs/configs/ingrumble.config:otherDeed",
+          "severe" : "/npcs/configs/ingrumble.config:severe",
+          "final" : "/npcs/configs/ingrumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/npcs/configs/inarrivedhome.config:beacon",
+          "rent" : "/npcs/configs/inarrivedhome.config:rent"
+        }
+      }
+    }   
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+        "head": [
+          "scientisthead"
+        ],
+		"chest": [
+		 "scientistchest"
+		],
+        "legs": [
+          "scientistlegs"
+        ],
+        "sheathedprimary": [
+          { "name": "inklingtier3grenadelauncher" }
+        ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 12 },
+	{ "item" : "titaniumbar", "count" : 10 },
+	{ "item" : "glass", "count" : 6 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier6salthead", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

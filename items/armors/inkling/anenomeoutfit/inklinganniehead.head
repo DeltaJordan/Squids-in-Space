@@ -1,0 +1,15 @@
+{
+  "itemName" : "inklinganniehead",
+  "price" : 1350,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "A wig resembling a beloved hat seller. The clownfish is fake, for ethical reasons.",
+  "shortdescription" : "Timid Merchant's Wig",
+  "tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+ }

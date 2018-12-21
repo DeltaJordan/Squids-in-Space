@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "paper", "count" : 5},
+   { "item" : "string", "count" : 3},
+   { "item" : "inklingtier1hammer", "count" : 1}
+  ],
+  "output" : {
+    "item" : "inklingturfwar-codex",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "incodex" ]
+}

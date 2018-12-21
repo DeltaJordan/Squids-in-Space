@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "inpeanutbutter", "count" : 3},
+	{ "item" : "glowstickblue", "count" : 2},
+	{ "item" : "rawtentacle", "count" : 5}
+  ],
+  "output" : {
+    "item" : "insquidinajar",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

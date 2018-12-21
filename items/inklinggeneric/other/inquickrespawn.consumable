@@ -1,0 +1,18 @@
+{
+  "itemName" : "inquickrespawn",
+  "rarity" : "Common",
+  "price" : 250,
+  "category" : "Charm",
+  "inventoryIcon" : "inquickrespawn.png",
+  "description" : "A charm that'll make your return to the battlefield a bit quicker.",
+  "shortdescription" : "Quick Respawn Charm",
+  "effects" : [ [
+      {
+        "effect" : "medkitheal",
+        "duration" : 30
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsonPickup" : [ "inhaunt" ]
+}

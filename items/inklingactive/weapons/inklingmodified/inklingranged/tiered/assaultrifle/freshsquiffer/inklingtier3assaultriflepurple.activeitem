@@ -1,0 +1,82 @@
+{
+  "itemName" : "inklingtier3assaultriflepurple",
+  "price" : 565,
+  "inventoryIcon" : "chargedfreshsquiffer.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A crisp paint of coat and a good upgrade can make all the difference.",
+  "shortdescription" : "Charged Fresh Squiffer",
+  "level" : 3,
+  "tooltipKind" : "gun",
+  "category" : "Charger",
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "chargedfreshsquiffer.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashpurple.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/uzi1.ogg", "/sfx/gun/uzi2.ogg", "/sfx/gun/uzi3.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.7, 0.5],
+  "muzzleOffset" : [3.0, 0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.22,
+    "baseDps" : 9,
+    "energyUsage" : 20.0,
+	"inaccuracy" : 0.001,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    },
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "electricplasma",
+    "projectileParameters" : { 
+      "knockback" : 15
+    }
+  },
+
+  "altAbilityType" : "spray",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

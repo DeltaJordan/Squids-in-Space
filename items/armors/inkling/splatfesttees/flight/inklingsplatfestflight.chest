@@ -1,0 +1,23 @@
+{ 
+	"itemName" : "inklingsplatfestflight",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "chestwear",
+	"description" : "This shirt makes you feel lighter! Or maybe it's just a placebo.",
+	"shortdescription" : "Team Flight Shirt",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	}
+}

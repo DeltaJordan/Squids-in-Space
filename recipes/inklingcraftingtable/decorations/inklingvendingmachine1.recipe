@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 12},
+    { "item" : "soda", "count" : 5},
+	{ "item" : "oculemonade", "count" : 5}
+  ],
+  "output" : {
+    "item" : "inklingvendingmachine1",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

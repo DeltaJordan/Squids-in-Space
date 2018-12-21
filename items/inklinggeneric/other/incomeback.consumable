@@ -1,0 +1,27 @@
+{
+  "itemName" : "incomeback",
+  "rarity" : "Rare",
+  "price" : 1590,
+  "category" : "Charm",
+  "inventoryIcon" : "incomeback.png",
+  "description" : "In a tight spot? This charm might give you a way out.",
+  "shortdescription" : "Comeback Charm",
+  "effects" : [ [
+      {
+        "effect" : "rage",
+        "duration" : 30
+      },
+	  
+	 {
+        "effect" : "bubbleshield",
+        "duration" : 30
+      },
+	  
+	 {
+        "effect" : "regenerationfast",
+        "duration" : 30
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

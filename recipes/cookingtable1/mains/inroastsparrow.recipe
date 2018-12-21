@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cookedpoultry", "count" : 2 },
+    { "item" : "rice", "count" : 1 }
+  ],
+  "output" : { "item" : "inroastsparrow", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

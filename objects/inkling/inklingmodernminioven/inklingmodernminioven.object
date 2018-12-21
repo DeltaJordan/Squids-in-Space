@@ -1,0 +1,62 @@
+{
+  "objectName" : "inklingmodernminioven",
+  "colonyTags" : ["inkling","cooking"],
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "price" : 875,
+  "description" : "A convenient, new-age way to make a hot meal.",
+  "shortdescription" : "Modernized Toaster Oven",
+  "subtitle" : "Heat up a quick snack.",
+  "race" : "inkling",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "campfire", "insnacks" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Modernized Toaster Oven",
+        "subtitle" : "Heat up a quick snack."
+      }
+    }
+  },
+
+  "apexDescription" : "It's like an oven, but the size of a microwave. Cool.",
+  "avianDescription" : "The shiniest little oven ever.",
+  "floranDescription" : "Electric oven much fasssster than fire.",
+  "glitchDescription" : "Descriptive. Toaster-ovens are a newer creation, but very useful.",
+  "humanDescription" : "I haven't seen a toaster-oven in forever. Awesome.",
+  "hylotlDescription" : "Not the prettiest appliance, but fast and effective.",
+  "inklingDescription" : "Sometimes you gotta get a quick bite to eat! And this is perfect for that!",
+  "novakidDescription" : "A happy, shiny little oven.",
+
+  "inventoryIcon" : "inklingminiovenicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "inklingmodernminioven.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "inklingmodernminioven.png:<color>" } ],
+      "direction" : "right",
+      
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

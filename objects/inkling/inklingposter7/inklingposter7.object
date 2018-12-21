@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklingposter7",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 2150,
+  "printable" : false,
+
+  "description" : "With the power of tape, these two Off the Hook posters are united!",
+  "shortdescription" : "Pink and Teal Posters",
+  "race" : "inkling",
+
+  "apexDescription" : "I've never seen two posters that contrast quite as much as these.",
+  "avianDescription" : "Oh, there's little ticket stubs pinned to these posters! That's cute.",
+  "floranDescription" : "Floran hassss concert too. Different instrumentssss than most, though.",
+  "glitchDescription" : "Downcast. These look like they're from an exciting event-- one that I probably missed.",
+  "humanDescription" : "A pair of really cool posters. Probably from a big event, the ticket stubs are pinned up here too!",
+  "hylotlDescription" : "Concerts are always a huge event in Inkling culture, especially if the performers are as popular as these two.",
+  "inklingDescription" : "You won't find any posters around that are fresher than these ones. The ticket stubs add extra cool.",
+  "novakidDescription" : "Looks like a couple of posters for a concert that went on.",
+
+  "inventoryIcon" : "inklingposter7icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingposter7.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

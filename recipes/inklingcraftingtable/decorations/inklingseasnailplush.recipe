@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 3 },
+	{ "item" : "cotton", "count" : 2 },
+	{ "item" : "greydye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "inklingseasnailplush",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

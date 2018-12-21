@@ -1,0 +1,129 @@
+{
+  "type" : "inturretmerchant",
+  "baseType" : "base",
+
+  "persistent" : true,
+  "damageTeamType" : "friendly",
+  
+  "dropPools" : [ "inklingmerchtreasure" ],
+
+  "scripts" : [
+    "/npcs/bmain.lua"
+  ],
+  "initialScriptDelta" : 5,
+  "scriptConfig" : {
+    "behavior" : "merchant",
+	
+	"behaviorConfig" : {
+      "noticePlayersRadius" : 20,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+	
+	"questGenerator" : {
+      "pools" : ["inturret", "common", "merchant"],
+      "enableParticipation" : true,
+	  
+	  "timeLimit" : 30,
+      "chance" : 0.3,
+      "nearbyQuestLimit" : 15,
+      "nearbyQuestRange" : 25
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander", { "timeRange" : [0.2, 0.6] }]
+      ]
+	},
+
+    "merchant" : {
+	  "poolsFile" : "/npcs/configs/inmerchantpools.config",
+	  "categories" : {
+		"inkling" : [ "inturretmerchant" ]
+	  },
+	  "waitTime" : 10,
+	  "storeRadius" : 4,
+      "buyFactorRange" : [ 1.4, 1.5 ],
+      "sellFactorRange" : [ 0.2, 0.4 ],
+      "numItems" : 10,
+	  "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Outpost Squid",
+          "subtitle" : "Wait, who's this weirdo..?"
+        }
+	  }
+	},
+	
+	"dialog" : {
+      "merchant" : {
+        "start" : "/npcs/configs/inturretmerchant.config:merchantStart",
+        "end" : "/npcs/configs/inturretmerchant.config:merchantEnd",
+        "follow" : "/npcs/configs/inturretmerchant.config:follow",
+        "welcome" : "/npcs/configs/inturretmerchant.config:welcome",
+        "tout" : "/npcs/configs/inturretmerchant.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/npcs/configs/inflee.config:helpme",
+        "helpthem" : "/npcs/configs/inflee.config:helpthem",
+        "encourage" : "/npcs/configs/inflee.config:encourage",
+        "safe" : "/npcs/configs/inflee.config:safe"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/npcs/configs/ingrumble.config:tagCriteria",
+          "enclosedArea" : "/npcs/configs/ingrumble.config:enclosedArea",
+          "otherDeed" : "/npcs/configs/ingrumble.config:otherDeed",
+          "severe" : "/npcs/configs/ingrumble.config:severe",
+          "final" : "/npcs/configs/ingrumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/npcs/configs/inarrivedhome.config:beacon",
+          "rent" : "/npcs/configs/inarrivedhome.config:rent"
+        }
+      }
+    }
+},
+  
+        "items" : {
+	    "override" : [
+      [0, [
+          {
+            "head": [
+          "inklingsquidwig2"
+        ],
+		"chest": [
+		"inklingzekkochest"
+		],
+        "legs": [
+          "inklingbluemotoboots"
+        ],
+		"back" : [
+		  "inktank" 
+		],
+        "sheathedprimary": [
+          { "name": "inklingtier3hammer" }
+        ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 210.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 5.0
+      },
+      "protection" : {
+        "baseValue" : 5.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

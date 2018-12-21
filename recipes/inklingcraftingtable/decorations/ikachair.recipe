@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 5},
+	{ "item" : "whitedye", "count" : 1}
+  ],
+  "output" : {
+    "item" : "ikachair",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

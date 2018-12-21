@@ -1,0 +1,36 @@
+{
+  "objectName" : "inklingposter5",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1100,
+  "printable" : false,
+
+  "description" : "A stylized poster of the Octoling singer and DJ, Marina.",
+  "shortdescription" : "Teal Octoposter",
+  "race" : "inkling",
+
+  "apexDescription" :"This looks like some sort of band poster.",
+  "avianDescription" : "I can't say I'm familiar with the lady on this poster.",
+  "floranDescription" : "Floran thinkssss.. picture of sssquid? But no dark massssk on face.",
+  "glitchDescription" : "Pensive. The dark and muted colors on this poster suggest a lot of personality.",
+  "humanDescription" : "See, it looks like a concert poster, but it's not jazzy enough. Still cool though.",
+  "hylotlDescription" : "This singer in particular is surprisingly popular with squids, despite being an octopus.",
+  "inklingDescription" : "It's a poster of Marina! She's one of the only Octoling idols since, like.. ever.",
+  "novakidDescription" : "The gal on this poster looks a lil' bit downcast.",
+
+  "inventoryIcon" : "inklingposter5icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingposter5.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "learnBlueprintsOnPickup" : [ "inklingposter5", "inklingposter7" ]
+}

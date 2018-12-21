@@ -1,0 +1,17 @@
+{
+  "itemName" : "ininkrecoveryup",
+  "rarity" : "Common",
+  "price" : 250,
+  "category" : "Charm",
+  "inventoryIcon" : "ininkrecoveryup.png",
+  "description" : "A charm that'll make your energy stores regenerate faster for some time.",
+  "shortdescription" : "Ink Recovery Up Charm",
+  "effects" : [ [
+      {
+        "effect" : "energyregen",
+        "duration" : 360
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ininstantramen", "count" : 2 },
+    { "item" : "liquidwater", "count" : 3 }
+  ],
+  "output" : { "item" : "inplainramen", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingbobblehat",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 450,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "A fuzzy knit hat with a fuzzy pompom on the top!",
+	"shortdescription" : "Bobble Hat",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+	    { "b8cc4d" : "b8cc4d", "97aa3e" : "97aa3e", "849630" : "849630"},
+		{ "b8cc4d" : "cccccc", "97aa3e" : "9e9e9e", "849630" : "616161"},
+		{ "b8cc4d" : "838383", "97aa3e" : "555555", "849630" : "151515"},
+		{ "b8cc4d" : "b5b5b5", "97aa3e" : "808080", "849630" : "555555"},
+		{ "b8cc4d" : "e6e6e6", "97aa3e" : "b6b6b6", "849630" : "7b7b7b"},
+		{ "b8cc4d" : "f4988c", "97aa3e" : "d93a3a", "849630" : "932625"},
+		{ "b8cc4d" : "ffd495", "97aa3e" : "ea9931", "849630" : "af4e00"},
+		{ "b8cc4d" : "ffffa7", "97aa3e" : "e2c344", "849630" : "a46e06"},
+		{ "b8cc4d" : "b2e89d", "97aa3e" : "51bd3b", "849630" : "247824"},
+		{ "b8cc4d" : "96cbe7", "97aa3e" : "5588d4", "849630" : "344495"},
+		{ "b8cc4d" : "d29ce7", "97aa3e" : "a451c4", "849630" : "6a2284"},
+		{ "b8cc4d" : "eab3db", "97aa3e" : "d35eae", "849630" : "97276d"},
+		{ "b8cc4d" : "ccae7c", "97aa3e" : "a47844", "849630" : "754c23"}
+	]
+}

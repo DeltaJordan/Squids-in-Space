@@ -1,0 +1,25 @@
+{
+  "itemName" : "inmelonpan",
+  "rarity" : "Common",
+  "price" : 150,
+  "category" : "preparedFood",
+  "inventoryIcon" : "inmelonpan.png",
+  "description" : "A delicious baked mix of cookie dough and bread dough with a chocolate filling.",
+  "shortdescription" : "Melonpan",
+  "effects" : [ [ 
+  {   
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 300
+    }
+  ] ],
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+      "learnBlueprintsOnPickup" : ["inmelonpan"]
+}

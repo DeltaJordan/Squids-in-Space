@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 4 },
+	{ "item" : "ironbar", "count" : 3 },
+    { "item" : "silk", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier5mlegs", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

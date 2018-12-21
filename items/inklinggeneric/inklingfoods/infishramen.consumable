@@ -1,0 +1,29 @@
+{
+  "itemName" : "infishramen",
+  "rarity" : "Uncommon",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "infishramen.png",
+  "description" : "This bowl of ramen has fresh salmon and egg mixed in-- delicious!",
+  "shortdescription" : "Tuna Ramen",
+    "effects" : [ [
+	    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 240
+    },
+    {
+         "effect" : "maxenergyscalingboostfood",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+      "learnBlueprintsOnPickup" : ["infishramen"]
+  }

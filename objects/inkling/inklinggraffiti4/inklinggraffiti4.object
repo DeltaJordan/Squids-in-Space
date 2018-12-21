@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti4",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "Two large stickers featuring pink and blue squids. Or are they octopi?",
+  "shortdescription" : "Whimsical Squid Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "They look like children's toys.",
+  "avianDescription" : "Hmm.. what are they? Squids? Octopuses? Jellyfish?",
+  "floranDescription" : "Colors look chewy tasssty.",
+  "glitchDescription" : "Neutral. Two colorful stickers of seafaring creatures.",
+  "humanDescription" : "I'd put these all over my ship if I could.",
+  "hylotlDescription" : "There's no harsh colors here, which is pretty surprising given who probably made this.",
+  "inklingDescription" : "A couple of cute little squids! They go perfect anywhere!",
+  "novakidDescription" : "Some squishy sea critters. I think they're stickers.",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti4.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

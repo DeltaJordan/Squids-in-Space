@@ -1,0 +1,36 @@
+{
+  "objectName" : "inklingmodernshelf",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 145,
+  "printable" : false,
+
+  "description" : "A wall shelf. You could put books, figures, plush toys, maybe a candle or two up here.",
+  "shortdescription" : "Modernized Shelf",
+  "race" : "inkling",
+  
+  "apexDescription" : "A black shelf with a sleek look. Neat.",
+  "avianDescription" : "It's always more about the stuff on the shelf, really.",
+  "floranDescription" : "Ssshelf hurt when Floran hit head on it.",
+  "glitchDescription" : "Inquisitive. This shelf fits with many different furniture styles.",
+  "humanDescription" : "It's got a futuristic flair to it, cool. It'd look nice in a spaceship's bedroom.",
+  "hylotlDescription" : "It looks like it's made of metal, but it's actually wooden with a great paint job.",
+  "inklingDescription" : "A cool wall shelf, but it's boring without stuff on it!",
+  "novakidDescription" : "Just a wall shelf.",
+
+  "inventoryIcon" : "inklingmodernshelficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inklingmodernshelf.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    }
+  ]
+}

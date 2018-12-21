@@ -1,0 +1,59 @@
+{
+  "itemName" : "inklingtier5ahead",
+  "price" : 2480,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "A standard-issue metal mask. Protects your eyes, nose, and identity.",
+  "shortdescription" : "Octoling Soldier's Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier5armour" ],
+  "learnBlueprintsonPickup" : [ "inklingtier5aheadwig" ],
+
+  "colorOptions" : [
+  
+	    { "9a9a9a" : "9a9a9a", "858585" : "858585", "534f5a" : "534f5a"},
+		{ "9a9a9a" : "cccccc", "858585" : "9e9e9e", "534f5a" : "616161"},
+		{ "9a9a9a" : "838383", "858585" : "555555", "534f5a" : "151515"},
+		{ "9a9a9a" : "b5b5b5", "858585" : "808080", "534f5a" : "555555"},
+		{ "9a9a9a" : "e6e6e6", "858585" : "b6b6b6", "534f5a" : "7b7b7b"},
+		{ "9a9a9a" : "f4988c", "858585" : "d93a3a", "534f5a" : "932625"},
+		{ "9a9a9a" : "ffd495", "858585" : "ea9931", "534f5a" : "af4e00"},
+		{ "9a9a9a" : "ffffa7", "858585" : "e2c344", "534f5a" : "a46e06"},
+		{ "9a9a9a" : "b2e89d", "858585" : "51bd3b", "534f5a" : "247824"},
+		{ "9a9a9a" : "96cbe7", "858585" : "5588d4", "534f5a" : "344495"},
+		{ "9a9a9a" : "d29ce7", "858585" : "a451c4", "534f5a" : "6a2284"},
+		{ "9a9a9a" : "eab3db", "858585" : "d35eae", "534f5a" : "97276d"},
+		{ "9a9a9a" : "ccae7c", "858585" : "a47844", "534f5a" : "754c23"}
+  ]
+}

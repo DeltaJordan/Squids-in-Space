@@ -1,0 +1,18 @@
+{
+  "itemName" : "ininkresistanceup",
+  "rarity" : "Uncommon",
+  "price" : 575,
+  "category" : "Charm",
+  "inventoryIcon" : "ininkresistanceup.png",
+  "description" : "A charm that'll make you resist harmful liquids for some time.",
+  "shortdescription" : "Ink Resistance Charm",
+  "effects" : [ [
+      {
+        "effect" : "liquidimmunity",
+        "duration" : 240
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsonPickup" : [ "incomeback" ]
+}

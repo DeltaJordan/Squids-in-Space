@@ -1,0 +1,29 @@
+{
+  "id" : "octarianabout",
+  "title" : "Another Inkfolk",
+  "description" : "One author's description of the Octarian race, a species closely related to Inklings.",
+  "icon" : "octobook.png",
+  "contentPages" : [
+
+"The squid and the octopus are often contrasted: one has eight legs, the other has ten. One has a reclusive attitude, the other is rather jovial and social. These very same divisions are what set Inklings and Octarians apart: they are related, but inscrutably different.",
+	
+"Octarians are much more diverse in physical appearance than Inklings are, showing countless evolutionary niches captured over many years. 
+
+Some are simply mobile tentacles with faces, others are bloblike and vaguely octopus-like in appearance, and the most famous subspecies, the Octolings, are very similar to Inklings in their appearance and ability to change shape.",
+	
+	"Mere appearances can be enough to draw divides, but Octarian culture differs in its ways as well. They focus more on cooperation than competition, emphasizing the importance of interpersonal bonds and how one's personal talents can be used for the comfort of both others and themselves. They are keen on the values of tradition and respect while perpetually seeking new discoveries and inventions to better their world.",
+	
+	"As a result of constant conflict with their Inkling relatives, Octarians are often quite militaristic as well. Though naturally a shy people, they've adapted to become aloof and assertive in their relations with other species. This mindset developed mostly from their devastating losses at the hands of Inkling forces during the Great Turf War, a conflict fought over steadily-declining territory.",
+	
+	"Their military and government are deeply intertwined, being lead by a shogunate.  For Octarians, nobility is not by blood, but is earned by might, respect and political knowledge: typically leadership is passed through families, but can be seized by challengers as well. A truly successful Octarian shogun must be clever and adaptable as a leader, a diplomat and a general.",
+	
+	"However, in the galactic realm, Octarians are rather uncommon. Their few formal colonies remain reclusive and mysterious, keeping all contacts at arm's reach. But Octarians, typically Octolings, can be sometimes found in small, nomadic groups, or rarely among Inklings that have gotten over their historical prejudices."
+	
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	},
+	
+		"learnBlueprintonPickup" : [ "octariandiary1-codex", "octarianangrydiary-codex" ]
+}

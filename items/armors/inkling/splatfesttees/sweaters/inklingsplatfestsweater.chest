@@ -1,0 +1,23 @@
+{ 
+	"itemName" : "inklingsplatfestsweater",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "chestwear",
+	"description" : "Dear cod! You look like a total dork in this! (But at least you'll be warm.)",
+	"shortdescription" : "Team Sweater Sweater",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	}
+}

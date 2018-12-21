@@ -1,0 +1,15 @@
+{
+  "itemName" : "inklingoctowig5",
+  "price" : 350,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "A dark, passionate color often assumed for self-confidence.",
+  "shortdescription" : "Crimson Octoling Wig",
+  "tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

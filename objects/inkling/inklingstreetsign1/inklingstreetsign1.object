@@ -1,0 +1,33 @@
+{
+  "objectName" : "inklingstreetsign1",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 1250,
+
+  "description" : "A tall street sign. Its smaller signs display directions somewhere.",
+  "shortdescription" : "Yellow Street Sign",
+  "race" : "inkling",
+
+  "apexDescription" : "Some sort of street sign. I think it warns about hills.",
+  "avianDescription" : "A sign, it's warning about something.. and showing directions elsewhere.",
+  "floranDescription" : "It warns for road bumpsssss.",
+  "glitchDescription" : "Curious. What does it seem to be warning about?",
+  "humanDescription" : "Hmm.. not sure what it says. But it looks cool.",
+  "hylotlDescription" : "Even Inkling street signs are colorful and eyecatching.",
+  "inklingDescription" : "A sign that warns about road bumps! But it says.. ''automatic doop''. No relation to wet floop.",
+  "novakidDescription" : "Bright and yellow, it's a warnin' sign all right.",
+
+  "inventoryIcon" : "inklingstreetsign1icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingstreetsign1.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

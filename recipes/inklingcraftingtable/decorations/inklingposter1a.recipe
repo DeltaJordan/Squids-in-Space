@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "inklingposter1", "count" : 1},
+	{ "item" : "refinedviolium", "count" : 3},
+	{ "item" : "refinedaegisalt", "count" : 3},
+	{ "item" : "inklinginkvial", "count" : 1}
+  ],
+  "output" : {
+    "item" : "inklingposter1a",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

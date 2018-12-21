@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklinggasmask",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 550,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "A gas mask to help you breathe in tough situations.",
+	"shortdescription" : "Gas Mask",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+	    { "525d6c" : "525d6c"},
+		{ "525d6c" : "cccccc"},
+		{ "525d6c" : "838383"},
+		{ "525d6c" : "b5b5b5"},
+		{ "525d6c" : "e6e6e6"},
+		{ "525d6c" : "f4988c"},
+		{ "525d6c" : "ffd495"},
+		{ "525d6c" : "ffffa7"},
+		{ "525d6c" : "b2e89d"},
+		{ "525d6c" : "96cbe7"},
+		{ "525d6c" : "d29ce7"},
+		{ "525d6c" : "eab3db"},
+		{ "525d6c" : "ccae7c"}
+	]
+}

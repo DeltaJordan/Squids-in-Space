@@ -1,0 +1,31 @@
+{ 
+	"itemName" : "inklingzekkohead",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 350,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "Is it a baseball cap or a biking cap?",
+	"shortdescription" : "Five-Panel Cap",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+	"colorOptions" : [
+	    { "3787a9" : "3787a9", "1848a8" : "1848a8", "0e3583" : "0e3583"},
+		{ "3787a9" : "cccccc", "1848a8" : "9e9e9e", "0e3583" : "616161"},
+		{ "3787a9" : "838383", "1848a8" : "555555", "0e3583" : "151515"},
+		{ "3787a9" : "b5b5b5", "1848a8" : "808080", "0e3583" : "555555"},
+		{ "3787a9" : "e6e6e6", "1848a8" : "b6b6b6", "0e3583" : "7b7b7b"},
+		{ "3787a9" : "f4988c", "1848a8" : "d93a3a", "0e3583" : "932625"},
+		{ "3787a9" : "ffd495", "1848a8" : "ea9931", "0e3583" : "af4e00"},
+		{ "3787a9" : "ffffa7", "1848a8" : "e2c344", "0e3583" : "a46e06"},
+		{ "3787a9" : "b2e89d", "1848a8" : "51bd3b", "0e3583" : "247824"},
+		{ "3787a9" : "96cbe7", "1848a8" : "5588d4", "0e3583" : "344495"},
+		{ "3787a9" : "d29ce7", "1848a8" : "a451c4", "0e3583" : "6a2284"},
+		{ "3787a9" : "eab3db", "1848a8" : "d35eae", "0e3583" : "97276d"},
+		{ "3787a9" : "ccae7c", "1848a8" : "a47844", "0e3583" : "754c23"}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 18 },
+    { "item" : "goldbar", "count" : 8 },
+	{ "item" : "syntheticmaterial", "count" : 7},
+	{ "item" : "inklingtier5achest", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier6achest", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
+}

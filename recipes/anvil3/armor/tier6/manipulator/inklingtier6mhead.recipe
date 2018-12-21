@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 10 },
+    { "item" : "goldbar", "count" : 20 },
+	{ "item" : "inklingtier5mhead", "count" : 1}
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier6mhead", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "armours", "all" ]
+}

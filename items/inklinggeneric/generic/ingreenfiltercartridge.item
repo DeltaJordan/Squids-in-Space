@@ -1,0 +1,11 @@
+{
+  "itemName" : "ingreenfiltercartridge",
+  "price" : 180,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "ingreenfiltercartridge.png",
+  "description" : "A metal filter that turns liquid green when it runs through. It has an acidic smell to it.",
+  "shortdescription" : "Green Filter Cartridge",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : ["ingreenfiltercartridge"]
+}

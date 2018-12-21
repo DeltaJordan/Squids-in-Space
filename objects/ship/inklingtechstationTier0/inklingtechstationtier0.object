@@ -1,0 +1,43 @@
+{
+  "objectName" : "inklingtechstationTier0",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "printable" : false,
+
+  "interactAction" : "OpenAiInterface",
+
+  "category" : "decorative",
+  "lightColor" : [252, 98, 218],
+  "lightPosition" : [-1, 0],
+  
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 8,
+
+  "description" : "A tech station. For creating awesome tech!",
+  "shortdescription" : "Tech Station",
+  "race" : "inkling",
+
+  "apexDescription" : "A tech station. Useful.",
+  "avianDescription" : "I can use this tech station to make things, when it's not off.",
+  "floranDescription" : "Floran create magic bang bangs!",
+  "glitchDescription" : "Admiration. An extremely advanced tech station.",
+  "humanDescription" : "A tech station. I can create awesome stuff here!",
+  "hylotlDescription" : "This tech station looks decent enough.",
+  "inklingDescription" : "It's a tech station, but it looks kinda broken!",
+  "novakidDescription" : "Time to reboot this station so I can talk to SAIL.",
+
+  "inventoryIcon" : "apexrecordplayericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "inklingtechstationTier0.png:<color>.<frame>"} ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

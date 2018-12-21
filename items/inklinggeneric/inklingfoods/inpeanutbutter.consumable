@@ -1,0 +1,30 @@
+{
+  "itemName" : "inpeanutbutter",
+  "rarity" : "Common",
+  "price" : 215,
+  "category" : "preparedFood",
+  "inventoryIcon" : "inpeanutbutter.png",
+  "description" : "Help! I have a sudden craving for peanut butter!",
+  "shortdescription" : "Jar of Peanut Butter",
+    "effects" : [ [
+	    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 150
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 150
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  
+ "learnBlueprintsOnPickup" : [ "inpeanutbutter", "inpeanutbutterpie" ]
+}

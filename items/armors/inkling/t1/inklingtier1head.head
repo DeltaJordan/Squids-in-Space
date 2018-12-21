@@ -1,0 +1,58 @@
+{ 
+	"itemName" : "inklingtier1head",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 450,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "Protect your eyes with these cool goggles!",
+	"shortdescription" : "Aviator's Goggles",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	
+    "level" : 1,
+    "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier1armour" ],
+  "learnBlueprintsonPickup" : [ "inklingtier1headwig" ],
+	
+	"colorOptions" : [
+	    { "726e6f" : "726e6f", "535152" : "535152", "2c2a2b" : "2c2a2b"},
+		{ "726e6f" : "cccccc", "535152" : "9e9e9e", "2c2a2b" : "616161"},
+		{ "726e6f" : "838383", "535152" : "555555", "2c2a2b" : "151515"},
+		{ "726e6f" : "b5b5b5", "535152" : "808080", "2c2a2b" : "555555"},
+		{ "726e6f" : "e6e6e6", "535152" : "b6b6b6", "2c2a2b" : "7b7b7b"},
+		{ "726e6f" : "f4988c", "535152" : "d93a3a", "2c2a2b" : "932625"},
+		{ "726e6f" : "ffd495", "535152" : "ea9931", "2c2a2b" : "af4e00"},
+		{ "726e6f" : "ffffa7", "535152" : "e2c344", "2c2a2b" : "a46e06"},
+		{ "726e6f" : "b2e89d", "535152" : "51bd3b", "2c2a2b" : "247824"},
+		{ "726e6f" : "96cbe7", "535152" : "5588d4", "2c2a2b" : "344495"},
+		{ "726e6f" : "d29ce7", "535152" : "a451c4", "2c2a2b" : "6a2284"},
+		{ "726e6f" : "eab3db", "535152" : "d35eae", "2c2a2b" : "97276d"},
+		{ "726e6f" : "ccae7c", "535152" : "a47844", "2c2a2b" : "754c23"}
+	]
+}

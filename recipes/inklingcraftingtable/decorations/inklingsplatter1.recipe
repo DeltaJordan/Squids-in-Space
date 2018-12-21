@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "inklinginkvial", "count" : 15 }
+  ],
+  "output" : {
+    "item" : "inklingsplatter1",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

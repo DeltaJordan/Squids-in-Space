@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 3 },
+	{ "item" : "inklingtier4legs", "count" : 1 },
+    { "item" : "leather", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier5slegs", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

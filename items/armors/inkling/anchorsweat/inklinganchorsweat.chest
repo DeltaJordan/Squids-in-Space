@@ -1,0 +1,39 @@
+{ 
+	"itemName" : "inklinganchorsweat",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 285,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "chestwear",
+	"description" : "A sweatshirt with an anchor insignia on it.",
+	"shortdescription" : "Anchor Sweat",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"colorOptions" : [
+		{ "657070" : "657070", "596365" : "596365", "444d4f" : "444d4f"},
+	   	{ "657070" : "cccccc", "596365" : "9e9e9e", "444d4f" : "616161"},
+		{ "657070" : "838383", "596365" : "555555", "444d4f" : "151515"},
+		{ "657070" : "b5b5b5", "596365" : "808080", "444d4f" : "555555"},
+		{ "657070" : "e6e6e6", "596365" : "b6b6b6", "444d4f" : "7b7b7b"},
+		{ "657070" : "f4988c", "596365" : "d93a3a", "444d4f" : "932625"},
+		{ "657070" : "ffd495", "596365" : "ea9931", "444d4f" : "af4e00"},
+		{ "657070" : "ffffa7", "596365" : "e2c344", "444d4f" : "a46e06"},
+		{ "657070" : "b2e89d", "596365" : "51bd3b", "444d4f" : "247824"},
+		{ "657070" : "96cbe7", "596365" : "5588d4", "444d4f" : "344495"},
+		{ "657070" : "d29ce7", "596365" : "a451c4", "444d4f" : "6a2284"},
+		{ "657070" : "eab3db", "596365" : "d35eae", "444d4f" : "97276d"},
+		{ "657070" : "ccae7c", "596365" : "a47844", "444d4f" : "754c23"}
+	]
+}

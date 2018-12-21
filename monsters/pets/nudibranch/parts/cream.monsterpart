@@ -1,0 +1,9 @@
+{
+  "name" : "cream",
+  "category" : "petnudibranch",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "cream.png"
+  }
+}

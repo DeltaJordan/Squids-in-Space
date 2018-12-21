@@ -1,0 +1,88 @@
+{
+  "itemName" : "inklingtier5hammerred",
+  "price" : 550,
+  "level" : 5,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A massive weapon, the dynamo roller sports gigantic power and range, but its weight slows the wielder down.",
+  "shortdescription" : "Explosive Dynamo Roller",
+  "tooltipKind" : "sword",
+  "category" : "Roller",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","hammer"],
+  
+  "inventoryIcon" : "explosivedynamoroller.png",
+  "animation" : "/animation/weapons/hammer/pinkhammerswoosh.animation",
+  "animationParts" : {
+    "handle" : "explosivedynamoroller.png",
+    "blade" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+     "fire" : [ "/sfx/melee/swing_hammer_fire1.ogg", "/sfx/melee/swing_hammer_fire2.ogg", "/sfx/melee/swing_hammer_fire3.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "fire",
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 1.9,
+    "baseDps" : 15.5,
+    "damageConfig" : {
+      "damageSourceKind" : "firehammer",
+      "statusEffects" : [ ],
+      "knockbackMode" : "facing",
+      "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "weaponRotation" : -10,
+      "weaponOffset" : [-1.5, 2.75],
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.8,
+      "armRotation" : 90,
+      "weaponRotation" : -10,
+      "twoHanded" : true,
+      "weaponOffset" : [-1.5, 2.75],
+      "allowRotate" : false,
+      "allowFlip" : true,
+      
+      "idleHammerAngle" : -20,
+      "windupHammerAngle" : 0,
+      "dropHammerAngle" : 60,
+      "bounceHammerAngle" : 55,
+      
+      "minWindup" : 0.7,
+      "windupBaseAngle" : -90,
+      "windupAngleRange" : 90
+    },
+    "preslash" : {
+      "duration" : 0.025,
+      "armRotation" : 55,
+      "weaponRotation" : -45,
+      "twoHanded" : true,
+      "weaponOffset" : [-1.5, 3.0],
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "fire" : {
+      "duration" : 0.4,
+      "armRotation" : -35,
+      "weaponRotation" : -55,
+      "twoHanded" : true,
+      "smashTimer" : 1.5,
+      "weaponOffset" : [-1.5, 3.0],
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+      "knockback" : 50
+    },
+    "smashMomentum" : [0, -45]
+  },
+  "baseWeaponRotation" : 15,
+  "altAbilityType" : "blinkexplosion",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

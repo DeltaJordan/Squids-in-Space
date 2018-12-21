@@ -1,0 +1,11 @@
+[
+  {
+    "op": "add",
+    "path": "/species/inkling",
+    "value": {
+      "aiFrames": "inklingAi.png",
+      "portraitFrames": "portraits/inklingportrait.png",
+      "staticFrames": "staticinkling.png"
+    }
+  }
+]

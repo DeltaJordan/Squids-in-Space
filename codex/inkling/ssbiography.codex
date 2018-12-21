@@ -1,0 +1,39 @@
+{
+  "id" : "ssbiography",
+  "title" : "Sea'O'Colors: A Biography",
+  "description" : "A biography covering the rise of two rather famous Inkling musicians.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+"Dating back to roughly the 14th century, the Calamari Inkantation, a famous Inkling song of uplifting spirits, has long since been a mainstay of Inkling culture. 
+Its fairly short but memorable melody is unmistakable, and its rallying triplets have been sung best by cheering crowds.",
+
+"So perhaps it was fate, then, that a duet performance of this song won the Youth Folk-Singing Contest of MA 2723! A pair of cousins from the countryside, a firefly squid Inkling and a bigfin reef squid Inkling, found their first exposure to fame as their singing earned first place and a standing ovation.
+
+At that moment, they surely couldn't have known what the future had in store for them.",
+
+"Ever since this grand success, the two rose to glory as extremely talented singers. Overnight, a simple pasttime became a passion.
+Barely 9 and 11 years old respectively, they enthusiastically took part in every competition they could find, no matter how far they had to travel.",
+
+"It wasn't just their trilling melodies that were enchanting, but their demeanors as well. 
+The younger, magenta-speckled Callie showed boundless energy and enthusiasm, her restlessness quickly forming into elegant dance; her green-freckled cousin, Marie, had a calm and charming manner that made her a favorite among peers and judges alike. 
+Together, they had a striking amount of personality and charm that could win over any crowd.",
+
+"With the passing of time, talent remained their greatest hobby. Even when simply cousins, Callie and Marie soon became as close as sisters could be, and catapulted themselves further into the spotlight with their synchronized performances of song and dance.",
+
+"The pursuit of competition brought the two of them into the city-state of Inkopolis, and the promise of performing for even grander audiences was too much to pass up-- and so they formally called themselves ''Sea'O'Colors'', though they're sometimes called the ''Squid Sisters'' by the less informed. 
+After a fabulous performance at the season's first Splatfest celebration, fortune and fame were made a swift reality for the duo.",
+
+"Even today, a few years after their initial surge of fame in the big city, Sea'O'Colors remains as energetic and full of vibrancy as ever. 
+They currently lead busy lives as both news anchors and pop idols, eagerly covering the news on competitive turf war while lighting up the cityscape with their catchy tunes. 
+
+With the recent release of their respective singles, ''Bomb Rush Blush'' and ''Tide Goes Out'', their future looks bright.",
+
+"And rumors abound, of course: there's an unfounded claim that they're the granddaughters of the Agency's founder. Neither the colors of their tentacles nor their eyes match up quite right, but there's a mysterious and perhaps telling silence on the question."
+	
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

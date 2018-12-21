@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 4},
+	{ "item" : "glassmaterial", "count" : 2}
+  ],
+  "output" : {
+    "item" : "inlollypopjar",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

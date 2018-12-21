@@ -1,0 +1,44 @@
+{
+  "id" : "octarianangrydiary",
+  "title" : "Annoyed Octonotes",
+  "description" : "Some thoughts from a mildly irate Octoling soldier.",
+  "icon" : "octobook.png",
+  "contentPages" : [
+
+"See, I was pretty happy with the last big raid we had on the Inkopolis city-state. 
+It was for good reasons: we weren't doing so hot, we needed electricity, so we went and took what was ours. Maybe we'd get them to see the light and start sharing for once. That would've been pretty cool. I can't blame the DJ for being angry over old things, at least he's putting that energy to use.
+
+But this..
+This plan is incredibly stupid.",
+
+"Like, sure. Okay. We're going to take the Great Zapfish again. Apparently there's plans for all us foot soldiers to get new weapons, new tactics, and new intel on what areas to secure.. so that's pretty cool.
+We're doing a lot better than two years ago, anyways. Maybe we'll actually make a statement this time.
+
+But then he started going on about revenge. Revenge about last time.
+
+Oh boy!",
+
+"Look, I'm bitter too! It was awhile before my time, sure, but we're ALL bitter about what happened!
+
+And between how little land we've got and the way we're treated, it still sucks. History doesn't want to let us go, and all those mindsets are still a thing. There's a reason why I try my hardest to serve, why I'm here and not topside.
+
+But that doesn't mean you're allowed to be super-freakin-extra.",
+
+"Just because the relative of someone you hate decides to show up on our doorstep-- that doesn't give you any reason to start playing with hypno-gadgets! I don't care if you're the shogun or not! 
+
+This'll just make you look bad, make us look bad, it's not gonna help anyone. Maybe it'll help our music industry, but frankly, it doesn't need the help.
+
+Like. Seriously. There's absolutely no reason for this. Chill it.",
+
+"Sure, the concert will be cool. I'm sure it'll be shella cool. The last concert was a huge success, it even got trade going again!
+But that doesn't make this idea ANY BETTER AT ALL. Surprise, the Agency's gonna be all over us all over again for however the heck long. 
+
+No more trade. Bam. No more migration. Bam. Everything sucks again.
+
+You can count me the heck out of this one-- or you would, but I can't really quit my day job."	
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	} 
+}

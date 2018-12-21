@@ -1,0 +1,58 @@
+{
+  "itemName" : "inklingtier5mhead",
+  "price" : 2880,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "Adorned with a golden squid insignia, this helmet has seen countless battles.",
+  "shortdescription" : "Samurai's Helmet",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier5armour" ],
+
+  "colorOptions" : [
+  
+	    { "de5531" : "de5531", "9c2813" : "9c2813", "891f0c" : "891f0c"},
+		{ "de5531" : "cccccc", "9c2813" : "9e9e9e", "891f0c" : "616161"},
+		{ "de5531" : "838383", "9c2813" : "555555", "891f0c" : "151515"},
+		{ "de5531" : "b5b5b5", "9c2813" : "808080", "891f0c" : "555555"},
+		{ "de5531" : "e6e6e6", "9c2813" : "b6b6b6", "891f0c" : "7b7b7b"},
+		{ "de5531" : "f4988c", "9c2813" : "d93a3a", "891f0c" : "932625"},
+		{ "de5531" : "ffd495", "9c2813" : "ea9931", "891f0c" : "af4e00"},
+		{ "de5531" : "ffffa7", "9c2813" : "e2c344", "891f0c" : "a46e06"},
+		{ "de5531" : "b2e89d", "9c2813" : "51bd3b", "891f0c" : "247824"},
+		{ "de5531" : "96cbe7", "9c2813" : "5588d4", "891f0c" : "344495"},
+		{ "de5531" : "d29ce7", "9c2813" : "a451c4", "891f0c" : "6a2284"},
+		{ "de5531" : "eab3db", "9c2813" : "d35eae", "891f0c" : "97276d"},
+		{ "de5531" : "ccae7c", "9c2813" : "a47844", "891f0c" : "754c23"}
+  ]
+}

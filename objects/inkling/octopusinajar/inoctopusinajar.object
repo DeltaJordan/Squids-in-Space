@@ -1,0 +1,33 @@
+{
+  "objectName" : "inoctopusinajar",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "Decorations",
+  "price" : 245,
+  "description" : "''Hssssssss!''",
+  "shortdescription" : "Octopus in a Jar",
+  "race" : "inkling",
+
+  "apexDescription" : "Those tentacles don't look very friendly.",
+  "avianDescription" : "Oh! It has a very sharp beak!",
+  "floranDescription" : "Octopussss in a jar.",
+  "glitchDescription" : "Observant. This octopus is actually quite cozy.",
+  "humanDescription" : "Is she stuck? Maybe not, this octopus looks happy.",
+  "hylotlDescription" : "The octopus has no bones, so this one must be comfortable.",
+  "inklingDescription" : "Hey, don't hiss at me! Kinda rude little octo..",
+  "novakidDescription" : "It's a sea-critter in a jar!",
+
+  "inventoryIcon" : "inoctopusinajaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inoctopusinajar.png:<color>.<frame>",
+      "imagePosition" : [-4, 0],
+      "frames" : 14,
+      "animationCycle" : 5.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

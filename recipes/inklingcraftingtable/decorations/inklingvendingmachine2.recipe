@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silverbar", "count" : 20},
+    { "item" : "cannedfood", "count" : 10},
+	{ "item" : "reefcola", "count" : 5}
+  ],
+  "output" : {
+    "item" : "inklingvendingmachine2",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

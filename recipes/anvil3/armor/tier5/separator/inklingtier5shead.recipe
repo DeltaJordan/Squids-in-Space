@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 6 },
+    { "item" : "inklingtier4head", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier5shead", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

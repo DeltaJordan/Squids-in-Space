@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 15},
+    { "item" : "darkwoodmaterial", "count" : 10},
+	{ "item" : "colonydeed", "count" : 1}
+  ],
+  "output" : {
+    "item" : "shrimpkicks",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "objects", "all" ]
+}

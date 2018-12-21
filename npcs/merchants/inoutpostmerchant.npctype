@@ -1,0 +1,79 @@
+{
+  "type" : "inoutpostmerchant",
+  "baseType" : "inmerchant",
+
+  "scriptConfig" : {
+    "offeredQuests" : [ ],
+    "turnInQuests" : [ ],
+  
+    "merchant" : {
+      "waitTime" : 45,
+      "storeRadius" : 2,
+	  "categories" : { 
+		"inkling" : [ "inoutpostmerchant" ] },
+      "buyFactorRange" : [ 1.0, 1.0 ],
+	  "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 20,
+	  "behaviorConfig" : { "sleep" : false },
+	  "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "Outpost Octo",
+          "subtitle" : "Odd and assorted wares."
+        }
+	  }
+	},
+	
+	"dialog" : {
+      "merchant" : {
+        "start" : "/npcs/configs/inoutpostmerchant.config:merchantStart",
+        "end" : "/npcs/configs/inoutpostmerchant.config:merchantEnd",
+        "follow" : "/npcs/configs/inoutpostmerchant.config:follow",
+        "welcome" : "/npcs/configs/inoutpostmerchant.config:welcome",
+        "tout" : "/npcs/configs/inoutpostmerchant.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/npcs/configs/inflee.config:helpme",
+        "helpthem" : "/npcs/configs/inflee.config:helpthem",
+        "encourage" : "/npcs/configs/inflee.config:encourage",
+        "safe" : "/npcs/configs/inflee.config:safe"
+      },
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/npcs/configs/ingrumble.config:tagCriteria",
+          "enclosedArea" : "/npcs/configs/ingrumble.config:enclosedArea",
+          "otherDeed" : "/npcs/configs/ingrumble.config:otherDeed",
+          "severe" : "/npcs/configs/ingrumble.config:severe",
+          "final" : "/npcs/configs/ingrumble.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/npcs/configs/inarrivedhome.config:beacon",
+          "rent" : "/npcs/configs/inarrivedhome.config:rent"
+        }
+      }
+    }   
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head": [
+          "inklingoctowig5"
+        ],
+		"chest": [
+			"inklingtier5aaltchest"
+		],
+        "legs": [
+          "inklingtier5alegs"
+        ],
+		"back" : [
+		  "inktankalt" 
+		],
+        "sheathedprimary": [
+          { "name": "inklingtier5pistol" }
+        ]
+          }
+        ] ]
+    ]
+  }
+}

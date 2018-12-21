@@ -1,0 +1,18 @@
+{
+  "itemName" : "indamageup",
+  "rarity" : "Common",
+  "price" : 250,
+  "category" : "Charm",
+  "inventoryIcon" : "indamageup.png",
+  "description" : "A charm that'll make you a little more ferocious for a while.",
+  "shortdescription" : "Damage Up Charm",
+  "effects" : [ [
+      {
+        "effect" : "rage",
+        "duration" : 360
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+  "learnBlueprintsonPickup" : [ "inhaunt" ]
+}

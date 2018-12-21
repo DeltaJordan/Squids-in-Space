@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "wire", "count" : 3},
+	{ "item" : "glass", "count" : 4},
+	{ "item" : "ironbar", "count" : 4}
+  ],
+  "output" : {
+    "item" : "onairsign",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

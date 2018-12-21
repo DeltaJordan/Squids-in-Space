@@ -1,0 +1,14 @@
+{
+  "id" : "indefault2",
+  "title" : "What you need to know about COGS",
+  "description" : "Anything and everything you need to know about not letting your personal AI murder you.",
+  "icon" : "protectoratecover1.png",
+  "contentPages" : [
+    "COGS is not a psychopath. You can trust him. He is your friend..."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

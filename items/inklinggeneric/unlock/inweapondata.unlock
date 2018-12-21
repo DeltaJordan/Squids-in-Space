@@ -1,0 +1,13 @@
+{
+  "itemName" : "inweapondata",
+  "rarity" : "common",
+  "price" : 450,
+  "inventoryIcon" : "indata2.png",
+  "image" : "indata2.png",
+
+  "shortdescription" : "IUDB Data Drive 02",
+  "description" : "A drive holding Inkling information. This one has to do with weaponry.",
+
+  "tierRecipesUnlock" : "inweapons",
+  "unlockMessage" : "Inkling weapon recipes have been unlocked!"
+}

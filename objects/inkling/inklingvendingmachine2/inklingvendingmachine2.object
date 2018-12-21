@@ -1,0 +1,114 @@
+{
+  "objectName" : "inklingvendingmachine2",
+  "colonyTags" : ["inkling","commerce"],
+  "rarity" : "Common",
+  "description" : "A gigantic vending machine!",
+  "shortdescription" : "Deluxe Vending Machine",
+  "race" : "inkling",
+  "category" : "decorative",
+  "price" : 805,
+  "lightColor" : [211, 232, 251],
+  "printable" : false,
+
+  "apexDescription" : "A vending machine, but it's got some different treats this time..",
+  "avianDescription" : "It sells both snacks and drinks in one?",
+  "floranDescription" : "Smart machine disssspenssses meatsss!",
+  "glitchDescription" : "Uncertain. Alien drinks may prove unpredictable.",
+  "humanDescription" : "I'm always up for trying new sodas and treats!",
+  "inklingDescription" : "Our vending machines have all sorts of rad stuff in 'em.",
+  "hylotlDescription" : "It even sells karupisu. How quaint.",
+  "novakidDescription" : "A vendin' machine with all kinds of stuff.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Deluxe Vending Machine",
+        "subtitle" : "Tons of tasty snacks!"
+      }
+    },
+    "buyFactor" : 2.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "oculemonade" },
+	  { "item" : "reefcola" },
+      { "item" : "soda" },
+	  { "item" : "coffee" },
+	  { "item" : "kiwijuice" },
+	  { "item" : "inkarupisu" },
+	  { "item" : "chocolate" },
+	  { "item" : "candyapple" },
+	  { "item" : "cannedfood" },
+	  { "item" : "rawtentacle" },
+	  { "item" : "cookedtentacle" },
+	  { "item" : "cookedbacon" },
+	  { "item" : "cookedfish" },
+	  { "item" : "sweetpopcorn" },
+	  { "item" : "fishdumplings" },
+	  { "item" : "ininstantramen" },
+      { "item" : "incanofsardines"},
+	  { "item" : "intakoyaki" },
+	  { "item" : "insquidsicle" },
+	  { "item" : "inriceball" },
+	  { "item" : "inpeanutbutter" }
+    ]
+  },
+
+  "inventoryIcon" : "inklingvendingmachine2icon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "inklingvendingmachine2left.png:<color>.<frame>", "fullbright" : true }, { "image" : "inklingvendingmachine2leftlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "inklingvendingmachine2right.png:<color>.<frame>", "fullbright" : true }, { "image" : "inklingvendingmachine2rightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+  
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}
+

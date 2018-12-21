@@ -1,0 +1,35 @@
+{
+  "itemName" : "iglowstickpurple",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "iglowstickpurpleicon.png",
+  "image" : "iglowstickpurple.png",
+  "shortdescription" : "Purple Glowstick",
+  "description" : "Creates an purple bioluminescent glow when thrown!",
+  "price" : 10,
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "iglowstickpurple",
+  "projectileConfig" : {
+    "speed" : 30,
+    "level" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "glowstickorange","glowstickyellow","glowstickgreen","glowstickblue", "iglowstickcyan", "iglowstickpink", "iglowstickred"
+  ]
+}
+

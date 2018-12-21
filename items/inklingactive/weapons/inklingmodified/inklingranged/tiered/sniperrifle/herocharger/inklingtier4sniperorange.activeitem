@@ -1,0 +1,82 @@
+{
+  "itemName" : "inklingtier4sniperorange",
+  "price" : 750,
+  "inventoryIcon" : "blazingherocharger.png",
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A charger remodeled for more intense combat. It's rumored that a famous singer uses one of these.",
+  "shortdescription" : "Blazing Agent's Charger",
+  "level" : 4,
+  "tooltipKind" : "gun",
+  "category" : "Charger",
+  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "blazingherocharger.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/sniper1.ogg", "/sfx/gun/sniper2.ogg" ]
+    }
+  },
+
+  "baseOffset" : [1.62, 0.65],
+  "muzzleOffset" : [1.8, 0.05],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 1.7,
+    "baseDps" : 15,
+    "energyUsage" : 40.0,
+	"inaccuracy" : 0.001,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    },
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "inchargerfi",
+    "projectileParameters" : { 
+      "knockback" : 15
+    }
+  },
+
+  "altAbilityType" : "explosiveshot",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

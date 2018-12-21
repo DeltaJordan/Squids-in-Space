@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 },
+	{ "item" : "string", "count" : 2 }
+  ],
+  "output" : { "item" : "inklingtier1shortsword", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons", "all" ]
+}

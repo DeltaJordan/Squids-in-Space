@@ -1,0 +1,66 @@
+{
+  "itemName" : "inklingtier6mchest",
+  "price" : 6460,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestarmour",
+  "description" : "Plate armor with a stunning golden finish. Worn only by the worthy.",
+  "shortdescription" : "Shogun's Armor",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+
+   "colorOptions" : [
+   
+	    { "6e0652" : "6e0652", "5c0545" : "5c0545", "280a20" : "280a20"},
+		{ "6e0652" : "cccccc", "5c0545" : "9e9e9e", "280a20" : "616161"},
+		{ "6e0652" : "838383", "5c0545" : "555555", "280a20" : "151515"},
+		{ "6e0652" : "b5b5b5", "5c0545" : "808080", "280a20" : "555555"},
+		{ "6e0652" : "e6e6e6", "5c0545" : "b6b6b6", "280a20" : "7b7b7b"},
+		{ "6e0652" : "f4988c", "5c0545" : "d93a3a", "280a20" : "932625"},
+		{ "6e0652" : "ffd495", "5c0545" : "ea9931", "280a20" : "af4e00"},
+		{ "6e0652" : "ffffa7", "5c0545" : "e2c344", "280a20" : "a46e06"},
+		{ "6e0652" : "b2e89d", "5c0545" : "51bd3b", "280a20" : "247824"},
+		{ "6e0652" : "96cbe7", "5c0545" : "5588d4", "280a20" : "344495"},
+		{ "6e0652" : "d29ce7", "5c0545" : "a451c4", "280a20" : "6a2284"},
+		{ "6e0652" : "eab3db", "5c0545" : "d35eae", "280a20" : "97276d"},
+		{ "6e0652" : "ccae7c", "5c0545" : "a47844", "280a20" : "754c23"}
+  ]
+ }

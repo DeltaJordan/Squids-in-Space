@@ -1,0 +1,36 @@
+{
+  "objectName" : "inklingmoderntable",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 145,
+  "printable" : false,
+
+  "description" : "A modern table for any kitchen, now with unmistakable Inkling flair.",
+  "shortdescription" : "Modernized Table",
+  "race" : "inkling",
+  
+  "apexDescription" : "Does it belong to an artist? Or a house with many kids?",
+  "avianDescription" : "The only thing to do is to put tons of colorful things on top!",
+  "floranDescription" : "Table.. needssss clean. Sssticky when Floran touch.",
+  "glitchDescription" : "Confused. The stains are completely flat.",
+  "humanDescription" : "Is it made like that, or was someone having fun painting?",
+  "hylotlDescription" : "The splatters give it a fun character, but it must be hard to coordinate.",
+  "inklingDescription" : "It's not furniture until you ink it yourself!",
+  "novakidDescription" : "Might not want to touch this table if that's ink on it..",
+
+  "inventoryIcon" : "inklingmoderntableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inklingmoderntable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "spaceScan" : 0.1
+    }
+  ]
+}

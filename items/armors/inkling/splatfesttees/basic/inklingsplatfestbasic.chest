@@ -1,0 +1,25 @@
+{ 
+	"itemName" : "inklingsplatfestbasic",
+	"inventoryIcon" : "icon.png",
+	"price" : 310,
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"category" : "chestwear",
+	"description" : "A colorful shirt bearing the logo for Splatfest, the popular Inkling festival.",
+	"shortdescription" : "Splatfest Shirt",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	  "learnBlueprintsonPickup" : [  "inklingsplatfestflight", "inklingsplatfestinvisibility", "inklingsplatfestketchup", "inklingsplatfestmayo", "inklingsplatfestwerewolf", "inklingsplatfestsweater", "inklingsplatfestsocks", "inklingsplatfestlove", "inklingsplatfestmoney" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "inklingtier5grenadelauncher", "count" : 1},
+	{ "item" : "solariumstar", "count" : 10 },
+	{ "item" : "corefragmentore", "count" : 10 }
+  ],
+  "output" : { "item" : "inklingtier6grenadelauncher", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

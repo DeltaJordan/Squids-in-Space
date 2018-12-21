@@ -1,0 +1,59 @@
+{
+  "id" : "octariandiary2",
+  "title" : "Resolute Diary",
+  "description" : "The second of two diaries written by an influential Octoling. This one is rather recent.",
+  "icon" : "octobook.png",
+  "contentPages" : [
+
+"60 years. 70 years. There's not a day I haven't forgotten that damn war.
+Resources have stayed thin as the Valley struggles in trade. It's like running on fourth of an ink tank.
+
+But as the Agency eases its hold, finally, things are coming together. The capital needs leadership, calling back to the old days, and it sure as hell wasn't hard to stir interest in a new shogunate.
+It's just a matter of keeping it a secret from those slippery little fools that watch us from above.",
+
+"And so the unrest begins. Electricity sources are dwindling as the capital's Zapfish populations aren't thriving as well. It's a cycle, our poor conditions giving them no room to be healthy, and less electricity is made.
+Nobody's happy with it, there's only so much you can waste time with when conservation is key. Shame, because I've had a tune stuck in my head but few luxuries to spend it on.
+
+But unrest makes for revolution, doesn't it? It's all just a matter of waiting for the perfect moment.",
+
+"It's a weekly affair. A meeting on the state of everything, on resource allocation and managing what we've pulled together as a military, and finally the right topic rises to the surface.
+
+Three of them were idiots, afraid to bare their beaks in the face of adversity, but the other five actually cared to listen to what I had to say. A strong leader is exactly what the despairing people need.",
+
+"''Wisdom'', ''ferocity'', ''cunning'', they're all things favored in the proper shogun. ''Bloodright'' is just a lucky bonus.
+
+With agreement divided, there's only one way to decide who gets the throne.. so Takamaiko had best watch their back. I'll be waiting.",
+
+"Three thousand, six hundred and two watched the match, but it felt like the whole damn world.
+
+Takamaiko had the thought to bring an Octobrush, even when my weapon tastes are clear by history. Why make such a foolish mistake?
+Victory comes with things you won't forget, this being a gigantic wound up my arm. But what's a scarred tentacle to a dying society?",
+
+"I've made it clear: the only way out is through rising to the tide. Some of the council calls me the crazy one, that I've gone senile already, but they don't get how our civilization is crumbling.
+The world seems happy to forget us, and our slimy neighbors show no remorse for what they've done to us. There won't be hope unless we make it ourselves.",
+
+"It's as if the rest of the council has all forgotten exactly who began the Great Turf War, and who suffered. They're all hatchlings who haven't learned their history and want to keep thinking it'll get better.
+Nothing is getting better. It's simply getting worse.
+
+It's not like Inkopolis has an army, anyways: intelligence says it's been abandoned for peaceful frontiers.
+Convenient, isn't it?",
+
+"Some civilians agree with the rallying call, some don't. Their thoughts would matter any other day, but not today.
+
+We have had enough of living like this, much less under the fist of the people who struck us first.
+Resources, land, shelter and electricity-- Inklings are so keen on sharing it with other races, the jellyfish and the anenomes, but not us. Not as we slowly drown.
+
+Everything can't continue like this.",
+
+"But ultimately, the reasons don't matter. They'll simply have to share, even if we have to take it by force.
+
+We will rise to see the sun again.
+
+-- O. Kzaikeru, Shogun of Octo Valley, MA 2730"
+	
+    ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 580
+	}
+}

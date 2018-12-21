@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "inklingsplatfestmoney",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "headwear",
+	"description" : "The lenses on these super-cool glasses look like traditional Inkling coins.",
+	"shortdescription" : "Team Money Glasses",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

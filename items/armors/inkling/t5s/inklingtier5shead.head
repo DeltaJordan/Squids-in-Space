@@ -1,0 +1,61 @@
+{
+  "itemName" : "inklingtier5shead",
+  "price" : 2480,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "A heavy-duty helmet for your noggin. Kinda looks like a bike helmet..",
+  "shortdescription" : "Armored Agent's Helmet",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+  
+   "statusEffects" : [
+    "fireflyglow"
+  ],
+
+  "itemTags" : [ "tier5armour" ],
+
+  "colorOptions" : [
+	    { "10eb08" : "10eb08", "0bad05" : "0bad05", "099e04" : "099e04"},
+		{ "10eb08" : "cccccc", "0bad05" : "9e9e9e", "099e04" : "616161"},
+		{ "10eb08" : "838383", "0bad05" : "555555", "099e04" : "151515"},
+		{ "10eb08" : "b5b5b5", "0bad05" : "808080", "099e04" : "555555"},
+		{ "10eb08" : "e6e6e6", "0bad05" : "b6b6b6", "099e04" : "7b7b7b"},
+		{ "10eb08" : "f4988c", "0bad05" : "d93a3a", "099e04" : "932625"},
+		{ "10eb08" : "ffd495", "0bad05" : "ea9931", "099e04" : "af4e00"},
+		{ "10eb08" : "ffffa7", "0bad05" : "e2c344", "099e04" : "a46e06"},
+		{ "10eb08" : "b2e89d", "0bad05" : "51bd3b", "099e04" : "247824"},
+		{ "10eb08" : "96cbe7", "0bad05" : "5588d4", "099e04" : "344495"},
+		{ "10eb08" : "d29ce7", "0bad05" : "a451c4", "099e04" : "6a2284"},
+		{ "10eb08" : "eab3db", "0bad05" : "d35eae", "099e04" : "97276d"},
+		{ "10eb08" : "ccae7c", "0bad05" : "a47844", "099e04" : "754c23"}
+  ]
+}

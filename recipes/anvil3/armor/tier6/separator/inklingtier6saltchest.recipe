@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 16 },
+    { "item" : "leather", "count" : 12 },
+	{ "item" : "blackdye", "count" : 6 },
+	{ "item" : "pinkdye", "count" : 3 } 
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier6saltchest", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

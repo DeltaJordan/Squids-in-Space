@@ -1,0 +1,11 @@
+{
+  "input" : [
+   { "item" : "glass", "count" : 1},
+   { "item" : "slime", "count" : 2}
+  ],
+  "output" : {
+    "item" : "inklinginkvial",
+    "count" : 1
+  },
+  "groups" : [ "craftingmedical", "buffs" ]
+}

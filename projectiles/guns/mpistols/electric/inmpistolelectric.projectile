@@ -1,0 +1,22 @@
+{
+  "projectileName" : "inmpistolelectric",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "inmpistolelectric.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 50,
+  "speed" : 75,
+  "emitters" : [ "electricplasma" ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [225, 158, 229],
+  "damageKind" : "electricplasmabullet"
+}

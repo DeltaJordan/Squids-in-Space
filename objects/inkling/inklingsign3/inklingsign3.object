@@ -1,0 +1,33 @@
+{
+  "objectName" : "inklingsign3",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 750,
+
+  "description" : "A sign restricting pets from being in stores and other places.",
+  "shortdescription" : "No Pets Allowed Sign",
+  "race" : "inkling",
+
+  "apexDescription" : "I can see why they'd need these, sea slugs are pretty sticky.",
+  "avianDescription" : "A sign restricting pets. Does that count bunnies, though?",
+  "floranDescription" : "Floran keepssss pet on ssssship. Keep sssssafe.",
+  "glitchDescription" : "Confused. On the back, there's a list of restricted pets besides slugs.",
+  "humanDescription" : "So no dogs? Really? Aww..",
+  "hylotlDescription" : "Sometimes you simply have to lay down the law.",
+  "inklingDescription" : "On the back of the sign, there's about something no tamarins or frogs allowed... weird.",
+  "novakidDescription" : "No pets 'llowed in 'ere!",
+
+  "inventoryIcon" : "inklingsign3icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingsign3.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

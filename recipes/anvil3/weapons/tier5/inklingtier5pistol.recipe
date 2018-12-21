@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 10 },
+    { "item" : "silverbar", "count" : 7 }
+  ],
+  "output" : { "item" : "inklingtier5pistol", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "weapons", "all" ]
+}

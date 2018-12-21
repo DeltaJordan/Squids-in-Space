@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 12 },
+    { "item" : "durasteelbar", "count" : 8 },
+	{ "item" : "corefragmentore", "count" : 5 }
+  ],
+  "output" : { "item" : "inklingtier5shotgun", "count" : 1 },
+  "groups" : [ "craftingmanipulator", "weapons", "all" ]
+}

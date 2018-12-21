@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/chatSounds/inkling",
+    "value": {
+      "male": [
+        "/sfx/humanoid/inkling_chatter_m1.wav",
+        "/sfx/humanoid/inkling_chatter_m2.wav",
+        "/sfx/humanoid/inkling_chatter_m3.wav",
+        "/sfx/humanoid/inkling_chatter_m4.wav",
+        "/sfx/humanoid/inkling_chatter_m5.wav",
+		"/sfx/humanoid/inkling_chatter_m6.wav",
+		"/sfx/humanoid/inkling_chatter_m7.wav",
+		"/sfx/humanoid/inkling_chatter_m8.wav"
+      ],
+      "female": [
+        "/sfx/humanoid/inkling_chatter_f1.wav",
+        "/sfx/humanoid/inkling_chatter_f2.wav",
+        "/sfx/humanoid/inkling_chatter_f3.wav",
+        "/sfx/humanoid/inkling_chatter_f4.wav",
+        "/sfx/humanoid/inkling_chatter_f5.wav",
+		"/sfx/humanoid/inkling_chatter_f6.wav",
+		"/sfx/humanoid/inkling_chatter_f7.wav",
+		"/sfx/humanoid/inkling_chatter_f8.wav"
+      ]
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : [],
+      "maxFuel" : 1250,
+      "crewSize" : 2
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "inklingT1.png",
+      "position" : [7.75, 15],
+      "fullbright" : true
+    },
+    {
+      "image" : "inklingT1lit.png",
+      "position" : [7.75, 15]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "inklingT1blocks.png"
+}

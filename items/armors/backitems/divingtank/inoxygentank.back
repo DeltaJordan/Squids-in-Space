@@ -1,0 +1,21 @@
+{
+  "itemName" : "inoxygentank",
+  "price" : 850,
+  "inventoryIcon" : "inoxygentankicon.png",
+  "rarity" : "Rare",
+  "category" : "backwear",
+  "description" : "An ink tank that's been redesigned for low-oxygen environments.",
+  "shortdescription" : "Oxygenized Ink Tank",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+  "statusEffects" : [
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    }
+  ]
+}

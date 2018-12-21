@@ -1,0 +1,95 @@
+{
+  "objectName" : "jellyfresh",
+  "colonyTags" : ["inkling", "commerce"],
+  "rarity" : "Uncommon",
+  "category" : "other",
+  "description" : "All the coolest new threads in one convenient place.",
+  "shortdescription" : "Jelly Fresh",
+  "race" : "inkling",
+  "printable" : false,
+  
+  "lightColor" : [134, 204, 227],
+  
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Jelly Fresh",
+        "subtitle" : "Lots of fab fashions!",
+		"icon" : {
+        "file" : "/interface/merchant/jellyfreshmicon.png"
+        }
+      }
+    },
+    "buyFactor" : 1.1,
+    "sellFactor" : 0.2,
+   	"items" : [
+		{ "item" : "fabric" },
+		{ "item" : "silk" },
+		{ "item" : "string" },
+		{ "item" : "inktank" },
+		{ "item" : "inktankalt" },
+		{ "item" : "fireflylantern" },
+		{ "item" : "inklinganchorsweat" },
+		{ "item" : "inklinganniechest" },
+		{ "item" : "inklinggrapetee"},
+		{ "item" : "inklingoctarianjacket" },
+		{ "item" : "inklingothmchest" },
+		{ "item" : "inklingothpchest" },
+		{ "item" : "inklingradchest" },
+		{ "item" : "inklingreelsweat" },
+		{ "item" : "inklingsportchest"},
+		{ "item" : "inklingsplatfestbasic" },
+		{ "item" : "inklingsquidforcechest" },
+		{ "item" : "inklingtier1chest" },
+		{ "item" : "inklingtier2chest" },
+		{ "item" : "inklingsscchest" },
+		{ "item" : "inklingssmchest" },
+		{ "item" : "inklingzekkochest" }
+    ]
+  },
+
+  "apexDescription" : "A clothes stall. There's all sorts of shirts here!",
+  "avianDescription" : "Some of these match my feathers perfectly!",
+  "floranDescription" : "Jellyfisssshhh don't have taste. Clothesss are good though!",
+  "glitchDescription" : "Confusion. Jellyfish don't have brains, how does it talk?",
+  "humanDescription" : "Dude, I recognize some of these designs! I think!",
+  "hylotlDescription" : "Those are some really nice lanterns.",
+  "novakidDescription" : "You got any cool jackets, jellyman?",
+  "inklingDescription" : "I sure hope Jelonzo thinks I'm fresh enough to buy his wares!",
+
+  "inventoryIcon" : "jellyfreshicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "jellyfreshleft.png:<color>.<frame>", "fullbright" : true }, { "image" : "jellyfreshleftlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [3, 0],
+      "frames" : 21,
+      "animationCycle" : 5.0,
+      
+      "direction" : "left",
+      
+      "lightPosition" : [ 3, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "imageLayers" : [ { "image" : "jellyfreshright.png:<color>.<frame>", "fullbright" : true }, { "image" : "jellyfreshrightlit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [3, 0],
+      "frames" : 21,
+      "animationCycle" : 5.0,
+      
+      "direction" : "right",
+      
+      "lightPosition" : [ 0, 3],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

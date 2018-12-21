@@ -1,0 +1,15 @@
+{
+  "itemName" : "inklingoctowig6",
+  "price" : 350,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "Soft, pastel, and covered in spots. These tentacles look a bit like a baked treat!",
+  "shortdescription" : "Frosted Octoling Wig",
+  "tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

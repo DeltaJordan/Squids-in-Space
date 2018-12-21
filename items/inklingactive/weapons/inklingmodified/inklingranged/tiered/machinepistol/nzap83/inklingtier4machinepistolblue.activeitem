@@ -1,0 +1,83 @@
+{
+  "itemName" : "inklingtier4machinepistolblue",
+  "price" : 430,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A deluxe blue and white N-Zap model. What are those little plugs on the sides for?",
+  "shortdescription" : "Frozen N-Zap '83",
+  "tooltipKind" : "gun",
+  "category" : "Handgun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","machinepistol"],
+  "level" : 4,
+
+  "inventoryIcon" : "frozennzap83.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "frozennzap83.png",
+    "barrel" : ""  },
+  
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/tentaclegun1.ogg", "sfx/gun/tentaclegun2.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.6, 0.45],
+  "muzzleOffset" : [1.2, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.2,
+    "baseDps" : 8.0,
+    "energyUsage" : 17,
+    "inaccuracy" : 0.05,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "inmpistolice",
+    "projectileParameters" : {
+      "knockback" : 2
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

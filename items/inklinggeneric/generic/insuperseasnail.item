@@ -1,0 +1,10 @@
+{
+  "itemName" : "insuperseasnail",
+  "price" : 3505,
+  "rarity" : "Uncommon",
+  "category" : "currency",
+  "inventoryIcon" : "insuperseasnail.png",
+  "description" : "A rare sea snail with a super sparkly shell. Popular as currency with sea urchin merchants.",
+  "shortdescription" : "Super Sea Snail",
+  "learnBlueprintsOnPickup" : ["infoodsnail"]
+}

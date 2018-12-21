@@ -1,0 +1,147 @@
+[
+	{
+	"op" : "add",
+	"path" : "/greeting/apex/inkling",
+	"value" : [
+		"Hey squiddo.",
+		"Welcome, inkling!",
+		"I'm very pleased to meet you.",
+		"Oh, an inkling. How do you do?" ]
+	},
+
+	{ "op" : "add",
+	"path" : "/greeting/avian/inkling",
+	"value" : [
+		"Greetings, inkling! Make yourself at home here.",
+		"Oh, it's a squid! It's nice to meet you.",
+		"May Kluex bless your travels, inkling!",
+		"Looking fresh, squid!" ]
+	},
+	
+	{ "op" : "add",
+	"path" : "/greeting/floran/inkling",
+	"value" : [
+		"Sssssssquid!",
+		"Squiddy squid!",
+		"Sssquid. Greetingsss!",
+		"Inklingssss! Hello!" ]
+	},
+	
+	{ "op" : "add",
+	"path" : "/greeting/glitch/inkling",
+	"value" : [
+		"Cordial. Greetings, squidfolk!",
+		"Intrigued. It's nice to meet you, inkling.",
+		"Cozening. Pleasant to see a new face!",
+		"Friendly. Welcome, inkling.",
+		"Welcoming. Pleased to see you here, squid." ]
+	},
+	
+	{ "op" : "add",
+	"path" : "/greeting/human/inkling",
+	"value" : [
+		"Oh! It's a squid-person, cool!",
+		"You're an inkling, right? Hi!",
+		"Yo! You're real cool-looking for a space squid!",
+		"Nice to meet you, squid!",
+		"Dude, sweet tentacles you got there!" ]
+	},
+	
+	{ "op" : "add",
+	"path" : "/greeting/novakid/inkling",
+	"value" : [
+		"Howdy, inkling!",
+		"How's it goin', squiddo?",
+		"You doin' fine tonight? Good!",
+		"'Ey partner!" ]
+	},
+
+	{ "op" : "add",
+	"path" : "/converse/apex/inkling",
+	"value" : [
+		"Wait, you don't have any hair? Not even on your chest?",
+		"Careful with all that ''woomying'' about, I don't know what the Miniknog would think..",
+		"What do you think of bananas? Huh? You like melon more?",
+		"I hear you guys can escape from almost anything with your squishy bodies. That's neat.",
+		"Is-- is it normal for you to just go around with guns like that?",
+		"I don't know what you think, but we don't smell funny. We smell just fine, thanks."
+		]
+	},
+	
+		{ "op" : "add",
+	"path" : "/converse/avian/inkling",
+	"value" : [
+		"You don't have any feathers OR hair? Aren't you cold?",
+		"Wait, you can fly?! Show me how to super jump, too!",
+		"Careful, you might get ink in my feathers..",
+		"I've heard your houses are super colorful, like ours! Want to trade banners?",
+		"Your voices sound a lot like ours! Maybe I could learn your language, too?",
+		"Do you want to hang out sometime? We can paint together!",
+		"Your kind aren't religious? Really? That's so weird to think about...",
+		"Don't you guys, like, worship a fax machine? Or something?"
+		]
+	},
+	
+		{ "op" : "add",
+	"path" : "/converse/floran/inkling",
+	"value" : [
+		"Sssssquiddy squid! Does sssquid like raw meat, too?",
+		"Ssmells like sea. Ssssushi?",
+		"Squid very sticky! Covered in sssap?",
+		"Floran likesss music too! Different than ssssquid music, though.",
+		"Pretty squiddy colors! Like Floran petals!",
+		"Sssquid eat meat too, right? Come to dinner!",
+		"No bonessss in squid? Very ssstrange to Floran!",
+		"Inklingsss good at hunting, right? Join Floransss next time!"
+		]
+	},
+	
+		{ "op" : "add",
+	"path" : "/converse/glitch/inkling",
+	"value" : [
+		"Entertained. Your voices sound like broken voiceboxes.",
+		"Fascinated. How are your bodies made almost entirely of ink?",
+		"Cordial. We have parties and banquets too, you should attend sometime!",
+		"Cautious. I would offer you food, but.. Glitch food may not fly well with squids.",
+		"Mystified. Did you just change the color of your skin?",
+		"Wary. Does ink short out circuits?",
+		"Curious. Do your kind not have any stiff body structure?"
+		]
+	},
+		{ "op" : "add",
+	"path" : "/converse/human/inkling",
+	"value" : [
+		"Wait, you like techno too? We gotta swap CDs sometime!",
+		"No, I don't like calamari! I've never eaten squid in my life! I swear!",
+		"You want something to drink? We've got soda, not just water!",
+		"You, um, you didn't have anything to do with Earth, right?",
+		"Are those weapons real, or just toys? They look like water guns!",
+		"I could swear I've seen that shirt before. Huh..",
+		"Aren't squids, like, boneless? That's so cool!",
+		"What's your opinion on strobe lights? Me, I love 'em.",
+		"Do you guys seriously just party all the time? I'm jealous!"
+		]
+	},
+		{ "op" : "add",
+	"path" : "/converse/hylotl/inkling",
+	"value" : [
+		"Nice weather, do you think?",
+		"Would you want to go out and grab sushi sometime? I know a wonderful place!",
+		"I haven't seen an Inkling in forever! How are things going?",
+		"We've a sauna in the back room. We will treat the water if you wanted to use it!",
+		"I am so pleased to see more cultured folk around here.",
+		"I heard there's a poetry recital in a couple weeks. Are you interested, by any chance?",
+		"Woomy! ... Did I say that correctly?"
+		]
+	},
+		{ "op" : "add",
+	"path" : "/converse/novakid/inkling",
+	"value" : [
+		"You guys like light or something, right? What d'ya think of my glow?",
+		"So, what's a woomy?",
+		"Is that ink flammable? Uh, don't touch me, just in case!",
+		"Ooh, you're all sticky.. that's kinda weird.",
+		"Ya wanna come hang out and hear me play guitar? I'm pretty good at it!"
+		]
+	}
+]

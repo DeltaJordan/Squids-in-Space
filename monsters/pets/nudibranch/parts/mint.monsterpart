@@ -1,0 +1,9 @@
+{
+  "name" : "mint",
+  "category" : "petnudibranch",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "mint.png"
+  }
+}

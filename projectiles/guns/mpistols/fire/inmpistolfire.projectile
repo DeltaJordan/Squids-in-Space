@@ -1,0 +1,22 @@
+{
+  "projectileName" : "inmpistolfire",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "inmpistolfire.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 50,
+  "speed" : 75,
+  "emitters" : [ "fireplasma" ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [250, 210, 190],
+  "damageKind" : "fireplasmabullet"
+}

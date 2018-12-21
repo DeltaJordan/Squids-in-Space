@@ -1,0 +1,58 @@
+{
+  "itemName" : "inklingtier6mheadwig",
+  "price" : 8680,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "The colors and helmet of the Octarian ruler.",
+  "shortdescription" : "Shogun's Wig",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+
+  "colorOptions" : [
+  
+	    { "ab0f81" : "ab0f81", "7f075f" : "7f075f", "610548" : "610548"},
+		{ "ab0f81" : "cccccc", "7f075f" : "9e9e9e", "610548" : "616161"},
+		{ "ab0f81" : "838383", "7f075f" : "555555", "610548" : "151515"},
+		{ "ab0f81" : "b5b5b5", "7f075f" : "808080", "610548" : "555555"},
+		{ "ab0f81" : "e6e6e6", "7f075f" : "b6b6b6", "610548" : "7b7b7b"},
+		{ "ab0f81" : "f4988c", "7f075f" : "d93a3a", "610548" : "932625"},
+		{ "ab0f81" : "ffd495", "7f075f" : "ea9931", "610548" : "af4e00"},
+		{ "ab0f81" : "ffffa7", "7f075f" : "e2c344", "610548" : "a46e06"},
+		{ "ab0f81" : "b2e89d", "7f075f" : "51bd3b", "610548" : "247824"},
+		{ "ab0f81" : "96cbe7", "7f075f" : "5588d4", "610548" : "344495"},
+		{ "ab0f81" : "d29ce7", "7f075f" : "a451c4", "610548" : "6a2284"},
+		{ "ab0f81" : "eab3db", "7f075f" : "d35eae", "610548" : "97276d"},
+		{ "ab0f81" : "ccae7c", "7f075f" : "a47844", "610548" : "754c23"}
+  ]
+}

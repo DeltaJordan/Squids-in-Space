@@ -1,0 +1,33 @@
+{
+  "objectName" : "inmanekijudd",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "Decorations",
+  "price" : 585,
+  "description" : "A plush feline to invoke luck and wealth upon the owner. The fur pattern looks super familiar...",
+  "shortdescription" : "Spotted Lucky Cat",
+  "race" : "inkling",
+
+  "apexDescription" : "Some sort of cat toy. I think these are meant to be lucky?",
+  "avianDescription" : "I've never been very fond of cats..",
+  "floranDescription" : "No need for lucky decorations unlessss they bring luck to Floran'sss huntsss.",
+  "glitchDescription" : "Questioning. Where have I seen those colors on a feline before?",
+  "humanDescription" : "Oh, I know these! They're supposed to attract money to their owner and their business.",
+  "hylotlDescription" : "Lucky cats are very popular with merchants and business-owners, but are beloved by many others as well.",
+  "inklingDescription" : "It's a maneki neko made to look like Judd! Maybe he'll bring good luck to my next turf war matches.",
+  "novakidDescription" : "A fluffy little cat toy, it's got an awful cute smile.",
+
+  "inventoryIcon" : "inmanekijuddicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inmanekijudd.png:<color>",
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

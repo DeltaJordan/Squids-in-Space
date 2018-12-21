@@ -1,0 +1,22 @@
+{
+  "projectileName" : "inchargerp",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "inchargerp.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 2,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "emitters" : [ "poisonplasma" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "lightColor" : [190, 255, 189],
+  "damageKind" : "poisonplasmabullet"
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "inklingmodernbookcase",
+  "colonyTags" : ["inkling","knowledge","storage"],
+  "rarity" : "Common",
+  "description" : "A bookshelf with all sorts of stuff on it. Looks well-loved.",
+  "shortdescription" : "Modernized Bookcase",
+  "race" : "inkling",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 145,
+  "health" : 1.5,
+
+  "apexDescription" : "Its colors are a little too scientific for my tastes.",
+  "avianDescription" : "The books look cool, but I can't read them..",
+  "floranDescription" : "Bookssss, no thanksss... but shoessss?",
+  "glitchDescription" : "Thoughtful. They keey interesting things on their shelves.",
+  "humanDescription" : "It's covered in stickers. Kinda cute.",
+  "hylotlDescription" : "Novels, pop culture, comic books.. typical Inkling fare.",
+  "inklingDescription" : "A pretty cool bookcase! Needs a little more color if you ask me.",
+  "novakidDescription" : "You think anyone's gonna miss those cool kicks?",
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "inventoryIcon" : "inklingmodernbookcasei.png",
+  "orientations" : [
+    {
+      "dualImage" : "inklingmodernbookcase.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "spaceScan" : 0.1
+    }
+  ]
+}

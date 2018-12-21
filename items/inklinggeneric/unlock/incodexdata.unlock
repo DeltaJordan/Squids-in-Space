@@ -1,0 +1,13 @@
+{
+  "itemName" : "incodexdata",
+  "rarity" : "common",
+  "price" : 450,
+  "inventoryIcon" : "indata7.png",
+  "image" : "indata7.png",
+
+  "shortdescription" : "IUDB Data Drive 07",
+  "description" : "A drive holding Inkling information. This one has to do with written texts.",
+
+  "tierRecipesUnlock" : "incodices",
+  "unlockMessage" : "Inkling codex recipes have been unlocked!"
+}

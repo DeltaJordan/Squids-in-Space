@@ -1,0 +1,82 @@
+{
+  "itemName" : "inklingtier4assaultrifleorange",
+  "price" : 565,
+  "inventoryIcon" : "blazingbamboozlermk1.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A rapid-fire turbine made from bamboo and scrap iron. It's a classic model that helped win the Great Turf War.",
+  "shortdescription" : "Blazing Bamboozler MK I",
+  "level" : 4,
+  "tooltipKind" : "gun",
+  "category" : "Charger",
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "twoHanded" : true,
+  
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "blazingbamboozlermk1.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashorange.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/gun/uzi1.ogg", "/sfx/gun/uzi2.ogg", "/sfx/gun/uzi3.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.7, 0.5],
+  "muzzleOffset" : [3.0, 0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.45,
+    "baseDps" : 11,
+    "energyUsage" : 24.0,
+	"inaccuracy" : 0.001,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+  
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    },
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "fireplasma",
+    "projectileParameters" : { 
+      "knockback" : 15
+    }
+  },
+
+  "altAbilityType" : "explosiveburst",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

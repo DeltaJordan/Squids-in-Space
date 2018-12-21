@@ -1,0 +1,33 @@
+{
+  "objectName" : "inklingsign1",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 850,
+
+  "description" : "A blue sign that shows the way to the nearest train station.",
+  "shortdescription" : "Blue Directional Sign",
+  "race" : "inkling",
+
+  "apexDescription" : "It's telling me to go this way, but which way IS this way?",
+  "avianDescription" : "Would be a lot more useful if I could read it, really.",
+  "floranDescription" : "Ssssign... lead where?",
+  "glitchDescription" : "Neutral. A sign leading somewhere important, I'm sure.",
+  "humanDescription" : "It's really inconvenient to have signs be written in uncommon languages.",
+  "hylotlDescription" : "My understanding of Inkling writing is poor, but it says something about a depot...",
+  "inklingDescription" : "Huh, so there's a train station around here somewhere. That's news to me!",
+  "novakidDescription" : "A metal sign pointing somewhere. Not sure where.",
+
+  "inventoryIcon" : "inklingsign1icon.png",
+  "orientations" : [
+    {
+      "image" : "inklingsign1.png:<color>",
+      "imagePosition" : [-32, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "itemName" : "inklingssmhead",
+  "price" : 1975,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "Just in case you ever wanted to look a lot like a certain famous popstar.",
+  "shortdescription" : "Sassy Idol's Wig",
+  "tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png",
+
+	"statusEffects" : [
+    "fireflyglowgreen"
+  ],
+	
+  "level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 6
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier1armour" ],
+
+  "colorOptions" : [
+	    { "90f072" : "90f072", "81d866" : "81d866"},
+		{ "90f072" : "cccccc", "81d866" : "9e9e9e"},
+		{ "90f072" : "838383", "81d866" : "555555"},
+		{ "90f072" : "b5b5b5", "81d866" : "808080"},
+		{ "90f072" : "e6e6e6", "81d866" : "b6b6b6"},
+		{ "90f072" : "f4988c", "81d866" : "d93a3a"},
+		{ "90f072" : "ffd495", "81d866" : "ea9931"},
+		{ "90f072" : "ffffa7", "81d866" : "e2c344"},
+		{ "90f072" : "b2e89d", "81d866" : "51bd3b"},
+		{ "90f072" : "96cbe7", "81d866" : "5588d4"},
+		{ "90f072" : "d29ce7", "81d866" : "a451c4"},
+		{ "90f072" : "eab3db", "81d866" : "d35eae"},
+		{ "90f072" : "ccae7c", "81d866" : "a47844"}
+  ]
+ }

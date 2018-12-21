@@ -1,0 +1,57 @@
+{
+  "itemName" : "inklingtier6aheadwig",
+  "price" : 4620,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "The colors and mask of a talented soldier.",
+  "shortdescription" : "Elite Octoling's Wig",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+
+  "colorOptions" : [
+	    { "323133" : "323133", "1c1c1d" : "1c1c1d", "151517" : "151517"},
+		{ "323133" : "cccccc", "1c1c1d" : "9e9e9e", "151517" : "616161"},
+		{ "323133" : "838383", "1c1c1d" : "555555", "151517" : "151515"},
+		{ "323133" : "b5b5b5", "1c1c1d" : "808080", "151517" : "555555"},
+		{ "323133" : "e6e6e6", "1c1c1d" : "b6b6b6", "151517" : "7b7b7b"},
+		{ "323133" : "f4988c", "1c1c1d" : "d93a3a", "151517" : "932625"},
+		{ "323133" : "ffd495", "1c1c1d" : "ea9931", "151517" : "af4e00"},
+		{ "323133" : "ffffa7", "1c1c1d" : "e2c344", "151517" : "a46e06"},
+		{ "323133" : "b2e89d", "1c1c1d" : "51bd3b", "151517" : "247824"},
+		{ "323133" : "96cbe7", "1c1c1d" : "5588d4", "151517" : "344495"},
+		{ "323133" : "d29ce7", "1c1c1d" : "a451c4", "151517" : "6a2284"},
+		{ "323133" : "eab3db", "1c1c1d" : "d35eae", "151517" : "97276d"},
+		{ "323133" : "ccae7c", "1c1c1d" : "a47844", "151517" : "754c23"}
+  ]
+}

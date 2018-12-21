@@ -1,0 +1,29 @@
+{
+  "itemName" : "incocktail",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "incocktail.png",
+  "description" : "A sour cocktail of many colors.",
+  "shortdescription" : "Inked Cocktail",
+    "effects" : [ [
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 240
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+    "learnBlueprintsOnPickup" : ["incocktail"]
+  }

@@ -1,0 +1,53 @@
+{
+  "itemName" : "inklingtier6broadswordblue",
+  "price" : 455,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "rare",
+  "description" : "With a little more gold and a string of kelp, these brushes are the ideal close-quarters weapon of elite Octoling soldiers.",
+  "shortdescription" : "Frozen Elite's Octobrush",
+  "tooltipKind" : "sword",
+  "category" : "Brush",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "frozenelitesoctobrush.png",
+  "animation" : "/animation/weapons/broadsword/lightblueswordswoosh.animation",
+  "animationParts" : {
+    "blade" : "frozenelitesoctobrush.png",
+    "handle" : ""
+  }, 
+  "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              0.3,
+              2.4
+            ]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_poison2.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "ice",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility"  : {
+    "fireTime" : 1.14,
+    "baseDps" : 13.7,
+    "damageConfig" : {
+      "damageSourceKind" : "icebroadsword",
+      "knockback" : 20,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
+  },
+  "baseWeaponRotation" : 20,
+  "palette" : "/items/active/weapons/colors/tier6melee.weaponcolors",
+  "altAbilityType" : "travelingslash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

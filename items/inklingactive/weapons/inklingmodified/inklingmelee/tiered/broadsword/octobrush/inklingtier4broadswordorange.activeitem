@@ -1,0 +1,53 @@
+{
+  "itemName" : "inklingtier4broadswordorange",
+  "price" : 455,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "A burnished brush with stiffer bristles. Its handle has an octopus carved into it!",
+  "shortdescription" : "Blazing Octobrush",
+  "tooltipKind" : "sword",
+  "category" : "Brush",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "blazingoctobrush.png",
+  "animation" : "/animation/weapons/broadsword/orangeswordswoosh.animation",
+  "animationParts" : {
+    "blade" : "blazingoctobrush.png",
+    "handle" : ""
+  }, 
+  "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              0.3,
+              2.4
+            ]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_poison2.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "fire",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility"  : {
+    "fireTime" : 0.97,
+    "baseDps" : 9.4,
+    "damageConfig" : {
+      "damageSourceKind" : "firebroadsword",
+      "knockback" : 20,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
+  },
+  "baseWeaponRotation" : 20,
+  "palette" : "/items/active/weapons/colors/tier4melee.weaponcolors",
+  "altAbilityType" : "travelingslash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,39 @@
+{ 
+	"itemName" : "inklinggrapetee",
+    "inventoryIcon" : "icons.png:head",
+	"price" : 245,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "chestwear",
+	"description" : "You can never go wrong with a good purple.",
+	"shortdescription" : "Grape Tee",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"colorOptions" : [
+		{ "992d8f" : "992d8f", "761d70" : "761d70", "570757" : "570757"},
+	   	{ "992d8f" : "cccccc", "761d70" : "9e9e9e", "570757" : "616161"},
+		{ "992d8f" : "838383", "761d70" : "555555", "570757" : "151515"},
+		{ "992d8f" : "b5b5b5", "761d70" : "808080", "570757" : "555555"},
+		{ "992d8f" : "e6e6e6", "761d70" : "b6b6b6", "570757" : "7b7b7b"},
+		{ "992d8f" : "f4988c", "761d70" : "d93a3a", "570757" : "932625"},
+		{ "992d8f" : "ffd495", "761d70" : "ea9931", "570757" : "af4e00"},
+		{ "992d8f" : "ffffa7", "761d70" : "e2c344", "570757" : "a46e06"},
+		{ "992d8f" : "b2e89d", "761d70" : "51bd3b", "570757" : "247824"},
+		{ "992d8f" : "96cbe7", "761d70" : "5588d4", "570757" : "344495"},
+		{ "992d8f" : "d29ce7", "761d70" : "a451c4", "570757" : "6a2284"},
+		{ "992d8f" : "eab3db", "761d70" : "d35eae", "570757" : "97276d"},
+		{ "992d8f" : "ccae7c", "761d70" : "a47844", "570757" : "754c23"}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "glowfibre", "count" : 1 },
+	{ "item" : "volatilepowder", "count" : 3 },
+    { "item" : "string", "count" : 3 }
+  ],
+  "output" : { "item" : "iflareorange", "count" : 5 },
+  "groups" : [ "inklingcraftingtable", "consumables" ]
+}
