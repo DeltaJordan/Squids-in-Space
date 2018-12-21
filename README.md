@@ -1,4 +1,4 @@
-# Squids-in-Space
+# Squids in Space!: A Splatoon Species Mod for Starbound
 ![Squids in Space!](https://steamuserimages-a.akamaihd.net/ugc/862855933249308702/53E2B095ED11B066BEFDAACB495B51326AE1DA49/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
 
 A species mod based off of the shapeshifters from Splatoon, the Inklings!
