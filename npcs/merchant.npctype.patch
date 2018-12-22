@@ -1,0 +1,54 @@
+[
+    {
+        "op": "add",
+        "path": "/items/inkling",
+        "value": [
+            [
+              0,
+              [
+                {
+                  "chest": [
+                    {"name": "inklinganchorsweat"},
+                    {"name": "inklingoctarianjacket"},
+                    {"name": "inklinggrapetee"},
+                    {"name": "inklingradchest"},
+                    {"name": "inklingreelsweat"},
+                    {"name": "inklingsportchest"},
+                    {"name": "inklingsquidmarkchest"},
+                    {"name": "inklingzekkochest"},
+                    {"name": "inklingtier1chest"},
+                    {"name": "inklingtier2chest"},
+                    {"name": "inklingtier3chest"},
+                    {"name": "inklingsplatfestbasic"},
+                    {"name": "inklingsplatfestflight"},
+                    {"name": "inklingsplatfestinvisibility"}
+                  ],
+                  "legs": [
+                    {"name": "inklingradlegs"},
+                    {"name": "inklingschoolshoes"},
+                    {"name": "inklingsportlegs"},
+                    {"name": "inklingzekkolegs"},
+                    {"name": "inklingbluemotoboots"},
+                    {"name": "inklingtier1legs"},
+                    {"name": "inklingtier2legs"},
+                    {"name": "inklingtier3legs"}
+                  ],
+                  "head": [
+                    {"name": "inklingstrawboater"},
+                    {"name": "inklingsquidwig2"},
+                    {"name": "inklingzekkohead"},
+                    {"name": "inklingsquidmarkhead"},
+                    {"name": "inklinggasmask"},
+                    {"name": "inklingsplatfestmoney"},
+                    {"name": "inklingbamboohat"},
+                    {"name": "inklingbobblehat"},
+                    {"name": "inklingtier1head"},
+                    {"name": "inklingtier2head"},
+                    {"name": "inklingtier3head"}
+                  ]
+                }
+              ]
+            ]
+          ]
+    }
+]

@@ -1,5 +1,9 @@
 [
-{ "op" : "add", 
-	"path" : "/initialquests/inkling", 
-	"value" : [ "protectorate" ]} 
+	{
+		"op": "add",
+		"path": "/initialquests/inkling",
+		"value": [
+			"protectorate"
+		]
+	}
 ]
