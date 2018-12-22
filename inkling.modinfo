@@ -1,12 +1,12 @@
 {
-"name" : "Inklings"
-"path" : "."
-"dependencies" : [ ]
+"name" : "Inklings",
+"path" : ".",
+"dependencies" : [ ],
 "metadata" : {
-	"author" : "Marinebeast"
-	"description" : "Squids reaching for the stars! A race mod based off of Nintendo's Splatoon."
-	"friendlyname" : "Inkling Race Mod"
-	"name" : "inkling"
+	"author" : "Marinebeast",
+	"description" : "Squids reaching for the stars! A race mod based off of Nintendo's Splatoon.",
+	"friendlyname" : "Inkling Race Mod",
+	"name" : "inkling",
 	"version" : "1.1.4"
 	}
 }

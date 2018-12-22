@@ -1,71 +1,8 @@
-{
-  "type": "inklingvillager",
-  "baseType": "base",
-  "levelVariance": [1, 3],
-  "persistent": true,
-  "damageTeamType": "friendly",
-  "dropPools": ["inklingvilltreasure"],
-  "scriptConfig": {
-    "behavior": "villager",
-    "behaviorConfig": {
-      "greetingChance": 0.5,
-      "hostileDamageTeam": {"type": "enemy", "team": 1}
-    },
-    "reactions": {
-      "spontaneous": [
-        [5, "sleep", {"timeRange": [0.7, 0.9]}],
-        [1, "sit", {"timeRange": [0.6, 0.2]}],
-        [1, "wander"]
-      ]
-    },
-    "questGenerator": {
-      "pools": ["common"],
-      "enableParticipation": true,
-      "timeLimit": 30,
-      "nearbyQuestLimit": 2,
-      "nearbyQuestRange": 50,
-      "questCountRange": [1, 4],
-      "graduation": {
-        "nextNpcType": [
-          [1, "crewmember"],
-          [0.25, "crewmemberchemistblue"],
-          [0.25, "crewmemberchemistgreen"],
-          [0.25, "crewmemberchemistyellow"],
-          [0.25, "crewmemberchemistorange"],
-          [1, "crewmemberengineer"],
-          [1, "crewmembermechanic"],
-          [1, "crewmembermedic"],
-          [1, "crewmemberjanitor"],
-          [1, "crewmembertailor"]
-        ]
-      }
-    },
-    "dialog": {
-      "tenant": {
-        "grumbles": {
-          "tagCriteria": "/npcs/configs/ingrumble.config:tagCriteria",
-          "enclosedArea": "/npcs/configs/ingrumble.config:enclosedArea",
-          "otherDeed": "/npcs/configs/ingrumble.config:otherDeed",
-          "severe": "/npcs/configs/ingrumble.config:severe",
-          "final": "/npcs/configs/ingrumble.config:final"
-        },
-        "arrivedHome": {
-          "beacon": "/npcs/configs/inarrivedhome.config:beacon",
-          "rent": "/npcs/configs/inarrivedhome.config:rent"
-        }
-      },
-      "flee": {
-        "helpme": "/npcs/configs/inflee.config:helpme",
-        "safe": "/npcs/configs/inflee.config:safe"
-      },
-      "greeting": "/npcs/configs/inconverse.config:greeting",
-      "accuse": "/npcs/configs/inconverse.config:accuse",
-      "alert": "/npcs/configs/inconverse.config:alert",
-      "converse": "/npcs/configs/inconverse.config:converse"
-    }
-  },
-  "items": {
-    "inkling": [
+[
+  {
+    "op": "add",
+    "path": "/items/inkling",
+    "value": [
       [
         0,
         [
@@ -261,20 +198,10 @@
               {"name": "inklingsoccerheadband"},
               {"name": "inklingsplatfestmoney"},
               {"name": "inklingsplatfestlove"}
-            ],
-            "sheathedprimary": [{"name": "inklingtier1pistol"}]
+            ]
           }
         ]
       ]
     ]
-  },
-  "statusControllerSettings": {
-    "stats": {
-      "maxHealth": {"baseValue": 50},
-      "maxEnergy": {"baseValue": 65},
-      "powerMultiplier": {"baseValue": 0},
-      "protection": {"baseValue": 1},
-      "healthRegen": {"baseValue": 0}
-    }
   }
-}
+]

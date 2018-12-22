@@ -1,147 +1,359 @@
 [
 	{
-	"op" : "add",
-	"path" : "/greeting/apex/inkling",
-	"value" : [
-		"Hey squiddo.",
-		"Welcome, inkling!",
-		"I'm very pleased to meet you.",
-		"Oh, an inkling. How do you do?" ]
+		"op": "add",
+		"path": "/greeting/apex/inkling",
+		"value": [
+			"Hey squiddo.",
+			"Welcome, inkling!",
+			"I'm very pleased to meet you.",
+			"Oh, an inkling. How do you do?"
+		]
 	},
+	{
+		"op": "add",
+		"path": "/greeting/avian/inkling",
+		"value": [
+			"Greetings, inkling! Make yourself at home here.",
+			"Oh, it's a squid! It's nice to meet you.",
+			"May Kluex bless your travels, inkling!",
+			"Looking fresh, squid!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/floran/inkling",
+		"value": [
+			"Sssssssquid!",
+			"Squiddy squid!",
+			"Sssquid. Greetingsss!",
+			"Inklingssss! Hello!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/glitch/inkling",
+		"value": [
+			"Cordial. Greetings, squidfolk!",
+			"Intrigued. It's nice to meet you, inkling.",
+			"Cozening. Pleasant to see a new face!",
+			"Friendly. Welcome, inkling.",
+			"Welcoming. Pleased to see you here, squid."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/human/inkling",
+		"value": [
+			"Oh! It's a squid-person, cool!",
+			"You're an inkling, right? Hi!",
+			"Yo! You're real cool-looking for a space squid!",
+			"Nice to meet you, squid!",
+			"Dude, sweet tentacles you got there!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/greeting/novakid/inkling",
+		"value": [
+			"Howdy, inkling!",
+			"How's it goin', squiddo?",
+			"You doin' fine tonight? Good!",
+			"'Ey partner!"
+		]
+	},
+	{
+		"op":"add",
+		"path": "/greeting/inkling",
+		"value": {
+			"default": [
+			"Hello!",
+			"Whimimi!",
+			"Woomy!",
+			"Hiya!",
+			"Having a good day? I hope so!",
+			"You need somethin'?",
+			"Hey, what's up?",
+			"Hey, you, did you catch the news yet?",
+			"Pssst, I wanted to tell you something! ... Hi!",
+			"Looking for something? 'cuz I probably don't have it.",
+			"Nice to see you today!",
+			"It's good to see you!"
+			]
+		}
+	},
+	{
+		"op": "add",
+		"path": "/converse/apex/inkling",
+		"value": [
+			"Wait, you don't have any hair? Not even on your chest?",
+			"Careful with all that ''woomying'' about, I don't know what the Miniknog would think..",
+			"What do you think of bananas? Huh? You like melon more?",
+			"I hear you guys can escape from almost anything with your squishy bodies. That's neat.",
+			"Is-- is it normal for you to just go around with guns like that?",
+			"I don't know what you think, but we don't smell funny. We smell just fine, thanks."
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/avian/inkling",
+		"value": [
+			"You don't have any feathers OR hair? Aren't you cold?",
+			"Wait, you can fly?! Show me how to super jump, too!",
+			"Careful, you might get ink in my feathers..",
+			"I've heard your houses are super colorful, like ours! Want to trade banners?",
+			"Your voices sound a lot like ours! Maybe I could learn your language, too?",
+			"Do you want to hang out sometime? We can paint together!",
+			"Your kind aren't religious? Really? That's so weird to think about...",
+			"Don't you guys, like, worship a fax machine? Or something?"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/floran/inkling",
+		"value": [
+			"Sssssquiddy squid! Does sssquid like raw meat, too?",
+			"Ssmells like sea. Ssssushi?",
+			"Squid very sticky! Covered in sssap?",
+			"Floran likesss music too! Different than ssssquid music, though.",
+			"Pretty squiddy colors! Like Floran petals!",
+			"Sssquid eat meat too, right? Come to dinner!",
+			"No bonessss in squid? Very ssstrange to Floran!",
+			"Inklingsss good at hunting, right? Join Floransss next time!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/glitch/inkling",
+		"value": [
+			"Entertained. Your voices sound like broken voiceboxes.",
+			"Fascinated. How are your bodies made almost entirely of ink?",
+			"Cordial. We have parties and banquets too, you should attend sometime!",
+			"Cautious. I would offer you food, but.. Glitch food may not fly well with squids.",
+			"Mystified. Did you just change the color of your skin?",
+			"Wary. Does ink short out circuits?",
+			"Curious. Do your kind not have any stiff body structure?"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/human/inkling",
+		"value": [
+			"Wait, you like techno too? We gotta swap CDs sometime!",
+			"No, I don't like calamari! I've never eaten squid in my life! I swear!",
+			"You want something to drink? We've got soda, not just water!",
+			"You, um, you didn't have anything to do with Earth, right?",
+			"Are those weapons real, or just toys? They look like water guns!",
+			"I could swear I've seen that shirt before. Huh..",
+			"Aren't squids, like, boneless? That's so cool!",
+			"What's your opinion on strobe lights? Me, I love 'em.",
+			"Do you guys seriously just party all the time? I'm jealous!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/hylotl/inkling",
+		"value": [
+			"Nice weather, do you think?",
+			"Would you want to go out and grab sushi sometime? I know a wonderful place!",
+			"I haven't seen an Inkling in forever! How are things going?",
+			"We've a sauna in the back room. We will treat the water if you wanted to use it!",
+			"I am so pleased to see more cultured folk around here.",
+			"I heard there's a poetry recital in a couple weeks. Are you interested, by any chance?",
+			"Woomy! ... Did I say that correctly?"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/novakid/inkling",
+		"value": [
+			"You guys like light or something, right? What d'ya think of my glow?",
+			"So, what's a woomy?",
+			"Is that ink flammable? Uh, don't touch me, just in case!",
+			"Ooh, you're all sticky.. that's kinda weird.",
+			"Ya wanna come hang out and hear me play guitar? I'm pretty good at it!"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/converse/inkling",
+		"value": {
+			"default" : [
+				"Woah, it's a person! I'm <selfname>!",
+				"The weather's nice, huh? .. Haha. Yeah, not really, is it?",
+				"Welcome! Or something! This isn't actually my house.",
+				"You're not from here, are ya'? Well, that's cool! New faces are cool!",
+				"Khkhkh. I dunno how to feel about strangers, they're always dangerous.",
+				"Eeah! Don't surprise me like that!",
+				"Having a cool day? I'm not, but I hope you are.",
+				"It's been really busy around here lately. You're not helping much.",
+				"Got any peanut butter on you?",
+				"You kinda smell like fish. Where's the goods?",
+				"Hey, a stranger! Where'd you come from?",
+				"You don't look very fresh.",
+				"You're, uh, not lost, right?",
+				"Your weapons are weird! Where's your Splattershot?",
+				"Aeeheehee, don't bug me, I'm busy!",
+				"Ooh! Do you have any foreign food? I'll trade you some sushi for it!",
+				"Wait, when did we get visitors? I gotta go put on the music!"
+			],
+			"apex" : [
+				"Are you guys related to humans? You kinda look like 'em, but fuzzy!",
+				"Don't you like fruit too? Dude, I could talk about fruit all day!",
+				"Your clothes are so serious.. they're really cool!",
+				"I keep hearing about this ''Miniknog''. What IS it, anyways?",
+				"You got any science-y stuff on you? Science-y stuff goes with my interior decorating!",
+				"Is all that hair itchy? We don't have hair! None!",
+				"Are all your weapons shiny and bland like that? I can help paint 'em!",
+				"We've got a military too, but they're good.. mostly... I think...",
+				"You're not here to get me in trouble, right? I'm a good squid! Promise!",
+				"What kind of stuff do your guns shoot? Like, lasers and stuff?! Too cool!",
+				"You don't have any fun colors on your clothes.. is all Apex stuff like that?",
+				"I'll totally trade you a banana if you have a watermelon.",
+				"I hope you're here to be good, or else I'm gonna get my roller on you!",
+				"Everyone calls you folks monkeys, but... I dunno what a monkey is.",
+				"You're part of the Resistance, right? We don't like mean monkeys!"
+			],
+			"avian" : [
+				"Hey, birdy!",
+				"Bird bird. We've got birds back on our home planet, too!",
+				"Oh, uh.. I'm gonna guess you're not interested in roast sparrow?",
+				"Maybe I can teach you to fly! We can jump really, really far!",
+				"Your feet are all scaly.. is that normal?",
+				"We've got beaks too! Except they're inside our mouths, not outside.",
+				"The little fluff around your face looks like one of our masks!",
+				"It's okay. We're not super into religion, either. It's, like, whatever, dude.",
+				"You're not one of the emissaries of Kluex, right? I don't want what they're selling.",
+				"Eeee-eeeeee~! Your voices kinda sound like ours!",
+				"Dude. Your colors are totally wicked!",
+				"Do you paint your feathers? Or are they always that color?",
+				"You should come turfing sometime! You'd fit right in! Besides the no ink thing...",
+				"What kinds of things do you eat? Back home, the birds eat everything! Uh, almost.",
+				"Are all of you birdies that colorful? That's so cool!"
+			],
+			"floran" : [
+				"Oh! N'wai-- I mean, hi!",
+				"Your head-petals are so pretty. Can I touch them?",
+				"Aah, pointy stick! You're a nice Floran, right?",
+				"It's always fun to see a Floran. You guys are like, super colorful and stuff. It's cool.",
+				"Um, do you come in peace? I hope so.",
+				"You wanna trade snacks? I haven't had meat that isn't fish in.. forever.",
+				"What makes you so colorful? Do you have ink inside you?",
+				"If you're a plant, do you like water? We can't swim in fresh water, it sucks.",
+				"Woah, those are cool weapons! Teach me, I wanna learn!",
+				"We don't use stabby weapons. All our smackin' ones are flat or brushy!",
+				"You wanna go hunting? Together, we can catch the biggest fish ever!",
+				"Those clothes are super fresh, they're all... all nature-y and stuff! Cool!",
+				"You live in trees, right? I wanna live in a treehouse too!"
+			],
+			"human" : [
+				"Oh! Oh, look, it's a human!",
+				"I didn't know that humans lived in other places too!",
+				"You're a lot less fuzzy than I thought you'd be.",
+				"What's that stuff on your head? That's not tentacles!",
+				"Your faces kinda look like ours, but we've got pointy teeth.",
+				"Haha, you smell funny. Mammals always smell really funny.",
+				"You're gonna be nice to the nature, right? Humans are.. funky about nature sometimes.",
+				"Where's your spaceship? Don't space-humans always have them?",
+				"We had humans on our planet once, but they all died from the floods...",
+				"Your tentacles-- uh, um, your hair is a cool color!",
+				"Do humans have markings? You must be so boring under your clothes!",
+				"Hehe, your teeth are all smooth! How do you eat anything like that?",
+				"Uh.. you don't hate us over the Earth thing, right? It wasn't us!",
+				"I never really cared much about the Protectorate. It was just, like.. a thing.",
+				"So what kinda things do you guys eat? Do you have any sweets?",
+				"Don't humans like water? Can you go in fresh water and not die?",
+				"If someone calls you stinky, like, it's not an insult. We just have really crazy-strong noses.",
+				"Humans have umbrellas too, right? Wanna trade yours for a Brella?"
+			],
+			"hylotl" : [
+				"Hi, fishy!",
+				"It's always fun to see you guys. Your architecture's totally fresh!",
+				"You wanna stay for dinner? We made inagi sushi, and lots of nikuman, and...",
+				"Fishy fishy fish. It's okay, we only eat not-people-fish.",
+				"Those shoes are rad. Like, sandals? They're so, so cool!",
+				"I dropped my hat in the lake.. you can swim, could you get it?",
+				"We don't see Hylotl much. It's a kinda a shame, you're nice dudes.",
+				"Haha, your skin's all slimy! Our tentacles are, too!",
+				"You just passin' through? I'd love to talk!",
+				"Wanna trade furniture or something? It'd make both our houses real cool!",
+				"I always wondered-- are you fishies, or amphibians?",
+				"Ohh! Your skin's really pretty! Shiny too!",
+				"If you wanted t'talk to the Agency, there's not a branch here. Sorry."
+			],
+			"glitch" : [
+			    "Oh! Robot! Hello, robot-person!",
+				"Beep beep broop.",
+				"You're not one of the stuffy Glitch, right? The boring ones?",
+				"Is it law that you gotta talk about your mood first? Or do y'just.. do it?",
+				"You're all shiny, like a Gold Dynamo! You're all polished! Neat!",
+				"So do you like to dance? Do you dance all old-style-y?",
+				"Are you a time traveler? Your clothes are all dress-y and stuff!",
+				"Beep beep!",
+				"Do you ever paint yourselves? Lots of Glitch are boring colors!",
+				"What kinds of weapons do you use? Like, swords and stuff?",
+				"Wait, if you're a robot, what do you eat?",
+				"So what happens to YOU if you fall in water? I'm super curious.",
+				"Ink doesn't stick to metal too well, so you shouldn't get sticky.",
+				"Do you guys have kings and queens and stuff? That's so cool!",
+				"Are you ticklish? Can robots be ticklish?",
+				"How do you eat things? Do you have teeth? We've got teeth, see?",
+				"Do you have little wheels on your feets?",
+				"Breeeeeep."
 
-	{ "op" : "add",
-	"path" : "/greeting/avian/inkling",
-	"value" : [
-		"Greetings, inkling! Make yourself at home here.",
-		"Oh, it's a squid! It's nice to meet you.",
-		"May Kluex bless your travels, inkling!",
-		"Looking fresh, squid!" ]
-	},
-	
-	{ "op" : "add",
-	"path" : "/greeting/floran/inkling",
-	"value" : [
-		"Sssssssquid!",
-		"Squiddy squid!",
-		"Sssquid. Greetingsss!",
-		"Inklingssss! Hello!" ]
-	},
-	
-	{ "op" : "add",
-	"path" : "/greeting/glitch/inkling",
-	"value" : [
-		"Cordial. Greetings, squidfolk!",
-		"Intrigued. It's nice to meet you, inkling.",
-		"Cozening. Pleasant to see a new face!",
-		"Friendly. Welcome, inkling.",
-		"Welcoming. Pleased to see you here, squid." ]
-	},
-	
-	{ "op" : "add",
-	"path" : "/greeting/human/inkling",
-	"value" : [
-		"Oh! It's a squid-person, cool!",
-		"You're an inkling, right? Hi!",
-		"Yo! You're real cool-looking for a space squid!",
-		"Nice to meet you, squid!",
-		"Dude, sweet tentacles you got there!" ]
-	},
-	
-	{ "op" : "add",
-	"path" : "/greeting/novakid/inkling",
-	"value" : [
-		"Howdy, inkling!",
-		"How's it goin', squiddo?",
-		"You doin' fine tonight? Good!",
-		"'Ey partner!" ]
-	},
-
-	{ "op" : "add",
-	"path" : "/converse/apex/inkling",
-	"value" : [
-		"Wait, you don't have any hair? Not even on your chest?",
-		"Careful with all that ''woomying'' about, I don't know what the Miniknog would think..",
-		"What do you think of bananas? Huh? You like melon more?",
-		"I hear you guys can escape from almost anything with your squishy bodies. That's neat.",
-		"Is-- is it normal for you to just go around with guns like that?",
-		"I don't know what you think, but we don't smell funny. We smell just fine, thanks."
-		]
-	},
-	
-		{ "op" : "add",
-	"path" : "/converse/avian/inkling",
-	"value" : [
-		"You don't have any feathers OR hair? Aren't you cold?",
-		"Wait, you can fly?! Show me how to super jump, too!",
-		"Careful, you might get ink in my feathers..",
-		"I've heard your houses are super colorful, like ours! Want to trade banners?",
-		"Your voices sound a lot like ours! Maybe I could learn your language, too?",
-		"Do you want to hang out sometime? We can paint together!",
-		"Your kind aren't religious? Really? That's so weird to think about...",
-		"Don't you guys, like, worship a fax machine? Or something?"
-		]
-	},
-	
-		{ "op" : "add",
-	"path" : "/converse/floran/inkling",
-	"value" : [
-		"Sssssquiddy squid! Does sssquid like raw meat, too?",
-		"Ssmells like sea. Ssssushi?",
-		"Squid very sticky! Covered in sssap?",
-		"Floran likesss music too! Different than ssssquid music, though.",
-		"Pretty squiddy colors! Like Floran petals!",
-		"Sssquid eat meat too, right? Come to dinner!",
-		"No bonessss in squid? Very ssstrange to Floran!",
-		"Inklingsss good at hunting, right? Join Floransss next time!"
-		]
-	},
-	
-		{ "op" : "add",
-	"path" : "/converse/glitch/inkling",
-	"value" : [
-		"Entertained. Your voices sound like broken voiceboxes.",
-		"Fascinated. How are your bodies made almost entirely of ink?",
-		"Cordial. We have parties and banquets too, you should attend sometime!",
-		"Cautious. I would offer you food, but.. Glitch food may not fly well with squids.",
-		"Mystified. Did you just change the color of your skin?",
-		"Wary. Does ink short out circuits?",
-		"Curious. Do your kind not have any stiff body structure?"
-		]
-	},
-		{ "op" : "add",
-	"path" : "/converse/human/inkling",
-	"value" : [
-		"Wait, you like techno too? We gotta swap CDs sometime!",
-		"No, I don't like calamari! I've never eaten squid in my life! I swear!",
-		"You want something to drink? We've got soda, not just water!",
-		"You, um, you didn't have anything to do with Earth, right?",
-		"Are those weapons real, or just toys? They look like water guns!",
-		"I could swear I've seen that shirt before. Huh..",
-		"Aren't squids, like, boneless? That's so cool!",
-		"What's your opinion on strobe lights? Me, I love 'em.",
-		"Do you guys seriously just party all the time? I'm jealous!"
-		]
-	},
-		{ "op" : "add",
-	"path" : "/converse/hylotl/inkling",
-	"value" : [
-		"Nice weather, do you think?",
-		"Would you want to go out and grab sushi sometime? I know a wonderful place!",
-		"I haven't seen an Inkling in forever! How are things going?",
-		"We've a sauna in the back room. We will treat the water if you wanted to use it!",
-		"I am so pleased to see more cultured folk around here.",
-		"I heard there's a poetry recital in a couple weeks. Are you interested, by any chance?",
-		"Woomy! ... Did I say that correctly?"
-		]
-	},
-		{ "op" : "add",
-	"path" : "/converse/novakid/inkling",
-	"value" : [
-		"You guys like light or something, right? What d'ya think of my glow?",
-		"So, what's a woomy?",
-		"Is that ink flammable? Uh, don't touch me, just in case!",
-		"Ooh, you're all sticky.. that's kinda weird.",
-		"Ya wanna come hang out and hear me play guitar? I'm pretty good at it!"
-		]
+			],
+			"novakid" : [
+				"Ooh, glowy! Some of us can glow too, even if usually it's just firefly squid.",
+				"What's with the thingie on your face? What's it mean?",
+				"If you're a star, can you change colors and stuff?",
+				"Can I paint your guns and stuff? They're cool-lookin'!",
+				"So if you eat things, does it just.. burn up?",
+				"We don't need to glow, we can see in the dark pretty good.",
+				"Where're you from?",
+				"Are you a cowboy? There's no cows in space, I think!",
+				"What do your guns shoot? Bullets? Energy? Cereal?",
+				"Your clothes aren't super fresh, but your weapons are neat.",
+				"Are you just.. on fire? All the time? What's it like?",
+				"So if you're made of gas, can you fly?",
+				"If you drink chemicals, do you explode?",
+				"One of my buddies have a gun store. You should check it out!",
+				"It's okay if you forget something. I forget a lot too. I think.",
+				"Is your fire like hair? Can you shape it?",
+				"It's just a myth that we're flammable! Ink isn't flammable at all, actually."
+			],
+			"inkling" : [
+				"Khkhkeeee... I haven't seen another squid in, like, forever.",
+				"You wanna swap CDs or something? I've got some cool older beats..",
+				"What colony are you from? I've never seen you before!",
+				"Your tentacles are styled really pretty! Did you do that yourself?",
+				"Looking pretty fresh, kiddo!",
+				"You gonna be here in a few days? I need another squid for my turf team!",
+				"Haha, that's the weapon you use? My roller's better!",
+				"Oh! A stranger! Hi, stranger squid! Where'd you come here from?",
+				"Nice colors you got there!",
+				"How'd you get here? Did the Agency send you?",
+				"Those are super cool shoes! Who made 'em?",
+				"Hey! You're just in time for dumplings!",
+				"You wanna go fishing?",
+				"Dude, your pockets look like they're gonna explode. You find any treasure?",
+				"Woomy!",
+				"Ngyes!",
+				"Whimimi..",
+				"You're a tough-looking kid! Uh, squid!",
+				"Grbgrbgl.",
+				"You've got friends here! Don't worry!",
+				"Wooooomy.",
+				"Oh, sorry, I just got back from a turf match. It was whack!",
+				"You ever tried super jumping in low gravity? It's SO awesome!",
+				"Hehehe, I don't actually live here.",
+				"Did you catch the last news broadcast? There's gonna be a concert!",
+				"Man, I'd love another Splatfest. Not about food this time, hopefully.",
+				"So, like, space squid! What's your favorite band?",
+				"... I just realized that my nikuman are probably burning on the stove. EEAAH--!",
+				"Psssst. You got any burst bombs? No reason.",
+				"You're from space, right? Space squid? What's your ship like?!",
+				"Hey! A visitor! I'm gonna go turn on the stereo!",
+				"Where you're from? How do you dance there?"
+			]
+		}
 	}
 ]
