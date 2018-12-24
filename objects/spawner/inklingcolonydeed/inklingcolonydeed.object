@@ -9,12 +9,13 @@
   "category" : "spawner",
   "price" : 750,
 
-  "apexDescription" : "If placed in a building with a door and a light it will encourage an Inkling to move in.",
-  "avianDescription" : "This device will invite an Inkling to move into the building. Just make sure there's a door and a light.",
+    "apexDescription" : "If placed in a building with a door and a light, it summons squids. Weird.",
+  "avianDescription" : "Put this somewhere with a light and a door, and apparently it'll make an Inkling show up?",
   "floranDescription" : "Ssscreen for houssse wall. Makesss sssilly sssquidsss come.",
   "glitchDescription" : "Observant. If placed in a correctly structured building, this colony deed will encourage an Inkling to move in.",
-  "humanDescription" : "These are great for expanding a colony. Place it in a building with a door and a light and an Inkling will move in.",
+  "humanDescription" : "The fastest way to start any party: invite an Inkling to come and live here! You just need a light and a door!",
   "hylotlDescription" : "If hung in an enclosed building with a door and a light, an Inkling will move in and make it their home.",
+  "inklingDescription" : "A very inviting-looking colony deed! Just make sure there's a door and some fun lighting, and it'll work great!",
   "novakidDescription" : "With a colony deed an Inkling'll move into the building. Just make sure the building has a door an' a light source.",
 
   "inventoryIcon" : "inklingcolonydeedicon.png",
