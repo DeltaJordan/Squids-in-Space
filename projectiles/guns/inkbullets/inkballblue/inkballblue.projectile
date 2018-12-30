@@ -1,0 +1,20 @@
+{
+  "projectileName" : "inkballblue",
+  "image" : "inkballblue.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/paintexplosionblue/paintexplosionblue.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "default",
+  "statusEffects" : [
+    "colorblue"
+  ]
+}
