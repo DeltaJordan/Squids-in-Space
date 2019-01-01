@@ -69,7 +69,7 @@
 	},
     "fireType" : "auto",
 
-    "projectileType" : "paintballorange",
+    "projectileType" : "inkballorange",
     "projectileParameters" : 
 		{ "knockback" : 6 
 	}
