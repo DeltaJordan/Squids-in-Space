@@ -27,6 +27,6 @@ Hats, pants and back items all work just fine, though, and Inklings can wear mos
 - Psychic Detective Shawn Spencer and Coricus: for making various assets such as furniture and tentacle styles!
 - Commander Scout: for creating a template for the 0.9.1 eye update!
 - BlitzkriegOmega and Coricus: for all their hard work with bugtesting, especially with weapons and armor!
-- Jordan Zeotni: For setting up the GitHub repository for the mod, which allows collaberative work and bug-squishing.
+- DeltaJordan: For setting up the GitHub repository for the mod, which allows collaberative work and bug-squishing.
 - Nintendo: for making Splatoon!
 - And all you Steam subscribers: for providing your feedback and helping me improve Squids in Space!
