@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/flooded",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/ocean_<selector>.png",
+      "maskTextures": "/celestial/system/terrestrial/horizon/masks/ocean/<mask>_<selector>.png",
+      "maskRange": [1, 25],
+      "maskPerPlanetRange": [1, 2]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/flooded",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/ocean/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/ocean/<num>.png",
+      "dynamicsRange": [1, 20]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
+    "value": "flooded"
+  }
+]

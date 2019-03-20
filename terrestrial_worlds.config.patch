@@ -1,0 +1,29 @@
+[
+  {
+    "op": "add",
+    "path": "/planetTypes/flooded",
+    "value": {
+      "blendSize": 30,
+      "threatRange": [3, 3],
+      "layers": {
+        "surface": {
+          "primaryRegion": ["flooded"],
+          "secondaryRegions": [],
+          "dungeons": [[1, "inklingcity"]]
+        },
+        "subsurface": {"primaryRegion": ["oceanfloor"]}
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/flooded",
+    "value": {
+      "oceanLiquid": ["water"],
+      "blockSelector": ["remixedIslandsSurface"],
+      "fgCaveSelector": ["empty"],
+      "bgCaveSelector": ["empty"],
+      "biome": [[0, ["flooded"]]]
+    }
+  }
+]
