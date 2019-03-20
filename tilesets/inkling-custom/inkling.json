@@ -1,516 +1,260 @@
-{ "columns":0,
- "margin":0,
- "name":"inkling",
- "properties":
-    {
-
+{
+  "columns": 0,
+  "margin": 0,
+  "name": "inkling",
+  "properties": {},
+  "spacing": 0,
+  "tilecount": 62,
+  "tileheight": 8,
+  "tileproperties": {
+    "0": {"object": "ammoknights"},
+    "1": {"object": "coolerheads"},
+    "2": {"object": "ikachair"},
+    "3": {"object": "inalbum1"},
+    "4": {"object": "inalbum2"},
+    "5": {"object": "inalbum3"},
+    "6": {"object": "incolorfulpole"},
+    "7": {
+      "object": "inkchest1",
+      "parameters": "{\"treasurePools\":[\"basicTreasure\"]}"
     },
- "spacing":0,
- "tilecount":62,
- "tileheight":50,
- "tileproperties":
-    {
-     "0":
-        {
-         "object":"ammoknights"
-        },
-     "1":
-        {
-         "object":"coolerheads"
-        },
-     "10":
-        {
-         "object":"inklinggraffiti1"
-        },
-     "11":
-        {
-         "object":"inklinggraffiti2"
-        },
-     "12":
-        {
-         "object":"inklinggraffiti3"
-        },
-     "13":
-        {
-         "object":"inklinggraffiti4"
-        },
-     "14":
-        {
-         "object":"inklinggraffiti5"
-        },
-     "15":
-        {
-         "object":"inklinggraffiti6"
-        },
-     "16":
-        {
-         "object":"inklinggraffiti7"
-        },
-     "17":
-        {
-         "object":"inklingmodernbeanbag"
-        },
-     "18":
-        {
-         "object":"inklingmodernbed"
-        },
-     "19":
-        {
-         "inklingmodernbookcase":""
-        },
-     "2":
-        {
-         "object":"ikachair"
-        },
-     "20":
-        {
-         "object":"inklingmoderncabinet"
-        },
-     "21":
-        {
-         "object":"inklingmoderncounter"
-        },
-     "22":
-        {
-         "object":"inklingmodernfridge"
-        },
-     "23":
-        {
-         "object":"inklingmodernicebox"
-        },
-     "24":
-        {
-         "object":"inklingmodernlamp"
-        },
-     "25":
-        {
-         "object":"inklingmodernminioven"
-        },
-     "26":
-        {
-         "object":"inklingmodernshelf"
-        },
-     "27":
-        {
-         "object":"inklingmodernstool"
-        },
-     "28":
-        {
-         "object":"inklingmoderntable"
-        },
-     "29":
-        {
-         "object":"inklingmoderntv"
-        },
-     "3":
-        {
-         "object":"inalbum1"
-        },
-     "30":
-        {
-         "object":"inklingposter1"
-        },
-     "31":
-        {
-         "object":"inklingposter1a"
-        },
-     "32":
-        {
-         "object":"inklingposter2"
-        },
-     "33":
-        {
-         "object":"inklingposter3"
-        },
-     "34":
-        {
-         "object":"inklingposter4"
-        },
-     "35":
-        {
-         "object":"inklingposter5"
-        },
-     "36":
-        {
-         "object":"inklingposter6"
-        },
-     "37":
-        {
-         "object":"inklingposter7"
-        },
-     "38":
-        {
-         "object":"inklingseasnailplush"
-        },
-     "39":
-        {
-         "object":"inklingsign1"
-        },
-     "4":
-        {
-         "object":"inalbum2"
-        },
-     "40":
-        {
-         "object":"inklingsign2"
-        },
-     "41":
-        {
-         "object":"inklingsign3"
-        },
-     "42":
-        {
-         "object":"inklingsign4"
-        },
-     "43":
-        {
-         "object":"inklingsplatter1"
-        },
-     "44":
-        {
-         "object":"inklingsplatter1b"
-        },
-     "45":
-        {
-         "object":"inklingsplatter1c"
-        },
-     "46":
-        {
-         "object":"inklingsplatter1d"
-        },
-     "47":
-        {
-         "object":"inklingsplatter1e"
-        },
-     "48":
-        {
-         "object":"inklingsplatter1f"
-        },
-     "49":
-        {
-         "object":"inklingsplatter1g"
-        },
-     "5":
-        {
-         "object":"inalbum3"
-        },
-     "50":
-        {
-         "object":"inklingsquiddecal"
-        },
-     "51":
-        {
-         "object":"inklingstolendoor"
-        },
-     "52":
-        {
-         "object":"inklingstreetsign1"
-        },
-     "53":
-        {
-         "object":"inklingtrashcan1"
-        },
-     "54":
-        {
-         "object":"inklingvendingmachine1"
-        },
-     "55":
-        {
-         "object":"inklingvendingmachine2"
-        },
-     "56":
-        {
-         "object":"inlollypopjar"
-        },
-     "57":
-        {
-         "object":"inmanekijudd"
-        },
-     "58":
-        {
-         "object":"inoctopusinajar"
-        },
-     "59":
-        {
-         "object":"insquidinajar"
-        },
-     "6":
-        {
-         "object":"incolorfulpole"
-        },
-     "60":
-        {
-         "object":"onairsign"
-        },
-     "61":
-        {
-         "object":"spykemerchant"
-        },
-     "7":
-        {
-         "object":"inkchest1",
-         "parameters":"{\"treasurePools\":[\"basicTreasure\"]}"
-        },
-     "8":
-        {
-         "object":"inkchest2",
-         "parameters":"{\"treasurePools\":[\"basicTreasure\"]}"
-        },
-     "9":
-        {
-         "object":"inklingfineart1"
-        }
+    "8": {
+      "object": "inkchest2",
+      "parameters": "{\"treasurePools\":[\"basicTreasure\"]}"
     },
- "tiles":
-    {
-     "0":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/ammoknights.png"
-        },
-     "1":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/coolerheads.png"
-        },
-     "10":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklinggraffiti1.png"
-        },
-     "11":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklinggraffiti2.png"
-        },
-     "12":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklinggraffiti3.png"
-        },
-     "13":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklinggraffiti4.png"
-        },
-     "14":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklinggraffiti5.png"
-        },
-     "15":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklinggraffiti6.png"
-        },
-     "16":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklinggraffiti7.png"
-        },
-     "17":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernbeanbag.png"
-        },
-     "18":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernbed.png"
-        },
-     "19":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernbookcase.png"
-        },
-     "2":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/ikachair.png"
-        },
-     "20":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmoderncabinet.png"
-        },
-     "21":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmoderncounter.png"
-        },
-     "22":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernfridgeleft.png"
-        },
-     "23":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernicebox.png"
-        },
-     "24":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernlamp.png"
-        },
-     "25":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernminioven.png"
-        },
-     "26":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernshelf.png"
-        },
-     "27":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmodernstool.png"
-        },
-     "28":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmoderntable.png"
-        },
-     "29":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingmoderntv.png"
-        },
-     "3":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inalbum1.png"
-        },
-     "30":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingposter1.png"
-        },
-     "31":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingposter1a.png"
-        },
-     "32":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingposter2.png"
-        },
-     "33":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingposter3.png"
-        },
-     "34":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingposter4.png"
-        },
-     "35":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingposter5.png"
-        },
-     "36":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingposter6.png"
-        },
-     "37":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingposter7.png"
-        },
-     "38":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingseasnailplush.png"
-        },
-     "39":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsign1.png"
-        },
-     "4":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inalbum2.png"
-        },
-     "40":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsign2.png"
-        },
-     "41":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsign3.png"
-        },
-     "42":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsign4.png"
-        },
-     "43":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsplatter1.png"
-        },
-     "44":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsplatter1b.png"
-        },
-     "45":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsplatter1c.png"
-        },
-     "46":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsplatter1d.png"
-        },
-     "47":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsplatter1e.png"
-        },
-     "48":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsplatter1f.png"
-        },
-     "49":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsplatter1g.png"
-        },
-     "5":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inalbum3.png"
-        },
-     "50":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingsquiddecal.png"
-        },
-     "51":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingstolendoor.png"
-        },
-     "52":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingstreetsign1.png"
-        },
-     "53":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingtrashcan1.png"
-        },
-     "54":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingvendingmachine1.png"
-        },
-     "55":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingvendingmachine2left.png"
-        },
-     "56":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inlollypopjar.png"
-        },
-     "57":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inmanekijudd.png"
-        },
-     "58":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inoctopusinajar.png"
-        },
-     "59":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/insquidinajar.png"
-        },
-     "6":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/incolorfulpole.png"
-        },
-     "60":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/onairsign.png"
-        },
-     "61":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/spykemerchant.png"
-        },
-     "7":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inkchest1.png"
-        },
-     "8":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inkchest2.png"
-        },
-     "9":
-        {
-         "image":"..\/..\/..\/..\/tiled\/inkling-custom\/inklingfineart1.png"
-        }
+    "9": {"object": "inklingfineart1"},
+    "10": {"object": "inklinggraffiti1"},
+    "11": {"object": "inklinggraffiti2"},
+    "12": {"object": "inklinggraffiti3"},
+    "13": {"object": "inklinggraffiti4"},
+    "14": {"object": "inklinggraffiti5"},
+    "15": {"object": "inklinggraffiti6"},
+    "16": {"object": "inklinggraffiti7"},
+    "17": {"object": "inklingmodernbeanbag"},
+    "18": {"object": "inklingmodernbed"},
+    "19": {"object": "inklingmodernbookcase"},
+    "20": {"object": "inklingmoderncabinet"},
+    "21": {"object": "inklingmoderncounter"},
+    "22": {"object": "inklingmodernfridge"},
+    "23": {"object": "inklingmodernicebox"},
+    "24": {"object": "inklingmodernlamp"},
+    "25": {"object": "inklingmodernminioven"},
+    "26": {"object": "inklingmodernshelf"},
+    "27": {"object": "inklingmodernstool"},
+    "28": {"object": "inklingmoderntable"},
+    "29": {"object": "inklingmoderntv"},
+    "30": {"object": "inklingposter1"},
+    "31": {"object": "inklingposter1a"},
+    "32": {"object": "inklingposter2"},
+    "33": {"object": "inklingposter3"},
+    "34": {"object": "inklingposter4"},
+    "35": {"object": "inklingposter5"},
+    "36": {"object": "inklingposter6"},
+    "37": {"object": "inklingposter7"},
+    "38": {"object": "inklingseasnailplush"},
+    "39": {"object": "inklingsign1"},
+    "40": {"object": "inklingsign2"},
+    "41": {"object": "inklingsign3"},
+    "42": {"object": "inklingsign4"},
+    "43": {"object": "inklingsplatter1"},
+    "44": {"object": "inklingsplatter1b"},
+    "45": {"object": "inklingsplatter1c"},
+    "46": {"object": "inklingsplatter1d"},
+    "47": {"object": "inklingsplatter1e"},
+    "48": {"object": "inklingsplatter1f"},
+    "49": {"object": "inklingsplatter1g"},
+    "50": {"object": "inklingsquiddecal"},
+    "51": {"object": "inklingstolendoor"},
+    "52": {"object": "inklingstreetsign1"},
+    "53": {"object": "inklingtrashcan1"},
+    "54": {"object": "inklingvendingmachine1"},
+    "55": {"object": "inklingvendingmachine2"},
+    "56": {"object": "inlollypopjar"},
+    "57": {"object": "inmanekijudd"},
+    "58": {"object": "inoctopusinajar"},
+    "59": {"object": "insquidinajar"},
+    "60": {"object": "onairsign"},
+    "61": {"object": "spykemerchant"}
+  },
+  "tiles": {
+    "0": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/ammoknights.png"
     },
- "tilewidth":72
+    "1": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/coolerheads.png"
+    },
+    "2": {"image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/ikachair.png"},
+    "3": {"image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inalbum1.png"},
+    "4": {"image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inalbum2.png"},
+    "5": {"image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inalbum3.png"},
+    "6": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/incolorfulpole.png"
+    },
+    "7": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inkchest1.png"
+    },
+    "8": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inkchest2.png"
+    },
+    "9": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingfineart1.png"
+    },
+    "10": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklinggraffiti1.png"
+    },
+    "11": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklinggraffiti2.png"
+    },
+    "12": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklinggraffiti3.png"
+    },
+    "13": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklinggraffiti4.png"
+    },
+    "14": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklinggraffiti5.png"
+    },
+    "15": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklinggraffiti6.png"
+    },
+    "16": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklinggraffiti7.png"
+    },
+    "17": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernbeanbag.png"
+    },
+    "18": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernbed.png"
+    },
+    "19": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernbookcase.png"
+    },
+    "20": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmoderncabinet.png"
+    },
+    "21": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmoderncounter.png"
+    },
+    "22": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernfridgeleft.png"
+    },
+    "23": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernicebox.png"
+    },
+    "24": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernlamp.png"
+    },
+    "25": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernminioven.png"
+    },
+    "26": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernshelf.png"
+    },
+    "27": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmodernstool.png"
+    },
+    "28": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmoderntable.png"
+    },
+    "29": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingmoderntv.png"
+    },
+    "30": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingposter1.png"
+    },
+    "31": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingposter1a.png"
+    },
+    "32": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingposter2.png"
+    },
+    "33": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingposter3.png"
+    },
+    "34": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingposter4.png"
+    },
+    "35": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingposter5.png"
+    },
+    "36": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingposter6.png"
+    },
+    "37": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingposter7.png"
+    },
+    "38": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingseasnailplush.png"
+    },
+    "39": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsign1.png"
+    },
+    "40": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsign2.png"
+    },
+    "41": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsign3.png"
+    },
+    "42": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsign4.png"
+    },
+    "43": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsplatter1.png"
+    },
+    "44": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsplatter1b.png"
+    },
+    "45": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsplatter1c.png"
+    },
+    "46": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsplatter1d.png"
+    },
+    "47": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsplatter1e.png"
+    },
+    "48": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsplatter1f.png"
+    },
+    "49": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsplatter1g.png"
+    },
+    "50": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingsquiddecal.png"
+    },
+    "51": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingstolendoor.png"
+    },
+    "52": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingstreetsign1.png"
+    },
+    "53": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingtrashcan1.png"
+    },
+    "54": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingvendingmachine1.png"
+    },
+    "55": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inklingvendingmachine2left.png"
+    },
+    "56": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inlollypopjar.png"
+    },
+    "57": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inmanekijudd.png"
+    },
+    "58": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/inoctopusinajar.png"
+    },
+    "59": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/insquidinajar.png"
+    },
+    "60": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/onairsign.png"
+    },
+    "61": {
+      "image": "..\\/..\\/..\\/..\\/tiled\\/inkling-custom\\/spykemerchant.png"
+    }
+  },
+  "tilewidth": 8
 }

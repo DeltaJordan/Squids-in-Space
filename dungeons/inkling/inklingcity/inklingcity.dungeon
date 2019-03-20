@@ -1,0 +1,114 @@
+{
+  "metadata" : {
+    "name" : "inklingcity",
+    "species" : "inkling",
+    "rules" : [
+    ],
+    "anchor" : [ "inklingcitybuilding2" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 20,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "inklingcityhouse1",
+      "rules" : [
+        [ "maxSpawnCount", [4] ],
+        [ "doNotConnectToPart", [ "inklingcityhouse1" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcityhouse1.json" ]
+    },
+    {
+      "name" : "inklingcityhouse2",
+      "rules" : [
+        [ "maxSpawnCount", [4] ],
+        [ "doNotConnectToPart", [ "inklingcityhouse2" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcityhouse2.json" ]
+    },
+    {
+      "name" : "inklingcitystore1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "inklingcitystore1" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcitystore1.json" ]
+    },
+    {
+      "name" : "inklingcitylibrary1",
+      "rules" : [
+        [ "maxSpawnCount", [4] ],
+        [ "doNotConnectToPart", [ "inklingcitylibrary1" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcitylibrary1.json" ]
+    },
+    {
+      "name" : "inklingcitybuilding1",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "inklingcitybuilding1" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcitybuilding1.json" ]
+    },
+    {
+      "name" : "inklingcitybuilding2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "inklingcitybuilding2" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcitybuilding2.json" ]
+    },
+    {
+      "name" : "inklingcitybuilding3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "inklingcitybuilding3" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcitybuilding3.json" ]
+    },
+    {
+      "name" : "inklingcityflat1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "inklingcityflat1" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcityflat1.json" ]
+    },
+    {
+      "name" : "inklingcityflat2",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "inklingcityflat2" ] ]
+
+      ],
+      "def" : [ "tmx", "inklingcityflat2.json" ]
+    },
+    {
+      "name" : "inklingendleft1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+		["doNotConnectToPart", ["inklingendright1"] ]
+      ],
+      "def" : [ "tmx", [ "inklingendleft1.json" ] ]
+    },
+
+    {
+      "name" : "inklingendright1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+		["doNotConnectToPart", ["inklingendleft1"] ]
+      ],
+      "def" : [ "tmx", [ "inklingendright1.json" ] ]
+    }
+  ]
+}
