@@ -11,24 +11,30 @@
           [0.1666, "miasmop"],
           [0.1666, "snaggler"],
           [0.1666, "crabcano"],
-          [0.1666, "snuffish"]
+          [0.1666, "snuffish"],
+		  [0.1666, "tentacleclam"],
+		  [0.1666, "anglure"]
         ]
       },
       {
-        "select": 1,
+        "select": 2,
         "pool": [[0.4, "tidefly"], [0.3, "seahornet"], [0.3, "wavebird"]]
       },
       {"select": 1, "pool": "generatedGroundAggroDay"},
-      {"select": 3, "pool": "nightTerrors"},
+      {"select": 2, "pool": "nightTerrors"},
       {"select": 2, "pool": "generatedGround"},
       {"select": 2, "pool": "generatedFlying"},
       {
-        "select": 2,
+        "select": 4,
         "pool": [
+		  [1, "smallFishOcean1"],
+          [1, "smallFishOcean2"],
           [1, "gullcritter"],
+		  [1, "poisonfishcritter"],
           [1, "squidcritter"],
           [1, "jellycritter"],
           [1, "crabcritter"],
+		  [1, "fishcritter"],
           [1, "fishlemoncritter"],
           [1, "fishberrycritter"],
           [1, "fishchilicritter"],
@@ -39,7 +45,7 @@
     "monsterParameters": {"colors": "ocean"}
   },
   "hueShiftOptions": [-15, 0, 15],
-  "weather": [[0, ["/weather.config:ocean"]]],
+  "weather": [[0, ["/weather.config:garden"]]],
   "skyOptions": [
     {
       "mainColor": [255, 255, 255],
@@ -171,6 +177,23 @@
         "type": "microdungeon",
         "microdungeons": ["oceanislandsmicrodungeons"]
       },
+	  {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeRareMicrodungeon",
+        "type" : "microdungeon",
+        "microdungeons" : ["scorchedcitymicrodungeons"]
+      },
+	   {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:overgroundChests",
+		
+        "type" : "treasureBox",
+        "treasureBoxSets": [ "oceanChest" ]
+      },
       {
         "mode": "floor",
         "priority": 1,
@@ -179,6 +202,14 @@
         "type": "object",
         "objectSets": [{"pool": [[1, "statuspod"]], "parameters": {}}]
       },
+	  { "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "oceanFloorChest" ]
+	  },
       {
         "mode": "floor",
         "priority": 1,
@@ -204,8 +235,53 @@
         "type": "tree",
         "treeFoliageHueShiftMax": 180,
         "treeStemHueShiftMax": 15,
-        "treeStemList": ["coconut"],
-        "treeFoliageList": ["cocopalm"]
+        "treeStemList": ["coconut", "colourfulstem", "palm", "beach", "bark"],
+        "treeFoliageList": ["cocopalm", "colourfulpalm", "elegant", "palmy", "lushleaves"]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "shrub1",
+            "baseHueShiftMax" : 180,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "springbush",
+            "baseHueShiftMax" : 180,
+            "modHueShiftMax" : 180
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "toxiccreep",
+            "baseHueShiftMax" : 180,
+            "modHueShiftMax" : 180
+          }
+        ]
       },
       {
         "mode": "floor",
@@ -219,9 +295,25 @@
               [0.35, "tallgrass1"],
               [0.35, "tallgrass2"],
               [0.35, "tallgrass3"],
-              [0.35, "tallgrass4"]
+              [0.35, "tallgrass4"],
+			  [0.05, "smashbones2"],
+			  [0.05, "smashbones4"]
             ],
             "parameters": {}
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:rareClumpySmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "flowerred" ], [0.35, "flowerblue" ], [0.35, "floweryellow" ] ],
+            "parameters" : { "startingStage" : 2 }
           }
         ]
       },
@@ -232,7 +324,27 @@
         "distribution": "/biomes/distributions.config:surfaceCrops",
         "type": "object",
         "objectSets": [
-          {"pool": [[1, "wildbananaseed"]], "parameters": {"startingStage": 4}}
+          {"pool": [[1, "wildneonmelonseed"]], "parameters": {"startingStage": 4}}
+        ]
+      },
+	   {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:surfaceCrops",
+        "type": "object",
+        "objectSets": [
+          {"pool": [[1, "wildriceseed"]], "parameters": {"startingStage": 4}}
+        ]
+      },
+	   {
+        "mode": "floor",
+        "priority": 0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:surfaceCrops",
+        "type": "object",
+        "objectSets": [
+          {"pool": [[1, "wildsugarcaneseed"]], "parameters": {"startingStage": 3}}
         ]
       },
       {
@@ -260,7 +372,7 @@
         "variants": 1,
         "distribution": "/biomes/distributions.config:undergroundChests",
         "type": "treasureBox",
-        "treasureBoxSets": ["basicChest"]
+        "treasureBoxSets": ["oceanChest"]
       },
       {
         "mode": "floor",

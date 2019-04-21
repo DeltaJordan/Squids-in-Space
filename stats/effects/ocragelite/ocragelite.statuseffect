@@ -1,0 +1,18 @@
+{
+  "name" : "ocragelite",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {
+    "powerModifier" : 1.45
+  },
+  "defaultDuration" : 35,
+
+  "scripts" : [
+    "ocragelite.lua"
+  ],
+
+  "animationConfig" : "ocragelite.animation",
+
+  "label" : "Sanitization",
+  "icon" : "/interface/statuses/sanitization.png"
+}

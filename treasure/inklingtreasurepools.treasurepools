@@ -6,6 +6,7 @@
 		{"item" : [ "flashlight" ]},
         {"item" : [ "torch", 10 ]},
         {"item" : [ "inklinginkvial", 5 ]},
+		{"item" : [ "ocrawtentaplant", 3]},
         {"item" : [ "incanofsardines", 1 ]},
 		{"item" : [ "incanofsardines", 1 ]},
 		{"item" : [ "incanofsardines", 1 ]}
@@ -18,7 +19,8 @@
     "inklingguardtreasure" : [
     [1, {
       "pool" : [
-		{"weight" : 0.88, "item" : "inklinginkvial"},
+		{"weight" : 0.50, "item" : "inklinginkvial"},
+		{"weight" : 0.30, "item" : "rawtentacle"},
 		{"weight" : 0.10, "pool" : "money"},
         {"weight" : 0.09, "pool" : "healingItem"},
         {"weight" : 0.01, "item" : "inklingtier4sniper"},
@@ -37,7 +39,8 @@
       "inklingoctoguardtreasure" : [
     [1, {
       "pool" : [
-		{"weight" : 0.88, "item" : "inklinginkvial"},
+		{"weight" : 0.50, "item" : "inklinginkvial"},
+		{"weight" : 0.30, "item" : "rawtentacle"},
 		{"weight" : 0.10, "pool" : "money"},
         {"weight" : 0.09, "pool" : "healingItem"},
         {"weight" : 0.01, "item" : "inklingtier4sniper"},
@@ -58,9 +61,10 @@
 	"inklingmerchtreasure" : [
     [1, {
       "pool" : [
-		{"weight" : 0.88, "item" : "inklinginkvial"},
-		{"weight" : 0.12, "pool" : "money"},
-        {"weight" : 0.1, "pool" : "healingItem"}
+		{"weight" : 0.50, "item" : "inklinginkvial"},
+		{"weight" : 0.30, "item" : "rawtentacle"},
+		{"weight" : 0.10, "pool" : "money"},
+        {"weight" : 0.10, "pool" : "healingItem"}
 		      ],
       "poolRounds" : [
         [0.5, 0],
@@ -73,7 +77,8 @@
     "inklingvilltreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.88, "item" : "inklinginkvial"},
+        {"weight" : 0.50, "item" : "inklinginkvial"},
+		{"weight" : 0.38, "item" : "rawtentacle"},
 		{"weight" : 0.10, "pool" : "money"},
         {"weight" : 0.01, "pool" : "seed"},
         {"weight" : 0.01, "pool" : "healingItem"}

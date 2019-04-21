@@ -44,7 +44,7 @@
   "outboundNodes" : [ ],
 
   "spawner" : {
-    "searchRadius" : 32.0,
+    "searchRadius" : 100.0,
     "npcSpeciesOptions" : [ "inkling" ],
     "npcTypeOptions" : [ "inklingvillager", "inchefmerchant", "indoctormerchant", "inmerchant", "inweaponmerchant", "inguard", "inoctoguard" ],
     "npcParameterOptions" : [

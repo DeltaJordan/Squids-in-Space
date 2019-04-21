@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "milk", "count": 2},
+	{ "item" : "sugar", "count": 2},
+	{ "item" : "wheat", "count": 2},
+	{ "item" : "redapple", "count": 1}
+  ],
+  "output" : { "item" : "infancywaffle", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

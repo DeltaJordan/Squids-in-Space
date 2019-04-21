@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "leather", "count" : 6 },
+    { "item" : "durasteelbar", "count" : 2 },
+	{ "item" : "yellowdye", "count" : 1}
+  ],
+  "duration" : 5,
+  "output" : { "item" : "octolingtier4legsb", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

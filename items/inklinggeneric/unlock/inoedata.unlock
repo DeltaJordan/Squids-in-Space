@@ -1,0 +1,13 @@
+{
+  "itemName" : "inoedata",
+  "rarity" : "Uncommon",
+  "price" : 888,
+  "inventoryIcon" : "inoedata.png",
+  "image" : "inoedata.png",
+
+  "shortdescription" : "CQ-80",
+  "description" : "A smartphone-like device distributed to all those who travel the Deepsea Metro.",
+
+  "tierRecipesUnlock" : "octoexitems",
+  "unlockMessage" : "Recipes for items from the Deepsea Metro and Kamabo Corporation have been unlocked!"
+}

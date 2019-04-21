@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ininstantramen", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 },
+	{ "item" : "chili", "count" : 1 },
+	{ "item" : "rawtentacle", "count" : 2}
+  ],
+  "output" : { "item" : "inoctoramen", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

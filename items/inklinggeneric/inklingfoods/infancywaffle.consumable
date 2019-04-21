@@ -1,0 +1,33 @@
+{
+  "itemName" : "infancywaffle",
+  "rarity" : "Rare",
+  "price" : 795,
+  "category" : "preparedFood",
+  "inventoryIcon" : "infancywaffle.png",
+  "description" : "A big waffle served with syrup, butter, whipped cream, and... apples cut to look like berries?",
+  "shortdescription" : "Waffle Supreme",
+    "effects" : [ [
+	    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 720
+    },
+    { 
+		"effect" : "jumpboostfood",
+		"duration" : 720
+	},
+	{
+		"effect" : "nofalldamage",
+		"duration" : 720
+	}
+	
+  ] ],
+  "foodValue" : 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 8,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

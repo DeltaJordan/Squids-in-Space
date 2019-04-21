@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "wheat", "count" : 3 }
+    { "item" : "wheat", "count" : 2 }
   ],
   "output" : { "item" : "ininstantramen", "count" : 1 },
   "groups" : [ "craftingfood", "snacks", "insnacks" ]

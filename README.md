@@ -1,32 +1,41 @@
 # Squids in Space!: A Splatoon Species Mod for Starbound
-![Squids in Space!](https://steamuserimages-a.akamaihd.net/ugc/862855933249308702/53E2B095ED11B066BEFDAACB495B51326AE1DA49/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)
+![Squids in Space!](https://community.playstarbound.com/proxy.php?image=https%3A%2F%2Fi.imgur.com%2FmX0sGuC.png&hash=6e98c2c451f07195d25302120a26e2e6)
 
 A species mod based off of the shapeshifters from Splatoon, the Inklings!
 Grab your gear and start exploring, because now you can take to the cosmos as a squid!
 
 ## Features
-- Tons of colors and tentacle styles to make your own unique cephalopod.
-- Fully-tiered armor and weapons, with 9 different weapon types at your disposal. (And a few joke weapons too.)
-- Weapon customization and recoloring! Change your weapon's look, element and even ability to make it work to your liking.
-- Five custom vendors based off of the Booyah Base shops in Splatoon. They'll sell you all sorts of custom clothing and weapons, as well as swap rare treasure for a tasty sea snail or two.
-- A custom SAIL AI, custom ship pet, and semi-custom ship.
-- Tons of Inkling-inspired furniture so that wherever you go, you'll be comfortable.
-- Custom codexes exploring the lives, lore and history of the Inkling race! Made at the special inkling crafting table.
-- Fully-functional Inkling tenants and guards! See if you can get them to show up in your colonies, they're quite friendly.
-- And a lot more, including fun custom throwables, craftable buffs, custom object scan descriptions, and a lot more.
+- A custom cephalopod species with their own unique pet, semi-custom ship, full custom dialogue and object descriptions, and all that jazz.
+- Tons of custom colors and hairstyles to pick from.
+- Entirely too many weapons, tiered and otherwise.
+- Fully-tiered armor sets, with some tiers having multiple distinct armor sets.
+- An assortment of custom clothing made just for Inklings.
+- Lots and lots of custom objects based off of the world of Splatoon and Inkling culture.
+- So much crafting? 10+ custom foods, 10+ custom codices, buffs, explosives, a custom crop and more!
+- Five custom vendor stalls that sell assorted clothing and useful goods. One of them only accepts sea snails as currency, however, so be sure to hold onto those if you find them while exploring the galaxy!
+- A new planet type, the Flooded biome. Inspired by the post-human Earth of Splatoon and built off of Oceanic planets, these planets have an assortment of ruins, resources and residents that make them worth a visit!
+- And so much more? There's a lot in this mod.
 
 ## Dependencies
-A character extender, preferrably Xbawks Character Extender on [Steam](https://steamcommunity.com/workshop/filedetails/?id=729426722).
+- This mod requires a species extender for Inklings to be a playable race. This is a pretty good one: [Steam](https://steamcommunity.com/workshop/filedetails/?id=729426722).
+- This mod is fully compatible with Frackin Races, although Inklings are not listed on the main webpage for the mod.
+- This mod is overall designed to be as compatible with as many things as possible. If you discover incompatibilities, please contact me!
 
-## Known Bugs
-- Inkling shirts/tops don't tend to like other races too much due to body type differences.
-Hats, pants and back items all work just fine, though, and Inklings can wear most other clothes fine enough.
-- There's some issue with customized Brushes & Rollers with a weapon mod somewhere. I don't know what it is because the only bug report didn't tell me what mods they were using...
+## "Bugs" & FAQ
+- Vanilla races may experience clipping if they try to wear Inkling chest items. Head and leg clothing should be fine.
+- Similarly, Inklings look funny with some vanilla Starbound clothing on them. But that's just how it is.
+- Depending on the dungeons that spawn on a Flooded planet, the game may take extra time to load the planet upon first generating it.
+This is completely normal due to the game not normally loading some dungeons in an ocean setting: please be patient with the game and allow it to fully load the planet.
+- Characters that exist before the V2.0.0 Beta update may not find Flooded planets in their associated universes. For best results, create a new character or visit the universe of one!
+- Octo Expansion content is unlocked by buying and using a CQ-80 from the Outpost's Octoling vendor; it's like this for thematic and spoiler reasons! You may also rarely find CQ-80s in treasure chests on Oceanic and Flooded planets.
+
+- There are currently no game-breaking bugs to my knowledge. Please contact me if you discover any, I want to fix them!
 
 ## Credits
 - Psychic Detective Shawn Spencer and Coricus: for making various assets such as furniture and tentacle styles!
 - Commander Scout: for creating a template for the 0.9.1 eye update!
 - BlitzkriegOmega and Coricus: for all their hard work with bugtesting, especially with weapons and armor!
-- DeltaJordan: For setting up the GitHub repository for the mod, which allows collaberative work and bug-squishing.
+- DeltaJordan: for their contributions involving dungeons and planet types, as well as for running the mod's GitHub!
+- Moonage: for her writing and spriting assets, and also for creating the v2.0 preview image!
 - Nintendo: for making Splatoon!
-- And all you Steam subscribers: for providing your feedback and helping me improve Squids in Space!
+- And all you subscribers: for providing your feedback and helping me improve Squids in Space!

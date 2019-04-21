@@ -1,0 +1,18 @@
+{
+  "name" : "ocrage",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {
+    "powerModifier" : 1.85
+  },
+  "defaultDuration" : 99,
+
+  "scripts" : [
+    "ocrage.lua"
+  ],
+
+  "animationConfig" : "ocrage.animation",
+
+  "label" : "Sanitization",
+  "icon" : "/interface/statuses/sanitization.png"
+}

@@ -1,0 +1,23 @@
+{ 
+	"itemName" : "inklingsplatfestvampire",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "chestwear",
+	"description" : "A shirt with a bat on it! To show the world how batty you really are!",
+	"shortdescription" : "Team Vampire Shirt",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	}
+}

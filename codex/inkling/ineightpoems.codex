@@ -1,0 +1,106 @@
+{
+  "id" : "ineightpoems",
+  "title" : "Eight-Track Memory",
+  "description" : "A compiliation of a young Octoling poet's writings.",
+  "icon" : "octobook.png",
+  "contentPages" : [
+
+"Flawless crispy shrimp
+crunches sweetly on my beak.
+
+And then I recall, from early days!
+
+The soggy squishy breading 
+of yesterday's fried things.
+
+
+''Fried Shwaffle'', 04/22/2734",
+
+"How many times have I tried?
+
+One by one they leap, 
+their eyes on the prize,
+across green tides to the goal.
+
+I shout once more, 
+and the orb is gone.
+
+
+''Girl Power'', ??/??/2732",
+
+"What is it I'm making?
+
+The template sits without a word,
+with wagless tail and pointed ears.
+
+Us cephalopods, we have only cats!
+
+
+''Canines from Boxes'', 02/04/2734",
+
+"Flashing voices, trilling lights,
+it's all a familiar delight.
+
+Both here and below seem to adore
+the idea of music and conflict!
+
+I'll take celebration any day.
+
+
+''A Concert Trend'', 13/08/2733",
+
+"Vending machines hold lots of treats,
+and meals on desperate days.
+
+This one has only canned meat: 
+it's adrift in bright green ooze.
+
+Never again will I eat this!
+
+
+''It Tastes Like Soap'', ??/??/2732",
+
+"Sighted on the TV: 
+fish out of water, 
+pans in their hands.
+
+I could never collect their eggs!
+
+They remind me of smiling friends,
+of sucker-pads and dainty legs.
+
+
+''Salmonid'', 04/10/2733",
+
+"Aflight, afright, 
+I moved as a shadow in night.
+
+Until then, I hadn't known
+how hope had ever sounded.
+
+And so it seems to sound like
+drawn-out notes and profanities!
+
+
+''Hope'', 16/02/2732",
+
+"Death itself loomed in the harbor.
+
+At once, a thousand things: 
+life, love, hope and horror 
+all mingle.
+
+Was it not my burden, 
+it would have been
+the most beautiful thing in the world.
+
+
+''A Hundred and Eighty Seconds'', 15/29/2732"
+
+    ],
+    "itemConfig" : {
+    "rarity" : "Uncommon",
+    "price" : 300
+	
+	}
+}

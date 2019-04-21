@@ -37,8 +37,8 @@
 { "item" : "inklingtier1machinepistol" },
 { "item" : "inklingtier2machinepistol" },
 { "item" : "inklingtier3machinepistol" },
-{ "item" : "inklingtier1sniper"},
-{ "item" : "inklingtier2sniper"},
+{ "item" : "inklingtier1sniper" },
+{ "item" : "inklingtier2sniper" },
 { "item" : "inklingtier3sniper" },
 { "item" : "inklingtier2grenadelauncher" },
 { "item" : "inklingtier3grenadelauncher" },
@@ -88,7 +88,8 @@
 { "item" : "inklingvendingmachine1" },
 { "item" : "jellyfresh" },
 { "item" : "shrimpkicks" },
-{ "item" : "spykemerchant" }
+{ "item" : "spykemerchant" },
+{ "item" : "insplatnet" }
 ] },
 
 { "op" : "add", "path" : "/defaultBlueprints/infood", "value" : [
@@ -124,6 +125,38 @@
 { "item" : "inklingturfwar-codex" },
 { "item" : "inklingvernacular-codex" },
 { "item" : "octarianabout-codex" },
-{ "item" : "ssbiography-codex" }
+{ "item" : "ssbiography-codex" },
+{ "item" : "inthreediary-codex" }
+] },
+
+{ "op" : "add", "path" : "/defaultBlueprints/octoexitems", "value" : [
+{ "item" : "inkamabovial" },
+{ "item" : "incqhat" },
+{ "item" : "inklingoctowig8" },
+{ "item" : "inklingtier5asanitizedwig" },
+{ "item" : "inklingtier6asanitizedwig" },
+{ "item" : "octolingtier4head" },
+{ "item" : "octolingtier4ahead" },
+{ "item" : "octolingtier4bhead" },
+{ "item" : "octolingtier4chest" },
+{ "item" : "octolingtier4legsa" },
+{ "item" : "octolingtier4legsb" },
+{ "item" : "inklingtier5bhead" },
+{ "item" : "eightinktank" },
+{ "item" : "oepearlhead" },
+{ "item" : "oepearlchest" },
+{ "item" : "oepearllegs" },
+{ "item" : "oemarinahead" },
+{ "item" : "oemarinachest" },
+{ "item" : "oemarinalegs" },
+{ "item" : "inkamabosign" },
+{ "item" : "incrate1" },
+{ "item" : "inklingposter8" },
+{ "item" : "incqlamp" },
+{ "item" : "inphonebastard" },
+{ "item" : "inmarblebust" },
+{ "item" : "inthreediary-codex" },
+{ "item" : "ineightpoems-codex" }
 ] }
+
 ]

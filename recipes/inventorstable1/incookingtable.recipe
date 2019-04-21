@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 7},
+	{ "item" : "glass", "count" : 3},
+	{ "item" : "rawfish", "count" : 1}
+  ],
+  "output" : {
+    "item" : "incookingtable",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable", "inklingcraftingtable", "objects", "all" ]
+}

@@ -1,0 +1,54 @@
+{
+  "id" : "inthreediary",
+  "title" : "A Dive into Hell",
+  "description" : "An unsettling glimpse into the world of the Deepsea Metro, as seen by an errant agent.",
+  "icon" : "agentbook.png",
+  "contentPages" : [
+
+"I don't know what these things are. I'm trying to find something, anything about them in the records I can find, but all I'm seeing is shit about tests. 
+This place seems to be a facility of some kind experimenting on Octarians. It's disgusting, frankly.
+Everything smells too clean. Like someone dumped a vat of antibacterial on every square inch of this place. Makes it hard to breathe sometimes, especially when trying to avoid these... creatures. They sure as hell aren't Octarians. 
+      -- three.",
+   
+ 
+"''Sanitization.''
+That's what they're calling it. I'm not sure, but maybe these are clones of some sort, of Octarians they experimented on? I can't tell for sure, the language they use in these reports is really vague. Probably on purpose, to avoid just this scenario. Clever.
+
+It doesn't matter though. I'm going to find out what's going on if it kills me, I swear. These are innocent people at stake.
+      -- three.",
+   
+ 
+"this is going to be a short entry
+
+something happened, they saw me and attacked all at once, like some kind of hive mind. i'm hiding in a vent and i have no idea where i am
+
+the map makes no sense and i can't find the little home base i set up and i HATE THIS HELLHOLE
+
+      -- three.",
+ 
+   
+"I managed to find my way back to home, and I have more competent defenses in place now. It isn't much more than a room that I managed to hijack the lock for, but it's better than nothing. 
+
+I won't be leaving yet though. I'm going all the way down to the testing facility-- that's where Cuttlefish is. I know I left the Splatoon a long time ago, but I can't just leave him to die. Not to mention that Octoling down there, too...
+      -- three.",
+ 
+   
+"They're all dead.
+
+The test subjects once they've proven themselves, I mean. I finally managed to crack this cypher on one of the reports, and this is.. horrifying. Whatever runs this place murders all the successful test subjects, and uses their... matter(?) to create these Sanitized Octolings. 
+I keep hearing the name Tartar. Are they the one who created this mess? If so, where are they? And do they bleed?
+      -- three.",
+ 
+   
+"it 
+
+burns
+
+             -- thr e"
+
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

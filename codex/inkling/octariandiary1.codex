@@ -1,7 +1,7 @@
 {
   "id" : "octariandiary1",
   "title" : "Affluent Diary",
-  "description" : "An old diary written by the hand of a renowned Octoling. It dates back to late MA 2616...",
+  "description" : "An old diary written by the hand of an anonymous Octoling. It dates back to late MA 2616...",
   "icon" : "octobook.png",
   "contentPages" : [
 
@@ -12,11 +12,11 @@ A wire comes loose and it all goes to the abyss. Our forces were too exhausted t
 
 We can only admit defeat. We never deserved this.",
 
-"The shogun and her consort are failing to answer all forms of communication. Telegraphs, highnet messages, letters, there's nothing.
+"The shogun and her consort are failing to answer all forms of communication. Telegraphs, letters, there's nothing.
 
 It's been two days, and there's no way to know: the Dofleini-E Division and I are too far away to see for ourselves.
 
-Have they deserted us? Are they dead? For once, not even composing calms my nerves.",
+Have they deserted us? Are they dead? For once, not even music calms my nerves.",
 
 "We have returned to Takoku, and the shogunate has been decimated. Cephiwa and Octaiki are nowhere to be found, and rumors stir: they're dead, they're prisoners, they've fled.
 
@@ -37,7 +37,7 @@ I even called one of them my friend.  A kind manner, hope for the future and a c
 But it's time to throw that all away.
 The past is just a warning for the future, and no more. We will rise again, by my tentacles if we must.
 
--- O. Kzaikeru, General of the Dofleini-E Division, MA 2616"
+-- General of the Dofleini-E Division, MA 2616"
 	
     ],
     "itemConfig" : {

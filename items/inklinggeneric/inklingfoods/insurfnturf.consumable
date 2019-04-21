@@ -1,0 +1,29 @@
+{
+  "itemName" : "insurfnturf",
+  "rarity" : "Uncommon",
+  "price" : 405,
+  "category" : "food",
+  "inventoryIcon" : "insurfnturf.png",
+  "description" : "Ocean food or mountain food? Why not both?",
+  "shortdescription" : "Surf 'n Turf Platter",
+  "effects" : [ [ 
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 240
+    },
+	
+	{
+		"effect" : "swimboostfood",
+		"duration" : 240
+	}
+  ] ],
+  "foodValue" : 85,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

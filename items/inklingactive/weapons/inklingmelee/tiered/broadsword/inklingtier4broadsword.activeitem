@@ -37,8 +37,8 @@
   "elementalType" : "physical",
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility"  : {
-    "fireTime" : 0.9,
-    "baseDps" : 9.1,
+    "fireTime" : 1.1,
+    "baseDps" : 11.2,
     "damageConfig" : {
       "damageSourceKind" : "broadsword",
       "knockback" : 20,

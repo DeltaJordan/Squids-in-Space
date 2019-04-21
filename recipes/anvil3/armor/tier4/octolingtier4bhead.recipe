@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "rawtentacle", "count" : 6 },
+    { "item" : "reddye", "count" : 2 },
+	{ "item" : "durasteelbar", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "octolingtier4bhead", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

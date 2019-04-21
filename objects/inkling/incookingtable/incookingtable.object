@@ -1,0 +1,42 @@
+{
+  "objectName" : "incookingtable",
+  "colonyTags" : ["cooking", "inkling"],
+  "printable" : false,
+  "price" : 230,
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/inklingfood.config",
+    "filter" : [ "craftingfood" ]
+  },
+  "description" : "A cooking setup that's perfect for any cephalopodian cook.",
+  "shortdescription" : "^orange;Inkling Kitchen Corner^white;",
+  "race" : "inkling",
+
+  "apexDescription" : "Oh, this thing even has little spice jars? That's kinda cute.",
+  "avianDescription" : "It's a cooking spot for squids, but I'm sure I could make Avian food too!",
+  "floranDescription" : "Cooking table has hooksss, hooksss to hang meat for Floran.",
+  "glitchDescription" : "Inspired. Maybe I'll try my hand at a seafood dish!",
+  "humanDescription" : "Woah, this kitchenette has everything!",
+  "inklingDescription" : "A kitchen just for squids! It's perfect!",
+  "hylotlDescription" : "The snappy arrow design and hanging tuna steak make this very much an Inkling's kitchen.",
+  "novakidDescription" : "I could cook up just 'bout anything with this.",
+
+  "inventoryIcon" : "incookingtableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "incookingtable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "npcToy" : {}
+}

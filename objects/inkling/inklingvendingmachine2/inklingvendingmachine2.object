@@ -47,8 +47,10 @@
 	  { "item" : "sweetpopcorn" },
 	  { "item" : "fishdumplings" },
 	  { "item" : "ininstantramen" },
+	  { "item" : "insoysauce" },
       { "item" : "incanofsardines"},
 	  { "item" : "intakoyaki" },
+	  { "item" : "inpocky" }, 
 	  { "item" : "insquidsicle" },
 	  { "item" : "inriceball" },
 	  { "item" : "inpeanutbutter" }

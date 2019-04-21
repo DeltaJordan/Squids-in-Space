@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "rawtentacle", "count" : 2},
+	{ "item" : "insoysauce", "count" : 1}
+  ],
+  "output" : { "item" : "intastytendril", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]
+}

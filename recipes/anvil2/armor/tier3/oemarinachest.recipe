@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "inklingothmchest", "count" : 1 },
+    { "item" : "fabric", "count" : 3},
+    { "item" : "titaniumbar", "count" : 3}
+  ],
+  "duration" : 5,
+  "output" : { "item" : "oemarinachest", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

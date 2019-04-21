@@ -1,53 +1,47 @@
 {
   "itemName" : "inklingdeathcan",
   "price" : 2350,
-  "level" : 5,
+  "level" : 6,
   "maxStack" : 1,
   "rarity" : "Rare",
   "description" : "It's a spraycan tied to a stick. Wait, what?!",
   "shortdescription" : "The Death Can",
   "tooltipKind" : "sword",
-  "category" : "Brush",
+  "category" : "Unknown",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","shortsword"],
+  "itemTags" : ["weapon","melee","broadsword"],
   "inventoryIcon" : "indeathcan.png",
-  "animation" : "/animation/weapons/shortsword/pinkbrushswoosh.animation",
+  "animation" : "/animation/weapons/broadsword/pinkswordswoosh.animation",
   "animationParts" : {
     "blade" : "indeathcan.png",
     "handle" : ""
   }, 
-  "animationCustom": {
+    "animationCustom" : {
     "animatedParts": {
       "parts": {
         "blade": {
           "properties": {
             "offset": [
-              -0.2,
-              0.25
-            ]
-          }
-        },
-        "swoosh": {
-          "properties": {
-            "offset": [
-              1.75,
-              -2
+              0.3,
+              2.4
             ]
           }
         }
       }
-    }
-   },
+	 }
+    },
     "sounds" : {
-      "fire" : [ "/sfx/melee/swing_shortsword_poison1.ogg", "/sfx/melee/swing_shortsword_poison2.ogg", "/sfx/melee/swing_shortsword_poison3.ogg" ]
+      "fire" : [ "/sfx/melee/swing_broadsword_poison1.ogg", "/sfx/melee/swing_broadsword_poison2.ogg", "/sfx/melee/swing_broadsword_poison3.ogg" ]
     },
   "scripts" : [ "/items/active/weapons/melee/meleeweapon.lua" ],
-  "elementalType": "physical",
-  "primaryAbilityType": "shortswordcombo",
+  "elementalType": "fire",
+  "primaryAbilityType": "broadswordcombo",
   "primaryAbility": {
     "fireTime": 0.725,
-    "baseDps": 9
+    "baseDps": 14
   },
+  
   "baseWeaponRotation" : 20,
+  "altAbilityType" : "risingslash",
   "builder": "/items/buildscripts/buildunrandweapon.lua"
 }

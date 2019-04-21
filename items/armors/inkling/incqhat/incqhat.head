@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "incqhat",
+	"inventoryIcon" : "icons.png:head",
+	"price" : 975,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "headwear",
+	"description" : "The tiniest little conductor hat that you've ever seen. Definitely not for squids, or humanoids for that matter.",
+	"shortdescription" : "Tiny Conductor Hat",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

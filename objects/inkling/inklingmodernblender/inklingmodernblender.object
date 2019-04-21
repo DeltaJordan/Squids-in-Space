@@ -1,0 +1,62 @@
+{
+  "objectName" : "inklingmodernblender",
+  "colonyTags" : ["inkling","cooking"],
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "price" : 875,
+  "description" : "Great for making smoothies, drinks and anything liquid!",
+  "shortdescription" : "Modernized Blender",
+  "subtitle" : "Spin something up!",
+  "race" : "inkling",
+
+  "maximumLiquidLevel" : 0.2,
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "drinks", "condiments", "buffs" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Modernized Blender",
+        "subtitle" : "Spin something up!"
+      }
+    }
+  },
+
+  "apexDescription" : "This liquifies just about anything. Great for milkshakes!",
+  "avianDescription" : "There's a squiggly logo on the top of this. How weird.",
+  "floranDescription" : "Glass jar blends.. thingsss. Meatsss too?",
+  "glitchDescription" : "Creative. You can make all sorts of drinks with a blender.",
+  "humanDescription" : "I guess a blender WOULD be really useful in space.",
+  "hylotlDescription" : "A blender's only really useful for drinks, but it does its job well.",
+  "inklingDescription" : "This blender smells, like, really bad. Like blood and soap.",
+  "novakidDescription" : "A fun lil' contraption for a quick sip.",
+
+  "inventoryIcon" : "inklingblendericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "inklingmodernblender.png:<color>" } ],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "inklingmodernblender.png:<color>" } ],
+      "direction" : "right",
+      
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

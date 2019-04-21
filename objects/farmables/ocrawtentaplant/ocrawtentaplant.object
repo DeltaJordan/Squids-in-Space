@@ -1,0 +1,56 @@
+{
+  "objectName" : "ocrawtentaplant",
+  "colonyTags" : ["nature", "inkling", "octoling"],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "description" : "A clipping from an tentacle. Plant it in water or other liquid, and it'll grow.",
+  "shortdescription" : "Tentacle Clipping",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 20,
+
+  "apexDescription" : "Artifically-grown meat gives me the heebie-jeebies.",
+  "avianDescription" : "Wait, is this meat.. growing? From the ground?",
+  "floranDescription" : "Ssssome kind of raw meat. Floran eatsss?",
+  "glitchDescription" : "Unnerved. I believe it just twitched.",
+  "humanDescription" : "It's.. a tentacle? Okay, I'm officially creeped out.",
+  "hylotlDescription" : "This appears to be a scientifically-cloned tentacle, grown for meat.",
+  "inklingDescription" : "Looks like someone was growing artifical tentas here! Tasty.",
+  "novakidDescription" : "What a weird-lookin' plant!",
+
+  "inventoryIcon" : "ocrawtentaplanticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ocrawtentaplant.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [ 0, 0 ], [ 0, 1 ] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+"stages" : [
+    {
+      "duration" : [115, 140]
+    },
+    {
+      "duration" : [480, 660]
+    },
+    {
+      "alts" : 3,
+      "harvestPool" : "ocrawtentaHarvest",
+      "resetToStage" : 0
+    }
+  ],
+
+  "consumeSoilMoisture" : false,
+  "minImmersion" : 0.5,
+  "largeImage" : "ocrawtentaplant.png:default.2.0",
+  "tooltipKind" : "seed",
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+  "learnBlueprintsOnPickup" : [ "intastytendril", "inoctoramen" ]
+  }

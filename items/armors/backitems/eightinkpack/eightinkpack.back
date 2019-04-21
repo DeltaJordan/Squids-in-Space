@@ -1,0 +1,18 @@
+{
+  "itemName" : "eightinkpack",
+  "price" : 2350,
+  "inventoryIcon" : "eightinkpackicon.png",
+  "rarity" : "Rare",
+  "category" : "backwear",
+  "description" : "This ink tank has been refined to hold more ink and to facilitate testing functions. It's a bit heavy, but incredibly strong.",
+  "shortdescription" : "Kamabo Co. Inkpack",
+  "tooltipKind" : "back",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+
+ "statusEffects" : [
+    "maxhealthboost10", "maxenergyscalingboost"
+  ]
+}

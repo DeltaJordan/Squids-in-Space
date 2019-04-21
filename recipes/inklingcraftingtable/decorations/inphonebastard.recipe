@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 8 },
+    { "item" : "copperbar", "count" : 5},
+	{ "item" : "corefragmentore", "count" : 3}
+  ],
+  "output" : {
+    "item" : "inphonebastard",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

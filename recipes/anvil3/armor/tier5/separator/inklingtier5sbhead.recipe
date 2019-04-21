@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "inkamabovial", "count" : 5 },
+    { "item" : "inklingtier4head", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingtier5sbhead", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

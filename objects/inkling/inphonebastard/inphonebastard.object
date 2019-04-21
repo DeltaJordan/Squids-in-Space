@@ -1,0 +1,40 @@
+{
+  "objectName" : "inphonebastard",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Rare",
+  "category" : "furniture",
+  "price" : 1845,
+  "printable" : false,
+
+  "description" : "This old-timey phone still rings ever so often. Care to say hello?",
+  "shortdescription" : "Antique Phone",
+  "race" : "inkling",
+  
+  "apexDescription" : "This phone's surprisingly shiny for something so old... how suspicious.",
+  "avianDescription" : "When I reach out for the receiver, it rings! Creepy!",
+  "floranDescription" : "Humansss machine for soundsss.. why'sss it sssinging?",
+  "glitchDescription" : "Uncomfortable. There can't be any phone connection here, yet it's ringing.",
+  "humanDescription" : "Wow, this thing's a total fossil! And it still works, neat!",
+  "hylotlDescription" : "There's an elegant charm to older human creations such as this one.",
+  "inklingDescription" : "This thing's ringing at me. I reeeeally don't like that.",
+  "novakidDescription" : "An ol' telly-phone. Still in great shape.",
+
+  "inventoryIcon" : "inphonebastardicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inphonebastard.png:<color>",
+
+      "imagePosition" : [-10, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+	  "spaceScan" : 0.1
+    }
+  ],
+  
+  "animation" : "/objects/noisy/noisy.animation",
+  "scripts" : [ "/objects/noisy/noisy.lua" ],
+  "sounds" : [ "/sfx/fone/mech_horn_lacucha.ogg", "/sfx/fone/phonering_1.wav", "/sfx/fone/phonering_2.wav", "/sfx/fone/outpostmonitor_static.ogg", "/sfx/fone/tv_static.ogg"]
+}

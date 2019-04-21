@@ -1,0 +1,17 @@
+{
+  "itemName" : "inkamabovial",
+  "rarity" : "Rare",
+  "price" : 575,
+  "category" : "Stim",
+  "inventoryIcon" : "inkamabovial.png",
+  "description" : "A stimpack full of greenish, foul-smelling ooze. You probably shouldn't touch this.",
+  "shortdescription" : "Vial of Shimmering Ooze",
+  "effects" : [ [
+      {
+        "effect" : "ocragelite",
+        "duration" : 150
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

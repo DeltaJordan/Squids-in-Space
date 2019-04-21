@@ -4,8 +4,8 @@
     "path": "/visitableTypeDescription/flooded",
     "value": [
       "An unnatural increase to this planet's temperature has ^#008aff;flooded^white; this planet, leaving little land behind.",
-      "The high, ^#008aff;flooded^white; waters may have caused some ocean-based lifeforms to evolve accordingly. Further inspection recommended.",
-      "^#008aff;Flooded^white; waters have caused most land-based lifeforms to disappear, however it also seems to have encouraged some water-based lifeforms onto land."
+	  "This ^#008aff;flooded^white; planet has undergone rapid climate change, leaving behind the ruins of past inhabitants and allowing new ones to settle in.",
+      "The ^#008aff;flooded^white; waters of this planet are a result of dramatic climate change. Its scattered islands are abundant with ruins and seaside life."
     ]
   },
   {"op": "add", "path": "/planetTypeNames/flooded", "value": "Flooded"},

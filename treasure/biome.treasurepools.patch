@@ -1,9 +1,71 @@
 [
+   {
+    "op": "add",
+    "path": "/oceanTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.2,
+      "item": "insuperseasnail"
+    }
+  },
   {
     "op": "add",
     "path": "/oceanTreasure/0/1/pool/-",
     "value": {
-      "weight": 0.08,
+      "weight": 0.1,
+      "item": [
+        "splatbomb",
+        4
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.09,
+      "item": "inklingtier4pistol"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.07,
+      "item": "insquidinajar"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.06,
+      "item": [
+        "ininstantramen",
+        2
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "inbamboohat"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.03,
+      "item": "inklingsplatfestbasic"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanFloorTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.3,
       "item": "insuperseasnail"
     }
   },
@@ -11,24 +73,66 @@
     "op": "add",
     "path": "/oceanFloorTreasure/0/1/pool/-",
     "value": {
-      "weight": 0.10,
-      "item": "insuperseasnail"
+      "weight": 0.1,
+      "item": [
+        "suctionbomb",
+        3
+      ]
     }
   },
   {
     "op": "add",
-    "path": "/swampTreasure/0/1/pool/-",
+    "path": "/oceanFloorTreasure/0/1/pool/-",
     "value": {
-      "weight": 0.03,
-      "item": "insuperseasnail"
+      "weight": 0.07,
+      "item": "inoctopusinajar"
     }
   },
   {
     "op": "add",
-    "path": "/slimeTreasure/0/1/pool/-",
+    "path": "/oceanFloorTreasure/0/1/pool/-",
     "value": {
-      "weight": 0.05,
-      "item": "insuperseasnail"
+      "weight": 0.06,
+      "item": [
+        "incanofsardines",
+        5
+      ]
     }
-  }
+  },
+  {
+    "op": "add",
+    "path": "/oceanFloorTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.04,
+      "item": "inoeunlock"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanFloorTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.02,
+      "item": "inphonebastard"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/oceanFloorTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.01,
+      "item": "inmarblebust"
+    }
+  },
+	
+	{ "op" : "add",
+	  "path" : "/swampTreasure/0/1/pool/-",
+	  "value" : {
+		"weight" : 0.05, "item" : "insuperseasnail" }
+	},
+	
+	{ "op" : "add",
+	  "path" : "/slimeTreasure/0/1/pool/-",
+	  "value" : {
+	   "weight" : 0.05, "item" : "insuperseasnail" }
+	 }
 ]

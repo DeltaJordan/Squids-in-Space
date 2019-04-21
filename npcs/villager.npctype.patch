@@ -74,12 +74,14 @@
                   "colorIndex": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
                 }
               },
+			  {"name": "inklingschoolchest"},
               {"name": "inklingsplatfestbasic"},
               {"name": "inklingsplatfestflight"},
               {"name": "inklingsplatfestinvisibility"},
               {"name": "inklingsplatfestketchup"},
               {"name": "inklingsplatfestmayo"},
               {"name": "inklingsplatfestwerewolf"},
+			  {"name": "inklingsplatfestvampire"},
               {"name": "inklingsplatfestsweater"}
             ],
             "legs": [
@@ -130,6 +132,8 @@
                 }
               },
               {"name": "inklingacerolarainboots"},
+			  {"name": "oemarinalegs"},
+			  {"name": "oepearllegs"},
               {"name": "inklingsplatfestsocks"}
             ],
             "head": [
@@ -197,7 +201,9 @@
               {"name": "inklingsnorkelmask"},
               {"name": "inklingsoccerheadband"},
               {"name": "inklingsplatfestmoney"},
-              {"name": "inklingsplatfestlove"}
+              {"name": "inklingsplatfestlove"},
+			  {"name": "inklingsplatfestwizards"},
+			  {"name": "inskullbandana"} 
             ]
           }
         ]

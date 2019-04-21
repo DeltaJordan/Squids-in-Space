@@ -1,0 +1,40 @@
+{
+  "itemName" : "inroastkebab",
+  "rarity" : "Rare",
+  "price" : 630,
+  "category" : "food",
+  "inventoryIcon" : "inroastkebab.png",
+  "description" : "An assortment of meats on a stick, roasted to perfection! Popular with any carnivores.",
+  "shortdescription" : "Full Spectrum Kebab",
+  "effects" : [ [ 
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 240
+    },
+	
+	{
+		"effect" : "maxenergyscalingboostfood",
+		"duration" : 240
+	},
+	
+	{ 
+		"effect" : "runboostfood",
+		"duration" : 240
+	},
+	
+	{ 
+		"effect" : "jumpboostfood",
+		"duration" : 240
+	}
+	
+  ] ],
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

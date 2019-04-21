@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "kelp", "count" : 1 },
+	{ "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "insoysauce", "count" : 1 },
+  "groups" : [ "craftingfood", "condiments" ]
+}

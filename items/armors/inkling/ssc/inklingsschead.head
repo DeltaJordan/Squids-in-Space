@@ -18,7 +18,7 @@
     {
       "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.25
+      "baseMultiplier" : 1.2
     },
     {
       "levelFunction" : "standardArmorLevelProtectionMultiplier",
@@ -28,30 +28,14 @@
     {
       "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 2
+      "amount" : 3
     },
     {
       "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 5
+      "amount" : 3
     }
   ],
 
-  "itemTags" : [ "tier1armour" ],
-
-  "colorOptions" : [
-	    { "e910b7" : "e910b7", "aa4292" : "aa4292"},
-		{ "e910b7" : "cccccc", "aa4292" : "9e9e9e"},
-		{ "e910b7" : "838383", "aa4292" : "555555"},
-		{ "e910b7" : "b5b5b5", "aa4292" : "808080"},
-		{ "e910b7" : "e6e6e6", "aa4292" : "b6b6b6"},
-		{ "e910b7" : "f4988c", "aa4292" : "d93a3a"},
-		{ "e910b7" : "ffd495", "aa4292" : "ea9931"},
-		{ "e910b7" : "ffffa7", "aa4292" : "e2c344"},
-		{ "e910b7" : "b2e89d", "aa4292" : "51bd3b"},
-		{ "e910b7" : "96cbe7", "aa4292" : "5588d4"},
-		{ "e910b7" : "d29ce7", "aa4292" : "a451c4"},
-		{ "e910b7" : "eab3db", "aa4292" : "d35eae"},
-		{ "e910b7" : "ccae7c", "aa4292" : "a47844"}
-  ]
+  "itemTags" : [ "tier1armour" ]
 }

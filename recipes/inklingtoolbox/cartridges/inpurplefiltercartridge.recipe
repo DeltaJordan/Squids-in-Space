@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "purpledye", "count" : 2},
+	{ "item" : "silverbar", "count" : 1}
+  ],
+  "output" : {
+    "item" : "inpurplefiltercartridge",
+    "count" : 1
+  },
+  "groups" : [ "inklingtoolbox" ]
+}

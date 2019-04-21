@@ -1,0 +1,26 @@
+{
+  "itemName" : "insoysauce",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "preparedFood",
+  "inventoryIcon" : "insoysauce.png",
+  "description" : "Very salty and savory, soy sauce is versatile stuff.",
+  "shortdescription" : "Soy Sauce",
+  "effects" : [ [
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 73
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "insoysauce" ]
+}

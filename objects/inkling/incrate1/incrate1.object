@@ -1,0 +1,61 @@
+{
+  "objectName" : "incrate1",
+  "colonyTags" : ["naturalcave","storage","commerce","inkling"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 35,
+  "description" : "An orange wooden crate. It smells vaguely of dish soap.",
+  "shortdescription" : "Kamabo Co. Crate",
+  "race" : "inkling",
+  "health" : 1.5,
+
+  "apexDescription" : "A wooden crate covered in weird yellow labels.",
+  "avianDescription" : "A storage box.",
+  "floranDescription" : "Box!",
+  "glitchDescription" : "Curious. Is there anything inside?",
+  "humanDescription" : "A wooden crate. Weird color for a crate, though.",
+  "hylotlDescription" : "An open crate.",
+  "inklingDescription" : "Orange boxes of ANY kind always have goodies inside. Even smelly underground ones.",
+  "novakidDescription" : "A regular wooden crate.",
+
+
+  "inventoryIcon" : "incrate1icon.png",
+  "orientations" : [
+    {
+      "image" : "incrate1.png:default",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "incrate1.png:default",
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

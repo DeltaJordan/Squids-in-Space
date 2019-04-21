@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "inklingothphead", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 4}
+  ],
+  "duration" : 5,
+  "output" : { "item" : "oepearlhead", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

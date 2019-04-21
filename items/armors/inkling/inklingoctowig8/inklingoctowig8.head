@@ -1,0 +1,15 @@
+{
+  "itemName" : "inklingoctowig8",
+  "price" : 350,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headwear",
+  "description" : "The process of sanitization bleaches one's colors clean, turning them forever blue and green.",
+  "shortdescription" : "Cleansed Octoling Wig",
+  "tooltipKind" : "armor",
+
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

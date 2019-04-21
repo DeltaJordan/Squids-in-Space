@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "incqhat", "count" : 1 },
+	{ "item" : "glowstickblue", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "incqlamp",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

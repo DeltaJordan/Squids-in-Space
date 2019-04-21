@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cookedfish", "count" : 1},
+	{ "item" : "cookedpoultry", "count" : 1}
+  ],
+  "output" : { "item" : "insurfnturf", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

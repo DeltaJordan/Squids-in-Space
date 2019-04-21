@@ -1,0 +1,57 @@
+{
+  "itemName" : "inklingtier3broadsword",
+  "price" : 455,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "That's going to leave a mark. Or a stain.",
+  "shortdescription" : "Permanent Inkbrush",
+  "tooltipKind" : "sword",
+  "category" : "Brush",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "permanentinkbrush.png",
+  "animation" : "/animation/weapons/broadsword/redswordswoosh.animation",
+  "animationParts" : {
+    "blade" : "permanentinkbrush.png",
+    "handle" : ""
+  }, 
+  "animationCustom" : {
+    "animatedParts": {
+      "parts": {
+        "blade": {
+          "properties": {
+            "offset": [
+              0.3,
+              2.4
+            ]
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_dagger_poison1.ogg", "/sfx/melee/swing_dagger_poison2.ogg", "/sfx/melee/swing_dagger_poison3.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility"  : {
+    "fireTime" : 0.9,
+    "baseDps" : 9.1,
+    "damageConfig" : {
+      "damageSourceKind" : "broadsword",
+      "knockback" : 10,
+      "knockbackMode" : "facing",
+      "timeoutGroup" : "primary"
+    }
+  },
+  "baseWeaponRotation" : 20,
+  "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
+  "altAbilityType" : "spinslash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  
+   "learnBlueprintsOnPickup" : [
+    "inklingtier3broadswordblue", "inklingtier3broadswordgreen", "inklingtier3broadswordorange", "inklingtier3broadswordred", "inklingtier3broadswordyellow"
+  ]
+}

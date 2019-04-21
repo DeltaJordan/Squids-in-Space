@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "egg", "count": 2},
-	{ "item" : "sugar", "count" : 2},
+    { "item" : "egg", "count": 1},
+	{ "item" : "sugar", "count" : 1},
 	{ "item" : "milk", "count" : 1},
 	{ "item" : "chocolate", "count" : 1}
   ],

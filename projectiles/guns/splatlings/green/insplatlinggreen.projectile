@@ -1,9 +1,9 @@
 {
-  "projectileName" : "insplatlingp",
+  "projectileName" : "insplatlinggreen",
   "physics" : "laser",
   "bounces" : 0,
   "damageKindImage" : "icon.png",
-  "image" : "insplatlingp.png",
+  "image" : "insplatlinggreen.png",
   "animationCycle" : 0.2,
   "frameNumber" : 2,
   "power" : 50,

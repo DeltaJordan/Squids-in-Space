@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "rawfish", "count" : 1},
+	{ "item" : "rawpoultry", "count" : 1},
+	{ "item" : "rawtentacle", "count" : 1},
+	{ "item" : "rawbacon", "count" : 1}
+	
+  ],
+  "output" : { "item" : "inroastkebab", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

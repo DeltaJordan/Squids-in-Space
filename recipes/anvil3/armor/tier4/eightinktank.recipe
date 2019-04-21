@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "inktank", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "pinkdye", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "eightinkpack", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "glass", "count" : 13 },
+	{ "item" : "inkamabovial", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "inkamabosign",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

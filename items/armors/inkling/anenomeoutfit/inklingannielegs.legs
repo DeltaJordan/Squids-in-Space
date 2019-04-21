@@ -9,6 +9,6 @@
   "shortdescription" : "Timid Merchant's Leggings",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pantsm.png",
-  "femaleFrames" : "pantsf.png"
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png"
 }

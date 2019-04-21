@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "inplainramen", "count" : 1 },
-    { "item" : "carrot", "count" : 2 },
+    { "item" : "carrot", "count" : 1 },
 	{ "item" : "fleshblock", "count" : 2 }
   ],
   "output" : { "item" : "insuspicious", "count" : 1 },

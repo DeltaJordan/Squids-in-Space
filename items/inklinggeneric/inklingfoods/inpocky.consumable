@@ -1,0 +1,26 @@
+{
+  "itemName" : "inpocky",
+  "rarity" : "Uncommon",
+  "price" : 325,
+  "category" : "food",
+  "inventoryIcon" : "inpocky.png",
+  "description" : "Sweet, apple-glazed biscuit sticks. They're perfect to share with whoever you really like...",
+  "shortdescription" : "Pocky Sticks",
+  "effects" : [ [ 
+    {
+        "effect" : "runboostfood",
+        "duration" : 210
+    }
+	
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "inpocky" ]
+  }

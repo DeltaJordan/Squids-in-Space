@@ -1,0 +1,25 @@
+{
+  "itemName" : "inchocotreats",
+  "rarity" : "Uncommon",
+  "price" : 325,
+  "category" : "food",
+  "inventoryIcon" : "inchocotreats.png",
+  "description" : "Crispy chocolate-and-cookie treats! Some are shaped like mushrooms, others like bamboo shoots.",
+  "shortdescription" : "Chocolate Crunchies",
+  "effects" : [ [ 
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 330
+    }
+	
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 2.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

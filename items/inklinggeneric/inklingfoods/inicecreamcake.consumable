@@ -1,0 +1,30 @@
+{
+  "itemName" : "inicecreamcake",
+  "rarity" : "Rare",
+  "price" : 930,
+  "category" : "food",
+  "inventoryIcon" : "inicecreamcake.png",
+  "description" : "This dessert truly unites the best of the dessert realms into one sweet treat!",
+  "shortdescription" : "Ice Cream Cake",
+  "effects" : [ [ 
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 340
+    },
+	
+	{
+		"effect" : "jumpboostfood",
+		"duration" : 340
+	}
+	
+  ] ],
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

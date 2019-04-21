@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "darkwoodmaterial", "count" : 7 },
+	{ "item" : "orangedye", "count" : 2 },
+	{ "item" : "whitedye", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "incrate1",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

@@ -1,0 +1,41 @@
+{
+  "itemName" : "inklingtier5asanitizedwig",
+  "price" : 2480,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "Some things, like cool shades, stay with you even after you're fully sanitized.",
+  "shortdescription" : "Cleansed Neo Tentacles",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier5armour" ]
+}

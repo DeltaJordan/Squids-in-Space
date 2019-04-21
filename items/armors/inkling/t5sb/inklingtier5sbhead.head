@@ -1,0 +1,40 @@
+{
+  "itemName" : "inklingtier5sbhead",
+  "price" : 2480,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "The ooze burns and sears deep into your thoughts.",
+  "shortdescription" : "Berserk Agent's Gaze",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.10
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 0.3
+    }
+  ],
+  
+   "statusEffects" : [
+	 "fireflyglow", "ocrage"
+  ],
+
+  "itemTags" : [ "tier5armour" ]
+}

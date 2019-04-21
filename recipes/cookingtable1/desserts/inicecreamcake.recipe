@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "milk", "count" : 2 },
+	{ "item" : "iceblock", "count" : 2 },
+	{ "item" : "cocoa", "count" : 1 },
+	{ "item" : "sugar", "count" : 1 }
+  ],
+  "output" : { "item" : "inicecreamcake", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

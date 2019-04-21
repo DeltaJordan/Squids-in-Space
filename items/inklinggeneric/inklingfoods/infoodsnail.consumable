@@ -9,11 +9,11 @@
     "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
-        "duration" : 600
+        "duration" : 390
     },
 	{
         "effect" : "maxenergyscalingboostfood",
-        "duration" : 600
+        "duration" : 390
     },
 	{
 		"effect" : "swimboost",

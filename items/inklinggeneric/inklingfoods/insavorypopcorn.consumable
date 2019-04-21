@@ -1,0 +1,30 @@
+{
+  "itemName" : "insavorypopcorn",
+  "rarity" : "Uncommon",
+  "price" : 610,
+  "category" : "food",
+  "inventoryIcon" : "insavorypopcorn.png",
+  "description" : "Sweet or salty, everyone asks? But why not both with caramel popcorn instead?",
+  "shortdescription" : "Caramel Corn",
+  "effects" : [ [ 
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+    },
+	
+	{
+		"effect" : "maxenergyscalingboostfood",
+		"duration" : 120
+	}
+	
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

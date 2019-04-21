@@ -34,11 +34,11 @@
     }
   },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-  "elementalType" : "physical",
+  "elementalType" : "poison",
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility"  : {
     "fireTime" : 0.7,
-    "baseDps" : 12.5,
+    "baseDps" : 16.5,
     "damageConfig" : {
       "damageSourceKind" : "broadsword",
       "knockback" : 35,

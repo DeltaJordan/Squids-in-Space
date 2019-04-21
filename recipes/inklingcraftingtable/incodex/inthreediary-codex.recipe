@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "paper", "count" : 6},
+   { "item" : "string", "count" : 3},
+   { "item" : "inklingtier4head", "count" : 1}
+  ],
+  "output" : {
+    "item" : "inthreediary-codex",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "incodex" ]
+}

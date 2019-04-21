@@ -1,0 +1,33 @@
+{
+  "objectName" : "incuteoctariandoll",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Common",
+  "category" : "Decorations",
+  "price" : 765,
+  "description" : "This Octarian doll's been fancied up with ribbons!",
+  "shortdescription" : "Ribboned Octarian Doll",
+  "race" : "inkling",
+
+  "apexDescription" : "That's the merriest tentacle I've ever seen.",
+  "avianDescription" : "It's a... tentacle? With a smiley face and bows? Kinda cute.",
+  "floranDescription" : "Ssssmall tentacle... sssmiles?",
+  "glitchDescription" : "Perplexed. I did not know tentacles had faces like that.",
+  "humanDescription" : "Some sort of tentacle-person-toy? It's really squishy and cute..",
+  "hylotlDescription" : "This looks like some sort of mass-produced Octoling toy.",
+  "inklingDescription" : "Oh, oh! This Octarian's all dressed up! It's so cute!",
+  "novakidDescription" : "A kid's toy shaped like a smilin'... tentacle.",
+
+  "inventoryIcon" : "incuteoctariandollicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "incuteoctariandoll.png:<color>",
+      "imagePosition" : [-4, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+
+{"op":"add","path":"/ocrawtentaHarvest",
+"value":[ [0, {"pool":[
+{"weight": 0.4, "item": "rawtentacle", "count": 3},
+{"weight": 0.1, "item": "rawtentacle", "count": 2},
+{"weight": 0.1, "item": "inklinginkvial", "count": 3},
+{"weight": 0.2, "item": "ocrawtentaplant", "count": 2},
+{"weight": 0.2, "item": "slime", "count": 2}],
+"poolRounds" : [ [0.6, 1], [0.4, 2] ]
+		}]]}
+
+]

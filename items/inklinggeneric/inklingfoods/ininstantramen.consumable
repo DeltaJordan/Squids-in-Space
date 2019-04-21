@@ -14,5 +14,6 @@
   "rottingMultiplier" : 10,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "inplainramen", "infishramen", "inoctoramen" ]
   }

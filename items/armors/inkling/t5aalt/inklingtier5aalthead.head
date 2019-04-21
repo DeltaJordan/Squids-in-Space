@@ -38,7 +38,7 @@
   ],
 
   "itemTags" : [ "tier5armour" ],
-  "learnBlueprintsonPickup" : [ "inklingtier5aaltheadwig" ],
+  "learnBlueprintsonPickup" : [ "inklingtier5aaltheadwig", "inklingtier5asanitizedwig" ],
 
   "colorOptions" : [
   

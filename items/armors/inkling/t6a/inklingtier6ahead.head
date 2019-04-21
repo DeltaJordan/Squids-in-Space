@@ -38,7 +38,7 @@
   ],
 
   "itemTags" : [ "tier6armour" ],
-  "learnBlueprintsonPickup" : [ "inklingtier6aheadwig" ],
+  "learnBlueprintsonPickup" : [ "inklingtier6aheadwig", "inklingtier6asanitizedwig" ],
 
   "colorOptions" : [
 	    { "323133" : "323133", "1c1c1d" : "1c1c1d", "151517" : "151517"},

@@ -1,0 +1,80 @@
+{
+  "itemName" : "inklingheroshotneo",
+  "price" : 445,
+  "inventoryIcon" : "inheroshotrep.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "The newest and coolest of the very limited Hero Shot line.",
+  "shortdescription" : "Hero Shot Neo",
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "category" : "Handgun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","pistol"],
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+ "animationParts" : {
+    "butt" : "",
+    "middle" : "inheroshotrep.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashgreen.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/tentaclegun1.ogg", "/sfx/gun/tentaclegun2.ogg", "/sfx/gun/tentaclegun3.ogg" ]}
+   },
+  "baseOffset" : [0.15, 0.2],
+  "muzzleOffset" : [1.5, -0.2],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "poison",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.4,
+    "baseDps" : 14.2,
+    "energyUsage" : 18.3,
+	"projectileCount" : 1,
+    "inaccuracy" : 0.05,
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+	},
+    "fireType" : "auto",
+
+    "projectileType" : "inkballgreen",
+    "projectileParameters" : 
+		{ "knockback" : 15
+	}
+ },
+
+   "altAbilityType" : " ",
+   "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

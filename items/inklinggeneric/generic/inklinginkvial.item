@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "craftingMaterial",
   "inventoryIcon" : "inklinginkvial.png",
-  "description" : "Some squid ink in a little glass vial. It's been diluted with water for craft use.",
-  "shortdescription" : "Vial of Squid Ink",
+  "description" : "Some cephalopod ink in a little glass vial. It's been diluted with water for craft use.",
+  "shortdescription" : "Vial of Ink",
   "itemTags" : [ "reagent" ]
 }

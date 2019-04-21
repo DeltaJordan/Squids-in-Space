@@ -10,16 +10,16 @@
 	"tooltipKind" : "armor",
 	
 	"maleFrames" : {
-		"body" : "chestm.png",
+		"body" : "chest.png",
 		"backSleeve" : "bsleeve.png",
 		"frontSleeve" : "fsleeve.png"
 	},
 	
 	"femaleFrames" : {
-		"body" : "chestf.png",
+		"body" : "chest.png",
 		"backSleeve" : "bsleeve.png",
 		"frontSleeve" : "fsleeve.png"
 	},
 	
-	  "learnBlueprintsonPickup" : [  "inklingsplatfestflight", "inklingsplatfestinvisibility", "inklingsplatfestketchup", "inklingsplatfestmayo", "inklingsplatfestwerewolf", "inklingsplatfestsweater", "inklingsplatfestsocks", "inklingsplatfestlove", "inklingsplatfestmoney" ]
+	  "learnBlueprintsonPickup" : [  "inklingsplatfestflight", "inklingsplatfestinvisibility", "inklingsplatfestketchup", "inklingsplatfestmayo", "inklingsplatfestwerewolf", "inklingsplatfestvampire", "inklingsplatfestsweater", "inklingsplatfestsocks", "inklingsplatfestlove", "inklingsplatfestmoney", "inklingsplatfestwizards" ]
 }

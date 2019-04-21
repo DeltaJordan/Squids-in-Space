@@ -1,0 +1,37 @@
+{
+  "id" : "inklingrelations",
+  "title" : "Cephalopolitics: Race Relations",
+  "description" : "A brief glance at the relationships between Inklings and other spacefaring races.",
+  "icon" : "squidbook.png",
+  "contentPages" : [
+
+"Being a highly social and intelligent species, Inklings are naturally inclined to live in groups, seek others out for companionship, and maintain lifelong bonds. Many other intelligent races also emerged from the same conditions they originated from, so interacting with wildly different species isn't uncommon for them!
+This holds true for Inklings that travel the stars, but there are many complexities in their relations with other species.",
+
+"Because of how bright their plumage can be, Avians are often very interesting people to Inklings. Their vocalizations and voices are also similar, as are their large beaks: and so friendships are easily formed over just physical traits!
+Typically the two races live in harmony, although there can be some discomfort over how Inklings very eagerly hunt and eat small birds. Due to their overall disregard for organized religion, Inklings consistently combat Stargazer factions and others like them.",
+
+"Apex are peculiar for an Inkling to look upon: they resemble humans, and yet are very much different, primitive yet advanced. For all their interest in the humans that walked their world before the floods, Inklings don't quite know what to make of Apex, but default to friendly curiosity in the end. They'll happily talk food, art or culture with an ape, even if they find mammals to be ''smelly''.
+While they have no stake in the Apex conflict, Inklings are often enthusiastic supporters of rebellion and freedom, so they're quick allies.",
+
+"With their bright colors and carnivorous nature, Floran are often looked upon as potential allies. Some Inklings are put off by the violent aspects of Floran culture, while others are very entertained by it. 
+Floran-Inkling interactions are always a case-by-case matter: Inklings are swift to defend themselves if threatened, but always seem to start with hope and an amicable attitude. There's some records of active trade routes between them and Floran groups, with their similarities allowing for prosperity.",
+
+"Because of their non-biological bodies, lack of colorful pigments, and odd social structure, Glitch are the one foreign species that Inklings don't quite know what to think of. Inklings rely on a lot of social cues besides just voice, so a lot of nuance is lost when interacting with Glitch, and the sheer differences in diet and traditional recreation just come off as ''weird''.
+Besides this, though, Inklings are generally pretty friendly with rogue Glitch. They don't get along well with traditional Glitch societies, however.",
+
+"Humans are the historical phantoms of the Inkling world, having lived on land before being obliterated by climate change. As Inklings came up onto land, they swiftly inherited Human ruins and technology, and never quite lost their fascination with the past.
+The two species get along pretty well. Humans are also prone to wild parties, a love of sports, and the enjoyment of junk food, so Inklings enjoy having them around. When it comes to Human conflict and experimentation, however, the squids are quick to disappear, for it's not their problem.",
+
+"As another aquatic (or at least amphibious) species with a lot of color, Hylotl are perhaps the species on the best terms with Inklings. Their historical conflicts with other races are similar, and while Inkling culture can be a lot more wild and rebellious, it has its analogues in Hylotl culture as well. It's very common to see Inkling and Hylotl colonies on the same planet, often participating actively in trade with one another. 
+True to their dislike of bigger conflicts, Inklings tend to remain neutral in Hylotl-Floran politics.",
+
+"With their nomadic and often carefree nature, Novakids are intriging to Inklings, who can't quite wrap their minds around the odd biology going on. They think the glowing abilities and bright colors of Novakids are ''way fresh'', and that they have some extremely neat technology, but the limited expression and social cues can get confusing at best.
+While their societies never mingle for long, Inklings still eagerly accept Novakid guests for the trade and conversation involved."
+
+    ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+	}
+}

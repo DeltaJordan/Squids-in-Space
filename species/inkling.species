@@ -30,8 +30,8 @@
 	  { "item" : "inklingtier2sniper" },
       { "item" : "inklingtier1hammer" },
 	  { "item" : "inklingtier2hammer" },
-      { "item" : "inklingtier1shortsword" },
-	  { "item" : "inklingtier2shortsword" },
+      { "item" : "inklingtier1broadsword" },
+	  { "item" : "inklingtier2broadsword" },
 	  { "item" : "inklingtier2grenadelauncher" }, 
 	  { "item" : "inklingtier2machinepistol" },
 	  { "item" : "inklingtier2assaultrifle" },
@@ -45,7 +45,7 @@
 
       { "item" : "inklingtier3pistol" },
       { "item" : "inklingtier3machinepistol" },
-      { "item" : "inklingtier3shortsword" },
+      { "item" : "inklingtier3broadsword" },
       { "item" : "inklingtier3hammer" },
 	  { "item" : "inklingtier3sniper" },
       { "item" : "inklingtier3assaultrifle" },
@@ -172,6 +172,14 @@
 	  { "item" : "ininstantramen" },
 	  { "item" : "inplainramen" },
 	  { "item" : "insuspicious" },
+	  { "item" : "infancywaffle" },
+	  { "item" : "inpancakestack" },
+	  { "item" : "insurfnturf" },
+	  { "item" : "inroastkebab" },
+	  { "item" : "insoysauce" },
+	  { "item" : "insavorypopcorn" },
+	  { "item" : "inicecreamcake" },
+	  { "item" : "inchocotreats" },
 	  { "item" : "inturfcrust" },
 	  
 	  { "item" : "sushi" },
@@ -180,6 +188,7 @@
 	  { "item" : "fishfingers" },
 	  { "item" : "fishpie" },
 	  { "item" : "seafoodgratin" },
+	  { "item" : "ocrawtentaplant" },
 	  
 	  { "item" : "inklingabout-codex" },
 	  { "item" : "inklingagency-codex" },
@@ -190,12 +199,15 @@
 	  { "item" : "ssbiography-codex" },
 	  { "item" : "inklingcustguide-codex" },
 	  { "item" : "inklingturfwar-codex" },
+	  { "item" : "inklingrelations-codex" },
 	  
 	  { "item" : "inklingcraftingtable" },
+	  { "item" : "incookingtable" },
 	  { "item" : "inklingtoolbox" },
 	  
 	  { "item" : "inklingmodernbed" },
 	  { "item" : "inklingmodernbookcase" },
+	  { "item" : "inklingmodernblender" },
 	  { "item" : "inklingmodernshelf" },
 	  { "item" : "inklingmoderntable" },
 	  { "item" : "inklingmodernlamp" },
@@ -235,6 +247,7 @@
 	  { "item" : "inoctopusinajar" },
 	  { "item" : "insquidinajar" },
 	  { "item" : "inmanekijudd" },
+	  { "item" : "inoctariandoll" },
 	  { "item" : "onairsign" },
 	  { "item" : "incolorfulpole" },
 	  { "item" : "inkchest1" },
@@ -255,7 +268,8 @@
 	  { "item" : "coolerheads" },
 	  { "item" : "jellyfresh" },
 	  { "item" : "shrimpkicks" },
-	  { "item" : "spykemerchant" }
+	  { "item" : "spykemerchant" },
+	  { "item" : "insplatnet" }
 	  
 	]
 	},
@@ -269,7 +283,7 @@
 			"name" : "male",
 			"image" : "/interface/title/imale.png",
 			"characterImage" : "/interface/title/inklingmale.png",
-			"hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male20", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39" ],
+			"hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male20", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39", "male40", "male41", "male42", "male43", "male44", "male45", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male53", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "male63", "male64", "male65", "male66", "male67", "male68", "male69", "male70", "male71", "male72", "male73" ],
 			"shirt" : [ "inklingsportchest", "inklingzekkochest", "inklingradchest", "inklingsquidforcechest" ],
 			"pants" : [ "inklingsportlegs", "inklingzekkolegs", "inklingradlegs" ],
 			"facialHairGroup" : "",
@@ -281,7 +295,7 @@
 			"name" : "female",
 			"image" : "/interface/title/ifemale.png",
 			"characterImage" : "/interface/title/inklingfemale.png",
-			"hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40" ],
+			"hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "fem57", "fem58", "fem59", "fem60", "fem61", "fem62", "fem63", "fem64", "fem65", "fem66", "fem67", "fem68", "fem69", "fem70", "fem71", "fem72", "fem73", "fem74", "fem75", "fem76" ],
 			"shirt" : [ "inklingsportchest", "inklingzekkochest", "inklingradchest", "inklingsquidforcechest" ],
 			"pants" : [ "inklingsportlegs", "inklingzekkolegs", "inklingradlegs" ],
 			"facialHairGroup" : "",
@@ -300,10 +314,12 @@
 		{ "ffe2c5" : "ffe9d3", "ffc181" : "ffc181", "d39c6c" : "d39c6c", "c7815b" : "b97551" },
 		{ "ffe2c5" : "fbe1d4", "ffc181" : "f6baa2", "d39c6c" : "cc9582", "c7815b" : "ac7261" },
 		{ "ffe2c5" : "fff7ec", "ffc181" : "f9d3a9", "d39c6c" : "d3a57c", "c7815b" : "b37c5d" },
-		{ "ffe2c5" : "fff6f6", "ffc181" : "f7d5d3", "d39c6c" : "d1aaa1", "c7815b" : "a27f70" }
+		{ "ffe2c5" : "fff6f6", "ffc181" : "f7d5d3", "d39c6c" : "d1aaa1", "c7815b" : "a27f70" },
+		{ "ffe2c5" : "e7fce8", "ffc181" : "d7f7d3", "d39c6c" : "bcdeb9", "c7815b" : "96c592" } // sanitized green
 	],
 	"undyColor" : [
 		{ "dc1f00" : "efa838", "be1b00" : "be6d1d", "951500" : "834012" }, // yellow-orange
+		{ "dc1f00" : "ff7200", "be1b00" : "df6503", "951500" : "bc5604" }, // aviator orange
 		{ "dc1f00" : "f78f46", "be1b00" : "e37629", "951500" : "b05311" }, // tangerine
 		{ "dc1f00" : "de4c0c", "be1b00" : "bd410a", "951500" : "a03708" }, // ochre
 		{ "dc1f00" : "f5c33c", "be1b00" : "cd9e21", "951500" : "ab7f08" }, // gold
@@ -312,28 +328,40 @@
 		{ "dc1f00" : "eff807", "be1b00" : "ced608", "951500" : "aeb409" }, // lemon-lime
 		{ "dc1f00" : "d1f904", "be1b00" : "b2d309", "951500" : "95b008" }, // actual lime
 		{ "dc1f00" : "74f622", "be1b00" : "64d61d", "951500" : "55b717" }, // radioactive
+		{ "dc1f00" : "097c00", "be1b00" : "0a6603", "951500" : "084d03" }, // emerald green
 		{ "dc1f00" : "6fba40", "be1b00" : "568d34", "951500" : "416829" }, // forest green
+		{ "dc1f00" : "98e468", "be1b00" : "7dc252", "951500" : "69a543" }, // jade green
 		{ "dc1f00" : "d4f99d", "be1b00" : "b7df7c", "951500" : "8db356" }, // pistachio
+		{ "dc1f00" : "66f68b", "be1b00" : "4fdc74", "951500" : "33be57" }, // low-tide green
+		{ "dc1f00" : "2aff7f", "be1b00" : "16d462", "951500" : "0fb351" }, // webfoot mint
 		{ "dc1f00" : "0ee6bb", "be1b00" : "0fb997", "951500" : "099a7d" }, // teal
 		{ "dc1f00" : "c7f5e8", "be1b00" : "83d1bb", "951500" : "59b69c" }, // ice blue
 		{ "dc1f00" : "18f8e7", "be1b00" : "1fd8ca", "951500" : "13afa3" }, // cyan
 		{ "dc1f00" : "a2d6fb", "be1b00" : "7fc0ef", "951500" : "68a8d8" }, // sky blue
 		{ "dc1f00" : "6a54f5", "be1b00" : "3825b3", "951500" : "2d1c9c" }, // cornflower blue
 		{ "dc1f00" : "3c32f4", "be1b00" : "231d9c", "951500" : "2e2a73" }, // kazoo blue
+		{ "dc1f00" : "6f7881", "be1b00" : "50575f", "951500" : "42484e" }, // stealthy steel
 		{ "dc1f00" : "605b7f", "be1b00" : "4d4a61", "951500" : "39354d" }, // storm blue
 		{ "dc1f00" : "600c88", "be1b00" : "500971", "951500" : "3d0557" }, // royal purple
 		{ "dc1f00" : "7501a0", "be1b00" : "5e0480", "951500" : "3d0353" }, // generic purple
+		{ "dc1f00" : "6e00cb", "be1b00" : "520394", "951500" : "410574" }, // indigo
 		{ "dc1f00" : "b351f5", "be1b00" : "9535d5", "951500" : "7820b3" }, // lighter purple
 		{ "dc1f00" : "d091ee", "be1b00" : "974cba", "951500" : "7d30a1" }, // lavender
 		{ "dc1f00" : "f794f7", "be1b00" : "e16be1", "951500" : "c447c4" }, // blossom pink
 		{ "dc1f00" : "fb1b99", "be1b00" : "c60b75", "951500" : "ab0964" }, // electric slide
+		{ "dc1f00" : "a10f5a", "be1b00" : "7f0745", "951500" : "680438" }, // drunk squid???
 		{ "dc1f00" : "cf15a1", "be1b00" : "930f72", "951500" : "860b67" }, // magenta
 		{ "dc1f00" : "ab4082", "be1b00" : "8d376c", "951500" : "7b275a" }, // mauve
+		{ "dc1f00" : "a35823", "be1b00" : "894718", "951500" : "743b14" }, // chocolate
+		{ "dc1f00" : "bf8c6a", "be1b00" : "9e7051", "951500" : "8c6042" }, // latte
 		{ "dc1f00" : "9b2121", "be1b00" : "881515", "951500" : "6d0c0c" }, // carmine
 		{ "dc1f00" : "630202", "be1b00" : "460505", "951500" : "280303" }, // vampire squid
 		{ "dc1f00" : "bf0404", "be1b00" : "980404", "951500" : "770303" }, // warming red
 		{ "dc1f00" : "fc0605", "be1b00" : "9d0807", "951500" : "810606" }, // vermilion
+		{ "dc1f00" : "ff5b57", "be1b00" : "f0504c", "951500" : "dc423e" }, // coral
+		{ "dc1f00" : "ff5478", "be1b00" : "e64466", "951500" : "d43355" }, // watermelon
 		{ "dc1f00" : "fbc6c6", "be1b00" : "efabab", "951500" : "df9595" }, // poyo!!!
+		{ "dc1f00" : "feb7dc", "be1b00" : "ea93c0", "951500" : "dd7bae" }, // valentine
 		{ "dc1f00" : "faf5f5", "be1b00" : "ebcaca", "951500" : "c3a6a6" }, // albinistic
 		{ "dc1f00" : "f7e6fa", "be1b00" : "eedaf2", "951500" : "dbbee1" }, // wisteria
 		{ "dc1f00" : "e9f0fa", "be1b00" : "cad7eb", "951500" : "a6acc3" }, // snow
@@ -342,49 +370,68 @@
 	],
 	"hairColor" : [
 	    { "d9c189" : "efa838", "a38d59" : "be6d1d", "735e3a" : "834012" }, // yellow-orange
+		{ "d9c189" : "91471a", "a38d59" : "7b3b14", "735e3a" : "663110" }, // Just Some Browns
+		{ "d9c189" : "ff7200", "a38d59" : "df6503", "735e3a" : "bc5604" }, // aviator orange
 		{ "d9c189" : "f78f46", "a38d59" : "e37629", "735e3a" : "b05311" }, // tangerine
+		{ "d9c189" : "ab6d24", "a38d59" : "8f5c1f", "735e3a" : "714817" }, // umber
 		{ "d9c189" : "ec8f76", "a38d59" : "d37f68", "735e3a" : "b5624b" }, // peach
-		{ "d9c189" : "de4c0c", "a38d59" : "bd410a", "735e3a" : "a03708" }, // ochre
+		{ "d9c189" : "de4c0c", "a38d59" : "bd410a", "735e3a" : "a03708" }, // terracotta
+		{ "d9c189" : "c89610", "a38d59" : "ac810e", "735e3a" : "8a680c" }, // fancy organic dijon mustard
 		{ "d9c189" : "f5c33c", "a38d59" : "cd9e21", "735e3a" : "ab7f08" }, // gold
 		{ "d9c189" : "fbf504", "a38d59" : "d9d40a", "735e3a" : "b5b106" }, // dandelion 
 		{ "d9c189" : "fefa7f", "a38d59" : "e6e155", "735e3a" : "d0cb2f" }, // ivory
 		{ "d9c189" : "eff807", "a38d59" : "ced608", "735e3a" : "aeb409" }, // lemon-lime
 		{ "d9c189" : "d1f904", "a38d59" : "b2d309", "735e3a" : "95b008" }, // actual lime
 		{ "d9c189" : "74f622", "a38d59" : "64d61d", "735e3a" : "55b717" }, // radioactive
+		{ "d9c189" : "097c00", "a38d59" : "0a6603", "735e3a" : "084d03" }, // emerald green
 		{ "d9c189" : "6fba40", "a38d59" : "568d34", "735e3a" : "416829" }, // forest green
+		{ "d9c189" : "98e468", "a38d59" : "7dc252", "735e3a" : "69a543" }, // jade green
 		{ "d9c189" : "d4f99d", "a38d59" : "b7df7c", "735e3a" : "8db356" }, // pistachio
+		{ "d9c189" : "66f68b", "a38d59" : "4fdc74", "735e3a" : "33be57" }, // low-tide green
+		{ "d9c189" : "2aff7f", "a38d59" : "16d462", "735e3a" : "0fb351" }, // webfoot mint
 		{ "d9c189" : "0ee6bb", "a38d59" : "0fb997", "735e3a" : "099a7d" }, // teal
 		{ "d9c189" : "c7f5e8", "a38d59" : "83d1bb", "735e3a" : "59b69c" }, // ice blue
 		{ "d9c189" : "18f8e7", "a38d59" : "1fd8ca", "735e3a" : "13afa3" }, // cyan
 		{ "d9c189" : "a2d6fb", "a38d59" : "7fc0ef", "735e3a" : "68a8d8" }, // sky blue
 		{ "d9c189" : "6a54f5", "a38d59" : "3825b3", "735e3a" : "2d1c9c" }, // cornflower blue
 		{ "d9c189" : "3c32f4", "a38d59" : "231d9c", "735e3a" : "2e2a73" }, // kazoo blue
+		{ "d9c189" : "6f7881", "a38d59" : "50575f", "735e3a" : "42484e" }, // stealthy steel
 		{ "d9c189" : "605b7f", "a38d59" : "4d4a61", "735e3a" : "39354d" }, // storm blue
 		{ "d9c189" : "600c88", "a38d59" : "500971", "735e3a" : "3d0557" }, // royal purple
 		{ "d9c189" : "7501a0", "a38d59" : "5e0480", "735e3a" : "3d0353" }, // generic purple
+		{ "d9c189" : "6e00cb", "a38d59" : "520394", "735e3a" : "410574" }, // indigo
 		{ "d9c189" : "b351f5", "a38d59" : "9535d5", "735e3a" : "7820b3" }, // lighter purple
-		{ "d9c189" : "d091ee", "a38d59" : "974cba", "735e3a" : "7d30a1" }, // lavender
+		{ "d9c189" : "d091ee", "a38d59" : "a55ec7", "735e3a" : "893cad" }, // lavender
 		{ "d9c189" : "f794f7", "a38d59" : "e16be1", "735e3a" : "c447c4" }, // blossom pink
 		{ "d9c189" : "e45891", "a38d59" : "c53972", "735e3a" : "a72a5d" }, // blush
 		{ "d9c189" : "fb1b99", "a38d59" : "c60b75", "735e3a" : "ab0964" }, // electric slide
+		{ "d9c189" : "a10f5a", "a38d59" : "7f0745", "735e3a" : "680438" }, // drunk squid???
 		{ "d9c189" : "cf15a1", "a38d59" : "930f72", "735e3a" : "860b67" }, // magenta
 		{ "d9c189" : "ab4082", "a38d59" : "8d376c", "735e3a" : "7b275a" }, // mauve
 		{ "d9c189" : "984141", "a38d59" : "7e3030", "735e3a" : "692222" }, // cherrywood
+		{ "d9c189" : "a35823", "a38d59" : "894718", "735e3a" : "743b14" }, // chocolate
+		{ "d9c189" : "bf8c6a", "a38d59" : "9e7051", "735e3a" : "8c6042" }, // latte
 		{ "d9c189" : "9e5842", "a38d59" : "7d3d29", "735e3a" : "682f1d" }, // copper
 		{ "d9c189" : "9b2121", "a38d59" : "881515", "735e3a" : "6d0c0c" }, // carmine
+		{ "d9c189" : "632902", "a38d59" : "471e03", "735e3a" : "2b1202" }, // coffee
 		{ "d9c189" : "630202", "a38d59" : "460505", "735e3a" : "280303" }, // vampire squid
 		{ "d9c189" : "bf0404", "a38d59" : "980404", "735e3a" : "770303" }, // warming red
 		{ "d9c189" : "fc0605", "a38d59" : "9d0807", "735e3a" : "810606" }, // vermilion
+		{ "d9c189" : "ff5b57", "a38d59" : "f0504c", "735e3a" : "dc423e" }, // coral
+		{ "d9c189" : "ff5478", "a38d59" : "e64466", "735e3a" : "d43355" }, // watermelon
 		{ "d9c189" : "fda9a7", "a38d59" : "e78381", "735e3a" : "c16462" }, // FLESH
 		{ "d9c189" : "fbc6c6", "a38d59" : "efabab", "735e3a" : "df9595" }, // poyo!!!
+		{ "d9c189" : "feb7dc", "a38d59" : "ea93c0", "735e3a" : "dd7bae" }, // valentine
 		{ "d9c189" : "faf5f5", "a38d59" : "ebcaca", "735e3a" : "c3a6a6" }, // albinistic
 		{ "d9c189" : "f7e6fa", "a38d59" : "eedaf2", "735e3a" : "dbbee1" }, // wisteria
 		{ "d9c189" : "e9f0fa", "a38d59" : "cad7eb", "735e3a" : "a6acc3" }, // snow
 		{ "d9c189" : "f7fff6", "a38d59" : "e5fbe2", "735e3a" : "c4e5c1" }, // hotaru-ika
-		{ "d9c189" : "fefeec", "a38d59" : "eff0cd", "735e3a" : "e5e6b6" }, // maize
+		{ "d9c189" : "fefeec", "a38d59" : "e7e8b5", "735e3a" : "e5e6b6" }, // maize
+		{ "d9c189" : "c4b27d", "a38d59" : "a18f56", "735e3a" : "81703c" }, // khaki
 		{ "d9c189" : "bdbac1", "a38d59" : "9e9e9f", "735e3a" : "8c8b8c" }, // ash
 		{ "d9c189" : "5f5f5f", "a38d59" : "545454", "735e3a" : "3d3d3d" }, // charcoal
 		{ "d9c189" : "363333", "a38d59" : "242222", "735e3a" : "0c0c0c" }, // hella gothic
+		{ "d9c189" : "2d211b", "a38d59" : "211712", "735e3a" : "130b07" }, // burnt smores 
 		{ "d9c189" : "2b202b", "a38d59" : "201320", "735e3a" : "0d050d" } // aori-ika
 	]
 }

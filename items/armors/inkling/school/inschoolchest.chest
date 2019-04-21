@@ -1,0 +1,23 @@
+{ 
+	"itemName" : "inschoolchest",
+	"inventoryIcon" : "iconchest.png",
+	"price" : 820,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "chestwear",
+	"description" : "A pleasant, high-contrast school outfit. Fits anyone pretty great!",
+	"shortdescription" : "School Blazer",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	
+	"femaleFrames" : {
+		"body" : "chest.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	}
+}

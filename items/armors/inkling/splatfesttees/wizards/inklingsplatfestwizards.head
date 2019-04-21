@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "inklingsplatfestwizards",
+	"inventoryIcon" : "icon.png",
+	"price" : 735,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "headwear",
+	"description" : "An incredibly mischievous hat for any magical squid (or octopus)!",
+	"shortdescription" : "Team Wizards Hat",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

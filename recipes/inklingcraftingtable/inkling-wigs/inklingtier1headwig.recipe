@@ -1,0 +1,11 @@
+{ 
+	"input" : [ 
+	{"item" : "inklingtier1head", "count" : 1},
+	{"item" : "rawtentacle", "count" : 12},
+	{"item" : "orangedye", "count" : 3},
+	{"item" : "bluedye", "count" : 1}
+	],
+	"duration" : 5,
+	"output" : { "item" : "inklingtier1headwig", "count" : 1 },
+	"groups" : [ "inklingcraftingtable", "clothes" ]
+}

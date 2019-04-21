@@ -1,9 +1,8 @@
 {
   "input" : [
-    { "item" : "ininstantramen", "count" : 2 },
-    { "item" : "liquidwater", "count" : 3 },
-	{ "item" : "egg", "count" : 1 },
-	{ "item" : "cookedfish", "count" : 2}
+    { "item" : "ininstantramen", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 },
+	{ "item" : "rawfish", "count" : 2 }
   ],
   "output" : { "item" : "infishramen", "count" : 1 },
   "groups" : [ "craftingfood", "mains" ]

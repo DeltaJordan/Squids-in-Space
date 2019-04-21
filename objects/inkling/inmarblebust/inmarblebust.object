@@ -1,0 +1,33 @@
+{
+  "objectName" : "inmarblebust",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Uncommon",
+  "category" : "Decorations",
+  "price" : 765,
+  "description" : "This humanoid bust has a strange aura to it. It seems familiar, yet inconcievably different.",
+  "shortdescription" : "Strange Marble Bust",
+  "race" : "inkling",
+
+  "apexDescription" : "A marble bust of a human head. Something's wrong with it, though.",
+  "avianDescription" : "This looks like a human statue? But one of the eyes is really off.",
+  "floranDescription" : "Ssstatue of human face. Marked with face-paints?",
+  "glitchDescription" : "Intrigued. This appears to be classical human sculpture, but it's not quite right.",
+  "humanDescription" : "Woah, talk about vaporwave. I think this is a statue of the god Hermes..? Maybe?",
+  "hylotlDescription" : "Marble busts are classic human decor, but this one has some odd deformities.",
+  "inklingDescription" : "It's a human bust, I think. Wait, d-did its eye just flicker?!",
+  "novakidDescription" : "Some kind of sculpture. Looks like a human face t'me.",
+
+  "inventoryIcon" : "inmarblebusticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "inmarblebust.png:<color>.<frame>",
+      "imagePosition" : [-4, 0],
+      "frames" : 20,
+      "animationCycle" : 4.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

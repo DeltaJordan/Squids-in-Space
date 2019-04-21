@@ -1,0 +1,33 @@
+{
+  "itemName" : "inpancakestack",
+  "rarity" : "Rare",
+  "price" : 795,
+  "category" : "preparedFood",
+  "inventoryIcon" : "inpancakestack.png",
+  "description" : "A tasty pancake stack covered in syrup and butter!",
+  "shortdescription" : "Stack of Pancakes",
+    "effects" : [ [
+	    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 720
+    },
+    { 
+		"effect" : "runboostfood",
+		"duration" : 720
+	},
+	{
+		"effect" : "nofalldamage",
+		"duration" : 720
+	}
+	
+  ] ],
+  "foodValue" : 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 8,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

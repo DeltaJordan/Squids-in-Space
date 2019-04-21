@@ -1,0 +1,25 @@
+{
+  "itemName" : "intastytendril",
+  "rarity" : "Common",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "intastytendril.png",
+  "description" : "Some fresh tentacles smothered in soy sauce, a traditional treat. They're wiggling around my plate..",
+  "shortdescription" : "Tasty Tendrils",
+  "effects" : [ [ 
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 150
+    }
+	
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+  }

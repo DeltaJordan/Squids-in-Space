@@ -1,14 +1,14 @@
 {
   "id" : "octariandiary2",
   "title" : "Resolute Diary",
-  "description" : "The second of two diaries written by an influential Octoling. This one is rather recent.",
+  "description" : "The second of two diaries written by an anonymous Octoling. This one is rather recent.",
   "icon" : "octobook.png",
   "contentPages" : [
 
 "60 years. 70 years. There's not a day I haven't forgotten that damn war.
 Resources have stayed thin as the Valley struggles in trade. It's like running on fourth of an ink tank.
 
-But as the Agency eases its hold, finally, things are coming together. The capital needs leadership, calling back to the old days, and it sure as hell wasn't hard to stir interest in a new shogunate.
+But as the world above eases its hold, finally, things are coming together. The capital needs leadership, calling back to the old days, and it sure as hell wasn't hard to stir interest in a new shogunate.
 It's just a matter of keeping it a secret from those slippery little fools that watch us from above.",
 
 "And so the unrest begins. Electricity sources are dwindling as the capital's Zapfish populations aren't thriving as well. It's a cycle, our poor conditions giving them no room to be healthy, and less electricity is made.
@@ -49,7 +49,7 @@ Everything can't continue like this.",
 
 We will rise to see the sun again.
 
--- O. Kzaikeru, Shogun of Octo Valley, MA 2730"
+-- Shogun of Octo Valley, MA 2720"
 	
     ],
     "itemConfig" : {

@@ -1,0 +1,16 @@
+{ 
+	"itemName" : "inskullbandana",
+	"inventoryIcon" : "inskullbandanaicon.png",
+	"price" : 565,
+	"maxStack" : 1,
+	"rarity" : "common",
+	"category" : "headwear",
+	"description" : "Despite its name, it's just a stylized depiction of jaws. Still ferocious, though!",
+	"shortdescription" : "Skull Bandana",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+	
+}

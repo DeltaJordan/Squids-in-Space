@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "inklingothpchest", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 3},
+	{ "item" : "goldbar", "count" : 2}
+  ],
+  "duration" : 5,
+  "output" : { "item" : "oepearlchest", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "aposematic",
+  "category" : "petnudibranch",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "aposematic.png"
+  }
+}
