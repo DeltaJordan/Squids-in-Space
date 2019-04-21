@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "cookedfish", "count" : 3 },
-	{ "item" : "venomsample", "count" : 2 }
-  ],
-  "output" : { "item" : "infugu", "count" : 1 },
-  "groups" : [ "craftingfood", "mains" ]
-}

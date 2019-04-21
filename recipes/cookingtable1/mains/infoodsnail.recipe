@@ -1,7 +1,0 @@
-{
-  "input" : [
-    { "item" : "insuperseasnail", "count" : 1}
-  ],
-  "output" : { "item" : "infoodsnail", "count" : 1 },
-  "groups" : [ "craftingfood", "mains" ]
-}

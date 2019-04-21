@@ -1,9 +1,0 @@
-{ 
-	"input" : [ 
-	{"item" : "inklingsplatfestbasic", "count" : 1},
-	{"item" : "egg", "count" : 3}
-	],
-	"duration" : 5,
-	"output" : { "item" : "inklingsplatfestmayo", "count" : 1 },
-	"groups" : [ "inklingcraftingtable", "clothes" ]
-}

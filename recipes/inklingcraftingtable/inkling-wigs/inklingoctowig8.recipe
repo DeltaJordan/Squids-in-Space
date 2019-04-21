@@ -1,9 +1,0 @@
-{ 
-	"input" : [ 
-	{"item" : "rawtentacle", "count" : 12}, 
-	{"item" : "inkamabovial", "count" : 3}
-	],
-	"duration" : 5,
-	"output" : { "item" : "inklingoctowig8", "count" : 1 },
-	"groups" : [ "inklingcraftingtable", "clothes" ]
-}
