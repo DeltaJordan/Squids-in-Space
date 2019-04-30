@@ -11,7 +11,7 @@
 	"ouchNoises" : [ "/sfx/humanoid/inkling_damaged_m.wav", "/sfx/humanoid/inkling_damaged_f.wav" ],
 	"charGenTextLabels" : [ "SKIN COLOR", "TENTACLES", "SHIRT", "PANTS", "MARKING COLOR", "TENTACLE COLOR", "SHIRT COLOR", "PANTS COLOR", "INKLING", "PERSONALITY" ],
 	"skull" : "/humanoid/inkling/dead.png",
-	"effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=b347ffFF=ff7a69FF?replace=31a6ffFF=7007e8FF",
+	"effectDirectives" : "?replace=FEFFFFFF=FFFFFEFF?replace=9bd4ffFF=F15ACFFF?replace=31a6ffFF=A00A89FF",
 	"defaultBlueprints" : {
     "tier1" : [
 
