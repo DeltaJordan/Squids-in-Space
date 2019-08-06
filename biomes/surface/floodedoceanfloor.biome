@@ -255,6 +255,7 @@
 			  [0.08, "floorpipe1"],
 			  [0.08, "floorpipe2"],
 			  [0.08, "floorpipe3"],
+			  [0.08, "inklingstreetsign1"],
 			  [0.08, "rustbush1"],
 			  [0.08, "rustbush2"],
 			  [0.08, "rustbush3"],
@@ -275,7 +276,9 @@
 			  [0.05, "smashbones2"],
 			  [0.05, "smashbones4"],
 			  [0.05, "apexbloodbank"],
-			  [0.03, "steamboiler3"]
+			  [0.03, "steamboiler3"],
+			  [0.01, "squidinajar"],
+			  [0.01, "octopusinajar"]
             ],
             "parameters": {}
           }

@@ -3,49 +3,49 @@
   "price" : 430,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Similar to the Splash-O-Matic, but now a bit more aggressive and with a goofier name.",
-  "shortdescription" : "Sploosh-O-Matic",
+  "description" : "Hot glue guns for you to dual-wield: now with even more flair.",
+  "shortdescription" : "Glooga Dualies Deco",
   "tooltipKind" : "gun",
-  "category" : "Handgun",
+  "category" : "Dualies",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","machinepistol"],
   "level" : 6,
 
-  "inventoryIcon" : "splooshomatic.png",
+  "inventoryIcon" : "gloogadualiesdeco.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "splooshomatic.png",
+    "middle" : "gloogadualiesdeco.png",
     "barrel" : "",
-	"muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashblue.png" },
+	"muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashyellow.png" },
   
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/tentaclegun1.ogg", "sfx/gun/tentaclegun2.ogg"]
+      "fire" : ["/sfx/gun/tentaclegun1.ogg", "/sfx/gun/tentaclegun2.ogg"]
     }
   },
 
-  "baseOffset" : [0.6, 0.45],
-  "muzzleOffset" : [1.2, 0.5],
+  "baseOffset" : [0.6, 0.25],
+  "muzzleOffset" : [1.2, 0.4],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "fire",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.2,
-    "baseDps" : 11.0,
-    "energyUsage" : 25,
+    "fireTime" : 0.3,
+    "baseDps" : 8.0,
+    "energyUsage" : 33.0,
     "inaccuracy" : 0.05,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "inmpistolblue",
+    "projectileType" : "inmpistolyellow",
     "projectileParameters" : {
       "knockback" : 2
     },

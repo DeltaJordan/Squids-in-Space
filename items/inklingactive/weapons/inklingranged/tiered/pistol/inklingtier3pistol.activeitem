@@ -8,8 +8,8 @@
   "shortdescription" : "Splattershot Tentatek",
   "level" : 3,
   "tooltipKind" : "gun",
-  "category" : "Handgun",
-  "twoHanded" : false,
+  "category" : "Shooter",
+  "twoHanded" : true,
   "itemTags" : ["weapon","ranged","pistol"],
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
@@ -34,9 +34,9 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.6,
-    "baseDps" : 4.8,
-    "energyUsage" : 8.5,
+    "fireTime" : 0.4,
+    "baseDps" : 7.8,
+    "energyUsage" : 5.3,
 	"projectileCount" : 1,
     "inaccuracy" : 0.02,
     "stances" : {

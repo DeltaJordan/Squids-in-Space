@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti8",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "A pixelated, orderly splotch of silver for your wall.",
+  "shortdescription" : "Team Order Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "This graffiti looks like it came out of a computer. Hmm..",
+  "avianDescription" : "It takes a lot of work to get perfect little squares like this graffiti has.",
+  "floranDescription" : "Ssshimmery silver dots.",
+  "glitchDescription" : "Cultured. There's something very beautiful about the silver-blue shimmer on this.",
+  "humanDescription" : "This graffiti's oddly... neat. Almost like stickers. Weird!",
+  "hylotlDescription" : "More Inkling graffiti, for one of their festivals. The iridescence on this is beautiful.",
+  "inklingDescription" : "This graffiti's for Team Order! It's super stylized and cool.",
+  "novakidDescription" : "These dots and face look almost blue in th' light. Really pretty.",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti8.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

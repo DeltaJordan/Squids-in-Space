@@ -1,0 +1,34 @@
+{
+  "objectName" : "inklinggraffiti9",
+  "colonyTags" : ["inkling"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 85,
+  "printable" : false,
+
+  "description" : "A gorgeous, chaotic splatter of gold for your wall.",
+  "shortdescription" : "Team Chaos Graffiti",
+  "race" : "inkling",
+
+  "apexDescription" : "Some super fancy gold graffiti. It looks like it says something, but.. can't tell.",
+  "avianDescription" : "Someone put a lot of work into this graffiti.",
+  "floranDescription" : "Sssshiny gold ink words.",
+  "glitchDescription" : "Observant. The paint for this graffiti shimmers gold in the light.",
+  "humanDescription" : "Now THIS is graffiti. What a totally wicked piece!",
+  "hylotlDescription" : "This appears to be Inkling festival graffiti. It had a lot of effort put into it.",
+  "inklingDescription" : "Some graffiti for Team Chaos! Pearl looks really cool here.",
+  "novakidDescription" : "A bunch o' funky words. Kinda looks like it reads 'chao'.",
+
+  "inventoryIcon" : "inklinggraffitiicon.png",
+  "orientations" : [
+    {
+      "image" : "inklinggraffiti9.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

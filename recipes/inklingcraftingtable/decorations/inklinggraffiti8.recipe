@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "whitedye", "count" : 2 },
+	{ "item" : "bluedye", "count" : 1 },
+	{ "item" : "inklingsplatfestbasic", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "inklinggraffiti8",
+    "count" : 1
+  },
+  "groups" : [ "inklingcraftingtable", "decorations" ]
+}

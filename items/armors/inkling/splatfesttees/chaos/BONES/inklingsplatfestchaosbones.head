@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "inklingsplatfestchaosbones",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "headwear",
+	"description" : "The remains of a vicious fish. A little smelly, but they make an AWESOME hat.",
+	"shortdescription" : "Fierce Fishskull",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

@@ -1,6 +1,12 @@
 [
   {
     "op": "add",
+    "path": "/planetTypes/jungle/layers/surface/dungeons/-",
+    "value": [ 1.0, "inklingcity" ]
+  },
+  
+  {
+    "op": "add",
     "path": "/planetTypes/flooded",
     "value": {
       "blendSize": 30,
@@ -19,6 +25,7 @@
       }
     }
   },
+  
   {
     "op": "add",
     "path": "/regionTypes/flooded",

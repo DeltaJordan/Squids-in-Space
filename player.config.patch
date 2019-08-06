@@ -1,7 +1,10 @@
 [
 { "op": "add", "path": "/species/-", "value" : "inkling" },
 
-{ "op": "add", "path": "/deploymentConfig/speciesStarterMechBody/inkling", "value": "mechbodyhylotlproto" },
+{"op" : "add",
+		"path" : "/deploymentConfig/speciesStarterMechBody/inkling",
+		"value" : "mechbodycephalopodproto"
+},
 	
 { "op": "add", "path" : "/defaultCodexes/inkling", "value" : [ "indefault1", "indefault2", "inklingabout" ] },
 
@@ -102,7 +105,9 @@
 { "item" : "inpizza" },
 { "item" : "inplainramen" },
 { "item" : "inriceball" },
+{ "item" : "inroastkebab" },
 { "item" : "inroastsparrow" },
+{ "item" : "insoysauce" },
 { "item" : "insquidsicle" }
 ] },
 

@@ -5,7 +5,7 @@
   "category" : "Stim",
   "inventoryIcon" : "inkamabovial.png",
   "description" : "A stimpack full of greenish, foul-smelling ooze. You probably shouldn't touch this.",
-  "shortdescription" : "Vial of Shimmering Ooze",
+  "shortdescription" : "Syringe of Strange Ooze",
   "effects" : [ [
       {
         "effect" : "ocragelite",

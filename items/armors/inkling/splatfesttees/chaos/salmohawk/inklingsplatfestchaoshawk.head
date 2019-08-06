@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "inklingsplatfestchaoshawk",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "headwear",
+	"description" : "This leather helmet's not only studded with metal spikes, but sports a daring, salmon-inspired plumes.",
+	"shortdescription" : "Jetflame Crest",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

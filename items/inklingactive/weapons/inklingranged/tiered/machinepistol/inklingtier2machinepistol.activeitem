@@ -3,22 +3,22 @@
   "price" : 430,
   "maxStack" : 1,
   "rarity" : "Common",
-  "description" : "A rapid-fire handgun with a nostalgic look about it.",
-  "shortdescription" : "N-Zap '85",
+  "description" : "A peculiar, lightweight gun meant to be crafted, and wielded, in pairs!",
+  "shortdescription" : "Splat Dualies",
   "tooltipKind" : "gun",
-  "category" : "Handgun",
+  "category" : "Dualies",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","machinepistol"],
   "level" : 2,
 
-  "inventoryIcon" : "nzap85.png",
+  "inventoryIcon" : "splatdualies.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "nzap85.png",
+    "middle" : "splatdualies.png",
     "barrel" : "",
-	"muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashyellow.png" },
+	"muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashgreen.png" },
   
   "animationCustom" : {
     "sounds" : {
@@ -26,8 +26,8 @@
     }
   },
 
-  "baseOffset" : [0.6, 0.45],
-  "muzzleOffset" : [1.2, 0.5],
+  "baseOffset" : [0.6, 0.25],
+  "muzzleOffset" : [1.2, 0.4],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -39,13 +39,13 @@
 
     "fireTime" : 0.2,
     "baseDps" : 8.0,
-    "energyUsage" : 18,
+    "energyUsage" : 25.0,
     "inaccuracy" : 0.05,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "inmpistolyellow",
+    "projectileType" : "inmpistolgreen",
     "projectileParameters" : {
       "knockback" : 2
     },

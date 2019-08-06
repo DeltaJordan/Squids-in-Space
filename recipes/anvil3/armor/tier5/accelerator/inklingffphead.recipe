@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 5 },
+    { "item" : "inklingothphead", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "inklingffphead", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "armours", "all" ]
+}

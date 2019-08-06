@@ -21,7 +21,7 @@
   
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/tentaclegun1.ogg", "sfx/gun/tentaclegun2.ogg"]
+      "fire" : ["/sfx/gun/tentaclegun1.ogg", "/sfx/gun/tentaclegun2.ogg"]
     }
   },
 

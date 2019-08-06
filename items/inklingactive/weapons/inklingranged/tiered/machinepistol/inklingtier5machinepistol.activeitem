@@ -3,49 +3,49 @@
   "price" : 430,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "Surprisingly steampunk in presentation, this handgun sports a ridiculous fire rate.",
-  "shortdescription" : "Splash-O-Matic",
+  "description" : "These dualies are fashioned after hot-glue guns! Their shot seems to be just as heated, too.",
+  "shortdescription" : "Glooga Dualies",
   "tooltipKind" : "gun",
-  "category" : "Handgun",
+  "category" : "Dualies",
   "twoHanded" : false,
   "itemTags" : ["weapon","ranged","machinepistol"],
   "level" : 5,
 
-  "inventoryIcon" : "splashomatic.png",
+  "inventoryIcon" : "gloogadualies.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "splashomatic.png",
+    "middle" : "kensadualies.png",
     "barrel" : "",
-	"muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashgreen.png" },
+	"muzzleFlash" : "/items/inklingactive/weapons/inklingranged/inmuzzleflashblue.png" },
   
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/tentaclegun1.ogg", "sfx/gun/tentaclegun2.ogg"]
+      "fire" : ["/sfx/gun/tentaclegun1.ogg", "/sfx/gun/tentaclegun2.ogg"]
     }
   },
 
-  "baseOffset" : [0.6, 0.45],
-  "muzzleOffset" : [1.2, 0.5],
+  "baseOffset" : [0.6, 0.25],
+  "muzzleOffset" : [1.2, 0.4],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
+  "elementalType" : "fire",
 
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.2,
-    "baseDps" : 9.7,
-    "energyUsage" : 20,
+    "fireTime" : 0.3,
+    "baseDps" : 8.0,
+    "energyUsage" : 31.0,
     "inaccuracy" : 0.05,
 
     "projectileCount" : 1,
     "fireType" : "auto",
 
-    "projectileType" : "inmpistolgreen",
+    "projectileType" : "inmpistolblue",
     "projectileParameters" : {
       "knockback" : 2
     },

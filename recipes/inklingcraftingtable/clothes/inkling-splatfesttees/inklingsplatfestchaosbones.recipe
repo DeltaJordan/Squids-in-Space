@@ -1,0 +1,10 @@
+{ 
+	"input" : [ 
+	{"item" : "inklingsplatfestbasic", "count" : 1},
+	{"item" : "bone", "count" : 4 },
+	{"item" : "rawfish", "count" : 1 }
+	],
+	"duration" : 5,
+	"output" : { "item" : "inklingsplatfestchaosbones", "count" : 1 },
+	"groups" : [ "inklingcraftingtable", "clothes" ]
+}

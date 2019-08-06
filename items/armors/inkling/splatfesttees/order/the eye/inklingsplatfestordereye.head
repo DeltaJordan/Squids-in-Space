@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "inklingsplatfestordereye",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "headwear",
+	"description" : "This helmet's paralyzing stare doesn't miss a thing. The screen display on the front sometimes errs, though..",
+	"shortdescription" : "Eye of Truth",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

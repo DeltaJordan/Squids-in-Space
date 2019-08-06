@@ -7,5 +7,5 @@
     "item" : "ocrawtentaplant",
     "count" : 1
   },
-  "groups" : [ "craftingmedical", "buffs", "all" ]
+   "groups" : [ "craftingmedical", "buffs", "all" ]
 }

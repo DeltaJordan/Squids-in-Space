@@ -1,0 +1,15 @@
+{ 
+	"itemName" : "inklingsplatfestorderspecs",
+	"inventoryIcon" : "icon.png",
+	"price" : 650,
+	"maxStack" : 1,
+	"rarity" : "Uncommon",
+	"category" : "headwear",
+	"description" : "Some cool shades, with a bonus disco ball on each side! The name? Purely for the cool factor.",
+	"shortdescription" : "Hivemind Specs",
+	"tooltipKind" : "armor",
+	
+	"maleFrames" : "head.png",
+    "femaleFrames" : "head.png",
+	"mask" : "mask.png"
+}

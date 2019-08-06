@@ -1,0 +1,34 @@
+[
+	{
+		"op": "add",
+		"path": "/cephalopodproto",
+		"value": {
+			"stats": { "energy": 3, "protection": 2 },
+			"partParameters": { "hazardImmunities" : ["biomeradiation"] },
+			"partImages": {
+				"bodyBack": "body/cephalopodproto_back.png",
+				"bodyFront": "body/cephalopodproto_front.png",
+				"bodyFullbright" : "body/cephalopodproto_fullbright.png"
+			},
+			"defaultPrimaryColors": [ "3c3b49", "2d2c38", "1d1c24", "0b090b" ],
+			"defaultSecondaryColors": [ "c0ab5e", "9b7e14", "6b5509", "342804" ],
+			"animationCustom": {}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/cephalopod",
+		"value": {
+			"stats": { "energy": 4, "protection": 3 },
+			"partParameters": { "hazardImmunities" : ["biomeradiation", "biomecold", "biomeheat"] },
+			"partImages": {
+				"bodyBack": "body/cephalopod_back.png",
+				"bodyFront": "body/cephalopod_front.png",
+				"bodyFullbright" : "body/cephalopod_fullbright.png"
+			},
+			"defaultPrimaryColors": [ "3c3b49", "2d2c38", "1d1c24", "0b090b" ],
+			"defaultSecondaryColors": [ "c0ab5e", "9b7e14", "6b5509", "342804" ],
+			"animationCustom": {}
+		}
+	}
+]
