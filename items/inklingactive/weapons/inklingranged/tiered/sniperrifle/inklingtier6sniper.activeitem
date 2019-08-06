@@ -21,7 +21,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/gun/sniper1.ogg", "/sfx/gun/sniper2.ogg" ]
+      "fire" : [ "/sfx/charger/e-liter_shot.ogg" ]
     }
   },
 
